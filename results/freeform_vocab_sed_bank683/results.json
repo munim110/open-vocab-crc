@@ -1,0 +1,94 @@
+{
+  "tag": "sed_bank683",
+  "model": "sed",
+  "images": 2000,
+  "excluded_images": 0,
+  "splits": 500,
+  "added_names_per_image": {
+    "mean": 16.0685,
+    "max": 29
+  },
+  "unique_added_names": 5797,
+  "alphas": {
+    "0.1": {
+      "anchored, calibrated once": {
+        "mean_risk": 0.09901650231642344,
+        "frac_splits_above_alpha": 0.45,
+        "mean_size": 5.690033675890511,
+        "mean_added_in_set": 2.9327848602222515
+      },
+      "native, reused at 150": {
+        "mean_risk": 0.2047250635010361,
+        "frac_splits_above_alpha": 1.0,
+        "mean_size": 3.4211486765153385,
+        "mean_added_in_set": 1.825612227597704
+      },
+      "native, recalibrated at 845": {
+        "mean_risk": 0.3031486624485592,
+        "frac_splits_above_alpha": 1.0,
+        "mean_size": 2.276044446613485,
+        "mean_added_in_set": 1.1654796768658886
+      },
+      "native, recalibrated at a 1,690-name lexicon": {
+        "mean_risk": 0.35402552469582166,
+        "frac_splits_above_alpha": 1.0,
+        "mean_size": 1.877975178192164,
+        "mean_added_in_set": 0.9290823280340844
+      },
+      "native, recalibrated at a 17,001-name lexicon": {
+        "mean_risk": 0.41180272460413336,
+        "frac_splits_above_alpha": 1.0,
+        "mean_size": 1.5155826365526417,
+        "mean_added_in_set": 0.7145302626329298
+      },
+      "native, matched to the names": {
+        "mean_risk": 0.09926041685250145,
+        "frac_splits_above_alpha": 0.462,
+        "mean_size": 6.385133546638894,
+        "mean_added_in_set": 3.287530521479874
+      }
+    },
+    "0.05": {
+      "anchored, calibrated once": {
+        "mean_risk": 0.04924698982690916,
+        "frac_splits_above_alpha": 0.418,
+        "mean_size": 9.821262291899457,
+        "mean_added_in_set": 4.5412067185001685
+      },
+      "native, reused at 150": {
+        "mean_risk": 0.08863536129003344,
+        "frac_splits_above_alpha": 1.0,
+        "mean_size": 6.9904991641124195,
+        "mean_added_in_set": 3.543765222123633
+      },
+      "native, recalibrated at 845": {
+        "mean_risk": 0.12710992805829363,
+        "frac_splits_above_alpha": 1.0,
+        "mean_size": 5.240765624522106,
+        "mean_added_in_set": 2.7650421248196126
+      },
+      "native, recalibrated at a 1,690-name lexicon": {
+        "mean_risk": 0.15496163650684075,
+        "frac_splits_above_alpha": 1.0,
+        "mean_size": 4.428327189134792,
+        "mean_added_in_set": 2.3644492313142953
+      },
+      "native, recalibrated at a 17,001-name lexicon": {
+        "mean_risk": 0.1891537542439716,
+        "frac_splits_above_alpha": 1.0,
+        "mean_size": 3.69840371515205,
+        "mean_added_in_set": 1.9783587632514088
+      },
+      "native, matched to the names": {
+        "mean_risk": 0.04928782543614883,
+        "frac_splits_above_alpha": 0.432,
+        "mean_size": 10.924471528256431,
+        "mean_added_in_set": 4.993672675901764
+      }
+    }
+  },
+  "hashes": {
+    "src/exp_freeform_vocab.py": "8360dd95d2801d348bf7fef12f1ed79f6ef0b7cd43acbf6b7e4d40f31928a873",
+    "results/freeform_names_ade/names.json": "d032b7ccebe941d2e46bfd30eea3b776dcc9b84656d2d128ecc54bdce304a065"
+  }
+}

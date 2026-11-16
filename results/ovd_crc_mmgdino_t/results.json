@@ -1,0 +1,283 @@
+{
+  "model": "mmgdino_t",
+  "images": 1989,
+  "source_boxes": 14855,
+  "trials": 500,
+  "one_prompt_labels": 100,
+  "labels": 1204,
+  "image_level": {
+    "0.1": {
+      "native, source": {
+        "risk": 0.09883950937870414,
+        "above": 0.434,
+        "size": {
+          "source": 1.197336065716806
+        }
+      },
+      "native reused, one prompt": {
+        "risk": 0.0933358614107693,
+        "above": 0.16,
+        "size": {
+          "one prompt": 1.7088156007395994
+        }
+      },
+      "native reused, LVIS": {
+        "risk": 0.09001573115132015,
+        "above": 0.082,
+        "size": {
+          "LVIS": 23.003413785418704
+        }
+      },
+      "native recal., one prompt": {
+        "risk": 0.09881121797671173,
+        "above": 0.386,
+        "size": {
+          "one prompt": 1.6273532185434074
+        }
+      },
+      "native recal., LVIS": {
+        "risk": 0.09896724421950225,
+        "above": 0.422,
+        "size": {
+          "LVIS": 20.21857285646641
+        }
+      },
+      "anchored A": {
+        "risk": 0.09883950937870414,
+        "above": 0.434,
+        "size": {
+          "source": 1.197336065716806,
+          "one prompt": 1.2153761724185101,
+          "LVIS": 3.116628967032662
+        }
+      },
+      "anchored B": {
+        "risk": 0.098800922198478,
+        "above": 0.466,
+        "size": {
+          "source": 6.60103210313586,
+          "one prompt": 8.504516360561567,
+          "LVIS": 84.07781350396164
+        }
+      }
+    },
+    "0.05": {
+      "native, source": {
+        "risk": 0.048739663192267975,
+        "above": 0.38,
+        "size": {
+          "source": 1.8770216682717427
+        }
+      },
+      "native reused, one prompt": {
+        "risk": 0.04276222586035756,
+        "above": 0.034,
+        "size": {
+          "one prompt": 4.060157926225868
+        }
+      },
+      "native reused, LVIS": {
+        "risk": 0.04485999703107083,
+        "above": 0.106,
+        "size": {
+          "LVIS": 63.75549143054591
+        }
+      },
+      "native recal., one prompt": {
+        "risk": 0.048990504656209584,
+        "above": 0.422,
+        "size": {
+          "one prompt": 3.3853164269433864
+        }
+      },
+      "native recal., LVIS": {
+        "risk": 0.04881084721828724,
+        "above": 0.37,
+        "size": {
+          "LVIS": 55.821894912260845
+        }
+      },
+      "anchored A": {
+        "risk": 0.048739663192267975,
+        "above": 0.38,
+        "size": {
+          "source": 1.877018653196366,
+          "one prompt": 2.0424514532467253,
+          "LVIS": 9.489793881473181
+        }
+      },
+      "anchored B": {
+        "risk": 0.049208165717894964,
+        "above": 0.416,
+        "size": {
+          "source": 33.83894318143632,
+          "one prompt": 42.60337253869125,
+          "LVIS": 474.136475391923
+        }
+      }
+    }
+  },
+  "label_level": {
+    "anch_a": {
+      "exchangeable": {
+        "0.1": {
+          "pooled": {
+            "added_cal": 0.019120703125023383,
+            "added_heldout": 0.01893071594897189,
+            "above_cal": 0.134,
+            "above_heldout": 0.134,
+            "source_cal_at_t": 0.009071370935920841,
+            "delta_at_t": 0.010049332189102542
+          },
+          "images": {
+            "added_cal": 0.03211771424950497,
+            "added_heldout": 0.03234930340741792,
+            "above_cal": 0.248,
+            "above_heldout": 0.242,
+            "source_cal_at_t": 0.017101796558519313,
+            "delta_at_t": 0.015015917690985658
+          }
+        },
+        "0.05": {
+          "pooled": {
+            "added_cal": 0.0,
+            "added_heldout": 0.0,
+            "above_cal": 0.0,
+            "above_heldout": 0.0,
+            "source_cal_at_t": 0.0,
+            "delta_at_t": 0.0
+          },
+          "images": {
+            "added_cal": 0.00023049570486096584,
+            "added_heldout": 0.00023239481632567478,
+            "above_cal": 0.002,
+            "above_heldout": 0.002,
+            "source_cal_at_t": 4.35654808879176e-05,
+            "delta_at_t": 0.00018693022397304825
+          }
+        }
+      },
+      "benchmark split": {
+        "0.1": {
+          "pooled": {
+            "added_cal": 0.5232823747519998,
+            "added_heldout": 0.5226970787270565,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.0880013797342956,
+            "delta_at_t": 0.4352809950177042
+          },
+          "images": {
+            "added_cal": 0.5596446583751881,
+            "added_heldout": 0.5591799335185628,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.08797508665260576,
+            "delta_at_t": 0.4716695717225823
+          }
+        },
+        "0.05": {
+          "pooled": {
+            "added_cal": 0.23092549802789925,
+            "added_heldout": 0.2306334897965675,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.03777070596620182,
+            "delta_at_t": 0.19315479206169742
+          },
+          "images": {
+            "added_cal": 0.30618807133723147,
+            "added_heldout": 0.30678760675552647,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.037264818410614006,
+            "delta_at_t": 0.26892325292661745
+          }
+        }
+      }
+    },
+    "native_lvis": {
+      "exchangeable": {
+        "0.1": {
+          "pooled": {
+            "added_cal": 0.07677112069359165,
+            "added_heldout": 0.07702182926648911,
+            "above_cal": 0.256,
+            "above_heldout": 0.256,
+            "source_cal_at_t": 0.059454668774159336,
+            "delta_at_t": 0.01731645191943232
+          },
+          "images": {
+            "added_cal": 0.07904463999911512,
+            "added_heldout": 0.07895264717277964,
+            "above_cal": 0.246,
+            "above_heldout": 0.27,
+            "source_cal_at_t": 0.06266572028563132,
+            "delta_at_t": 0.016378919713483805
+          }
+        },
+        "0.05": {
+          "pooled": {
+            "added_cal": 0.0055185368224752,
+            "added_heldout": 0.005723286444336201,
+            "above_cal": 0.072,
+            "above_heldout": 0.078,
+            "source_cal_at_t": 0.0019275971847953414,
+            "delta_at_t": 0.0035909396376798586
+          },
+          "images": {
+            "added_cal": 0.01192029746676407,
+            "added_heldout": 0.011969065259387712,
+            "above_cal": 0.102,
+            "above_heldout": 0.104,
+            "source_cal_at_t": 0.004428136111274064,
+            "delta_at_t": 0.007492161355490006
+          }
+        }
+      },
+      "benchmark split": {
+        "0.1": {
+          "pooled": {
+            "added_cal": 0.2167927926627725,
+            "added_heldout": 0.21629665196339776,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.08792071677270089,
+            "delta_at_t": 0.1288720758900716
+          },
+          "images": {
+            "added_cal": 0.22578350349384146,
+            "added_heldout": 0.22525685362090647,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.08799673307590371,
+            "delta_at_t": 0.13778677041793774
+          }
+        },
+        "0.05": {
+          "pooled": {
+            "added_cal": 0.09210233614771628,
+            "added_heldout": 0.09226956750240975,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.03779909091843148,
+            "delta_at_t": 0.0543032452292848
+          },
+          "images": {
+            "added_cal": 0.11110035561200717,
+            "added_heldout": 0.1110358365612399,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.03748194135623486,
+            "delta_at_t": 0.07361841425577231
+          }
+        }
+      }
+    }
+  },
+  "hashes": {
+    "src/exp_ovd_crc.py": "46d3b7b4e95ddbb5bfc4bb7229867ef1af8a8c2fe7521af7d49ddf66c137868f",
+    "src/exp_ovd_probe.py": "294bfd2a0925d0abd9fbb6df9012118a623279179e7c8525af76f24651ea5728",
+    "cache/ovd_probe_mmgdino_t/gt.npz": "f6bc1480c26d83e9f457281425ff7f5b99728efff7fd196303d61e809c3ccc5e"
+  }
+}

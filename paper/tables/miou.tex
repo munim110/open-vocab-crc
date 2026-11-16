@@ -1,0 +1,25 @@
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Model & scoring & A-150 & PC-459 & A-847 & PC-59 \\
+\midrule
+CAT-Seg ViT-B & native (released) & 31.7 & 19.0 & 12.2 & 56.4 \\
+ & anchored, COCO-171 bank & 30.4 & 18.4 & 11.6 & 54.3 \\
+ & anchored, 683-name bank & 31.0 & 18.7 & 11.9 & 55.0 \\
+\midrule
+CAT-Seg ViT-L & native (released) & 37.8 & 23.7 & 15.9 & 62.0 \\
+ & anchored, COCO-171 bank & 36.1 & 23.1 & 15.4 & 60.1 \\
+ & anchored, 683-name bank & 36.8 & 23.2 & 15.2 & 60.4 \\
+\midrule
+CAT-Seg + DeCLIP EVA-L & native (released) & 40.6 & 25.8 & 17.9 & 62.8 \\
+ & anchored, COCO-171 bank & 38.5 & 25.1 & 16.9 & 60.1 \\
+ & anchored, 683-name bank & 39.7 & 25.2 & 16.9 & 61.1 \\
+\midrule
+SED ConvNeXt-L & native (released) & 34.9 & 22.2 & 13.7 & 59.1 \\
+ & anchored, COCO-171 bank & 33.5 & 22.1 & 13.6 & 57.5 \\
+ & anchored, 683-name bank & 34.0 & 21.9 & 13.7 & 57.8 \\
+\midrule
+FC-CLIP ConvNeXt-L & native (released) & 32.0 & 16.6 & 13.5 & 55.0 \\
+ & anchored, 133-name bank & 24.3 & 15.1 & 7.0 & 57.2 \\
+ & anchored, 701-name bank & 28.0 & 16.8 & 10.7 & 55.7 \\
+\bottomrule
+\end{tabular}

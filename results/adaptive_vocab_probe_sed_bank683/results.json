@@ -1,0 +1,34 @@
+{
+  "images": 2000,
+  "seconds_per_image": {
+    "rand50": 0.15297926450011437,
+    "rand200": 0.26541273194980747,
+    "rand500": 0.4885848218001265,
+    "present": 0.11475094369975704,
+    "tagger50": 0.15211277119990702
+  },
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "peak_memory_gb": 6.551677227020264,
+  "added_names_per_image": {
+    "rand50": {
+      "mean": 50.0,
+      "max": 50
+    },
+    "rand200": {
+      "mean": 200.0,
+      "max": 200
+    },
+    "rand500": {
+      "mean": 500.0,
+      "max": 500
+    },
+    "present": {
+      "mean": 1.606,
+      "max": 18
+    },
+    "tagger50": {
+      "mean": 50.0,
+      "max": 50
+    }
+  }
+}

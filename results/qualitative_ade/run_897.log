@@ -1,0 +1,83 @@
+{
+ "image": 897,
+ "file": "ADE_val_00000898.jpg",
+ "H": 256,
+ "W": 256,
+ "source_pixel_fraction": 0.9464569091796875,
+ "max_abs_diff_vs_probe_store_at_sampled_pixels": {
+  "native845": {
+   "max_abs_logit_diff": 0.0078125,
+   "entries_differing": 9,
+   "entries": 3461120,
+   "membership_flips": {
+    "native_reused": 0,
+    "native_recal": 0
+   }
+  },
+  "anchored845": {
+   "max_abs_logit_diff": 0.0078125,
+   "entries_differing": 17,
+   "entries": 3461120,
+   "membership_flips": {
+    "anchored": 0
+   }
+  },
+  "native150": {
+   "max_abs_logit_diff": 0.0078125,
+   "entries_differing": 5,
+   "entries": 614400,
+   "membership_flips": {
+    "native_source": 0
+   }
+  }
+ },
+ "panels": {
+  "native_reused": {
+   "label": "native, reused",
+   "calibrated_on": "native150",
+   "evaluated_on": "native845",
+   "threshold": -2.703125,
+   "miss_fraction": 0.2917761619939704,
+   "mean_set_size_source_pixels": 2.374611056475406,
+   "mean_set_size_all_pixels": 2.3641815185546875,
+   "median_set_size_source_pixels": 2.0,
+   "empty_set_fraction_source_pixels": 0.0024183017073210055
+  },
+  "native_recal": {
+   "label": "native, recal. at 845",
+   "calibrated_on": "native845",
+   "evaluated_on": "native845",
+   "threshold": -3.765625,
+   "miss_fraction": 0.05521788898382962,
+   "mean_set_size_source_pixels": 4.133361278153062,
+   "mean_set_size_all_pixels": 4.1002960205078125,
+   "median_set_size_source_pixels": 4.0,
+   "empty_set_fraction_source_pixels": 0.0
+  },
+  "anchored": {
+   "label": "anchored, once at 150",
+   "calibrated_on": "anchored845",
+   "evaluated_on": "anchored845",
+   "threshold": -2.390625,
+   "miss_fraction": 0.0267786609057346,
+   "mean_set_size_source_pixels": 5.234543021587373,
+   "mean_set_size_all_pixels": 5.2154388427734375,
+   "median_set_size_source_pixels": 5.0,
+   "empty_set_fraction_source_pixels": 0.0
+  },
+  "native_source": {
+   "label": "native, at 150",
+   "calibrated_on": "native150",
+   "evaluated_on": "native150",
+   "threshold": -2.703125,
+   "miss_fraction": 0.024602189369145693,
+   "mean_set_size_source_pixels": 2.0009511986715465,
+   "mean_set_size_all_pixels": 1.9764862060546875,
+   "median_set_size_source_pixels": 2.0,
+   "empty_set_fraction_source_pixels": 0.0
+  }
+ }
+}
+peak GB 9.095240592956543
+figure paper\fig\fig_qualitative.pdf 3.25 x 0.90 in
+figure paper\fig\fig_problem.pdf 3.25 x 0.90 in

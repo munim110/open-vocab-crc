@@ -1,0 +1,6772 @@
+{
+  "policy": "ade-natural-v1",
+  "rows": [
+    {
+      "role": "source",
+      "position": 0,
+      "train_id": 0,
+      "canonical": "wall",
+      "historical_prompt": "wall",
+      "prompt": "wall"
+    },
+    {
+      "role": "source",
+      "position": 1,
+      "train_id": 1,
+      "canonical": "building, edifice",
+      "historical_prompt": "building",
+      "prompt": "building"
+    },
+    {
+      "role": "source",
+      "position": 2,
+      "train_id": 2,
+      "canonical": "sky",
+      "historical_prompt": "sky",
+      "prompt": "sky"
+    },
+    {
+      "role": "source",
+      "position": 3,
+      "train_id": 5,
+      "canonical": "floor, flooring",
+      "historical_prompt": "floor",
+      "prompt": "floor"
+    },
+    {
+      "role": "source",
+      "position": 4,
+      "train_id": 3,
+      "canonical": "tree",
+      "historical_prompt": "tree",
+      "prompt": "tree"
+    },
+    {
+      "role": "source",
+      "position": 5,
+      "train_id": 6,
+      "canonical": "ceiling",
+      "historical_prompt": "ceiling",
+      "prompt": "ceiling"
+    },
+    {
+      "role": "source",
+      "position": 6,
+      "train_id": 4,
+      "canonical": "road, route",
+      "historical_prompt": "road",
+      "prompt": "road"
+    },
+    {
+      "role": "source",
+      "position": 7,
+      "train_id": 7,
+      "canonical": "bed",
+      "historical_prompt": "bed",
+      "prompt": "bed"
+    },
+    {
+      "role": "source",
+      "position": 8,
+      "train_id": 13,
+      "canonical": "windowpane, window",
+      "historical_prompt": "windowpane",
+      "prompt": "windowpane"
+    },
+    {
+      "role": "source",
+      "position": 9,
+      "train_id": 12,
+      "canonical": "grass",
+      "historical_prompt": "grass",
+      "prompt": "grass"
+    },
+    {
+      "role": "source",
+      "position": 10,
+      "train_id": 10,
+      "canonical": "cabinet",
+      "historical_prompt": "cabinet",
+      "prompt": "cabinet"
+    },
+    {
+      "role": "source",
+      "position": 11,
+      "train_id": 8,
+      "canonical": "sidewalk, pavement",
+      "historical_prompt": "sidewalk",
+      "prompt": "sidewalk"
+    },
+    {
+      "role": "source",
+      "position": 12,
+      "train_id": 11,
+      "canonical": "person, individual, someone, somebody, mortal, soul",
+      "historical_prompt": "person",
+      "prompt": "person"
+    },
+    {
+      "role": "source",
+      "position": 13,
+      "train_id": 9,
+      "canonical": "earth, ground",
+      "historical_prompt": "earth",
+      "prompt": "earth"
+    },
+    {
+      "role": "source",
+      "position": 14,
+      "train_id": 20,
+      "canonical": "door",
+      "historical_prompt": "door",
+      "prompt": "door"
+    },
+    {
+      "role": "source",
+      "position": 15,
+      "train_id": 17,
+      "canonical": "table",
+      "historical_prompt": "table",
+      "prompt": "table"
+    },
+    {
+      "role": "source",
+      "position": 16,
+      "train_id": 15,
+      "canonical": "mountain, mount",
+      "historical_prompt": "mountain",
+      "prompt": "mountain"
+    },
+    {
+      "role": "source",
+      "position": 17,
+      "train_id": 16,
+      "canonical": "plant, flora, plant life",
+      "historical_prompt": "plant",
+      "prompt": "plant"
+    },
+    {
+      "role": "source",
+      "position": 18,
+      "train_id": 19,
+      "canonical": "curtain, drape, drapery, mantle, pall",
+      "historical_prompt": "curtain",
+      "prompt": "curtain"
+    },
+    {
+      "role": "source",
+      "position": 19,
+      "train_id": 18,
+      "canonical": "chair",
+      "historical_prompt": "chair",
+      "prompt": "chair"
+    },
+    {
+      "role": "source",
+      "position": 20,
+      "train_id": 14,
+      "canonical": "car, auto, automobile, machine, motorcar",
+      "historical_prompt": "car",
+      "prompt": "car"
+    },
+    {
+      "role": "source",
+      "position": 21,
+      "train_id": 24,
+      "canonical": "water",
+      "historical_prompt": "water",
+      "prompt": "water"
+    },
+    {
+      "role": "source",
+      "position": 22,
+      "train_id": 23,
+      "canonical": "painting, picture",
+      "historical_prompt": "painting",
+      "prompt": "painting"
+    },
+    {
+      "role": "source",
+      "position": 23,
+      "train_id": 21,
+      "canonical": "sofa, couch, lounge",
+      "historical_prompt": "sofa",
+      "prompt": "sofa"
+    },
+    {
+      "role": "source",
+      "position": 24,
+      "train_id": 28,
+      "canonical": "shelf",
+      "historical_prompt": "shelf",
+      "prompt": "shelf"
+    },
+    {
+      "role": "source",
+      "position": 25,
+      "train_id": 26,
+      "canonical": "house",
+      "historical_prompt": "house",
+      "prompt": "house"
+    },
+    {
+      "role": "source",
+      "position": 26,
+      "train_id": 22,
+      "canonical": "sea",
+      "historical_prompt": "sea",
+      "prompt": "sea"
+    },
+    {
+      "role": "source",
+      "position": 27,
+      "train_id": 25,
+      "canonical": "mirror",
+      "historical_prompt": "mirror",
+      "prompt": "mirror"
+    },
+    {
+      "role": "source",
+      "position": 28,
+      "train_id": 27,
+      "canonical": "rug, carpet, carpeting",
+      "historical_prompt": "rug",
+      "prompt": "rug"
+    },
+    {
+      "role": "source",
+      "position": 29,
+      "train_id": 31,
+      "canonical": "field",
+      "historical_prompt": "field",
+      "prompt": "field"
+    },
+    {
+      "role": "source",
+      "position": 30,
+      "train_id": 29,
+      "canonical": "armchair",
+      "historical_prompt": "armchair",
+      "prompt": "armchair"
+    },
+    {
+      "role": "source",
+      "position": 31,
+      "train_id": 34,
+      "canonical": "seat",
+      "historical_prompt": "seat",
+      "prompt": "seat"
+    },
+    {
+      "role": "source",
+      "position": 32,
+      "train_id": 30,
+      "canonical": "fence, fencing",
+      "historical_prompt": "fence",
+      "prompt": "fence"
+    },
+    {
+      "role": "source",
+      "position": 33,
+      "train_id": 36,
+      "canonical": "desk",
+      "historical_prompt": "desk",
+      "prompt": "desk"
+    },
+    {
+      "role": "source",
+      "position": 34,
+      "train_id": 33,
+      "canonical": "rock, stone",
+      "historical_prompt": "rock",
+      "prompt": "rock"
+    },
+    {
+      "role": "source",
+      "position": 35,
+      "train_id": 46,
+      "canonical": "wardrobe, closet, press",
+      "historical_prompt": "wardrobe",
+      "prompt": "wardrobe"
+    },
+    {
+      "role": "source",
+      "position": 36,
+      "train_id": 32,
+      "canonical": "lamp",
+      "historical_prompt": "lamp",
+      "prompt": "lamp"
+    },
+    {
+      "role": "source",
+      "position": 37,
+      "train_id": 37,
+      "canonical": "bathtub, bathing tub, bath, tub",
+      "historical_prompt": "bathtub",
+      "prompt": "bathtub"
+    },
+    {
+      "role": "source",
+      "position": 38,
+      "train_id": 38,
+      "canonical": "railing, rail",
+      "historical_prompt": "railing",
+      "prompt": "railing"
+    },
+    {
+      "role": "source",
+      "position": 39,
+      "train_id": 40,
+      "canonical": "cushion",
+      "historical_prompt": "cushion",
+      "prompt": "cushion"
+    },
+    {
+      "role": "source",
+      "position": 40,
+      "train_id": 49,
+      "canonical": "base, pedestal, stand",
+      "historical_prompt": "base",
+      "prompt": "base"
+    },
+    {
+      "role": "source",
+      "position": 41,
+      "train_id": 61,
+      "canonical": "box",
+      "historical_prompt": "box",
+      "prompt": "box"
+    },
+    {
+      "role": "source",
+      "position": 42,
+      "train_id": 44,
+      "canonical": "column, pillar",
+      "historical_prompt": "column",
+      "prompt": "column"
+    },
+    {
+      "role": "source",
+      "position": 43,
+      "train_id": 39,
+      "canonical": "signboard, sign",
+      "historical_prompt": "signboard",
+      "prompt": "signboard"
+    },
+    {
+      "role": "source",
+      "position": 44,
+      "train_id": 68,
+      "canonical": "chest of drawers, chest, bureau, dresser",
+      "historical_prompt": "chestofdrawers",
+      "prompt": "chest of drawers"
+    },
+    {
+      "role": "source",
+      "position": 45,
+      "train_id": 66,
+      "canonical": "counter",
+      "historical_prompt": "counter",
+      "prompt": "counter"
+    },
+    {
+      "role": "source",
+      "position": 46,
+      "train_id": 54,
+      "canonical": "sand",
+      "historical_prompt": "sand",
+      "prompt": "sand"
+    },
+    {
+      "role": "source",
+      "position": 47,
+      "train_id": 45,
+      "canonical": "sink",
+      "historical_prompt": "sink",
+      "prompt": "sink"
+    },
+    {
+      "role": "source",
+      "position": 48,
+      "train_id": 59,
+      "canonical": "skyscraper",
+      "historical_prompt": "skyscraper",
+      "prompt": "skyscraper"
+    },
+    {
+      "role": "source",
+      "position": 49,
+      "train_id": 55,
+      "canonical": "fireplace, hearth, open fireplace",
+      "historical_prompt": "fireplace",
+      "prompt": "fireplace"
+    },
+    {
+      "role": "source",
+      "position": 50,
+      "train_id": 48,
+      "canonical": "refrigerator, icebox",
+      "historical_prompt": "refrigerator",
+      "prompt": "refrigerator"
+    },
+    {
+      "role": "source",
+      "position": 51,
+      "train_id": 60,
+      "canonical": "grandstand, covered stand",
+      "historical_prompt": "grandstand",
+      "prompt": "grandstand"
+    },
+    {
+      "role": "source",
+      "position": 52,
+      "train_id": 41,
+      "canonical": "path",
+      "historical_prompt": "path",
+      "prompt": "path"
+    },
+    {
+      "role": "source",
+      "position": 53,
+      "train_id": 43,
+      "canonical": "stairs, steps",
+      "historical_prompt": "stairs",
+      "prompt": "stairs"
+    },
+    {
+      "role": "source",
+      "position": 54,
+      "train_id": 52,
+      "canonical": "runway",
+      "historical_prompt": "runway",
+      "prompt": "runway"
+    },
+    {
+      "role": "source",
+      "position": 55,
+      "train_id": 84,
+      "canonical": "case, display case, showcase, vitrine",
+      "historical_prompt": "case",
+      "prompt": "case"
+    },
+    {
+      "role": "source",
+      "position": 56,
+      "train_id": 62,
+      "canonical": "pool table, billiard table, snooker table",
+      "historical_prompt": "pooltable",
+      "prompt": "pool table"
+    },
+    {
+      "role": "source",
+      "position": 57,
+      "train_id": 56,
+      "canonical": "pillow",
+      "historical_prompt": "pillow",
+      "prompt": "pillow"
+    },
+    {
+      "role": "source",
+      "position": 58,
+      "train_id": 57,
+      "canonical": "screen door, screen",
+      "historical_prompt": "screendoor",
+      "prompt": "screen door"
+    },
+    {
+      "role": "source",
+      "position": 59,
+      "train_id": 77,
+      "canonical": "stairway, staircase",
+      "historical_prompt": "stairway",
+      "prompt": "stairway"
+    },
+    {
+      "role": "source",
+      "position": 60,
+      "train_id": 35,
+      "canonical": "river",
+      "historical_prompt": "river",
+      "prompt": "river"
+    },
+    {
+      "role": "source",
+      "position": 61,
+      "train_id": 50,
+      "canonical": "bridge, span",
+      "historical_prompt": "bridge",
+      "prompt": "bridge"
+    },
+    {
+      "role": "source",
+      "position": 62,
+      "train_id": 74,
+      "canonical": "bookcase",
+      "historical_prompt": "bookcase",
+      "prompt": "bookcase"
+    },
+    {
+      "role": "source",
+      "position": 63,
+      "train_id": 51,
+      "canonical": "blind, screen",
+      "historical_prompt": "blind",
+      "prompt": "blind"
+    },
+    {
+      "role": "source",
+      "position": 64,
+      "train_id": 65,
+      "canonical": "coffee table, cocktail table",
+      "historical_prompt": "coffeetable",
+      "prompt": "coffee table"
+    },
+    {
+      "role": "source",
+      "position": 65,
+      "train_id": 58,
+      "canonical": "toilet, can, commode, crapper, pot, potty, stool, throne",
+      "historical_prompt": "toilet",
+      "prompt": "toilet"
+    },
+    {
+      "role": "source",
+      "position": 66,
+      "train_id": 73,
+      "canonical": "flower",
+      "historical_prompt": "flower",
+      "prompt": "flower"
+    },
+    {
+      "role": "source",
+      "position": 67,
+      "train_id": 76,
+      "canonical": "book",
+      "historical_prompt": "book",
+      "prompt": "book"
+    },
+    {
+      "role": "source",
+      "position": 68,
+      "train_id": 90,
+      "canonical": "hill",
+      "historical_prompt": "hill",
+      "prompt": "hill"
+    },
+    {
+      "role": "source",
+      "position": 69,
+      "train_id": 83,
+      "canonical": "bench",
+      "historical_prompt": "bench",
+      "prompt": "bench"
+    },
+    {
+      "role": "source",
+      "position": 70,
+      "train_id": 67,
+      "canonical": "countertop",
+      "historical_prompt": "countertop",
+      "prompt": "countertop"
+    },
+    {
+      "role": "source",
+      "position": 71,
+      "train_id": 72,
+      "canonical": "stove, kitchen stove, range, kitchen range, cooking stove",
+      "historical_prompt": "stove",
+      "prompt": "stove"
+    },
+    {
+      "role": "source",
+      "position": 72,
+      "train_id": 63,
+      "canonical": "palm, palm tree",
+      "historical_prompt": "palm",
+      "prompt": "palm"
+    },
+    {
+      "role": "source",
+      "position": 73,
+      "train_id": 69,
+      "canonical": "kitchen island",
+      "historical_prompt": "kitchenisland",
+      "prompt": "kitchen island"
+    },
+    {
+      "role": "source",
+      "position": 74,
+      "train_id": 79,
+      "canonical": "computer, computing machine, computing device, data processor, electronic computer, information processing system",
+      "historical_prompt": "computer",
+      "prompt": "computer"
+    },
+    {
+      "role": "source",
+      "position": 75,
+      "train_id": 81,
+      "canonical": "swivel chair",
+      "historical_prompt": "swivelchair",
+      "prompt": "swivel chair"
+    },
+    {
+      "role": "source",
+      "position": 76,
+      "train_id": 70,
+      "canonical": "boat",
+      "historical_prompt": "boat",
+      "prompt": "boat"
+    },
+    {
+      "role": "source",
+      "position": 77,
+      "train_id": 122,
+      "canonical": "bar",
+      "historical_prompt": "bar",
+      "prompt": "bar"
+    },
+    {
+      "role": "source",
+      "position": 78,
+      "train_id": 120,
+      "canonical": "arcade machine",
+      "historical_prompt": "arcademachine",
+      "prompt": "arcade machine"
+    },
+    {
+      "role": "source",
+      "position": 79,
+      "train_id": 101,
+      "canonical": "hovel, hut, hutch, shack, shanty",
+      "historical_prompt": "hovel",
+      "prompt": "hovel"
+    },
+    {
+      "role": "source",
+      "position": 80,
+      "train_id": 80,
+      "canonical": "bus, autobus, coach, charabanc, double-decker, jitney, motorbus, motorcoach, omnibus, passenger vehicle",
+      "historical_prompt": "bus",
+      "prompt": "bus"
+    },
+    {
+      "role": "source",
+      "position": 81,
+      "train_id": 85,
+      "canonical": "towel",
+      "historical_prompt": "towel",
+      "prompt": "towel"
+    },
+    {
+      "role": "source",
+      "position": 82,
+      "train_id": 82,
+      "canonical": "light, light source",
+      "historical_prompt": "light",
+      "prompt": "light"
+    },
+    {
+      "role": "source",
+      "position": 83,
+      "train_id": 93,
+      "canonical": "truck, motortruck",
+      "historical_prompt": "truck",
+      "prompt": "truck"
+    },
+    {
+      "role": "source",
+      "position": 84,
+      "train_id": 96,
+      "canonical": "tower",
+      "historical_prompt": "tower",
+      "prompt": "tower"
+    },
+    {
+      "role": "source",
+      "position": 85,
+      "train_id": 105,
+      "canonical": "chandelier, pendant, pendent",
+      "historical_prompt": "chandelier",
+      "prompt": "chandelier"
+    },
+    {
+      "role": "source",
+      "position": 86,
+      "train_id": 91,
+      "canonical": "awning, sunshade, sunblind",
+      "historical_prompt": "awning",
+      "prompt": "awning"
+    },
+    {
+      "role": "source",
+      "position": 87,
+      "train_id": 78,
+      "canonical": "streetlight, street lamp",
+      "historical_prompt": "streetlight",
+      "prompt": "streetlight"
+    },
+    {
+      "role": "source",
+      "position": 88,
+      "train_id": 107,
+      "canonical": "booth, cubicle, stall, kiosk",
+      "historical_prompt": "booth",
+      "prompt": "booth"
+    },
+    {
+      "role": "source",
+      "position": 89,
+      "train_id": 88,
+      "canonical": "television receiver, television, television set, tv, tv set, idiot box, boob tube, telly, goggle box",
+      "historical_prompt": "televisionreceiver",
+      "prompt": "television receiver"
+    },
+    {
+      "role": "source",
+      "position": 90,
+      "train_id": 94,
+      "canonical": "airplane, aeroplane, plane",
+      "historical_prompt": "airplane",
+      "prompt": "airplane"
+    },
+    {
+      "role": "source",
+      "position": 91,
+      "train_id": 143,
+      "canonical": "dirt track",
+      "historical_prompt": "dirttrack",
+      "prompt": "dirt track"
+    },
+    {
+      "role": "source",
+      "position": 92,
+      "train_id": 102,
+      "canonical": "apparel, wearing apparel, dress, clothes",
+      "historical_prompt": "apparel",
+      "prompt": "apparel"
+    },
+    {
+      "role": "source",
+      "position": 93,
+      "train_id": 95,
+      "canonical": "pole",
+      "historical_prompt": "pole",
+      "prompt": "pole"
+    },
+    {
+      "role": "source",
+      "position": 94,
+      "train_id": 118,
+      "canonical": "land, ground, soil",
+      "historical_prompt": "land",
+      "prompt": "land"
+    },
+    {
+      "role": "source",
+      "position": 95,
+      "train_id": 113,
+      "canonical": "bannister, banister, balustrade, balusters, handrail",
+      "historical_prompt": "bannister",
+      "prompt": "bannister"
+    },
+    {
+      "role": "source",
+      "position": 96,
+      "train_id": 117,
+      "canonical": "escalator, moving staircase, moving stairway",
+      "historical_prompt": "escalator",
+      "prompt": "escalator"
+    },
+    {
+      "role": "source",
+      "position": 97,
+      "train_id": 126,
+      "canonical": "ottoman, pouf, pouffe, puff, hassock",
+      "historical_prompt": "ottoman",
+      "prompt": "ottoman"
+    },
+    {
+      "role": "source",
+      "position": 98,
+      "train_id": 128,
+      "canonical": "bottle",
+      "historical_prompt": "bottle",
+      "prompt": "bottle"
+    },
+    {
+      "role": "source",
+      "position": 99,
+      "train_id": 100,
+      "canonical": "buffet, counter, sideboard",
+      "historical_prompt": "buffet",
+      "prompt": "buffet"
+    },
+    {
+      "role": "source",
+      "position": 100,
+      "train_id": 92,
+      "canonical": "poster, posting, placard, notice, bill, card",
+      "historical_prompt": "poster",
+      "prompt": "poster"
+    },
+    {
+      "role": "source",
+      "position": 101,
+      "train_id": 155,
+      "canonical": "stage",
+      "historical_prompt": "stage",
+      "prompt": "stage"
+    },
+    {
+      "role": "source",
+      "position": 102,
+      "train_id": 89,
+      "canonical": "van",
+      "historical_prompt": "van",
+      "prompt": "van"
+    },
+    {
+      "role": "source",
+      "position": 103,
+      "train_id": 125,
+      "canonical": "ship",
+      "historical_prompt": "ship",
+      "prompt": "ship"
+    },
+    {
+      "role": "source",
+      "position": 104,
+      "train_id": 86,
+      "canonical": "fountain",
+      "historical_prompt": "fountain",
+      "prompt": "fountain"
+    },
+    {
+      "role": "source",
+      "position": 105,
+      "train_id": 131,
+      "canonical": "conveyer belt, conveyor belt, conveyer, conveyor, transporter",
+      "historical_prompt": "conveyerbelt",
+      "prompt": "conveyer belt"
+    },
+    {
+      "role": "source",
+      "position": 106,
+      "train_id": 140,
+      "canonical": "canopy",
+      "historical_prompt": "canopy",
+      "prompt": "canopy"
+    },
+    {
+      "role": "source",
+      "position": 107,
+      "train_id": 149,
+      "canonical": "washer, automatic washer, washing machine",
+      "historical_prompt": "washer",
+      "prompt": "washer"
+    },
+    {
+      "role": "source",
+      "position": 108,
+      "train_id": 151,
+      "canonical": "plaything, toy",
+      "historical_prompt": "plaything",
+      "prompt": "plaything"
+    },
+    {
+      "role": "source",
+      "position": 109,
+      "train_id": 218,
+      "canonical": "swimming pool, swimming bath, natatorium",
+      "historical_prompt": "swimmingpool",
+      "prompt": "swimming pool"
+    },
+    {
+      "role": "source",
+      "position": 110,
+      "train_id": 133,
+      "canonical": "stool",
+      "historical_prompt": "stool",
+      "prompt": "stool"
+    },
+    {
+      "role": "source",
+      "position": 111,
+      "train_id": 142,
+      "canonical": "barrel, cask",
+      "historical_prompt": "barrel",
+      "prompt": "barrel"
+    },
+    {
+      "role": "source",
+      "position": 112,
+      "train_id": 137,
+      "canonical": "basket, handbasket",
+      "historical_prompt": "basket",
+      "prompt": "handbasket"
+    },
+    {
+      "role": "source",
+      "position": 113,
+      "train_id": 71,
+      "canonical": "waterfall, falls",
+      "historical_prompt": "waterfall",
+      "prompt": "waterfall"
+    },
+    {
+      "role": "source",
+      "position": 114,
+      "train_id": 139,
+      "canonical": "tent, collapsible shelter",
+      "historical_prompt": "tent",
+      "prompt": "tent"
+    },
+    {
+      "role": "source",
+      "position": 115,
+      "train_id": 114,
+      "canonical": "bag",
+      "historical_prompt": "bag",
+      "prompt": "bag"
+    },
+    {
+      "role": "source",
+      "position": 116,
+      "train_id": 103,
+      "canonical": "minibike, motorbike",
+      "historical_prompt": "minibike",
+      "prompt": "minibike"
+    },
+    {
+      "role": "source",
+      "position": 117,
+      "train_id": 129,
+      "canonical": "cradle",
+      "historical_prompt": "cradle",
+      "prompt": "cradle"
+    },
+    {
+      "role": "source",
+      "position": 118,
+      "train_id": 154,
+      "canonical": "oven",
+      "historical_prompt": "oven",
+      "prompt": "oven"
+    },
+    {
+      "role": "source",
+      "position": 119,
+      "train_id": 98,
+      "canonical": "ball",
+      "historical_prompt": "ball",
+      "prompt": "ball"
+    },
+    {
+      "role": "source",
+      "position": 120,
+      "train_id": 152,
+      "canonical": "food, solid food",
+      "historical_prompt": "food",
+      "prompt": "food"
+    },
+    {
+      "role": "source",
+      "position": 121,
+      "train_id": 106,
+      "canonical": "step, stair",
+      "historical_prompt": "step",
+      "prompt": "step"
+    },
+    {
+      "role": "source",
+      "position": 122,
+      "train_id": 135,
+      "canonical": "tank, storage tank",
+      "historical_prompt": "tank",
+      "prompt": "tank"
+    },
+    {
+      "role": "source",
+      "position": 123,
+      "train_id": 112,
+      "canonical": "trade name, brand name, brand, marque",
+      "historical_prompt": "tradename",
+      "prompt": "trade name"
+    },
+    {
+      "role": "source",
+      "position": 124,
+      "train_id": 141,
+      "canonical": "microwave, microwave oven",
+      "historical_prompt": "microwave",
+      "prompt": "microwave"
+    },
+    {
+      "role": "source",
+      "position": 125,
+      "train_id": 130,
+      "canonical": "pot, flowerpot",
+      "historical_prompt": "pot",
+      "prompt": "flowerpot"
+    },
+    {
+      "role": "source",
+      "position": 126,
+      "train_id": 104,
+      "canonical": "animal, animate being, beast, brute, creature, fauna",
+      "historical_prompt": "animal",
+      "prompt": "animal"
+    },
+    {
+      "role": "source",
+      "position": 127,
+      "train_id": 108,
+      "canonical": "bicycle, bike, wheel, cycle",
+      "historical_prompt": "bicycle",
+      "prompt": "bicycle"
+    },
+    {
+      "role": "source",
+      "position": 128,
+      "train_id": 134,
+      "canonical": "lake",
+      "historical_prompt": "lake",
+      "prompt": "lake"
+    },
+    {
+      "role": "source",
+      "position": 129,
+      "train_id": 145,
+      "canonical": "dishwasher, dish washer, dishwashing machine",
+      "historical_prompt": "dishwasher",
+      "prompt": "dishwasher"
+    },
+    {
+      "role": "source",
+      "position": 130,
+      "train_id": 153,
+      "canonical": "screen, silver screen, projection screen",
+      "historical_prompt": "screen",
+      "prompt": "silver screen"
+    },
+    {
+      "role": "source",
+      "position": 131,
+      "train_id": 150,
+      "canonical": "blanket, cover",
+      "historical_prompt": "blanket",
+      "prompt": "blanket"
+    },
+    {
+      "role": "source",
+      "position": 132,
+      "train_id": 158,
+      "canonical": "sculpture",
+      "historical_prompt": "sculpture",
+      "prompt": "sculpture"
+    },
+    {
+      "role": "source",
+      "position": 133,
+      "train_id": 162,
+      "canonical": "hood, exhaust hood",
+      "historical_prompt": "hood",
+      "prompt": "hood"
+    },
+    {
+      "role": "source",
+      "position": 134,
+      "train_id": 110,
+      "canonical": "sconce",
+      "historical_prompt": "sconce",
+      "prompt": "sconce"
+    },
+    {
+      "role": "source",
+      "position": 135,
+      "train_id": 168,
+      "canonical": "vase",
+      "historical_prompt": "vase",
+      "prompt": "vase"
+    },
+    {
+      "role": "source",
+      "position": 136,
+      "train_id": 115,
+      "canonical": "traffic light, traffic signal, stoplight",
+      "historical_prompt": "trafficlight",
+      "prompt": "traffic light"
+    },
+    {
+      "role": "source",
+      "position": 137,
+      "train_id": 182,
+      "canonical": "tray",
+      "historical_prompt": "tray",
+      "prompt": "tray"
+    },
+    {
+      "role": "source",
+      "position": 138,
+      "train_id": 127,
+      "canonical": "ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin",
+      "historical_prompt": "ashcan",
+      "prompt": "ashcan"
+    },
+    {
+      "role": "source",
+      "position": 139,
+      "train_id": 175,
+      "canonical": "fan",
+      "historical_prompt": "fan",
+      "prompt": "fan"
+    },
+    {
+      "role": "source",
+      "position": 140,
+      "train_id": 174,
+      "canonical": "pier, wharf, wharfage, dock",
+      "historical_prompt": "pier",
+      "prompt": "wharf"
+    },
+    {
+      "role": "source",
+      "position": 141,
+      "train_id": 147,
+      "canonical": "screen, crt screen",
+      "historical_prompt": "crtscreen",
+      "prompt": "crt screen"
+    },
+    {
+      "role": "source",
+      "position": 142,
+      "train_id": 146,
+      "canonical": "plate",
+      "historical_prompt": "plate",
+      "prompt": "plate"
+    },
+    {
+      "role": "source",
+      "position": 143,
+      "train_id": 204,
+      "canonical": "monitor, monitoring device",
+      "historical_prompt": "monitor",
+      "prompt": "monitor"
+    },
+    {
+      "role": "source",
+      "position": 144,
+      "train_id": 192,
+      "canonical": "bulletin board, notice board",
+      "historical_prompt": "bulletinboard",
+      "prompt": "bulletin board"
+    },
+    {
+      "role": "source",
+      "position": 145,
+      "train_id": 190,
+      "canonical": "shower",
+      "historical_prompt": "shower",
+      "prompt": "shower"
+    },
+    {
+      "role": "source",
+      "position": 146,
+      "train_id": 171,
+      "canonical": "radiator",
+      "historical_prompt": "radiator",
+      "prompt": "radiator"
+    },
+    {
+      "role": "source",
+      "position": 147,
+      "train_id": 167,
+      "canonical": "glass, drinking glass",
+      "historical_prompt": "glass",
+      "prompt": "glass"
+    },
+    {
+      "role": "source",
+      "position": 148,
+      "train_id": 212,
+      "canonical": "clock",
+      "historical_prompt": "clock",
+      "prompt": "clock"
+    },
+    {
+      "role": "source",
+      "position": 149,
+      "train_id": 187,
+      "canonical": "flag",
+      "historical_prompt": "flag",
+      "prompt": "flag"
+    },
+    {
+      "role": "added",
+      "position": 0,
+      "train_id": 42,
+      "canonical": "work surface",
+      "historical_prompt": "worksurface",
+      "prompt": "work surface"
+    },
+    {
+      "role": "added",
+      "position": 1,
+      "train_id": 47,
+      "canonical": "snow",
+      "historical_prompt": "snow",
+      "prompt": "snow"
+    },
+    {
+      "role": "added",
+      "position": 2,
+      "train_id": 53,
+      "canonical": "cliff, drop, drop-off",
+      "historical_prompt": "cliff",
+      "prompt": "cliff"
+    },
+    {
+      "role": "added",
+      "position": 3,
+      "train_id": 64,
+      "canonical": "double door",
+      "historical_prompt": "doubledoor",
+      "prompt": "double door"
+    },
+    {
+      "role": "added",
+      "position": 4,
+      "train_id": 75,
+      "canonical": "controls",
+      "historical_prompt": "controls",
+      "prompt": "controls"
+    },
+    {
+      "role": "added",
+      "position": 5,
+      "train_id": 87,
+      "canonical": "embankment",
+      "historical_prompt": "embankment",
+      "prompt": "embankment"
+    },
+    {
+      "role": "added",
+      "position": 6,
+      "train_id": 97,
+      "canonical": "court",
+      "historical_prompt": "court",
+      "prompt": "court"
+    },
+    {
+      "role": "added",
+      "position": 7,
+      "train_id": 99,
+      "canonical": "aircraft carrier, carrier, flattop, attack aircraft carrier",
+      "historical_prompt": "aircraftcarrier",
+      "prompt": "aircraft carrier"
+    },
+    {
+      "role": "added",
+      "position": 8,
+      "train_id": 109,
+      "canonical": "doorframe, doorcase",
+      "historical_prompt": "doorframe",
+      "prompt": "doorframe"
+    },
+    {
+      "role": "added",
+      "position": 9,
+      "train_id": 111,
+      "canonical": "pond",
+      "historical_prompt": "pond",
+      "prompt": "pond"
+    },
+    {
+      "role": "added",
+      "position": 10,
+      "train_id": 116,
+      "canonical": "gazebo",
+      "historical_prompt": "gazebo",
+      "prompt": "gazebo"
+    },
+    {
+      "role": "added",
+      "position": 11,
+      "train_id": 119,
+      "canonical": "board, plank",
+      "historical_prompt": "board",
+      "prompt": "board"
+    },
+    {
+      "role": "added",
+      "position": 12,
+      "train_id": 121,
+      "canonical": "eiderdown, duvet, continental quilt",
+      "historical_prompt": "eiderdown",
+      "prompt": "eiderdown"
+    },
+    {
+      "role": "added",
+      "position": 13,
+      "train_id": 123,
+      "canonical": "stall, stand, sales booth",
+      "historical_prompt": "stall",
+      "prompt": "stall"
+    },
+    {
+      "role": "added",
+      "position": 14,
+      "train_id": 124,
+      "canonical": "playground",
+      "historical_prompt": "playground",
+      "prompt": "playground"
+    },
+    {
+      "role": "added",
+      "position": 15,
+      "train_id": 132,
+      "canonical": "train, railroad train",
+      "historical_prompt": "train",
+      "prompt": "train"
+    },
+    {
+      "role": "added",
+      "position": 16,
+      "train_id": 136,
+      "canonical": "ice, water ice",
+      "historical_prompt": "ice",
+      "prompt": "ice"
+    },
+    {
+      "role": "added",
+      "position": 17,
+      "train_id": 138,
+      "canonical": "manhole",
+      "historical_prompt": "manhole",
+      "prompt": "manhole"
+    },
+    {
+      "role": "added",
+      "position": 18,
+      "train_id": 144,
+      "canonical": "beam",
+      "historical_prompt": "beam",
+      "prompt": "beam"
+    },
+    {
+      "role": "added",
+      "position": 19,
+      "train_id": 148,
+      "canonical": "ruins",
+      "historical_prompt": "ruins",
+      "prompt": "ruins"
+    },
+    {
+      "role": "added",
+      "position": 20,
+      "train_id": 156,
+      "canonical": "beacon, lighthouse, beacon light, pharos",
+      "historical_prompt": "beacon",
+      "prompt": "beacon"
+    },
+    {
+      "role": "added",
+      "position": 21,
+      "train_id": 157,
+      "canonical": "umbrella",
+      "historical_prompt": "umbrella",
+      "prompt": "umbrella"
+    },
+    {
+      "role": "added",
+      "position": 22,
+      "train_id": 159,
+      "canonical": "aqueduct",
+      "historical_prompt": "aqueduct",
+      "prompt": "aqueduct"
+    },
+    {
+      "role": "added",
+      "position": 23,
+      "train_id": 160,
+      "canonical": "container",
+      "historical_prompt": "container",
+      "prompt": "container"
+    },
+    {
+      "role": "added",
+      "position": 24,
+      "train_id": 161,
+      "canonical": "scaffolding, staging",
+      "historical_prompt": "scaffolding",
+      "prompt": "scaffolding"
+    },
+    {
+      "role": "added",
+      "position": 25,
+      "train_id": 163,
+      "canonical": "curb, curbing, kerb",
+      "historical_prompt": "curb",
+      "prompt": "curb"
+    },
+    {
+      "role": "added",
+      "position": 26,
+      "train_id": 164,
+      "canonical": "roller coaster",
+      "historical_prompt": "rollercoaster",
+      "prompt": "roller coaster"
+    },
+    {
+      "role": "added",
+      "position": 27,
+      "train_id": 165,
+      "canonical": "horse, equus caballus",
+      "historical_prompt": "horse",
+      "prompt": "horse"
+    },
+    {
+      "role": "added",
+      "position": 28,
+      "train_id": 166,
+      "canonical": "catwalk",
+      "historical_prompt": "catwalk",
+      "prompt": "catwalk"
+    },
+    {
+      "role": "added",
+      "position": 29,
+      "train_id": 169,
+      "canonical": "central reservation",
+      "historical_prompt": "centralreservation",
+      "prompt": "central reservation"
+    },
+    {
+      "role": "added",
+      "position": 30,
+      "train_id": 170,
+      "canonical": "carousel",
+      "historical_prompt": "carousel",
+      "prompt": "carousel"
+    },
+    {
+      "role": "added",
+      "position": 31,
+      "train_id": 172,
+      "canonical": "closet",
+      "historical_prompt": "closet",
+      "prompt": "closet"
+    },
+    {
+      "role": "added",
+      "position": 32,
+      "train_id": 173,
+      "canonical": "machine",
+      "historical_prompt": "machine",
+      "prompt": "machine"
+    },
+    {
+      "role": "added",
+      "position": 33,
+      "train_id": 176,
+      "canonical": "inflatable bounce game",
+      "historical_prompt": "inflatablebouncegame",
+      "prompt": "inflatable bounce game"
+    },
+    {
+      "role": "added",
+      "position": 34,
+      "train_id": 177,
+      "canonical": "pitch",
+      "historical_prompt": "pitch",
+      "prompt": "pitch"
+    },
+    {
+      "role": "added",
+      "position": 35,
+      "train_id": 178,
+      "canonical": "paper",
+      "historical_prompt": "paper",
+      "prompt": "paper"
+    },
+    {
+      "role": "added",
+      "position": 36,
+      "train_id": 179,
+      "canonical": "arcade, colonnade",
+      "historical_prompt": "arcade",
+      "prompt": "arcade"
+    },
+    {
+      "role": "added",
+      "position": 37,
+      "train_id": 180,
+      "canonical": "hot tub",
+      "historical_prompt": "hottub",
+      "prompt": "hot tub"
+    },
+    {
+      "role": "added",
+      "position": 38,
+      "train_id": 181,
+      "canonical": "helicopter",
+      "historical_prompt": "helicopter",
+      "prompt": "helicopter"
+    },
+    {
+      "role": "added",
+      "position": 39,
+      "train_id": 183,
+      "canonical": "partition, divider",
+      "historical_prompt": "partition",
+      "prompt": "partition"
+    },
+    {
+      "role": "added",
+      "position": 40,
+      "train_id": 184,
+      "canonical": "vineyard",
+      "historical_prompt": "vineyard",
+      "prompt": "vineyard"
+    },
+    {
+      "role": "added",
+      "position": 41,
+      "train_id": 185,
+      "canonical": "bowl",
+      "historical_prompt": "bowl",
+      "prompt": "bowl"
+    },
+    {
+      "role": "added",
+      "position": 42,
+      "train_id": 186,
+      "canonical": "bullring",
+      "historical_prompt": "bullring",
+      "prompt": "bullring"
+    },
+    {
+      "role": "added",
+      "position": 43,
+      "train_id": 189,
+      "canonical": "footbridge, overcrossing, pedestrian bridge",
+      "historical_prompt": "footbridge",
+      "prompt": "footbridge"
+    },
+    {
+      "role": "added",
+      "position": 44,
+      "train_id": 191,
+      "canonical": "bag, traveling bag, travelling bag, grip, suitcase",
+      "historical_prompt": "bagtravelingbag",
+      "prompt": "traveling bag"
+    },
+    {
+      "role": "added",
+      "position": 45,
+      "train_id": 193,
+      "canonical": "confessional booth",
+      "historical_prompt": "confessionalbooth",
+      "prompt": "confessional booth"
+    },
+    {
+      "role": "added",
+      "position": 46,
+      "train_id": 194,
+      "canonical": "trunk, tree trunk, bole",
+      "historical_prompt": "trunk",
+      "prompt": "trunk"
+    },
+    {
+      "role": "added",
+      "position": 47,
+      "train_id": 195,
+      "canonical": "forest",
+      "historical_prompt": "forest",
+      "prompt": "forest"
+    },
+    {
+      "role": "added",
+      "position": 48,
+      "train_id": 196,
+      "canonical": "elevator door",
+      "historical_prompt": "elevatordoor",
+      "prompt": "elevator door"
+    },
+    {
+      "role": "added",
+      "position": 49,
+      "train_id": 197,
+      "canonical": "laptop, laptop computer",
+      "historical_prompt": "laptop",
+      "prompt": "laptop"
+    },
+    {
+      "role": "added",
+      "position": 50,
+      "train_id": 198,
+      "canonical": "instrument panel",
+      "historical_prompt": "instrumentpanel",
+      "prompt": "instrument panel"
+    },
+    {
+      "role": "added",
+      "position": 51,
+      "train_id": 199,
+      "canonical": "bucket, pail",
+      "historical_prompt": "bucket",
+      "prompt": "bucket"
+    },
+    {
+      "role": "added",
+      "position": 52,
+      "train_id": 200,
+      "canonical": "tapestry, tapis",
+      "historical_prompt": "tapestry",
+      "prompt": "tapestry"
+    },
+    {
+      "role": "added",
+      "position": 53,
+      "train_id": 201,
+      "canonical": "platform",
+      "historical_prompt": "platform",
+      "prompt": "platform"
+    },
+    {
+      "role": "added",
+      "position": 54,
+      "train_id": 202,
+      "canonical": "jacket",
+      "historical_prompt": "jacket",
+      "prompt": "jacket"
+    },
+    {
+      "role": "added",
+      "position": 55,
+      "train_id": 203,
+      "canonical": "gate",
+      "historical_prompt": "gate",
+      "prompt": "gate"
+    },
+    {
+      "role": "added",
+      "position": 56,
+      "train_id": 205,
+      "canonical": "telephone booth, phone booth, call box, telephone box, telephone kiosk",
+      "historical_prompt": "telephonebooth",
+      "prompt": "telephone booth"
+    },
+    {
+      "role": "added",
+      "position": 57,
+      "train_id": 206,
+      "canonical": "spotlight, spot",
+      "historical_prompt": "spotlight",
+      "prompt": "spotlight"
+    },
+    {
+      "role": "added",
+      "position": 58,
+      "train_id": 207,
+      "canonical": "ring",
+      "historical_prompt": "ring",
+      "prompt": "ring"
+    },
+    {
+      "role": "added",
+      "position": 59,
+      "train_id": 208,
+      "canonical": "control panel",
+      "historical_prompt": "controlpanel",
+      "prompt": "control panel"
+    },
+    {
+      "role": "added",
+      "position": 60,
+      "train_id": 209,
+      "canonical": "blackboard, chalkboard",
+      "historical_prompt": "blackboard",
+      "prompt": "blackboard"
+    },
+    {
+      "role": "added",
+      "position": 61,
+      "train_id": 210,
+      "canonical": "air conditioner, air conditioning",
+      "historical_prompt": "airconditioner",
+      "prompt": "air conditioner"
+    },
+    {
+      "role": "added",
+      "position": 62,
+      "train_id": 211,
+      "canonical": "chest",
+      "historical_prompt": "chest",
+      "prompt": "chest"
+    },
+    {
+      "role": "added",
+      "position": 63,
+      "train_id": 213,
+      "canonical": "sand dune",
+      "historical_prompt": "sanddune",
+      "prompt": "sand dune"
+    },
+    {
+      "role": "added",
+      "position": 64,
+      "train_id": 214,
+      "canonical": "pipe, pipage, piping",
+      "historical_prompt": "pipepipage",
+      "prompt": "pipage"
+    },
+    {
+      "role": "added",
+      "position": 65,
+      "train_id": 215,
+      "canonical": "vault",
+      "historical_prompt": "vault",
+      "prompt": "vault"
+    },
+    {
+      "role": "added",
+      "position": 66,
+      "train_id": 216,
+      "canonical": "table football",
+      "historical_prompt": "tablefootball",
+      "prompt": "table football"
+    },
+    {
+      "role": "added",
+      "position": 67,
+      "train_id": 217,
+      "canonical": "cannon",
+      "historical_prompt": "cannon",
+      "prompt": "cannon"
+    },
+    {
+      "role": "added",
+      "position": 68,
+      "train_id": 219,
+      "canonical": "fluorescent, fluorescent fixture",
+      "historical_prompt": "fluorescent",
+      "prompt": "fluorescent"
+    },
+    {
+      "role": "added",
+      "position": 69,
+      "train_id": 220,
+      "canonical": "statue",
+      "historical_prompt": "statue",
+      "prompt": "statue"
+    },
+    {
+      "role": "added",
+      "position": 70,
+      "train_id": 221,
+      "canonical": "loudspeaker, speaker, speaker unit, loudspeaker system, speaker system",
+      "historical_prompt": "loudspeaker",
+      "prompt": "loudspeaker"
+    },
+    {
+      "role": "added",
+      "position": 71,
+      "train_id": 222,
+      "canonical": "exhibitor",
+      "historical_prompt": "exhibitor",
+      "prompt": "exhibitor"
+    },
+    {
+      "role": "added",
+      "position": 72,
+      "train_id": 223,
+      "canonical": "ladder",
+      "historical_prompt": "ladder",
+      "prompt": "ladder"
+    },
+    {
+      "role": "added",
+      "position": 73,
+      "train_id": 224,
+      "canonical": "carport",
+      "historical_prompt": "carport",
+      "prompt": "carport"
+    },
+    {
+      "role": "added",
+      "position": 74,
+      "train_id": 225,
+      "canonical": "dam",
+      "historical_prompt": "dam",
+      "prompt": "dam"
+    },
+    {
+      "role": "added",
+      "position": 75,
+      "train_id": 226,
+      "canonical": "pulpit",
+      "historical_prompt": "pulpit",
+      "prompt": "pulpit"
+    },
+    {
+      "role": "added",
+      "position": 76,
+      "train_id": 227,
+      "canonical": "skylight, fanlight",
+      "historical_prompt": "skylight",
+      "prompt": "skylight"
+    },
+    {
+      "role": "added",
+      "position": 77,
+      "train_id": 228,
+      "canonical": "water tower",
+      "historical_prompt": "watertower",
+      "prompt": "water tower"
+    },
+    {
+      "role": "added",
+      "position": 78,
+      "train_id": 229,
+      "canonical": "grill, grille, grillwork",
+      "historical_prompt": "grillgrille",
+      "prompt": "grille"
+    },
+    {
+      "role": "added",
+      "position": 79,
+      "train_id": 230,
+      "canonical": "display board",
+      "historical_prompt": "displayboard",
+      "prompt": "display board"
+    },
+    {
+      "role": "added",
+      "position": 80,
+      "train_id": 231,
+      "canonical": "pane, pane of glass, window glass",
+      "historical_prompt": "pane",
+      "prompt": "pane"
+    },
+    {
+      "role": "added",
+      "position": 81,
+      "train_id": 232,
+      "canonical": "rubbish, trash, scrap",
+      "historical_prompt": "rubbish",
+      "prompt": "rubbish"
+    },
+    {
+      "role": "added",
+      "position": 82,
+      "train_id": 233,
+      "canonical": "ice rink",
+      "historical_prompt": "icerink",
+      "prompt": "ice rink"
+    },
+    {
+      "role": "added",
+      "position": 83,
+      "train_id": 234,
+      "canonical": "fruit",
+      "historical_prompt": "fruit",
+      "prompt": "fruit"
+    },
+    {
+      "role": "added",
+      "position": 84,
+      "train_id": 235,
+      "canonical": "patio",
+      "historical_prompt": "patio",
+      "prompt": "patio"
+    },
+    {
+      "role": "added",
+      "position": 85,
+      "train_id": 236,
+      "canonical": "vending machine",
+      "historical_prompt": "vendingmachine",
+      "prompt": "vending machine"
+    },
+    {
+      "role": "added",
+      "position": 86,
+      "train_id": 237,
+      "canonical": "telephone, phone, telephone set",
+      "historical_prompt": "telephone",
+      "prompt": "telephone"
+    },
+    {
+      "role": "added",
+      "position": 87,
+      "train_id": 238,
+      "canonical": "net",
+      "historical_prompt": "net",
+      "prompt": "net"
+    },
+    {
+      "role": "added",
+      "position": 88,
+      "train_id": 239,
+      "canonical": "backpack, back pack, knapsack, packsack, rucksack, haversack",
+      "historical_prompt": "backpack",
+      "prompt": "backpack"
+    },
+    {
+      "role": "added",
+      "position": 89,
+      "train_id": 240,
+      "canonical": "jar",
+      "historical_prompt": "jar",
+      "prompt": "jar"
+    },
+    {
+      "role": "added",
+      "position": 90,
+      "train_id": 241,
+      "canonical": "track",
+      "historical_prompt": "track",
+      "prompt": "track"
+    },
+    {
+      "role": "added",
+      "position": 91,
+      "train_id": 242,
+      "canonical": "magazine",
+      "historical_prompt": "magazine",
+      "prompt": "magazine"
+    },
+    {
+      "role": "added",
+      "position": 92,
+      "train_id": 243,
+      "canonical": "shutter",
+      "historical_prompt": "shutter",
+      "prompt": "shutter"
+    },
+    {
+      "role": "added",
+      "position": 93,
+      "train_id": 244,
+      "canonical": "roof",
+      "historical_prompt": "roof",
+      "prompt": "roof"
+    },
+    {
+      "role": "added",
+      "position": 94,
+      "train_id": 245,
+      "canonical": "banner, streamer",
+      "historical_prompt": "banner",
+      "prompt": "banner"
+    },
+    {
+      "role": "added",
+      "position": 95,
+      "train_id": 246,
+      "canonical": "landfill",
+      "historical_prompt": "landfill",
+      "prompt": "landfill"
+    },
+    {
+      "role": "added",
+      "position": 96,
+      "train_id": 247,
+      "canonical": "post",
+      "historical_prompt": "post",
+      "prompt": "post"
+    },
+    {
+      "role": "added",
+      "position": 97,
+      "train_id": 248,
+      "canonical": "altarpiece, reredos",
+      "historical_prompt": "altarpiece",
+      "prompt": "altarpiece"
+    },
+    {
+      "role": "added",
+      "position": 98,
+      "train_id": 249,
+      "canonical": "hat, chapeau, lid",
+      "historical_prompt": "hat",
+      "prompt": "hat"
+    },
+    {
+      "role": "added",
+      "position": 99,
+      "train_id": 250,
+      "canonical": "arch, archway",
+      "historical_prompt": "arch",
+      "prompt": "arch"
+    },
+    {
+      "role": "added",
+      "position": 100,
+      "train_id": 251,
+      "canonical": "table game",
+      "historical_prompt": "tablegame",
+      "prompt": "table game"
+    },
+    {
+      "role": "added",
+      "position": 101,
+      "train_id": 252,
+      "canonical": "bag, handbag, pocketbook, purse",
+      "historical_prompt": "baghandbag",
+      "prompt": "handbag"
+    },
+    {
+      "role": "added",
+      "position": 102,
+      "train_id": 253,
+      "canonical": "document, written document, papers",
+      "historical_prompt": "document",
+      "prompt": "document"
+    },
+    {
+      "role": "added",
+      "position": 103,
+      "train_id": 254,
+      "canonical": "dome",
+      "historical_prompt": "dome",
+      "prompt": "dome"
+    },
+    {
+      "role": "added",
+      "position": 104,
+      "train_id": 256,
+      "canonical": "shanties",
+      "historical_prompt": "shanties",
+      "prompt": "shanties"
+    },
+    {
+      "role": "added",
+      "position": 105,
+      "train_id": 257,
+      "canonical": "forecourt",
+      "historical_prompt": "forecourt",
+      "prompt": "forecourt"
+    },
+    {
+      "role": "added",
+      "position": 106,
+      "train_id": 258,
+      "canonical": "crane",
+      "historical_prompt": "crane",
+      "prompt": "crane"
+    },
+    {
+      "role": "added",
+      "position": 107,
+      "train_id": 259,
+      "canonical": "dog, domestic dog, canis familiaris",
+      "historical_prompt": "dog",
+      "prompt": "dog"
+    },
+    {
+      "role": "added",
+      "position": 108,
+      "train_id": 260,
+      "canonical": "piano, pianoforte, forte-piano",
+      "historical_prompt": "piano",
+      "prompt": "piano"
+    },
+    {
+      "role": "added",
+      "position": 109,
+      "train_id": 261,
+      "canonical": "drawing",
+      "historical_prompt": "drawing",
+      "prompt": "drawing"
+    },
+    {
+      "role": "added",
+      "position": 110,
+      "train_id": 262,
+      "canonical": "cabin",
+      "historical_prompt": "cabin",
+      "prompt": "cabin"
+    },
+    {
+      "role": "added",
+      "position": 111,
+      "train_id": 263,
+      "canonical": "ad, advertisement, advertizement, advertising, advertizing, advert",
+      "historical_prompt": "ad",
+      "prompt": "ad"
+    },
+    {
+      "role": "added",
+      "position": 112,
+      "train_id": 264,
+      "canonical": "amphitheater, amphitheatre, coliseum",
+      "historical_prompt": "amphitheater",
+      "prompt": "amphitheater"
+    },
+    {
+      "role": "added",
+      "position": 113,
+      "train_id": 265,
+      "canonical": "monument",
+      "historical_prompt": "monument",
+      "prompt": "monument"
+    },
+    {
+      "role": "added",
+      "position": 114,
+      "train_id": 266,
+      "canonical": "henhouse",
+      "historical_prompt": "henhouse",
+      "prompt": "henhouse"
+    },
+    {
+      "role": "added",
+      "position": 115,
+      "train_id": 267,
+      "canonical": "cockpit",
+      "historical_prompt": "cockpit",
+      "prompt": "cockpit"
+    },
+    {
+      "role": "added",
+      "position": 116,
+      "train_id": 268,
+      "canonical": "heater, warmer",
+      "historical_prompt": "heater",
+      "prompt": "heater"
+    },
+    {
+      "role": "added",
+      "position": 117,
+      "train_id": 269,
+      "canonical": "windmill, aerogenerator, wind generator",
+      "historical_prompt": "windmill",
+      "prompt": "windmill"
+    },
+    {
+      "role": "added",
+      "position": 118,
+      "train_id": 270,
+      "canonical": "pool",
+      "historical_prompt": "pool",
+      "prompt": "pool"
+    },
+    {
+      "role": "added",
+      "position": 119,
+      "train_id": 271,
+      "canonical": "elevator, lift",
+      "historical_prompt": "elevator",
+      "prompt": "elevator"
+    },
+    {
+      "role": "added",
+      "position": 120,
+      "train_id": 272,
+      "canonical": "decoration, ornament, ornamentation",
+      "historical_prompt": "decoration",
+      "prompt": "decoration"
+    },
+    {
+      "role": "added",
+      "position": 121,
+      "train_id": 273,
+      "canonical": "labyrinth",
+      "historical_prompt": "labyrinth",
+      "prompt": "labyrinth"
+    },
+    {
+      "role": "added",
+      "position": 122,
+      "train_id": 274,
+      "canonical": "text, textual matter",
+      "historical_prompt": "text",
+      "prompt": "text"
+    },
+    {
+      "role": "added",
+      "position": 123,
+      "train_id": 275,
+      "canonical": "printer",
+      "historical_prompt": "printer",
+      "prompt": "printer"
+    },
+    {
+      "role": "added",
+      "position": 124,
+      "train_id": 276,
+      "canonical": "mezzanine, first balcony",
+      "historical_prompt": "mezzanine",
+      "prompt": "mezzanine"
+    },
+    {
+      "role": "added",
+      "position": 125,
+      "train_id": 277,
+      "canonical": "mattress",
+      "historical_prompt": "mattress",
+      "prompt": "mattress"
+    },
+    {
+      "role": "added",
+      "position": 126,
+      "train_id": 278,
+      "canonical": "straw",
+      "historical_prompt": "straw",
+      "prompt": "straw"
+    },
+    {
+      "role": "added",
+      "position": 127,
+      "train_id": 279,
+      "canonical": "stalls",
+      "historical_prompt": "stalls",
+      "prompt": "stalls"
+    },
+    {
+      "role": "added",
+      "position": 128,
+      "train_id": 280,
+      "canonical": "patio, terrace",
+      "historical_prompt": "patioterrace",
+      "prompt": "terrace"
+    },
+    {
+      "role": "added",
+      "position": 129,
+      "train_id": 281,
+      "canonical": "billboard, hoarding",
+      "historical_prompt": "billboard",
+      "prompt": "billboard"
+    },
+    {
+      "role": "added",
+      "position": 130,
+      "train_id": 282,
+      "canonical": "bus stop",
+      "historical_prompt": "busstop",
+      "prompt": "bus stop"
+    },
+    {
+      "role": "added",
+      "position": 131,
+      "train_id": 283,
+      "canonical": "trouser, pant",
+      "historical_prompt": "trouser",
+      "prompt": "trouser"
+    },
+    {
+      "role": "added",
+      "position": 132,
+      "train_id": 284,
+      "canonical": "console table, console",
+      "historical_prompt": "consoletable",
+      "prompt": "console table"
+    },
+    {
+      "role": "added",
+      "position": 133,
+      "train_id": 285,
+      "canonical": "rack",
+      "historical_prompt": "rack",
+      "prompt": "rack"
+    },
+    {
+      "role": "added",
+      "position": 134,
+      "train_id": 286,
+      "canonical": "notebook",
+      "historical_prompt": "notebook",
+      "prompt": "notebook"
+    },
+    {
+      "role": "added",
+      "position": 135,
+      "train_id": 287,
+      "canonical": "shrine",
+      "historical_prompt": "shrine",
+      "prompt": "shrine"
+    },
+    {
+      "role": "added",
+      "position": 136,
+      "train_id": 288,
+      "canonical": "pantry",
+      "historical_prompt": "pantry",
+      "prompt": "pantry"
+    },
+    {
+      "role": "added",
+      "position": 137,
+      "train_id": 289,
+      "canonical": "cart",
+      "historical_prompt": "cart",
+      "prompt": "cart"
+    },
+    {
+      "role": "added",
+      "position": 138,
+      "train_id": 290,
+      "canonical": "steam shovel",
+      "historical_prompt": "steamshovel",
+      "prompt": "steam shovel"
+    },
+    {
+      "role": "added",
+      "position": 139,
+      "train_id": 291,
+      "canonical": "porch",
+      "historical_prompt": "porch",
+      "prompt": "porch"
+    },
+    {
+      "role": "added",
+      "position": 140,
+      "train_id": 292,
+      "canonical": "postbox, mailbox, letter box",
+      "historical_prompt": "postboxmailbox",
+      "prompt": "postbox"
+    },
+    {
+      "role": "added",
+      "position": 141,
+      "train_id": 293,
+      "canonical": "figurine, statuette",
+      "historical_prompt": "figurine",
+      "prompt": "figurine"
+    },
+    {
+      "role": "added",
+      "position": 142,
+      "train_id": 294,
+      "canonical": "recycling bin",
+      "historical_prompt": "recyclingbin",
+      "prompt": "recycling bin"
+    },
+    {
+      "role": "added",
+      "position": 143,
+      "train_id": 295,
+      "canonical": "folding screen",
+      "historical_prompt": "foldingscreen",
+      "prompt": "folding screen"
+    },
+    {
+      "role": "added",
+      "position": 144,
+      "train_id": 296,
+      "canonical": "telescope",
+      "historical_prompt": "telescope",
+      "prompt": "telescope"
+    },
+    {
+      "role": "added",
+      "position": 145,
+      "train_id": 297,
+      "canonical": "deck chair, beach chair",
+      "historical_prompt": "deckchair",
+      "prompt": "deck chair"
+    },
+    {
+      "role": "added",
+      "position": 146,
+      "train_id": 298,
+      "canonical": "kennel",
+      "historical_prompt": "kennel",
+      "prompt": "kennel"
+    },
+    {
+      "role": "added",
+      "position": 147,
+      "train_id": 299,
+      "canonical": "coffee maker",
+      "historical_prompt": "coffeemaker",
+      "prompt": "coffee maker"
+    },
+    {
+      "role": "added",
+      "position": 148,
+      "train_id": 300,
+      "canonical": "altar, communion table, lord's table",
+      "historical_prompt": "altar",
+      "prompt": "altar"
+    },
+    {
+      "role": "added",
+      "position": 149,
+      "train_id": 301,
+      "canonical": "fish",
+      "historical_prompt": "fish",
+      "prompt": "fish"
+    },
+    {
+      "role": "added",
+      "position": 150,
+      "train_id": 302,
+      "canonical": "easel",
+      "historical_prompt": "easel",
+      "prompt": "easel"
+    },
+    {
+      "role": "added",
+      "position": 151,
+      "train_id": 303,
+      "canonical": "artificial golf green",
+      "historical_prompt": "artificialgolfgreen",
+      "prompt": "artificial golf green"
+    },
+    {
+      "role": "added",
+      "position": 152,
+      "train_id": 304,
+      "canonical": "iceberg",
+      "historical_prompt": "iceberg",
+      "prompt": "iceberg"
+    },
+    {
+      "role": "added",
+      "position": 153,
+      "train_id": 305,
+      "canonical": "candlestick, candle holder",
+      "historical_prompt": "candlestick",
+      "prompt": "candlestick"
+    },
+    {
+      "role": "added",
+      "position": 154,
+      "train_id": 306,
+      "canonical": "shower stall, shower bath",
+      "historical_prompt": "showerstall",
+      "prompt": "shower stall"
+    },
+    {
+      "role": "added",
+      "position": 155,
+      "train_id": 307,
+      "canonical": "television stand",
+      "historical_prompt": "televisionstand",
+      "prompt": "television stand"
+    },
+    {
+      "role": "added",
+      "position": 156,
+      "train_id": 308,
+      "canonical": "wall socket, wall plug, electric outlet, electrical outlet, outlet, electric receptacle",
+      "historical_prompt": "wallsocket",
+      "prompt": "wall socket"
+    },
+    {
+      "role": "added",
+      "position": 157,
+      "train_id": 309,
+      "canonical": "skeleton",
+      "historical_prompt": "skeleton",
+      "prompt": "skeleton"
+    },
+    {
+      "role": "added",
+      "position": 158,
+      "train_id": 310,
+      "canonical": "grand piano, grand",
+      "historical_prompt": "grandpiano",
+      "prompt": "grand piano"
+    },
+    {
+      "role": "added",
+      "position": 159,
+      "train_id": 311,
+      "canonical": "candy, confect",
+      "historical_prompt": "candy",
+      "prompt": "candy"
+    },
+    {
+      "role": "added",
+      "position": 160,
+      "train_id": 312,
+      "canonical": "grille door",
+      "historical_prompt": "grilledoor",
+      "prompt": "grille door"
+    },
+    {
+      "role": "added",
+      "position": 161,
+      "train_id": 313,
+      "canonical": "pedestal, plinth, footstall",
+      "historical_prompt": "pedestal",
+      "prompt": "pedestal"
+    },
+    {
+      "role": "added",
+      "position": 162,
+      "train_id": 314,
+      "canonical": "jersey, t-shirt, tee shirt",
+      "historical_prompt": "jersey",
+      "prompt": "jersey"
+    },
+    {
+      "role": "added",
+      "position": 163,
+      "train_id": 315,
+      "canonical": "shoe",
+      "historical_prompt": "shoe",
+      "prompt": "shoe"
+    },
+    {
+      "role": "added",
+      "position": 164,
+      "train_id": 316,
+      "canonical": "gravestone, headstone, tombstone",
+      "historical_prompt": "gravestone",
+      "prompt": "gravestone"
+    },
+    {
+      "role": "added",
+      "position": 165,
+      "train_id": 317,
+      "canonical": "shanty",
+      "historical_prompt": "shanty",
+      "prompt": "shanty"
+    },
+    {
+      "role": "added",
+      "position": 166,
+      "train_id": 318,
+      "canonical": "structure",
+      "historical_prompt": "structure",
+      "prompt": "structure"
+    },
+    {
+      "role": "added",
+      "position": 167,
+      "train_id": 319,
+      "canonical": "rocking chair, rocker",
+      "historical_prompt": "rockingchair",
+      "prompt": "rocking chair"
+    },
+    {
+      "role": "added",
+      "position": 168,
+      "train_id": 320,
+      "canonical": "bird",
+      "historical_prompt": "bird",
+      "prompt": "bird"
+    },
+    {
+      "role": "added",
+      "position": 169,
+      "train_id": 321,
+      "canonical": "place mat",
+      "historical_prompt": "placemat",
+      "prompt": "place mat"
+    },
+    {
+      "role": "added",
+      "position": 170,
+      "train_id": 322,
+      "canonical": "tomb",
+      "historical_prompt": "tomb",
+      "prompt": "tomb"
+    },
+    {
+      "role": "added",
+      "position": 171,
+      "train_id": 323,
+      "canonical": "big top",
+      "historical_prompt": "bigtop",
+      "prompt": "big top"
+    },
+    {
+      "role": "added",
+      "position": 172,
+      "train_id": 324,
+      "canonical": "gas pump, gasoline pump, petrol pump, island dispenser",
+      "historical_prompt": "gaspump",
+      "prompt": "gas pump"
+    },
+    {
+      "role": "added",
+      "position": 173,
+      "train_id": 325,
+      "canonical": "lockers",
+      "historical_prompt": "lockers",
+      "prompt": "lockers"
+    },
+    {
+      "role": "added",
+      "position": 174,
+      "train_id": 326,
+      "canonical": "cage",
+      "historical_prompt": "cage",
+      "prompt": "cage"
+    },
+    {
+      "role": "added",
+      "position": 175,
+      "train_id": 327,
+      "canonical": "finger",
+      "historical_prompt": "finger",
+      "prompt": "finger"
+    },
+    {
+      "role": "added",
+      "position": 176,
+      "train_id": 328,
+      "canonical": "bleachers",
+      "historical_prompt": "bleachers",
+      "prompt": "bleachers"
+    },
+    {
+      "role": "added",
+      "position": 177,
+      "train_id": 329,
+      "canonical": "ferris wheel",
+      "historical_prompt": "ferriswheel",
+      "prompt": "ferris wheel"
+    },
+    {
+      "role": "added",
+      "position": 178,
+      "train_id": 330,
+      "canonical": "hairdresser chair",
+      "historical_prompt": "hairdresserchair",
+      "prompt": "hairdresser chair"
+    },
+    {
+      "role": "added",
+      "position": 179,
+      "train_id": 331,
+      "canonical": "mat",
+      "historical_prompt": "mat",
+      "prompt": "mat"
+    },
+    {
+      "role": "added",
+      "position": 180,
+      "train_id": 332,
+      "canonical": "stands",
+      "historical_prompt": "stands",
+      "prompt": "stands"
+    },
+    {
+      "role": "added",
+      "position": 181,
+      "train_id": 333,
+      "canonical": "aquarium, fish tank, marine museum",
+      "historical_prompt": "aquarium",
+      "prompt": "aquarium"
+    },
+    {
+      "role": "added",
+      "position": 182,
+      "train_id": 334,
+      "canonical": "streetcar, tram, tramcar, trolley, trolley car",
+      "historical_prompt": "streetcar",
+      "prompt": "streetcar"
+    },
+    {
+      "role": "added",
+      "position": 183,
+      "train_id": 335,
+      "canonical": "napkin, table napkin, serviette",
+      "historical_prompt": "napkin",
+      "prompt": "napkin"
+    },
+    {
+      "role": "added",
+      "position": 184,
+      "train_id": 336,
+      "canonical": "dummy",
+      "historical_prompt": "dummy",
+      "prompt": "dummy"
+    },
+    {
+      "role": "added",
+      "position": 185,
+      "train_id": 337,
+      "canonical": "booklet, brochure, folder, leaflet, pamphlet",
+      "historical_prompt": "booklet",
+      "prompt": "booklet"
+    },
+    {
+      "role": "added",
+      "position": 186,
+      "train_id": 338,
+      "canonical": "sand trap",
+      "historical_prompt": "sandtrap",
+      "prompt": "sand trap"
+    },
+    {
+      "role": "added",
+      "position": 187,
+      "train_id": 339,
+      "canonical": "shop, store",
+      "historical_prompt": "shop",
+      "prompt": "shop"
+    },
+    {
+      "role": "added",
+      "position": 188,
+      "train_id": 340,
+      "canonical": "table cloth",
+      "historical_prompt": "tablecloth",
+      "prompt": "table cloth"
+    },
+    {
+      "role": "added",
+      "position": 189,
+      "train_id": 341,
+      "canonical": "service station",
+      "historical_prompt": "servicestation",
+      "prompt": "service station"
+    },
+    {
+      "role": "added",
+      "position": 190,
+      "train_id": 342,
+      "canonical": "coffin",
+      "historical_prompt": "coffin",
+      "prompt": "coffin"
+    },
+    {
+      "role": "added",
+      "position": 191,
+      "train_id": 343,
+      "canonical": "drawer",
+      "historical_prompt": "drawer",
+      "prompt": "drawer"
+    },
+    {
+      "role": "added",
+      "position": 192,
+      "train_id": 344,
+      "canonical": "cages",
+      "historical_prompt": "cages",
+      "prompt": "cages"
+    },
+    {
+      "role": "added",
+      "position": 193,
+      "train_id": 345,
+      "canonical": "slot machine, coin machine",
+      "historical_prompt": "slotmachine",
+      "prompt": "slot machine"
+    },
+    {
+      "role": "added",
+      "position": 194,
+      "train_id": 346,
+      "canonical": "balcony",
+      "historical_prompt": "balcony",
+      "prompt": "balcony"
+    },
+    {
+      "role": "added",
+      "position": 195,
+      "train_id": 347,
+      "canonical": "volleyball court",
+      "historical_prompt": "volleyballcourt",
+      "prompt": "volleyball court"
+    },
+    {
+      "role": "added",
+      "position": 196,
+      "train_id": 348,
+      "canonical": "table tennis",
+      "historical_prompt": "tabletennis",
+      "prompt": "table tennis"
+    },
+    {
+      "role": "added",
+      "position": 197,
+      "train_id": 349,
+      "canonical": "control table",
+      "historical_prompt": "controltable",
+      "prompt": "control table"
+    },
+    {
+      "role": "added",
+      "position": 198,
+      "train_id": 350,
+      "canonical": "shirt",
+      "historical_prompt": "shirt",
+      "prompt": "shirt"
+    },
+    {
+      "role": "added",
+      "position": 199,
+      "train_id": 351,
+      "canonical": "merchandise, ware, product",
+      "historical_prompt": "merchandise",
+      "prompt": "merchandise"
+    },
+    {
+      "role": "added",
+      "position": 200,
+      "train_id": 352,
+      "canonical": "railway",
+      "historical_prompt": "railway",
+      "prompt": "railway"
+    },
+    {
+      "role": "added",
+      "position": 201,
+      "train_id": 353,
+      "canonical": "parterre",
+      "historical_prompt": "parterre",
+      "prompt": "parterre"
+    },
+    {
+      "role": "added",
+      "position": 202,
+      "train_id": 354,
+      "canonical": "chimney",
+      "historical_prompt": "chimney",
+      "prompt": "chimney"
+    },
+    {
+      "role": "added",
+      "position": 203,
+      "train_id": 355,
+      "canonical": "can, tin, tin can",
+      "historical_prompt": "can",
+      "prompt": "can"
+    },
+    {
+      "role": "added",
+      "position": 204,
+      "train_id": 356,
+      "canonical": "tanks",
+      "historical_prompt": "tanks",
+      "prompt": "tanks"
+    },
+    {
+      "role": "added",
+      "position": 205,
+      "train_id": 357,
+      "canonical": "fabric, cloth, material, textile",
+      "historical_prompt": "fabric",
+      "prompt": "fabric"
+    },
+    {
+      "role": "added",
+      "position": 206,
+      "train_id": 358,
+      "canonical": "alga, algae",
+      "historical_prompt": "alga",
+      "prompt": "alga"
+    },
+    {
+      "role": "added",
+      "position": 207,
+      "train_id": 359,
+      "canonical": "system",
+      "historical_prompt": "system",
+      "prompt": "system"
+    },
+    {
+      "role": "added",
+      "position": 208,
+      "train_id": 360,
+      "canonical": "map",
+      "historical_prompt": "map",
+      "prompt": "map"
+    },
+    {
+      "role": "added",
+      "position": 209,
+      "train_id": 361,
+      "canonical": "greenhouse",
+      "historical_prompt": "greenhouse",
+      "prompt": "greenhouse"
+    },
+    {
+      "role": "added",
+      "position": 210,
+      "train_id": 362,
+      "canonical": "mug",
+      "historical_prompt": "mug",
+      "prompt": "mug"
+    },
+    {
+      "role": "added",
+      "position": 211,
+      "train_id": 363,
+      "canonical": "barbecue",
+      "historical_prompt": "barbecue",
+      "prompt": "barbecue"
+    },
+    {
+      "role": "added",
+      "position": 212,
+      "train_id": 364,
+      "canonical": "trailer",
+      "historical_prompt": "trailer",
+      "prompt": "trailer"
+    },
+    {
+      "role": "added",
+      "position": 213,
+      "train_id": 365,
+      "canonical": "toilet tissue, toilet paper, bathroom tissue",
+      "historical_prompt": "toilettissue",
+      "prompt": "toilet tissue"
+    },
+    {
+      "role": "added",
+      "position": 214,
+      "train_id": 366,
+      "canonical": "organ",
+      "historical_prompt": "organ",
+      "prompt": "organ"
+    },
+    {
+      "role": "added",
+      "position": 215,
+      "train_id": 367,
+      "canonical": "dishrag, dishcloth",
+      "historical_prompt": "dishrag",
+      "prompt": "dishrag"
+    },
+    {
+      "role": "added",
+      "position": 216,
+      "train_id": 368,
+      "canonical": "island",
+      "historical_prompt": "island",
+      "prompt": "island"
+    },
+    {
+      "role": "added",
+      "position": 217,
+      "train_id": 369,
+      "canonical": "keyboard",
+      "historical_prompt": "keyboard",
+      "prompt": "keyboard"
+    },
+    {
+      "role": "added",
+      "position": 218,
+      "train_id": 370,
+      "canonical": "trench",
+      "historical_prompt": "trench",
+      "prompt": "trench"
+    },
+    {
+      "role": "added",
+      "position": 219,
+      "train_id": 371,
+      "canonical": "basket, basketball hoop, hoop",
+      "historical_prompt": "basketbasketballhoop",
+      "prompt": "basketball hoop"
+    },
+    {
+      "role": "added",
+      "position": 220,
+      "train_id": 372,
+      "canonical": "steering wheel, wheel",
+      "historical_prompt": "steeringwheel",
+      "prompt": "steering wheel"
+    },
+    {
+      "role": "added",
+      "position": 221,
+      "train_id": 373,
+      "canonical": "pitcher, ewer",
+      "historical_prompt": "pitcher",
+      "prompt": "pitcher"
+    },
+    {
+      "role": "added",
+      "position": 222,
+      "train_id": 374,
+      "canonical": "goal",
+      "historical_prompt": "goal",
+      "prompt": "goal"
+    },
+    {
+      "role": "added",
+      "position": 223,
+      "train_id": 375,
+      "canonical": "bread, breadstuff, staff of life",
+      "historical_prompt": "bread",
+      "prompt": "bread"
+    },
+    {
+      "role": "added",
+      "position": 224,
+      "train_id": 376,
+      "canonical": "beds",
+      "historical_prompt": "beds",
+      "prompt": "beds"
+    },
+    {
+      "role": "added",
+      "position": 225,
+      "train_id": 377,
+      "canonical": "wood",
+      "historical_prompt": "wood",
+      "prompt": "wood"
+    },
+    {
+      "role": "added",
+      "position": 226,
+      "train_id": 378,
+      "canonical": "file cabinet",
+      "historical_prompt": "filecabinet",
+      "prompt": "file cabinet"
+    },
+    {
+      "role": "added",
+      "position": 227,
+      "train_id": 379,
+      "canonical": "newspaper, paper",
+      "historical_prompt": "newspaper",
+      "prompt": "newspaper"
+    },
+    {
+      "role": "added",
+      "position": 228,
+      "train_id": 380,
+      "canonical": "motorboat",
+      "historical_prompt": "motorboat",
+      "prompt": "motorboat"
+    },
+    {
+      "role": "added",
+      "position": 229,
+      "train_id": 381,
+      "canonical": "rope",
+      "historical_prompt": "rope",
+      "prompt": "rope"
+    },
+    {
+      "role": "added",
+      "position": 230,
+      "train_id": 382,
+      "canonical": "guitar",
+      "historical_prompt": "guitar",
+      "prompt": "guitar"
+    },
+    {
+      "role": "added",
+      "position": 231,
+      "train_id": 383,
+      "canonical": "rubble",
+      "historical_prompt": "rubble",
+      "prompt": "rubble"
+    },
+    {
+      "role": "added",
+      "position": 232,
+      "train_id": 384,
+      "canonical": "scarf",
+      "historical_prompt": "scarf",
+      "prompt": "scarf"
+    },
+    {
+      "role": "added",
+      "position": 233,
+      "train_id": 385,
+      "canonical": "barrels",
+      "historical_prompt": "barrels",
+      "prompt": "barrels"
+    },
+    {
+      "role": "added",
+      "position": 234,
+      "train_id": 386,
+      "canonical": "cap",
+      "historical_prompt": "cap",
+      "prompt": "cap"
+    },
+    {
+      "role": "added",
+      "position": 235,
+      "train_id": 387,
+      "canonical": "leaves",
+      "historical_prompt": "leaves",
+      "prompt": "leaves"
+    },
+    {
+      "role": "added",
+      "position": 236,
+      "train_id": 388,
+      "canonical": "control tower",
+      "historical_prompt": "controltower",
+      "prompt": "control tower"
+    },
+    {
+      "role": "added",
+      "position": 237,
+      "train_id": 389,
+      "canonical": "dashboard",
+      "historical_prompt": "dashboard",
+      "prompt": "dashboard"
+    },
+    {
+      "role": "added",
+      "position": 238,
+      "train_id": 390,
+      "canonical": "bandstand",
+      "historical_prompt": "bandstand",
+      "prompt": "bandstand"
+    },
+    {
+      "role": "added",
+      "position": 239,
+      "train_id": 391,
+      "canonical": "lectern",
+      "historical_prompt": "lectern",
+      "prompt": "lectern"
+    },
+    {
+      "role": "added",
+      "position": 240,
+      "train_id": 392,
+      "canonical": "switch, electric switch, electrical switch",
+      "historical_prompt": "switch",
+      "prompt": "switch"
+    },
+    {
+      "role": "added",
+      "position": 241,
+      "train_id": 393,
+      "canonical": "baseboard, mopboard, skirting board",
+      "historical_prompt": "baseboard",
+      "prompt": "baseboard"
+    },
+    {
+      "role": "added",
+      "position": 242,
+      "train_id": 394,
+      "canonical": "shower room",
+      "historical_prompt": "showerroom",
+      "prompt": "shower room"
+    },
+    {
+      "role": "added",
+      "position": 243,
+      "train_id": 395,
+      "canonical": "smoke",
+      "historical_prompt": "smoke",
+      "prompt": "smoke"
+    },
+    {
+      "role": "added",
+      "position": 244,
+      "train_id": 396,
+      "canonical": "faucet, spigot",
+      "historical_prompt": "faucet",
+      "prompt": "faucet"
+    },
+    {
+      "role": "added",
+      "position": 245,
+      "train_id": 397,
+      "canonical": "bulldozer",
+      "historical_prompt": "bulldozer",
+      "prompt": "bulldozer"
+    },
+    {
+      "role": "added",
+      "position": 246,
+      "train_id": 398,
+      "canonical": "saucepan",
+      "historical_prompt": "saucepan",
+      "prompt": "saucepan"
+    },
+    {
+      "role": "added",
+      "position": 247,
+      "train_id": 399,
+      "canonical": "shops",
+      "historical_prompt": "shops",
+      "prompt": "shops"
+    },
+    {
+      "role": "added",
+      "position": 248,
+      "train_id": 400,
+      "canonical": "meter",
+      "historical_prompt": "meter",
+      "prompt": "meter"
+    },
+    {
+      "role": "added",
+      "position": 249,
+      "train_id": 401,
+      "canonical": "crevasse",
+      "historical_prompt": "crevasse",
+      "prompt": "crevasse"
+    },
+    {
+      "role": "added",
+      "position": 250,
+      "train_id": 402,
+      "canonical": "gear",
+      "historical_prompt": "gear",
+      "prompt": "gear"
+    },
+    {
+      "role": "added",
+      "position": 251,
+      "train_id": 403,
+      "canonical": "candelabrum, candelabra",
+      "historical_prompt": "candelabrum",
+      "prompt": "candelabrum"
+    },
+    {
+      "role": "added",
+      "position": 252,
+      "train_id": 404,
+      "canonical": "sofa bed",
+      "historical_prompt": "sofabed",
+      "prompt": "sofa bed"
+    },
+    {
+      "role": "added",
+      "position": 253,
+      "train_id": 405,
+      "canonical": "tunnel",
+      "historical_prompt": "tunnel",
+      "prompt": "tunnel"
+    },
+    {
+      "role": "added",
+      "position": 254,
+      "train_id": 406,
+      "canonical": "pallet",
+      "historical_prompt": "pallet",
+      "prompt": "pallet"
+    },
+    {
+      "role": "added",
+      "position": 255,
+      "train_id": 407,
+      "canonical": "wire, conducting wire",
+      "historical_prompt": "wire",
+      "prompt": "wire"
+    },
+    {
+      "role": "added",
+      "position": 256,
+      "train_id": 408,
+      "canonical": "kettle, boiler",
+      "historical_prompt": "kettle",
+      "prompt": "kettle"
+    },
+    {
+      "role": "added",
+      "position": 257,
+      "train_id": 409,
+      "canonical": "bidet",
+      "historical_prompt": "bidet",
+      "prompt": "bidet"
+    },
+    {
+      "role": "added",
+      "position": 258,
+      "train_id": 410,
+      "canonical": "baby buggy, baby carriage, carriage, perambulator, pram, stroller, go-cart, pushchair, pusher",
+      "historical_prompt": "babybuggy",
+      "prompt": "baby buggy"
+    },
+    {
+      "role": "added",
+      "position": 259,
+      "train_id": 411,
+      "canonical": "music stand",
+      "historical_prompt": "musicstand",
+      "prompt": "music stand"
+    },
+    {
+      "role": "added",
+      "position": 260,
+      "train_id": 412,
+      "canonical": "pipe, tube",
+      "historical_prompt": "pipetube",
+      "prompt": "tube"
+    },
+    {
+      "role": "added",
+      "position": 261,
+      "train_id": 413,
+      "canonical": "cup",
+      "historical_prompt": "cup",
+      "prompt": "cup"
+    },
+    {
+      "role": "added",
+      "position": 262,
+      "train_id": 414,
+      "canonical": "parking meter",
+      "historical_prompt": "parkingmeter",
+      "prompt": "parking meter"
+    },
+    {
+      "role": "added",
+      "position": 263,
+      "train_id": 415,
+      "canonical": "ice hockey rink",
+      "historical_prompt": "icehockeyrink",
+      "prompt": "ice hockey rink"
+    },
+    {
+      "role": "added",
+      "position": 264,
+      "train_id": 416,
+      "canonical": "shelter",
+      "historical_prompt": "shelter",
+      "prompt": "shelter"
+    },
+    {
+      "role": "added",
+      "position": 265,
+      "train_id": 417,
+      "canonical": "weeds",
+      "historical_prompt": "weeds",
+      "prompt": "weeds"
+    },
+    {
+      "role": "added",
+      "position": 266,
+      "train_id": 418,
+      "canonical": "temple",
+      "historical_prompt": "temple",
+      "prompt": "temple"
+    },
+    {
+      "role": "added",
+      "position": 267,
+      "train_id": 419,
+      "canonical": "patty, cake",
+      "historical_prompt": "patty",
+      "prompt": "patty"
+    },
+    {
+      "role": "added",
+      "position": 268,
+      "train_id": 420,
+      "canonical": "ski slope",
+      "historical_prompt": "skislope",
+      "prompt": "ski slope"
+    },
+    {
+      "role": "added",
+      "position": 269,
+      "train_id": 421,
+      "canonical": "panel",
+      "historical_prompt": "panel",
+      "prompt": "panel"
+    },
+    {
+      "role": "added",
+      "position": 270,
+      "train_id": 422,
+      "canonical": "wallet",
+      "historical_prompt": "wallet",
+      "prompt": "wallet"
+    },
+    {
+      "role": "added",
+      "position": 271,
+      "train_id": 423,
+      "canonical": "wheel",
+      "historical_prompt": "wheel",
+      "prompt": "wheel"
+    },
+    {
+      "role": "added",
+      "position": 272,
+      "train_id": 424,
+      "canonical": "towel rack, towel horse",
+      "historical_prompt": "towelrack",
+      "prompt": "towel rack"
+    },
+    {
+      "role": "added",
+      "position": 273,
+      "train_id": 425,
+      "canonical": "roundabout",
+      "historical_prompt": "roundabout",
+      "prompt": "roundabout"
+    },
+    {
+      "role": "added",
+      "position": 274,
+      "train_id": 426,
+      "canonical": "canister, cannister, tin",
+      "historical_prompt": "canister",
+      "prompt": "canister"
+    },
+    {
+      "role": "added",
+      "position": 275,
+      "train_id": 427,
+      "canonical": "rod",
+      "historical_prompt": "rod",
+      "prompt": "rod"
+    },
+    {
+      "role": "added",
+      "position": 276,
+      "train_id": 428,
+      "canonical": "soap dispenser",
+      "historical_prompt": "soapdispenser",
+      "prompt": "soap dispenser"
+    },
+    {
+      "role": "added",
+      "position": 277,
+      "train_id": 429,
+      "canonical": "bell",
+      "historical_prompt": "bell",
+      "prompt": "bell"
+    },
+    {
+      "role": "added",
+      "position": 278,
+      "train_id": 430,
+      "canonical": "canvas",
+      "historical_prompt": "canvas",
+      "prompt": "canvas"
+    },
+    {
+      "role": "added",
+      "position": 279,
+      "train_id": 431,
+      "canonical": "box office, ticket office, ticket booth",
+      "historical_prompt": "boxoffice",
+      "prompt": "box office"
+    },
+    {
+      "role": "added",
+      "position": 280,
+      "train_id": 432,
+      "canonical": "teacup",
+      "historical_prompt": "teacup",
+      "prompt": "teacup"
+    },
+    {
+      "role": "added",
+      "position": 281,
+      "train_id": 433,
+      "canonical": "trellis",
+      "historical_prompt": "trellis",
+      "prompt": "trellis"
+    },
+    {
+      "role": "added",
+      "position": 282,
+      "train_id": 434,
+      "canonical": "workbench",
+      "historical_prompt": "workbench",
+      "prompt": "workbench"
+    },
+    {
+      "role": "added",
+      "position": 283,
+      "train_id": 435,
+      "canonical": "valley, vale",
+      "historical_prompt": "valley",
+      "prompt": "valley"
+    },
+    {
+      "role": "added",
+      "position": 284,
+      "train_id": 436,
+      "canonical": "toaster",
+      "historical_prompt": "toaster",
+      "prompt": "toaster"
+    },
+    {
+      "role": "added",
+      "position": 285,
+      "train_id": 437,
+      "canonical": "knife",
+      "historical_prompt": "knife",
+      "prompt": "knife"
+    },
+    {
+      "role": "added",
+      "position": 286,
+      "train_id": 438,
+      "canonical": "podium",
+      "historical_prompt": "podium",
+      "prompt": "podium"
+    },
+    {
+      "role": "added",
+      "position": 287,
+      "train_id": 439,
+      "canonical": "ramp",
+      "historical_prompt": "ramp",
+      "prompt": "ramp"
+    },
+    {
+      "role": "added",
+      "position": 288,
+      "train_id": 440,
+      "canonical": "tumble dryer",
+      "historical_prompt": "tumbledryer",
+      "prompt": "tumble dryer"
+    },
+    {
+      "role": "added",
+      "position": 289,
+      "train_id": 441,
+      "canonical": "fireplug, fire hydrant, plug",
+      "historical_prompt": "fireplug",
+      "prompt": "fireplug"
+    },
+    {
+      "role": "added",
+      "position": 290,
+      "train_id": 442,
+      "canonical": "gym shoe, sneaker, tennis shoe",
+      "historical_prompt": "gymshoe",
+      "prompt": "gym shoe"
+    },
+    {
+      "role": "added",
+      "position": 291,
+      "train_id": 443,
+      "canonical": "lab bench",
+      "historical_prompt": "labbench",
+      "prompt": "lab bench"
+    },
+    {
+      "role": "added",
+      "position": 292,
+      "train_id": 444,
+      "canonical": "equipment",
+      "historical_prompt": "equipment",
+      "prompt": "equipment"
+    },
+    {
+      "role": "added",
+      "position": 293,
+      "train_id": 445,
+      "canonical": "rocky formation",
+      "historical_prompt": "rockyformation",
+      "prompt": "rocky formation"
+    },
+    {
+      "role": "added",
+      "position": 294,
+      "train_id": 446,
+      "canonical": "plastic",
+      "historical_prompt": "plastic",
+      "prompt": "plastic"
+    },
+    {
+      "role": "added",
+      "position": 295,
+      "train_id": 447,
+      "canonical": "calendar",
+      "historical_prompt": "calendar",
+      "prompt": "calendar"
+    },
+    {
+      "role": "added",
+      "position": 296,
+      "train_id": 448,
+      "canonical": "caravan",
+      "historical_prompt": "caravan",
+      "prompt": "caravan"
+    },
+    {
+      "role": "added",
+      "position": 297,
+      "train_id": 449,
+      "canonical": "check-in-desk",
+      "historical_prompt": "checkindesk",
+      "prompt": "check-in-desk"
+    },
+    {
+      "role": "added",
+      "position": 298,
+      "train_id": 450,
+      "canonical": "ticket counter",
+      "historical_prompt": "ticketcounter",
+      "prompt": "ticket counter"
+    },
+    {
+      "role": "added",
+      "position": 299,
+      "train_id": 451,
+      "canonical": "brush",
+      "historical_prompt": "brush",
+      "prompt": "brush"
+    },
+    {
+      "role": "added",
+      "position": 300,
+      "train_id": 452,
+      "canonical": "mill",
+      "historical_prompt": "mill",
+      "prompt": "mill"
+    },
+    {
+      "role": "added",
+      "position": 301,
+      "train_id": 453,
+      "canonical": "covered bridge",
+      "historical_prompt": "coveredbridge",
+      "prompt": "covered bridge"
+    },
+    {
+      "role": "added",
+      "position": 302,
+      "train_id": 454,
+      "canonical": "bowling alley",
+      "historical_prompt": "bowlingalley",
+      "prompt": "bowling alley"
+    },
+    {
+      "role": "added",
+      "position": 303,
+      "train_id": 455,
+      "canonical": "hanger",
+      "historical_prompt": "hanger",
+      "prompt": "hanger"
+    },
+    {
+      "role": "added",
+      "position": 304,
+      "train_id": 456,
+      "canonical": "excavator",
+      "historical_prompt": "excavator",
+      "prompt": "excavator"
+    },
+    {
+      "role": "added",
+      "position": 305,
+      "train_id": 457,
+      "canonical": "trestle",
+      "historical_prompt": "trestle",
+      "prompt": "trestle"
+    },
+    {
+      "role": "added",
+      "position": 306,
+      "train_id": 458,
+      "canonical": "revolving door",
+      "historical_prompt": "revolvingdoor",
+      "prompt": "revolving door"
+    },
+    {
+      "role": "added",
+      "position": 307,
+      "train_id": 459,
+      "canonical": "blast furnace",
+      "historical_prompt": "blastfurnace",
+      "prompt": "blast furnace"
+    },
+    {
+      "role": "added",
+      "position": 308,
+      "train_id": 460,
+      "canonical": "scale, weighing machine",
+      "historical_prompt": "scale",
+      "prompt": "scale"
+    },
+    {
+      "role": "added",
+      "position": 309,
+      "train_id": 461,
+      "canonical": "projector",
+      "historical_prompt": "projector",
+      "prompt": "projector"
+    },
+    {
+      "role": "added",
+      "position": 310,
+      "train_id": 462,
+      "canonical": "soap",
+      "historical_prompt": "soap",
+      "prompt": "soap"
+    },
+    {
+      "role": "added",
+      "position": 311,
+      "train_id": 463,
+      "canonical": "locker",
+      "historical_prompt": "locker",
+      "prompt": "locker"
+    },
+    {
+      "role": "added",
+      "position": 312,
+      "train_id": 464,
+      "canonical": "tractor",
+      "historical_prompt": "tractor",
+      "prompt": "tractor"
+    },
+    {
+      "role": "added",
+      "position": 313,
+      "train_id": 465,
+      "canonical": "stretcher",
+      "historical_prompt": "stretcher",
+      "prompt": "stretcher"
+    },
+    {
+      "role": "added",
+      "position": 314,
+      "train_id": 466,
+      "canonical": "frame",
+      "historical_prompt": "frame",
+      "prompt": "frame"
+    },
+    {
+      "role": "added",
+      "position": 315,
+      "train_id": 467,
+      "canonical": "grating",
+      "historical_prompt": "grating",
+      "prompt": "grating"
+    },
+    {
+      "role": "added",
+      "position": 316,
+      "train_id": 468,
+      "canonical": "alembic",
+      "historical_prompt": "alembic",
+      "prompt": "alembic"
+    },
+    {
+      "role": "added",
+      "position": 317,
+      "train_id": 469,
+      "canonical": "candle, taper, wax light",
+      "historical_prompt": "candle",
+      "prompt": "candle"
+    },
+    {
+      "role": "added",
+      "position": 318,
+      "train_id": 470,
+      "canonical": "barrier",
+      "historical_prompt": "barrier",
+      "prompt": "barrier"
+    },
+    {
+      "role": "added",
+      "position": 319,
+      "train_id": 471,
+      "canonical": "cardboard",
+      "historical_prompt": "cardboard",
+      "prompt": "cardboard"
+    },
+    {
+      "role": "added",
+      "position": 320,
+      "train_id": 472,
+      "canonical": "cave",
+      "historical_prompt": "cave",
+      "prompt": "cave"
+    },
+    {
+      "role": "added",
+      "position": 321,
+      "train_id": 473,
+      "canonical": "puddle",
+      "historical_prompt": "puddle",
+      "prompt": "puddle"
+    },
+    {
+      "role": "added",
+      "position": 322,
+      "train_id": 474,
+      "canonical": "tarp",
+      "historical_prompt": "tarp",
+      "prompt": "tarp"
+    },
+    {
+      "role": "added",
+      "position": 323,
+      "train_id": 475,
+      "canonical": "price tag",
+      "historical_prompt": "pricetag",
+      "prompt": "price tag"
+    },
+    {
+      "role": "added",
+      "position": 324,
+      "train_id": 476,
+      "canonical": "watchtower",
+      "historical_prompt": "watchtower",
+      "prompt": "watchtower"
+    },
+    {
+      "role": "added",
+      "position": 325,
+      "train_id": 477,
+      "canonical": "meters",
+      "historical_prompt": "meters",
+      "prompt": "meters"
+    },
+    {
+      "role": "added",
+      "position": 326,
+      "train_id": 478,
+      "canonical": "light bulb, lightbulb, bulb, incandescent lamp, electric light, electric-light bulb",
+      "historical_prompt": "lightbulb",
+      "prompt": "light bulb"
+    },
+    {
+      "role": "added",
+      "position": 327,
+      "train_id": 479,
+      "canonical": "tracks",
+      "historical_prompt": "tracks",
+      "prompt": "tracks"
+    },
+    {
+      "role": "added",
+      "position": 328,
+      "train_id": 480,
+      "canonical": "hair dryer",
+      "historical_prompt": "hairdryer",
+      "prompt": "hair dryer"
+    },
+    {
+      "role": "added",
+      "position": 329,
+      "train_id": 481,
+      "canonical": "skirt",
+      "historical_prompt": "skirt",
+      "prompt": "skirt"
+    },
+    {
+      "role": "added",
+      "position": 330,
+      "train_id": 482,
+      "canonical": "viaduct",
+      "historical_prompt": "viaduct",
+      "prompt": "viaduct"
+    },
+    {
+      "role": "added",
+      "position": 331,
+      "train_id": 483,
+      "canonical": "paper towel",
+      "historical_prompt": "papertowel",
+      "prompt": "paper towel"
+    },
+    {
+      "role": "added",
+      "position": 332,
+      "train_id": 484,
+      "canonical": "coat",
+      "historical_prompt": "coat",
+      "prompt": "coat"
+    },
+    {
+      "role": "added",
+      "position": 333,
+      "train_id": 485,
+      "canonical": "sheet",
+      "historical_prompt": "sheet",
+      "prompt": "sheet"
+    },
+    {
+      "role": "added",
+      "position": 334,
+      "train_id": 486,
+      "canonical": "fire extinguisher, extinguisher, asphyxiator",
+      "historical_prompt": "fireextinguisher",
+      "prompt": "fire extinguisher"
+    },
+    {
+      "role": "added",
+      "position": 335,
+      "train_id": 487,
+      "canonical": "water wheel",
+      "historical_prompt": "waterwheel",
+      "prompt": "water wheel"
+    },
+    {
+      "role": "added",
+      "position": 336,
+      "train_id": 488,
+      "canonical": "pottery, clayware",
+      "historical_prompt": "pottery",
+      "prompt": "pottery"
+    },
+    {
+      "role": "added",
+      "position": 337,
+      "train_id": 489,
+      "canonical": "magazine rack",
+      "historical_prompt": "magazinerack",
+      "prompt": "magazine rack"
+    },
+    {
+      "role": "added",
+      "position": 338,
+      "train_id": 490,
+      "canonical": "teapot",
+      "historical_prompt": "teapot",
+      "prompt": "teapot"
+    },
+    {
+      "role": "added",
+      "position": 339,
+      "train_id": 491,
+      "canonical": "microphone, mike",
+      "historical_prompt": "microphone",
+      "prompt": "microphone"
+    },
+    {
+      "role": "added",
+      "position": 340,
+      "train_id": 492,
+      "canonical": "support",
+      "historical_prompt": "support",
+      "prompt": "support"
+    },
+    {
+      "role": "added",
+      "position": 341,
+      "train_id": 493,
+      "canonical": "forklift",
+      "historical_prompt": "forklift",
+      "prompt": "forklift"
+    },
+    {
+      "role": "added",
+      "position": 342,
+      "train_id": 494,
+      "canonical": "canyon",
+      "historical_prompt": "canyon",
+      "prompt": "canyon"
+    },
+    {
+      "role": "added",
+      "position": 343,
+      "train_id": 495,
+      "canonical": "cash register, register",
+      "historical_prompt": "cashregister",
+      "prompt": "cash register"
+    },
+    {
+      "role": "added",
+      "position": 344,
+      "train_id": 496,
+      "canonical": "leaf, leafage, foliage",
+      "historical_prompt": "leaf",
+      "prompt": "leaf"
+    },
+    {
+      "role": "added",
+      "position": 345,
+      "train_id": 497,
+      "canonical": "remote control, remote",
+      "historical_prompt": "remotecontrol",
+      "prompt": "remote control"
+    },
+    {
+      "role": "added",
+      "position": 346,
+      "train_id": 498,
+      "canonical": "soap dish",
+      "historical_prompt": "soapdish",
+      "prompt": "soap dish"
+    },
+    {
+      "role": "added",
+      "position": 347,
+      "train_id": 499,
+      "canonical": "windshield, windscreen",
+      "historical_prompt": "windshield",
+      "prompt": "windshield"
+    },
+    {
+      "role": "added",
+      "position": 348,
+      "train_id": 500,
+      "canonical": "cat",
+      "historical_prompt": "cat",
+      "prompt": "cat"
+    },
+    {
+      "role": "added",
+      "position": 349,
+      "train_id": 501,
+      "canonical": "cue, cue stick, pool cue, pool stick",
+      "historical_prompt": "cue",
+      "prompt": "cue"
+    },
+    {
+      "role": "added",
+      "position": 350,
+      "train_id": 502,
+      "canonical": "vent, venthole, vent-hole, blowhole",
+      "historical_prompt": "vent",
+      "prompt": "vent"
+    },
+    {
+      "role": "added",
+      "position": 351,
+      "train_id": 503,
+      "canonical": "videos",
+      "historical_prompt": "videos",
+      "prompt": "videos"
+    },
+    {
+      "role": "added",
+      "position": 352,
+      "train_id": 504,
+      "canonical": "shovel",
+      "historical_prompt": "shovel",
+      "prompt": "shovel"
+    },
+    {
+      "role": "added",
+      "position": 353,
+      "train_id": 505,
+      "canonical": "eaves",
+      "historical_prompt": "eaves",
+      "prompt": "eaves"
+    },
+    {
+      "role": "added",
+      "position": 354,
+      "train_id": 506,
+      "canonical": "antenna, aerial, transmitting aerial",
+      "historical_prompt": "antenna",
+      "prompt": "antenna"
+    },
+    {
+      "role": "added",
+      "position": 355,
+      "train_id": 507,
+      "canonical": "shipyard",
+      "historical_prompt": "shipyard",
+      "prompt": "shipyard"
+    },
+    {
+      "role": "added",
+      "position": 356,
+      "train_id": 508,
+      "canonical": "hen, biddy",
+      "historical_prompt": "hen",
+      "prompt": "hen"
+    },
+    {
+      "role": "added",
+      "position": 357,
+      "train_id": 509,
+      "canonical": "traffic cone",
+      "historical_prompt": "trafficcone",
+      "prompt": "traffic cone"
+    },
+    {
+      "role": "added",
+      "position": 358,
+      "train_id": 510,
+      "canonical": "washing machines",
+      "historical_prompt": "washingmachines",
+      "prompt": "washing machines"
+    },
+    {
+      "role": "added",
+      "position": 359,
+      "train_id": 511,
+      "canonical": "truck crane",
+      "historical_prompt": "truckcrane",
+      "prompt": "truck crane"
+    },
+    {
+      "role": "added",
+      "position": 360,
+      "train_id": 512,
+      "canonical": "cds",
+      "historical_prompt": "cds",
+      "prompt": "cds"
+    },
+    {
+      "role": "added",
+      "position": 361,
+      "train_id": 513,
+      "canonical": "niche",
+      "historical_prompt": "niche",
+      "prompt": "niche"
+    },
+    {
+      "role": "added",
+      "position": 362,
+      "train_id": 514,
+      "canonical": "scoreboard",
+      "historical_prompt": "scoreboard",
+      "prompt": "scoreboard"
+    },
+    {
+      "role": "added",
+      "position": 363,
+      "train_id": 515,
+      "canonical": "briefcase",
+      "historical_prompt": "briefcase",
+      "prompt": "briefcase"
+    },
+    {
+      "role": "added",
+      "position": 364,
+      "train_id": 516,
+      "canonical": "boot",
+      "historical_prompt": "boot",
+      "prompt": "boot"
+    },
+    {
+      "role": "added",
+      "position": 365,
+      "train_id": 517,
+      "canonical": "sweater, jumper",
+      "historical_prompt": "sweater",
+      "prompt": "sweater"
+    },
+    {
+      "role": "added",
+      "position": 366,
+      "train_id": 518,
+      "canonical": "hay",
+      "historical_prompt": "hay",
+      "prompt": "hay"
+    },
+    {
+      "role": "added",
+      "position": 367,
+      "train_id": 519,
+      "canonical": "pack",
+      "historical_prompt": "pack",
+      "prompt": "pack"
+    },
+    {
+      "role": "added",
+      "position": 368,
+      "train_id": 520,
+      "canonical": "bottle rack",
+      "historical_prompt": "bottlerack",
+      "prompt": "bottle rack"
+    },
+    {
+      "role": "added",
+      "position": 369,
+      "train_id": 521,
+      "canonical": "glacier",
+      "historical_prompt": "glacier",
+      "prompt": "glacier"
+    },
+    {
+      "role": "added",
+      "position": 370,
+      "train_id": 522,
+      "canonical": "pergola",
+      "historical_prompt": "pergola",
+      "prompt": "pergola"
+    },
+    {
+      "role": "added",
+      "position": 371,
+      "train_id": 523,
+      "canonical": "building materials",
+      "historical_prompt": "buildingmaterials",
+      "prompt": "building materials"
+    },
+    {
+      "role": "added",
+      "position": 372,
+      "train_id": 524,
+      "canonical": "television camera",
+      "historical_prompt": "televisioncamera",
+      "prompt": "television camera"
+    },
+    {
+      "role": "added",
+      "position": 373,
+      "train_id": 525,
+      "canonical": "first floor",
+      "historical_prompt": "firstfloor",
+      "prompt": "first floor"
+    },
+    {
+      "role": "added",
+      "position": 374,
+      "train_id": 526,
+      "canonical": "rifle",
+      "historical_prompt": "rifle",
+      "prompt": "rifle"
+    },
+    {
+      "role": "added",
+      "position": 375,
+      "train_id": 527,
+      "canonical": "tennis table",
+      "historical_prompt": "tennistable",
+      "prompt": "tennis table"
+    },
+    {
+      "role": "added",
+      "position": 376,
+      "train_id": 528,
+      "canonical": "stadium",
+      "historical_prompt": "stadium",
+      "prompt": "stadium"
+    },
+    {
+      "role": "added",
+      "position": 377,
+      "train_id": 529,
+      "canonical": "safety belt",
+      "historical_prompt": "safetybelt",
+      "prompt": "safety belt"
+    },
+    {
+      "role": "added",
+      "position": 378,
+      "train_id": 530,
+      "canonical": "cover",
+      "historical_prompt": "cover",
+      "prompt": "cover"
+    },
+    {
+      "role": "added",
+      "position": 379,
+      "train_id": 531,
+      "canonical": "dish rack",
+      "historical_prompt": "dishrack",
+      "prompt": "dish rack"
+    },
+    {
+      "role": "added",
+      "position": 380,
+      "train_id": 532,
+      "canonical": "synthesizer",
+      "historical_prompt": "synthesizer",
+      "prompt": "synthesizer"
+    },
+    {
+      "role": "added",
+      "position": 381,
+      "train_id": 533,
+      "canonical": "pumpkin",
+      "historical_prompt": "pumpkin",
+      "prompt": "pumpkin"
+    },
+    {
+      "role": "added",
+      "position": 382,
+      "train_id": 534,
+      "canonical": "gutter",
+      "historical_prompt": "gutter",
+      "prompt": "gutter"
+    },
+    {
+      "role": "added",
+      "position": 383,
+      "train_id": 535,
+      "canonical": "fruit stand",
+      "historical_prompt": "fruitstand",
+      "prompt": "fruit stand"
+    },
+    {
+      "role": "added",
+      "position": 384,
+      "train_id": 536,
+      "canonical": "ice floe, floe",
+      "historical_prompt": "icefloe",
+      "prompt": "ice floe"
+    },
+    {
+      "role": "added",
+      "position": 385,
+      "train_id": 537,
+      "canonical": "handle, grip, handgrip, hold",
+      "historical_prompt": "handle",
+      "prompt": "handle"
+    },
+    {
+      "role": "added",
+      "position": 386,
+      "train_id": 538,
+      "canonical": "wheelchair",
+      "historical_prompt": "wheelchair",
+      "prompt": "wheelchair"
+    },
+    {
+      "role": "added",
+      "position": 387,
+      "train_id": 539,
+      "canonical": "mousepad, mouse mat",
+      "historical_prompt": "mousepad",
+      "prompt": "mousepad"
+    },
+    {
+      "role": "added",
+      "position": 388,
+      "train_id": 540,
+      "canonical": "diploma",
+      "historical_prompt": "diploma",
+      "prompt": "diploma"
+    },
+    {
+      "role": "added",
+      "position": 389,
+      "train_id": 541,
+      "canonical": "fairground ride",
+      "historical_prompt": "fairgroundride",
+      "prompt": "fairground ride"
+    },
+    {
+      "role": "added",
+      "position": 390,
+      "train_id": 542,
+      "canonical": "radio",
+      "historical_prompt": "radio",
+      "prompt": "radio"
+    },
+    {
+      "role": "added",
+      "position": 391,
+      "train_id": 543,
+      "canonical": "hotplate",
+      "historical_prompt": "hotplate",
+      "prompt": "hotplate"
+    },
+    {
+      "role": "added",
+      "position": 392,
+      "train_id": 544,
+      "canonical": "junk",
+      "historical_prompt": "junk",
+      "prompt": "junk"
+    },
+    {
+      "role": "added",
+      "position": 393,
+      "train_id": 545,
+      "canonical": "wheelbarrow",
+      "historical_prompt": "wheelbarrow",
+      "prompt": "wheelbarrow"
+    },
+    {
+      "role": "added",
+      "position": 394,
+      "train_id": 546,
+      "canonical": "stream",
+      "historical_prompt": "stream",
+      "prompt": "stream"
+    },
+    {
+      "role": "added",
+      "position": 395,
+      "train_id": 547,
+      "canonical": "toll plaza",
+      "historical_prompt": "tollplaza",
+      "prompt": "toll plaza"
+    },
+    {
+      "role": "added",
+      "position": 396,
+      "train_id": 548,
+      "canonical": "punching bag",
+      "historical_prompt": "punchingbag",
+      "prompt": "punching bag"
+    },
+    {
+      "role": "added",
+      "position": 397,
+      "train_id": 549,
+      "canonical": "trough",
+      "historical_prompt": "trough",
+      "prompt": "trough"
+    },
+    {
+      "role": "added",
+      "position": 398,
+      "train_id": 550,
+      "canonical": "throne",
+      "historical_prompt": "throne",
+      "prompt": "throne"
+    },
+    {
+      "role": "added",
+      "position": 399,
+      "train_id": 551,
+      "canonical": "chair desk",
+      "historical_prompt": "chairdesk",
+      "prompt": "chair desk"
+    },
+    {
+      "role": "added",
+      "position": 400,
+      "train_id": 552,
+      "canonical": "weighbridge",
+      "historical_prompt": "weighbridge",
+      "prompt": "weighbridge"
+    },
+    {
+      "role": "added",
+      "position": 401,
+      "train_id": 553,
+      "canonical": "extractor fan",
+      "historical_prompt": "extractorfan",
+      "prompt": "extractor fan"
+    },
+    {
+      "role": "added",
+      "position": 402,
+      "train_id": 554,
+      "canonical": "hanging clothes",
+      "historical_prompt": "hangingclothes",
+      "prompt": "hanging clothes"
+    },
+    {
+      "role": "added",
+      "position": 403,
+      "train_id": 555,
+      "canonical": "dish, dish aerial, dish antenna, saucer",
+      "historical_prompt": "dish",
+      "prompt": "dish"
+    },
+    {
+      "role": "added",
+      "position": 404,
+      "train_id": 556,
+      "canonical": "alarm clock, alarm",
+      "historical_prompt": "alarmclock",
+      "prompt": "alarm clock"
+    },
+    {
+      "role": "added",
+      "position": 405,
+      "train_id": 557,
+      "canonical": "ski lift",
+      "historical_prompt": "skilift",
+      "prompt": "ski lift"
+    },
+    {
+      "role": "added",
+      "position": 406,
+      "train_id": 558,
+      "canonical": "chain",
+      "historical_prompt": "chain",
+      "prompt": "chain"
+    },
+    {
+      "role": "added",
+      "position": 407,
+      "train_id": 559,
+      "canonical": "garage",
+      "historical_prompt": "garage",
+      "prompt": "garage"
+    },
+    {
+      "role": "added",
+      "position": 408,
+      "train_id": 560,
+      "canonical": "mechanical shovel",
+      "historical_prompt": "mechanicalshovel",
+      "prompt": "mechanical shovel"
+    },
+    {
+      "role": "added",
+      "position": 409,
+      "train_id": 561,
+      "canonical": "wine rack",
+      "historical_prompt": "winerack",
+      "prompt": "wine rack"
+    },
+    {
+      "role": "added",
+      "position": 410,
+      "train_id": 562,
+      "canonical": "tramway",
+      "historical_prompt": "tramway",
+      "prompt": "tramway"
+    },
+    {
+      "role": "added",
+      "position": 411,
+      "train_id": 563,
+      "canonical": "treadmill",
+      "historical_prompt": "treadmill",
+      "prompt": "treadmill"
+    },
+    {
+      "role": "added",
+      "position": 412,
+      "train_id": 564,
+      "canonical": "menu",
+      "historical_prompt": "menu",
+      "prompt": "menu"
+    },
+    {
+      "role": "added",
+      "position": 413,
+      "train_id": 565,
+      "canonical": "block",
+      "historical_prompt": "block",
+      "prompt": "block"
+    },
+    {
+      "role": "added",
+      "position": 414,
+      "train_id": 566,
+      "canonical": "well",
+      "historical_prompt": "well",
+      "prompt": "well"
+    },
+    {
+      "role": "added",
+      "position": 415,
+      "train_id": 567,
+      "canonical": "witness stand",
+      "historical_prompt": "witnessstand",
+      "prompt": "witness stand"
+    },
+    {
+      "role": "added",
+      "position": 416,
+      "train_id": 568,
+      "canonical": "branch",
+      "historical_prompt": "branch",
+      "prompt": "branch"
+    },
+    {
+      "role": "added",
+      "position": 417,
+      "train_id": 569,
+      "canonical": "duck",
+      "historical_prompt": "duck",
+      "prompt": "duck"
+    },
+    {
+      "role": "added",
+      "position": 418,
+      "train_id": 570,
+      "canonical": "casserole",
+      "historical_prompt": "casserole",
+      "prompt": "casserole"
+    },
+    {
+      "role": "added",
+      "position": 419,
+      "train_id": 571,
+      "canonical": "frying pan",
+      "historical_prompt": "fryingpan",
+      "prompt": "frying pan"
+    },
+    {
+      "role": "added",
+      "position": 420,
+      "train_id": 572,
+      "canonical": "desk organizer",
+      "historical_prompt": "deskorganizer",
+      "prompt": "desk organizer"
+    },
+    {
+      "role": "added",
+      "position": 421,
+      "train_id": 573,
+      "canonical": "mast",
+      "historical_prompt": "mast",
+      "prompt": "mast"
+    },
+    {
+      "role": "added",
+      "position": 422,
+      "train_id": 574,
+      "canonical": "spectacles, specs, eyeglasses, glasses",
+      "historical_prompt": "spectacles",
+      "prompt": "spectacles"
+    },
+    {
+      "role": "added",
+      "position": 423,
+      "train_id": 575,
+      "canonical": "service elevator",
+      "historical_prompt": "serviceelevator",
+      "prompt": "service elevator"
+    },
+    {
+      "role": "added",
+      "position": 424,
+      "train_id": 576,
+      "canonical": "dollhouse",
+      "historical_prompt": "dollhouse",
+      "prompt": "dollhouse"
+    },
+    {
+      "role": "added",
+      "position": 425,
+      "train_id": 577,
+      "canonical": "hammock",
+      "historical_prompt": "hammock",
+      "prompt": "hammock"
+    },
+    {
+      "role": "added",
+      "position": 426,
+      "train_id": 578,
+      "canonical": "clothes hanging",
+      "historical_prompt": "clotheshanging",
+      "prompt": "clothes hanging"
+    },
+    {
+      "role": "added",
+      "position": 427,
+      "train_id": 579,
+      "canonical": "photocopier",
+      "historical_prompt": "photocopier",
+      "prompt": "photocopier"
+    },
+    {
+      "role": "added",
+      "position": 428,
+      "train_id": 580,
+      "canonical": "notepad",
+      "historical_prompt": "notepad",
+      "prompt": "notepad"
+    },
+    {
+      "role": "added",
+      "position": 429,
+      "train_id": 581,
+      "canonical": "golf cart",
+      "historical_prompt": "golfcart",
+      "prompt": "golf cart"
+    },
+    {
+      "role": "added",
+      "position": 430,
+      "train_id": 582,
+      "canonical": "footpath",
+      "historical_prompt": "footpath",
+      "prompt": "footpath"
+    },
+    {
+      "role": "added",
+      "position": 431,
+      "train_id": 583,
+      "canonical": "cross",
+      "historical_prompt": "cross",
+      "prompt": "cross"
+    },
+    {
+      "role": "added",
+      "position": 432,
+      "train_id": 584,
+      "canonical": "baptismal font",
+      "historical_prompt": "baptismalfont",
+      "prompt": "baptismal font"
+    },
+    {
+      "role": "added",
+      "position": 433,
+      "train_id": 585,
+      "canonical": "boiler",
+      "historical_prompt": "boiler",
+      "prompt": "boiler"
+    },
+    {
+      "role": "added",
+      "position": 434,
+      "train_id": 586,
+      "canonical": "skip",
+      "historical_prompt": "skip",
+      "prompt": "skip"
+    },
+    {
+      "role": "added",
+      "position": 435,
+      "train_id": 587,
+      "canonical": "rotisserie",
+      "historical_prompt": "rotisserie",
+      "prompt": "rotisserie"
+    },
+    {
+      "role": "added",
+      "position": 436,
+      "train_id": 588,
+      "canonical": "tables",
+      "historical_prompt": "tables",
+      "prompt": "tables"
+    },
+    {
+      "role": "added",
+      "position": 437,
+      "train_id": 589,
+      "canonical": "water mill",
+      "historical_prompt": "watermill",
+      "prompt": "water mill"
+    },
+    {
+      "role": "added",
+      "position": 438,
+      "train_id": 590,
+      "canonical": "helmet",
+      "historical_prompt": "helmet",
+      "prompt": "helmet"
+    },
+    {
+      "role": "added",
+      "position": 439,
+      "train_id": 591,
+      "canonical": "cover curtain",
+      "historical_prompt": "covercurtain",
+      "prompt": "cover curtain"
+    },
+    {
+      "role": "added",
+      "position": 440,
+      "train_id": 592,
+      "canonical": "brick",
+      "historical_prompt": "brick",
+      "prompt": "brick"
+    },
+    {
+      "role": "added",
+      "position": 441,
+      "train_id": 593,
+      "canonical": "table runner",
+      "historical_prompt": "tablerunner",
+      "prompt": "table runner"
+    },
+    {
+      "role": "added",
+      "position": 442,
+      "train_id": 594,
+      "canonical": "ashtray",
+      "historical_prompt": "ashtray",
+      "prompt": "ashtray"
+    },
+    {
+      "role": "added",
+      "position": 443,
+      "train_id": 595,
+      "canonical": "street box",
+      "historical_prompt": "streetbox",
+      "prompt": "street box"
+    },
+    {
+      "role": "added",
+      "position": 444,
+      "train_id": 596,
+      "canonical": "stick",
+      "historical_prompt": "stick",
+      "prompt": "stick"
+    },
+    {
+      "role": "added",
+      "position": 445,
+      "train_id": 597,
+      "canonical": "hangers",
+      "historical_prompt": "hangers",
+      "prompt": "hangers"
+    },
+    {
+      "role": "added",
+      "position": 446,
+      "train_id": 598,
+      "canonical": "cells",
+      "historical_prompt": "cells",
+      "prompt": "cells"
+    },
+    {
+      "role": "added",
+      "position": 447,
+      "train_id": 599,
+      "canonical": "urinal",
+      "historical_prompt": "urinal",
+      "prompt": "urinal"
+    },
+    {
+      "role": "added",
+      "position": 448,
+      "train_id": 600,
+      "canonical": "centerpiece",
+      "historical_prompt": "centerpiece",
+      "prompt": "centerpiece"
+    },
+    {
+      "role": "added",
+      "position": 449,
+      "train_id": 601,
+      "canonical": "portable fridge",
+      "historical_prompt": "portablefridge",
+      "prompt": "portable fridge"
+    },
+    {
+      "role": "added",
+      "position": 450,
+      "train_id": 602,
+      "canonical": "dvds",
+      "historical_prompt": "dvds",
+      "prompt": "dvds"
+    },
+    {
+      "role": "added",
+      "position": 451,
+      "train_id": 603,
+      "canonical": "golf club",
+      "historical_prompt": "golfclub",
+      "prompt": "golf club"
+    },
+    {
+      "role": "added",
+      "position": 452,
+      "train_id": 604,
+      "canonical": "skirting board",
+      "historical_prompt": "skirtingboard",
+      "prompt": "skirting board"
+    },
+    {
+      "role": "added",
+      "position": 453,
+      "train_id": 605,
+      "canonical": "water cooler",
+      "historical_prompt": "watercooler",
+      "prompt": "water cooler"
+    },
+    {
+      "role": "added",
+      "position": 454,
+      "train_id": 606,
+      "canonical": "clipboard",
+      "historical_prompt": "clipboard",
+      "prompt": "clipboard"
+    },
+    {
+      "role": "added",
+      "position": 455,
+      "train_id": 607,
+      "canonical": "camera, photographic camera",
+      "historical_prompt": "camera",
+      "prompt": "camera"
+    },
+    {
+      "role": "added",
+      "position": 456,
+      "train_id": 608,
+      "canonical": "pigeonhole",
+      "historical_prompt": "pigeonhole",
+      "prompt": "pigeonhole"
+    },
+    {
+      "role": "added",
+      "position": 457,
+      "train_id": 609,
+      "canonical": "chips",
+      "historical_prompt": "chips",
+      "prompt": "chips"
+    },
+    {
+      "role": "added",
+      "position": 458,
+      "train_id": 610,
+      "canonical": "food processor",
+      "historical_prompt": "foodprocessor",
+      "prompt": "food processor"
+    },
+    {
+      "role": "added",
+      "position": 459,
+      "train_id": 611,
+      "canonical": "post box",
+      "historical_prompt": "postbox",
+      "prompt": "post box"
+    },
+    {
+      "role": "added",
+      "position": 460,
+      "train_id": 612,
+      "canonical": "lid",
+      "historical_prompt": "lid",
+      "prompt": "lid"
+    },
+    {
+      "role": "added",
+      "position": 461,
+      "train_id": 613,
+      "canonical": "drum",
+      "historical_prompt": "drum",
+      "prompt": "drum"
+    },
+    {
+      "role": "added",
+      "position": 462,
+      "train_id": 614,
+      "canonical": "blender",
+      "historical_prompt": "blender",
+      "prompt": "blender"
+    },
+    {
+      "role": "added",
+      "position": 463,
+      "train_id": 615,
+      "canonical": "cave entrance",
+      "historical_prompt": "caveentrance",
+      "prompt": "cave entrance"
+    },
+    {
+      "role": "added",
+      "position": 464,
+      "train_id": 616,
+      "canonical": "dental chair",
+      "historical_prompt": "dentalchair",
+      "prompt": "dental chair"
+    },
+    {
+      "role": "added",
+      "position": 465,
+      "train_id": 617,
+      "canonical": "obelisk",
+      "historical_prompt": "obelisk",
+      "prompt": "obelisk"
+    },
+    {
+      "role": "added",
+      "position": 466,
+      "train_id": 618,
+      "canonical": "canoe",
+      "historical_prompt": "canoe",
+      "prompt": "canoe"
+    },
+    {
+      "role": "added",
+      "position": 467,
+      "train_id": 619,
+      "canonical": "mobile",
+      "historical_prompt": "mobile",
+      "prompt": "mobile"
+    },
+    {
+      "role": "added",
+      "position": 468,
+      "train_id": 620,
+      "canonical": "monitors",
+      "historical_prompt": "monitors",
+      "prompt": "monitors"
+    },
+    {
+      "role": "added",
+      "position": 469,
+      "train_id": 621,
+      "canonical": "pool ball",
+      "historical_prompt": "poolball",
+      "prompt": "pool ball"
+    },
+    {
+      "role": "added",
+      "position": 470,
+      "train_id": 622,
+      "canonical": "cue rack",
+      "historical_prompt": "cuerack",
+      "prompt": "cue rack"
+    },
+    {
+      "role": "added",
+      "position": 471,
+      "train_id": 623,
+      "canonical": "baggage carts",
+      "historical_prompt": "baggagecarts",
+      "prompt": "baggage carts"
+    },
+    {
+      "role": "added",
+      "position": 472,
+      "train_id": 624,
+      "canonical": "shore",
+      "historical_prompt": "shore",
+      "prompt": "shore"
+    },
+    {
+      "role": "added",
+      "position": 473,
+      "train_id": 625,
+      "canonical": "fork",
+      "historical_prompt": "fork",
+      "prompt": "fork"
+    },
+    {
+      "role": "added",
+      "position": 474,
+      "train_id": 626,
+      "canonical": "paper filer",
+      "historical_prompt": "paperfiler",
+      "prompt": "paper filer"
+    },
+    {
+      "role": "added",
+      "position": 475,
+      "train_id": 627,
+      "canonical": "bicycle rack",
+      "historical_prompt": "bicyclerack",
+      "prompt": "bicycle rack"
+    },
+    {
+      "role": "added",
+      "position": 476,
+      "train_id": 628,
+      "canonical": "coat rack",
+      "historical_prompt": "coatrack",
+      "prompt": "coat rack"
+    },
+    {
+      "role": "added",
+      "position": 477,
+      "train_id": 629,
+      "canonical": "garland",
+      "historical_prompt": "garland",
+      "prompt": "garland"
+    },
+    {
+      "role": "added",
+      "position": 478,
+      "train_id": 630,
+      "canonical": "sports bag",
+      "historical_prompt": "sportsbag",
+      "prompt": "sports bag"
+    },
+    {
+      "role": "added",
+      "position": 479,
+      "train_id": 631,
+      "canonical": "fish tank",
+      "historical_prompt": "fishtank",
+      "prompt": "fish tank"
+    },
+    {
+      "role": "added",
+      "position": 480,
+      "train_id": 632,
+      "canonical": "towel dispenser",
+      "historical_prompt": "toweldispenser",
+      "prompt": "towel dispenser"
+    },
+    {
+      "role": "added",
+      "position": 481,
+      "train_id": 633,
+      "canonical": "carriage",
+      "historical_prompt": "carriage",
+      "prompt": "carriage"
+    },
+    {
+      "role": "added",
+      "position": 482,
+      "train_id": 634,
+      "canonical": "brochure",
+      "historical_prompt": "brochure",
+      "prompt": "brochure"
+    },
+    {
+      "role": "added",
+      "position": 483,
+      "train_id": 635,
+      "canonical": "plaque",
+      "historical_prompt": "plaque",
+      "prompt": "plaque"
+    },
+    {
+      "role": "added",
+      "position": 484,
+      "train_id": 636,
+      "canonical": "stringer",
+      "historical_prompt": "stringer",
+      "prompt": "stringer"
+    },
+    {
+      "role": "added",
+      "position": 485,
+      "train_id": 637,
+      "canonical": "iron",
+      "historical_prompt": "iron",
+      "prompt": "iron"
+    },
+    {
+      "role": "added",
+      "position": 486,
+      "train_id": 638,
+      "canonical": "spoon",
+      "historical_prompt": "spoon",
+      "prompt": "spoon"
+    },
+    {
+      "role": "added",
+      "position": 487,
+      "train_id": 639,
+      "canonical": "flag pole",
+      "historical_prompt": "flagpole",
+      "prompt": "flag pole"
+    },
+    {
+      "role": "added",
+      "position": 488,
+      "train_id": 640,
+      "canonical": "toilet brush",
+      "historical_prompt": "toiletbrush",
+      "prompt": "toilet brush"
+    },
+    {
+      "role": "added",
+      "position": 489,
+      "train_id": 641,
+      "canonical": "book stand",
+      "historical_prompt": "bookstand",
+      "prompt": "book stand"
+    },
+    {
+      "role": "added",
+      "position": 490,
+      "train_id": 642,
+      "canonical": "water faucet, water tap, tap, hydrant",
+      "historical_prompt": "waterfaucet",
+      "prompt": "water faucet"
+    },
+    {
+      "role": "added",
+      "position": 491,
+      "train_id": 643,
+      "canonical": "ticket office",
+      "historical_prompt": "ticketoffice",
+      "prompt": "ticket office"
+    },
+    {
+      "role": "added",
+      "position": 492,
+      "train_id": 644,
+      "canonical": "broom",
+      "historical_prompt": "broom",
+      "prompt": "broom"
+    },
+    {
+      "role": "added",
+      "position": 493,
+      "train_id": 645,
+      "canonical": "dvd",
+      "historical_prompt": "dvd",
+      "prompt": "dvd"
+    },
+    {
+      "role": "added",
+      "position": 494,
+      "train_id": 646,
+      "canonical": "ice bucket",
+      "historical_prompt": "icebucket",
+      "prompt": "ice bucket"
+    },
+    {
+      "role": "added",
+      "position": 495,
+      "train_id": 647,
+      "canonical": "carapace, shell, cuticle, shield",
+      "historical_prompt": "carapace",
+      "prompt": "carapace"
+    },
+    {
+      "role": "added",
+      "position": 496,
+      "train_id": 648,
+      "canonical": "tureen",
+      "historical_prompt": "tureen",
+      "prompt": "tureen"
+    },
+    {
+      "role": "added",
+      "position": 497,
+      "train_id": 649,
+      "canonical": "folders",
+      "historical_prompt": "folders",
+      "prompt": "folders"
+    },
+    {
+      "role": "added",
+      "position": 498,
+      "train_id": 650,
+      "canonical": "chess",
+      "historical_prompt": "chess",
+      "prompt": "chess"
+    },
+    {
+      "role": "added",
+      "position": 499,
+      "train_id": 651,
+      "canonical": "root",
+      "historical_prompt": "root",
+      "prompt": "root"
+    },
+    {
+      "role": "added",
+      "position": 500,
+      "train_id": 652,
+      "canonical": "sewing machine",
+      "historical_prompt": "sewingmachine",
+      "prompt": "sewing machine"
+    },
+    {
+      "role": "added",
+      "position": 501,
+      "train_id": 653,
+      "canonical": "model",
+      "historical_prompt": "model",
+      "prompt": "model"
+    },
+    {
+      "role": "added",
+      "position": 502,
+      "train_id": 654,
+      "canonical": "pen",
+      "historical_prompt": "pen",
+      "prompt": "pen"
+    },
+    {
+      "role": "added",
+      "position": 503,
+      "train_id": 655,
+      "canonical": "violin",
+      "historical_prompt": "violin",
+      "prompt": "violin"
+    },
+    {
+      "role": "added",
+      "position": 504,
+      "train_id": 656,
+      "canonical": "sweatshirt",
+      "historical_prompt": "sweatshirt",
+      "prompt": "sweatshirt"
+    },
+    {
+      "role": "added",
+      "position": 505,
+      "train_id": 657,
+      "canonical": "recycling materials",
+      "historical_prompt": "recyclingmaterials",
+      "prompt": "recycling materials"
+    },
+    {
+      "role": "added",
+      "position": 506,
+      "train_id": 658,
+      "canonical": "mitten",
+      "historical_prompt": "mitten",
+      "prompt": "mitten"
+    },
+    {
+      "role": "added",
+      "position": 507,
+      "train_id": 659,
+      "canonical": "chopping board, cutting board",
+      "historical_prompt": "choppingboard",
+      "prompt": "chopping board"
+    },
+    {
+      "role": "added",
+      "position": 508,
+      "train_id": 660,
+      "canonical": "mask",
+      "historical_prompt": "mask",
+      "prompt": "mask"
+    },
+    {
+      "role": "added",
+      "position": 509,
+      "train_id": 661,
+      "canonical": "log",
+      "historical_prompt": "log",
+      "prompt": "log"
+    },
+    {
+      "role": "added",
+      "position": 510,
+      "train_id": 662,
+      "canonical": "mouse, computer mouse",
+      "historical_prompt": "mouse",
+      "prompt": "mouse"
+    },
+    {
+      "role": "added",
+      "position": 511,
+      "train_id": 663,
+      "canonical": "grill",
+      "historical_prompt": "grill",
+      "prompt": "grill"
+    },
+    {
+      "role": "added",
+      "position": 512,
+      "train_id": 664,
+      "canonical": "hole",
+      "historical_prompt": "hole",
+      "prompt": "hole"
+    },
+    {
+      "role": "added",
+      "position": 513,
+      "train_id": 665,
+      "canonical": "target",
+      "historical_prompt": "target",
+      "prompt": "target"
+    },
+    {
+      "role": "added",
+      "position": 514,
+      "train_id": 666,
+      "canonical": "trash bag",
+      "historical_prompt": "trashbag",
+      "prompt": "trash bag"
+    },
+    {
+      "role": "added",
+      "position": 515,
+      "train_id": 667,
+      "canonical": "chalk",
+      "historical_prompt": "chalk",
+      "prompt": "chalk"
+    },
+    {
+      "role": "added",
+      "position": 516,
+      "train_id": 668,
+      "canonical": "sticks",
+      "historical_prompt": "sticks",
+      "prompt": "sticks"
+    },
+    {
+      "role": "added",
+      "position": 517,
+      "train_id": 669,
+      "canonical": "balloon",
+      "historical_prompt": "balloon",
+      "prompt": "balloon"
+    },
+    {
+      "role": "added",
+      "position": 518,
+      "train_id": 670,
+      "canonical": "score",
+      "historical_prompt": "score",
+      "prompt": "score"
+    },
+    {
+      "role": "added",
+      "position": 519,
+      "train_id": 671,
+      "canonical": "hair spray",
+      "historical_prompt": "hairspray",
+      "prompt": "hair spray"
+    },
+    {
+      "role": "added",
+      "position": 520,
+      "train_id": 672,
+      "canonical": "roll",
+      "historical_prompt": "roll",
+      "prompt": "roll"
+    },
+    {
+      "role": "added",
+      "position": 521,
+      "train_id": 673,
+      "canonical": "runner",
+      "historical_prompt": "runner",
+      "prompt": "runner"
+    },
+    {
+      "role": "added",
+      "position": 522,
+      "train_id": 674,
+      "canonical": "engine",
+      "historical_prompt": "engine",
+      "prompt": "engine"
+    },
+    {
+      "role": "added",
+      "position": 523,
+      "train_id": 675,
+      "canonical": "inflatable glove",
+      "historical_prompt": "inflatableglove",
+      "prompt": "inflatable glove"
+    },
+    {
+      "role": "added",
+      "position": 524,
+      "train_id": 676,
+      "canonical": "games",
+      "historical_prompt": "games",
+      "prompt": "games"
+    },
+    {
+      "role": "added",
+      "position": 525,
+      "train_id": 677,
+      "canonical": "pallets",
+      "historical_prompt": "pallets",
+      "prompt": "pallets"
+    },
+    {
+      "role": "added",
+      "position": 526,
+      "train_id": 678,
+      "canonical": "baskets",
+      "historical_prompt": "baskets",
+      "prompt": "baskets"
+    },
+    {
+      "role": "added",
+      "position": 527,
+      "train_id": 679,
+      "canonical": "coop",
+      "historical_prompt": "coop",
+      "prompt": "coop"
+    },
+    {
+      "role": "added",
+      "position": 528,
+      "train_id": 680,
+      "canonical": "dvd player",
+      "historical_prompt": "dvdplayer",
+      "prompt": "dvd player"
+    },
+    {
+      "role": "added",
+      "position": 529,
+      "train_id": 681,
+      "canonical": "rocking horse",
+      "historical_prompt": "rockinghorse",
+      "prompt": "rocking horse"
+    },
+    {
+      "role": "added",
+      "position": 530,
+      "train_id": 682,
+      "canonical": "buckets",
+      "historical_prompt": "buckets",
+      "prompt": "buckets"
+    },
+    {
+      "role": "added",
+      "position": 531,
+      "train_id": 683,
+      "canonical": "bread rolls",
+      "historical_prompt": "breadrolls",
+      "prompt": "bread rolls"
+    },
+    {
+      "role": "added",
+      "position": 532,
+      "train_id": 684,
+      "canonical": "shawl",
+      "historical_prompt": "shawl",
+      "prompt": "shawl"
+    },
+    {
+      "role": "added",
+      "position": 533,
+      "train_id": 685,
+      "canonical": "watering can",
+      "historical_prompt": "wateringcan",
+      "prompt": "watering can"
+    },
+    {
+      "role": "added",
+      "position": 534,
+      "train_id": 686,
+      "canonical": "spotlights",
+      "historical_prompt": "spotlights",
+      "prompt": "spotlights"
+    },
+    {
+      "role": "added",
+      "position": 535,
+      "train_id": 687,
+      "canonical": "post-it",
+      "historical_prompt": "postit",
+      "prompt": "post-it"
+    },
+    {
+      "role": "added",
+      "position": 536,
+      "train_id": 688,
+      "canonical": "bowls",
+      "historical_prompt": "bowls",
+      "prompt": "bowls"
+    },
+    {
+      "role": "added",
+      "position": 537,
+      "train_id": 689,
+      "canonical": "security camera",
+      "historical_prompt": "securitycamera",
+      "prompt": "security camera"
+    },
+    {
+      "role": "added",
+      "position": 538,
+      "train_id": 690,
+      "canonical": "runner cloth",
+      "historical_prompt": "runnercloth",
+      "prompt": "runner cloth"
+    },
+    {
+      "role": "added",
+      "position": 539,
+      "train_id": 691,
+      "canonical": "lock",
+      "historical_prompt": "lock",
+      "prompt": "lock"
+    },
+    {
+      "role": "added",
+      "position": 540,
+      "train_id": 692,
+      "canonical": "alarm, warning device, alarm system",
+      "historical_prompt": "alarm",
+      "prompt": "alarm"
+    },
+    {
+      "role": "added",
+      "position": 541,
+      "train_id": 693,
+      "canonical": "side",
+      "historical_prompt": "side",
+      "prompt": "side"
+    },
+    {
+      "role": "added",
+      "position": 542,
+      "train_id": 694,
+      "canonical": "roulette",
+      "historical_prompt": "roulette",
+      "prompt": "roulette"
+    },
+    {
+      "role": "added",
+      "position": 543,
+      "train_id": 695,
+      "canonical": "bone",
+      "historical_prompt": "bone",
+      "prompt": "bone"
+    },
+    {
+      "role": "added",
+      "position": 544,
+      "train_id": 696,
+      "canonical": "cutlery",
+      "historical_prompt": "cutlery",
+      "prompt": "cutlery"
+    },
+    {
+      "role": "added",
+      "position": 545,
+      "train_id": 697,
+      "canonical": "pool balls",
+      "historical_prompt": "poolballs",
+      "prompt": "pool balls"
+    },
+    {
+      "role": "added",
+      "position": 546,
+      "train_id": 698,
+      "canonical": "wheels",
+      "historical_prompt": "wheels",
+      "prompt": "wheels"
+    },
+    {
+      "role": "added",
+      "position": 547,
+      "train_id": 699,
+      "canonical": "spice rack",
+      "historical_prompt": "spicerack",
+      "prompt": "spice rack"
+    },
+    {
+      "role": "added",
+      "position": 548,
+      "train_id": 700,
+      "canonical": "plant pots",
+      "historical_prompt": "plantpots",
+      "prompt": "plant pots"
+    },
+    {
+      "role": "added",
+      "position": 549,
+      "train_id": 701,
+      "canonical": "towel ring",
+      "historical_prompt": "towelring",
+      "prompt": "towel ring"
+    },
+    {
+      "role": "added",
+      "position": 550,
+      "train_id": 702,
+      "canonical": "bread box",
+      "historical_prompt": "breadbox",
+      "prompt": "bread box"
+    },
+    {
+      "role": "added",
+      "position": 551,
+      "train_id": 703,
+      "canonical": "video",
+      "historical_prompt": "video",
+      "prompt": "video"
+    },
+    {
+      "role": "added",
+      "position": 552,
+      "train_id": 704,
+      "canonical": "funfair",
+      "historical_prompt": "funfair",
+      "prompt": "funfair"
+    },
+    {
+      "role": "added",
+      "position": 553,
+      "train_id": 705,
+      "canonical": "breads",
+      "historical_prompt": "breads",
+      "prompt": "breads"
+    },
+    {
+      "role": "added",
+      "position": 554,
+      "train_id": 706,
+      "canonical": "tripod",
+      "historical_prompt": "tripod",
+      "prompt": "tripod"
+    },
+    {
+      "role": "added",
+      "position": 555,
+      "train_id": 707,
+      "canonical": "ironing board",
+      "historical_prompt": "ironingboard",
+      "prompt": "ironing board"
+    },
+    {
+      "role": "added",
+      "position": 556,
+      "train_id": 708,
+      "canonical": "skimmer",
+      "historical_prompt": "skimmer",
+      "prompt": "skimmer"
+    },
+    {
+      "role": "added",
+      "position": 557,
+      "train_id": 709,
+      "canonical": "hollow",
+      "historical_prompt": "hollow",
+      "prompt": "hollow"
+    },
+    {
+      "role": "added",
+      "position": 558,
+      "train_id": 710,
+      "canonical": "scratching post",
+      "historical_prompt": "scratchingpost",
+      "prompt": "scratching post"
+    },
+    {
+      "role": "added",
+      "position": 559,
+      "train_id": 711,
+      "canonical": "tricycle",
+      "historical_prompt": "tricycle",
+      "prompt": "tricycle"
+    },
+    {
+      "role": "added",
+      "position": 560,
+      "train_id": 712,
+      "canonical": "file box",
+      "historical_prompt": "filebox",
+      "prompt": "file box"
+    },
+    {
+      "role": "added",
+      "position": 561,
+      "train_id": 713,
+      "canonical": "mountain pass",
+      "historical_prompt": "mountainpass",
+      "prompt": "mountain pass"
+    },
+    {
+      "role": "added",
+      "position": 562,
+      "train_id": 714,
+      "canonical": "tombstones",
+      "historical_prompt": "tombstones",
+      "prompt": "tombstones"
+    },
+    {
+      "role": "added",
+      "position": 563,
+      "train_id": 715,
+      "canonical": "cooker",
+      "historical_prompt": "cooker",
+      "prompt": "cooker"
+    },
+    {
+      "role": "added",
+      "position": 564,
+      "train_id": 716,
+      "canonical": "card game, cards",
+      "historical_prompt": "cardgame",
+      "prompt": "card game"
+    },
+    {
+      "role": "added",
+      "position": 565,
+      "train_id": 717,
+      "canonical": "golf bag",
+      "historical_prompt": "golfbag",
+      "prompt": "golf bag"
+    },
+    {
+      "role": "added",
+      "position": 566,
+      "train_id": 718,
+      "canonical": "towel paper",
+      "historical_prompt": "towelpaper",
+      "prompt": "towel paper"
+    },
+    {
+      "role": "added",
+      "position": 567,
+      "train_id": 719,
+      "canonical": "chaise lounge",
+      "historical_prompt": "chaiselounge",
+      "prompt": "chaise lounge"
+    },
+    {
+      "role": "added",
+      "position": 568,
+      "train_id": 720,
+      "canonical": "sun",
+      "historical_prompt": "sun",
+      "prompt": "sun"
+    },
+    {
+      "role": "added",
+      "position": 569,
+      "train_id": 721,
+      "canonical": "toilet paper holder",
+      "historical_prompt": "toiletpaperholder",
+      "prompt": "toilet paper holder"
+    },
+    {
+      "role": "added",
+      "position": 570,
+      "train_id": 722,
+      "canonical": "rake",
+      "historical_prompt": "rake",
+      "prompt": "rake"
+    },
+    {
+      "role": "added",
+      "position": 571,
+      "train_id": 723,
+      "canonical": "key",
+      "historical_prompt": "key",
+      "prompt": "key"
+    },
+    {
+      "role": "added",
+      "position": 572,
+      "train_id": 724,
+      "canonical": "umbrella stand",
+      "historical_prompt": "umbrellastand",
+      "prompt": "umbrella stand"
+    },
+    {
+      "role": "added",
+      "position": 573,
+      "train_id": 725,
+      "canonical": "dartboard",
+      "historical_prompt": "dartboard",
+      "prompt": "dartboard"
+    },
+    {
+      "role": "added",
+      "position": 574,
+      "train_id": 726,
+      "canonical": "transformer",
+      "historical_prompt": "transformer",
+      "prompt": "transformer"
+    },
+    {
+      "role": "added",
+      "position": 575,
+      "train_id": 727,
+      "canonical": "fireplace utensils",
+      "historical_prompt": "fireplaceutensils",
+      "prompt": "fireplace utensils"
+    },
+    {
+      "role": "added",
+      "position": 576,
+      "train_id": 728,
+      "canonical": "sweatshirts",
+      "historical_prompt": "sweatshirts",
+      "prompt": "sweatshirts"
+    },
+    {
+      "role": "added",
+      "position": 577,
+      "train_id": 729,
+      "canonical": "cellular telephone, cellular phone, cellphone, cell, mobile phone",
+      "historical_prompt": "cellulartelephone",
+      "prompt": "cellular telephone"
+    },
+    {
+      "role": "added",
+      "position": 578,
+      "train_id": 730,
+      "canonical": "tallboy",
+      "historical_prompt": "tallboy",
+      "prompt": "tallboy"
+    },
+    {
+      "role": "added",
+      "position": 579,
+      "train_id": 731,
+      "canonical": "stapler",
+      "historical_prompt": "stapler",
+      "prompt": "stapler"
+    },
+    {
+      "role": "added",
+      "position": 580,
+      "train_id": 732,
+      "canonical": "sauna",
+      "historical_prompt": "sauna",
+      "prompt": "sauna"
+    },
+    {
+      "role": "added",
+      "position": 581,
+      "train_id": 733,
+      "canonical": "test tube",
+      "historical_prompt": "testtube",
+      "prompt": "test tube"
+    },
+    {
+      "role": "added",
+      "position": 582,
+      "train_id": 734,
+      "canonical": "palette",
+      "historical_prompt": "palette",
+      "prompt": "palette"
+    },
+    {
+      "role": "added",
+      "position": 583,
+      "train_id": 735,
+      "canonical": "shopping carts",
+      "historical_prompt": "shoppingcarts",
+      "prompt": "shopping carts"
+    },
+    {
+      "role": "added",
+      "position": 584,
+      "train_id": 736,
+      "canonical": "tools",
+      "historical_prompt": "tools",
+      "prompt": "tools"
+    },
+    {
+      "role": "added",
+      "position": 585,
+      "train_id": 737,
+      "canonical": "push button, push, button",
+      "historical_prompt": "pushbutton",
+      "prompt": "push button"
+    },
+    {
+      "role": "added",
+      "position": 586,
+      "train_id": 738,
+      "canonical": "star",
+      "historical_prompt": "star",
+      "prompt": "star"
+    },
+    {
+      "role": "added",
+      "position": 587,
+      "train_id": 739,
+      "canonical": "roof rack",
+      "historical_prompt": "roofrack",
+      "prompt": "roof rack"
+    },
+    {
+      "role": "added",
+      "position": 588,
+      "train_id": 740,
+      "canonical": "barbed wire",
+      "historical_prompt": "barbedwire",
+      "prompt": "barbed wire"
+    },
+    {
+      "role": "added",
+      "position": 589,
+      "train_id": 741,
+      "canonical": "spray",
+      "historical_prompt": "spray",
+      "prompt": "spray"
+    },
+    {
+      "role": "added",
+      "position": 590,
+      "train_id": 742,
+      "canonical": "ear",
+      "historical_prompt": "ear",
+      "prompt": "ear"
+    },
+    {
+      "role": "added",
+      "position": 591,
+      "train_id": 743,
+      "canonical": "sponge",
+      "historical_prompt": "sponge",
+      "prompt": "sponge"
+    },
+    {
+      "role": "added",
+      "position": 592,
+      "train_id": 744,
+      "canonical": "racket",
+      "historical_prompt": "racket",
+      "prompt": "racket"
+    },
+    {
+      "role": "added",
+      "position": 593,
+      "train_id": 745,
+      "canonical": "tins",
+      "historical_prompt": "tins",
+      "prompt": "tins"
+    },
+    {
+      "role": "added",
+      "position": 594,
+      "train_id": 746,
+      "canonical": "eyeglasses",
+      "historical_prompt": "eyeglasses",
+      "prompt": "eyeglasses"
+    },
+    {
+      "role": "added",
+      "position": 595,
+      "train_id": 747,
+      "canonical": "file",
+      "historical_prompt": "file",
+      "prompt": "file"
+    },
+    {
+      "role": "added",
+      "position": 596,
+      "train_id": 748,
+      "canonical": "scarfs",
+      "historical_prompt": "scarfs",
+      "prompt": "scarfs"
+    },
+    {
+      "role": "added",
+      "position": 597,
+      "train_id": 749,
+      "canonical": "sugar bowl",
+      "historical_prompt": "sugarbowl",
+      "prompt": "sugar bowl"
+    },
+    {
+      "role": "added",
+      "position": 598,
+      "train_id": 750,
+      "canonical": "flip flop",
+      "historical_prompt": "flipflop",
+      "prompt": "flip flop"
+    },
+    {
+      "role": "added",
+      "position": 599,
+      "train_id": 751,
+      "canonical": "headstones",
+      "historical_prompt": "headstones",
+      "prompt": "headstones"
+    },
+    {
+      "role": "added",
+      "position": 600,
+      "train_id": 752,
+      "canonical": "laptop bag",
+      "historical_prompt": "laptopbag",
+      "prompt": "laptop bag"
+    },
+    {
+      "role": "added",
+      "position": 601,
+      "train_id": 753,
+      "canonical": "leash",
+      "historical_prompt": "leash",
+      "prompt": "leash"
+    },
+    {
+      "role": "added",
+      "position": 602,
+      "train_id": 754,
+      "canonical": "climbing frame",
+      "historical_prompt": "climbingframe",
+      "prompt": "climbing frame"
+    },
+    {
+      "role": "added",
+      "position": 603,
+      "train_id": 755,
+      "canonical": "suit hanger",
+      "historical_prompt": "suithanger",
+      "prompt": "suit hanger"
+    },
+    {
+      "role": "added",
+      "position": 604,
+      "train_id": 756,
+      "canonical": "floor spotlight",
+      "historical_prompt": "floorspotlight",
+      "prompt": "floor spotlight"
+    },
+    {
+      "role": "added",
+      "position": 605,
+      "train_id": 757,
+      "canonical": "plate rack",
+      "historical_prompt": "platerack",
+      "prompt": "plate rack"
+    },
+    {
+      "role": "added",
+      "position": 606,
+      "train_id": 758,
+      "canonical": "sewer",
+      "historical_prompt": "sewer",
+      "prompt": "sewer"
+    },
+    {
+      "role": "added",
+      "position": 607,
+      "train_id": 759,
+      "canonical": "hard drive",
+      "historical_prompt": "harddrive",
+      "prompt": "hard drive"
+    },
+    {
+      "role": "added",
+      "position": 608,
+      "train_id": 760,
+      "canonical": "sprinkler",
+      "historical_prompt": "sprinkler",
+      "prompt": "sprinkler"
+    },
+    {
+      "role": "added",
+      "position": 609,
+      "train_id": 761,
+      "canonical": "tools box",
+      "historical_prompt": "toolsbox",
+      "prompt": "tools box"
+    },
+    {
+      "role": "added",
+      "position": 610,
+      "train_id": 762,
+      "canonical": "necklace",
+      "historical_prompt": "necklace",
+      "prompt": "necklace"
+    },
+    {
+      "role": "added",
+      "position": 611,
+      "train_id": 763,
+      "canonical": "bulbs",
+      "historical_prompt": "bulbs",
+      "prompt": "bulbs"
+    },
+    {
+      "role": "added",
+      "position": 612,
+      "train_id": 764,
+      "canonical": "steel industry",
+      "historical_prompt": "steelindustry",
+      "prompt": "steel industry"
+    },
+    {
+      "role": "added",
+      "position": 613,
+      "train_id": 765,
+      "canonical": "club",
+      "historical_prompt": "club",
+      "prompt": "club"
+    },
+    {
+      "role": "added",
+      "position": 614,
+      "train_id": 766,
+      "canonical": "jack",
+      "historical_prompt": "jack",
+      "prompt": "jack"
+    },
+    {
+      "role": "added",
+      "position": 615,
+      "train_id": 767,
+      "canonical": "door bars",
+      "historical_prompt": "doorbars",
+      "prompt": "door bars"
+    },
+    {
+      "role": "added",
+      "position": 616,
+      "train_id": 768,
+      "canonical": "control panel, instrument panel, control board, board, panel",
+      "historical_prompt": "controlpanelinstrumentpanel",
+      "prompt": "control board"
+    },
+    {
+      "role": "added",
+      "position": 617,
+      "train_id": 769,
+      "canonical": "hairbrush",
+      "historical_prompt": "hairbrush",
+      "prompt": "hairbrush"
+    },
+    {
+      "role": "added",
+      "position": 618,
+      "train_id": 770,
+      "canonical": "napkin holder",
+      "historical_prompt": "napkinholder",
+      "prompt": "napkin holder"
+    },
+    {
+      "role": "added",
+      "position": 619,
+      "train_id": 771,
+      "canonical": "office",
+      "historical_prompt": "office",
+      "prompt": "office"
+    },
+    {
+      "role": "added",
+      "position": 620,
+      "train_id": 772,
+      "canonical": "smoke detector",
+      "historical_prompt": "smokedetector",
+      "prompt": "smoke detector"
+    },
+    {
+      "role": "added",
+      "position": 621,
+      "train_id": 773,
+      "canonical": "utensils",
+      "historical_prompt": "utensils",
+      "prompt": "utensils"
+    },
+    {
+      "role": "added",
+      "position": 622,
+      "train_id": 774,
+      "canonical": "apron",
+      "historical_prompt": "apron",
+      "prompt": "apron"
+    },
+    {
+      "role": "added",
+      "position": 623,
+      "train_id": 775,
+      "canonical": "scissors",
+      "historical_prompt": "scissors",
+      "prompt": "scissors"
+    },
+    {
+      "role": "added",
+      "position": 624,
+      "train_id": 776,
+      "canonical": "terminal",
+      "historical_prompt": "terminal",
+      "prompt": "terminal"
+    },
+    {
+      "role": "added",
+      "position": 625,
+      "train_id": 777,
+      "canonical": "grinder",
+      "historical_prompt": "grinder",
+      "prompt": "grinder"
+    },
+    {
+      "role": "added",
+      "position": 626,
+      "train_id": 778,
+      "canonical": "entry phone",
+      "historical_prompt": "entryphone",
+      "prompt": "entry phone"
+    },
+    {
+      "role": "added",
+      "position": 627,
+      "train_id": 779,
+      "canonical": "newspaper stand",
+      "historical_prompt": "newspaperstand",
+      "prompt": "newspaper stand"
+    },
+    {
+      "role": "added",
+      "position": 628,
+      "train_id": 780,
+      "canonical": "pepper shaker",
+      "historical_prompt": "peppershaker",
+      "prompt": "pepper shaker"
+    },
+    {
+      "role": "added",
+      "position": 629,
+      "train_id": 781,
+      "canonical": "onions",
+      "historical_prompt": "onions",
+      "prompt": "onions"
+    },
+    {
+      "role": "added",
+      "position": 630,
+      "train_id": 782,
+      "canonical": "central processing unit, cpu, c p u , central processor, processor, mainframe",
+      "historical_prompt": "centralprocessingunit",
+      "prompt": "central processing unit"
+    },
+    {
+      "role": "added",
+      "position": 631,
+      "train_id": 783,
+      "canonical": "tape",
+      "historical_prompt": "tape",
+      "prompt": "tape"
+    },
+    {
+      "role": "added",
+      "position": 632,
+      "train_id": 784,
+      "canonical": "bat",
+      "historical_prompt": "bat",
+      "prompt": "bat"
+    },
+    {
+      "role": "added",
+      "position": 633,
+      "train_id": 785,
+      "canonical": "coaster",
+      "historical_prompt": "coaster",
+      "prompt": "coaster"
+    },
+    {
+      "role": "added",
+      "position": 634,
+      "train_id": 786,
+      "canonical": "calculator",
+      "historical_prompt": "calculator",
+      "prompt": "calculator"
+    },
+    {
+      "role": "added",
+      "position": 635,
+      "train_id": 787,
+      "canonical": "potatoes",
+      "historical_prompt": "potatoes",
+      "prompt": "potatoes"
+    },
+    {
+      "role": "added",
+      "position": 636,
+      "train_id": 788,
+      "canonical": "luggage rack",
+      "historical_prompt": "luggagerack",
+      "prompt": "luggage rack"
+    },
+    {
+      "role": "added",
+      "position": 637,
+      "train_id": 789,
+      "canonical": "salt",
+      "historical_prompt": "salt",
+      "prompt": "salt"
+    },
+    {
+      "role": "added",
+      "position": 638,
+      "train_id": 790,
+      "canonical": "street number",
+      "historical_prompt": "streetnumber",
+      "prompt": "street number"
+    },
+    {
+      "role": "added",
+      "position": 639,
+      "train_id": 791,
+      "canonical": "viewpoint",
+      "historical_prompt": "viewpoint",
+      "prompt": "viewpoint"
+    },
+    {
+      "role": "added",
+      "position": 640,
+      "train_id": 792,
+      "canonical": "sword",
+      "historical_prompt": "sword",
+      "prompt": "sword"
+    },
+    {
+      "role": "added",
+      "position": 641,
+      "train_id": 793,
+      "canonical": "cd",
+      "historical_prompt": "cd",
+      "prompt": "cd"
+    },
+    {
+      "role": "added",
+      "position": 642,
+      "train_id": 794,
+      "canonical": "rowing machine",
+      "historical_prompt": "rowingmachine",
+      "prompt": "rowing machine"
+    },
+    {
+      "role": "added",
+      "position": 643,
+      "train_id": 795,
+      "canonical": "plug",
+      "historical_prompt": "plug",
+      "prompt": "plug"
+    },
+    {
+      "role": "added",
+      "position": 644,
+      "train_id": 796,
+      "canonical": "andiron, firedog, dog, dog-iron",
+      "historical_prompt": "andiron",
+      "prompt": "andiron"
+    },
+    {
+      "role": "added",
+      "position": 645,
+      "train_id": 797,
+      "canonical": "pepper",
+      "historical_prompt": "pepper",
+      "prompt": "pepper"
+    },
+    {
+      "role": "added",
+      "position": 646,
+      "train_id": 798,
+      "canonical": "tongs",
+      "historical_prompt": "tongs",
+      "prompt": "tongs"
+    },
+    {
+      "role": "added",
+      "position": 647,
+      "train_id": 799,
+      "canonical": "bonfire",
+      "historical_prompt": "bonfire",
+      "prompt": "bonfire"
+    },
+    {
+      "role": "added",
+      "position": 648,
+      "train_id": 800,
+      "canonical": "dog dish",
+      "historical_prompt": "dogdish",
+      "prompt": "dog dish"
+    },
+    {
+      "role": "added",
+      "position": 649,
+      "train_id": 801,
+      "canonical": "belt",
+      "historical_prompt": "belt",
+      "prompt": "belt"
+    },
+    {
+      "role": "added",
+      "position": 650,
+      "train_id": 802,
+      "canonical": "dumbbells",
+      "historical_prompt": "dumbbells",
+      "prompt": "dumbbells"
+    },
+    {
+      "role": "added",
+      "position": 651,
+      "train_id": 803,
+      "canonical": "videocassette recorder, vcr",
+      "historical_prompt": "videocassetterecorder",
+      "prompt": "videocassette recorder"
+    },
+    {
+      "role": "added",
+      "position": 652,
+      "train_id": 804,
+      "canonical": "hook",
+      "historical_prompt": "hook",
+      "prompt": "hook"
+    },
+    {
+      "role": "added",
+      "position": 653,
+      "train_id": 805,
+      "canonical": "envelopes",
+      "historical_prompt": "envelopes",
+      "prompt": "envelopes"
+    },
+    {
+      "role": "added",
+      "position": 654,
+      "train_id": 806,
+      "canonical": "shower faucet",
+      "historical_prompt": "showerfaucet",
+      "prompt": "shower faucet"
+    },
+    {
+      "role": "added",
+      "position": 655,
+      "train_id": 807,
+      "canonical": "watch",
+      "historical_prompt": "watch",
+      "prompt": "watch"
+    },
+    {
+      "role": "added",
+      "position": 656,
+      "train_id": 808,
+      "canonical": "padlock",
+      "historical_prompt": "padlock",
+      "prompt": "padlock"
+    },
+    {
+      "role": "added",
+      "position": 657,
+      "train_id": 809,
+      "canonical": "swimming pool ladder",
+      "historical_prompt": "swimmingpoolladder",
+      "prompt": "swimming pool ladder"
+    },
+    {
+      "role": "added",
+      "position": 658,
+      "train_id": 810,
+      "canonical": "spanners",
+      "historical_prompt": "spanners",
+      "prompt": "spanners"
+    },
+    {
+      "role": "added",
+      "position": 659,
+      "train_id": 811,
+      "canonical": "gravy boat",
+      "historical_prompt": "gravyboat",
+      "prompt": "gravy boat"
+    },
+    {
+      "role": "added",
+      "position": 660,
+      "train_id": 812,
+      "canonical": "notice board",
+      "historical_prompt": "noticeboard",
+      "prompt": "notice board"
+    },
+    {
+      "role": "added",
+      "position": 661,
+      "train_id": 813,
+      "canonical": "trash bags",
+      "historical_prompt": "trashbags",
+      "prompt": "trash bags"
+    },
+    {
+      "role": "added",
+      "position": 662,
+      "train_id": 814,
+      "canonical": "fire alarm",
+      "historical_prompt": "firealarm",
+      "prompt": "fire alarm"
+    },
+    {
+      "role": "added",
+      "position": 663,
+      "train_id": 815,
+      "canonical": "ladle",
+      "historical_prompt": "ladle",
+      "prompt": "ladle"
+    },
+    {
+      "role": "added",
+      "position": 664,
+      "train_id": 816,
+      "canonical": "stethoscope",
+      "historical_prompt": "stethoscope",
+      "prompt": "stethoscope"
+    },
+    {
+      "role": "added",
+      "position": 665,
+      "train_id": 817,
+      "canonical": "rocket",
+      "historical_prompt": "rocket",
+      "prompt": "rocket"
+    },
+    {
+      "role": "added",
+      "position": 666,
+      "train_id": 818,
+      "canonical": "funnel",
+      "historical_prompt": "funnel",
+      "prompt": "funnel"
+    },
+    {
+      "role": "added",
+      "position": 667,
+      "train_id": 819,
+      "canonical": "bowling pins",
+      "historical_prompt": "bowlingpins",
+      "prompt": "bowling pins"
+    },
+    {
+      "role": "added",
+      "position": 668,
+      "train_id": 820,
+      "canonical": "valve",
+      "historical_prompt": "valve",
+      "prompt": "valve"
+    },
+    {
+      "role": "added",
+      "position": 669,
+      "train_id": 821,
+      "canonical": "thermometer",
+      "historical_prompt": "thermometer",
+      "prompt": "thermometer"
+    },
+    {
+      "role": "added",
+      "position": 670,
+      "train_id": 822,
+      "canonical": "cups",
+      "historical_prompt": "cups",
+      "prompt": "cups"
+    },
+    {
+      "role": "added",
+      "position": 671,
+      "train_id": 823,
+      "canonical": "spice jar",
+      "historical_prompt": "spicejar",
+      "prompt": "spice jar"
+    },
+    {
+      "role": "added",
+      "position": 672,
+      "train_id": 824,
+      "canonical": "night light",
+      "historical_prompt": "nightlight",
+      "prompt": "night light"
+    },
+    {
+      "role": "added",
+      "position": 673,
+      "train_id": 825,
+      "canonical": "soaps",
+      "historical_prompt": "soaps",
+      "prompt": "soaps"
+    },
+    {
+      "role": "added",
+      "position": 674,
+      "train_id": 826,
+      "canonical": "games table",
+      "historical_prompt": "gamestable",
+      "prompt": "games table"
+    },
+    {
+      "role": "added",
+      "position": 675,
+      "train_id": 827,
+      "canonical": "slotted spoon",
+      "historical_prompt": "slottedspoon",
+      "prompt": "slotted spoon"
+    },
+    {
+      "role": "added",
+      "position": 676,
+      "train_id": 828,
+      "canonical": "reel",
+      "historical_prompt": "reel",
+      "prompt": "reel"
+    },
+    {
+      "role": "added",
+      "position": 677,
+      "train_id": 829,
+      "canonical": "scourer",
+      "historical_prompt": "scourer",
+      "prompt": "scourer"
+    },
+    {
+      "role": "added",
+      "position": 678,
+      "train_id": 830,
+      "canonical": "sleeping robe",
+      "historical_prompt": "sleepingrobe",
+      "prompt": "sleeping robe"
+    },
+    {
+      "role": "added",
+      "position": 679,
+      "train_id": 831,
+      "canonical": "desk mat",
+      "historical_prompt": "deskmat",
+      "prompt": "desk mat"
+    },
+    {
+      "role": "added",
+      "position": 680,
+      "train_id": 832,
+      "canonical": "dumbbell",
+      "historical_prompt": "dumbbell",
+      "prompt": "dumbbell"
+    },
+    {
+      "role": "added",
+      "position": 681,
+      "train_id": 833,
+      "canonical": "hammer",
+      "historical_prompt": "hammer",
+      "prompt": "hammer"
+    },
+    {
+      "role": "added",
+      "position": 682,
+      "train_id": 834,
+      "canonical": "tie",
+      "historical_prompt": "tie",
+      "prompt": "tie"
+    },
+    {
+      "role": "added",
+      "position": 683,
+      "train_id": 835,
+      "canonical": "typewriter",
+      "historical_prompt": "typewriter",
+      "prompt": "typewriter"
+    },
+    {
+      "role": "added",
+      "position": 684,
+      "train_id": 836,
+      "canonical": "shaker",
+      "historical_prompt": "shaker",
+      "prompt": "shaker"
+    },
+    {
+      "role": "added",
+      "position": 685,
+      "train_id": 837,
+      "canonical": "cheese dish",
+      "historical_prompt": "cheesedish",
+      "prompt": "cheese dish"
+    },
+    {
+      "role": "added",
+      "position": 686,
+      "train_id": 838,
+      "canonical": "sea star",
+      "historical_prompt": "seastar",
+      "prompt": "sea star"
+    },
+    {
+      "role": "added",
+      "position": 687,
+      "train_id": 839,
+      "canonical": "racquet",
+      "historical_prompt": "racquet",
+      "prompt": "racquet"
+    },
+    {
+      "role": "added",
+      "position": 688,
+      "train_id": 840,
+      "canonical": "butane gas cylinder",
+      "historical_prompt": "butanegascylinder",
+      "prompt": "butane gas cylinder"
+    },
+    {
+      "role": "added",
+      "position": 689,
+      "train_id": 841,
+      "canonical": "paper weight",
+      "historical_prompt": "paperweight",
+      "prompt": "paper weight"
+    },
+    {
+      "role": "added",
+      "position": 690,
+      "train_id": 842,
+      "canonical": "shaving brush",
+      "historical_prompt": "shavingbrush",
+      "prompt": "shaving brush"
+    },
+    {
+      "role": "added",
+      "position": 691,
+      "train_id": 843,
+      "canonical": "sunglasses",
+      "historical_prompt": "sunglasses",
+      "prompt": "sunglasses"
+    },
+    {
+      "role": "added",
+      "position": 692,
+      "train_id": 844,
+      "canonical": "gear shift",
+      "historical_prompt": "gearshift",
+      "prompt": "gear shift"
+    },
+    {
+      "role": "added",
+      "position": 693,
+      "train_id": 845,
+      "canonical": "towel rail",
+      "historical_prompt": "towelrail",
+      "prompt": "towel rail"
+    },
+    {
+      "role": "added",
+      "position": 694,
+      "train_id": 846,
+      "canonical": "adding machine, totalizer, totaliser",
+      "historical_prompt": "addingmachine",
+      "prompt": "adding machine"
+    }
+  ],
+  "source_count": 150,
+  "added_count": 695,
+  "selection": "First official alias unless ambiguous in full ADE847 registry; bare names retained, other entries use first alternate alias not a primary registry name.",
+  "template_file": "src/imagenet_template.py",
+  "template_sha256": "83beda345d266c9cf577b7a70779f504a72470b5f12900d608b83ade6b35b021",
+  "encoding": "Existing 80 templates; normalize each template embedding, average, normalize again. Same frozen text bank for every method using the same text encoder.",
+  "threshold_policy": "Re-encode source and added labels, then recalibrate every method. Never reuse historical source thresholds."
+}

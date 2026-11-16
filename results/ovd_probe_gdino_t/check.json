@@ -1,0 +1,32 @@
+{
+  "139": {
+    "anchored_order_invariance_max_abs": 6.198883056640625e-06,
+    "anchored_subset_invariance_max_abs": 6.67572021484375e-06,
+    "anchored_bankA_vs_native_src_max_abs": 6.67572021484375e-06,
+    "native_src_vs_one_prompt_max_abs": 26.354331970214844
+  },
+  "285": {
+    "anchored_order_invariance_max_abs": 4.291534423828125e-06,
+    "anchored_subset_invariance_max_abs": 3.814697265625e-06,
+    "anchored_bankA_vs_native_src_max_abs": 3.337860107421875e-06,
+    "native_src_vs_one_prompt_max_abs": 0.7806763648986816
+  },
+  "632": {
+    "anchored_order_invariance_max_abs": 6.198883056640625e-06,
+    "anchored_subset_invariance_max_abs": 6.67572021484375e-06,
+    "anchored_bankA_vs_native_src_max_abs": 5.7220458984375e-06,
+    "native_src_vs_one_prompt_max_abs": 26.96461296081543
+  },
+  "724": {
+    "anchored_order_invariance_max_abs": 6.67572021484375e-06,
+    "anchored_subset_invariance_max_abs": 5.245208740234375e-06,
+    "anchored_bankA_vs_native_src_max_abs": 6.198883056640625e-06,
+    "native_src_vs_one_prompt_max_abs": 25.520238876342773
+  },
+  "776": {
+    "anchored_order_invariance_max_abs": 7.152557373046875e-06,
+    "anchored_subset_invariance_max_abs": 3.814697265625e-06,
+    "anchored_bankA_vs_native_src_max_abs": 3.814697265625e-06,
+    "native_src_vs_one_prompt_max_abs": 1.040949821472168
+  }
+}

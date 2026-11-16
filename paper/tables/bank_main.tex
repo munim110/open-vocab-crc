@@ -1,0 +1,17 @@
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+ & \multicolumn{2}{c}{ADE20K, ViT-B} & \multicolumn{2}{c}{COCO-Stuff size} \\
+\cmidrule(lr){2-3}\cmidrule(l){4-5}
+Reference bank & size & top-10 & ViT-B & ViT-L \\
+\midrule
+native, recalibrated & -- & -- & 2.87 & 2.33 \\
+\midrule
+none & 82.34 & 49.3 & 108.50 & 139.25 \\
+COCO-20 & 33.68 & 88.4 & 32.74 & 28.05 \\
+COCO-171 & 7.92 & 90.8 & 3.15 & 2.86 \\
+COCO + OI 683 & 6.44 & 91.5 & 3.32 & 2.81 \\
+COCO + OI 5,462 & 7.62 & 91.2 & 4.10 & 3.57 \\
+OI 683, no COCO & 8.78 & 91.0 & 4.58 & 3.95 \\
+non-words 683 & -- & -- & 5.06 & -- \\
+\bottomrule
+\end{tabular}

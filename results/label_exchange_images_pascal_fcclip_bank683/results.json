@@ -1,0 +1,42 @@
+{
+  "dataset": "pascal",
+  "tag": "fcclip_bank683",
+  "images": 2000,
+  "trials": 500,
+  "design": "exchangeable (random source vocabulary), anchored scores",
+  "alphas": {
+    "0.1": {
+      "pooled": {
+        "added_cal": 0.07468278281763197,
+        "added_heldout": 0.07537889914028346,
+        "above_added_cal": 0.23,
+        "above_added_heldout": 0.224
+      },
+      "images": {
+        "added_cal": 0.07386507484130561,
+        "added_heldout": 0.07536488270573317,
+        "above_added_cal": 0.208,
+        "above_added_heldout": 0.236
+      }
+    },
+    "0.05": {
+      "pooled": {
+        "added_cal": 0.02497140962560661,
+        "added_heldout": 0.025867423355870413,
+        "above_added_cal": 0.116,
+        "above_added_heldout": 0.126
+      },
+      "images": {
+        "added_cal": 0.023726250754421925,
+        "added_heldout": 0.02419447381644568,
+        "above_added_cal": 0.084,
+        "above_added_heldout": 0.108
+      }
+    }
+  },
+  "hashes": {
+    "src/exp_label_exchange_images.py": "17ec02361f16b66425d0f78fd3bf646bd65f62ddedb5980f4a263b51e1399a83",
+    "src/exp_label_exchange.py": "b8b31e68eb3747ce67bf944dda1d8d50c01d731043df4e3377498cf52e5985e1",
+    "cache/pascal_sclip/gt459.npy": "df73aa8d23e02ef7a07e0c0e31daed47d96a1ce0079a442efaa8d422cf0aed07"
+  }
+}

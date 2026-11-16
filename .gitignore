@@ -1,0 +1,22 @@
+# datasets and derived caches (fetched by scripts/fetch_*.sh, rebuilt by the gpu level); not redistributable
+data/
+cache/
+
+# environments
+.venv/
+.venv-probe/
+.venv-fcclip/
+.venv-ovd/
+__pycache__/
+*.py[co]
+
+# run output
+logs/
+runs/
+figures/
+
+# archives
+*.zip
+*.tar
+*.tar.gz
+dist/

@@ -1,0 +1,148 @@
+{
+  "image": 897,
+  "file": "ADE_val_00000898.jpg",
+  "scene": "utility_room",
+  "probe_role": "tune_eval",
+  "selection": "selected (not random): see selection.json for the pool, criterion and ranked candidates",
+  "rank_in_cache_scan": 3,
+  "split": 113,
+  "design": "cal1000 (1,000 calibration / 1,000 evaluation images), alpha 0.1, 500 splits, rng 20261003",
+  "thresholds": {
+    "native150": -2.703125,
+    "native845": -3.765625,
+    "anchored845": -2.390625
+  },
+  "threshold_source": "split minimising the summed distance (grid steps) of its three thresholds from their medians across splits; recomputed from the probe sampled-pixel caches with conformal.crc_lambda",
+  "mean_risk_check": {
+    "native_source": {
+      "recomputed": 0.09906056861451809,
+      "stored": 0.09905918103590622
+    },
+    "native_reused": {
+      "recomputed": 0.1522641931617127,
+      "stored": 0.1522624376430505
+    },
+    "native_recal": {
+      "recomputed": 0.09907612076423455,
+      "stored": 0.0990761390919523
+    },
+    "anchored": {
+      "recomputed": 0.09898705497057125,
+      "stored": 0.09898708467296208
+    }
+  },
+  "panels": {
+    "native_reused": {
+      "label": "native, reused",
+      "calibrated_on": "native150",
+      "evaluated_on": "native845",
+      "threshold": -2.703125,
+      "miss_fraction": 0.2917761619939704,
+      "mean_set_size_source_pixels": 2.374611056475406,
+      "mean_set_size_all_pixels": 2.3641815185546875,
+      "median_set_size_source_pixels": 2.0,
+      "empty_set_fraction_source_pixels": 0.0024183017073210055
+    },
+    "native_recal": {
+      "label": "native, recal. at 845",
+      "calibrated_on": "native845",
+      "evaluated_on": "native845",
+      "threshold": -3.765625,
+      "miss_fraction": 0.05521788898382962,
+      "mean_set_size_source_pixels": 4.133361278153062,
+      "mean_set_size_all_pixels": 4.1002960205078125,
+      "median_set_size_source_pixels": 4.0,
+      "empty_set_fraction_source_pixels": 0.0
+    },
+    "anchored": {
+      "label": "anchored, once at 150",
+      "calibrated_on": "anchored845",
+      "evaluated_on": "anchored845",
+      "threshold": -2.390625,
+      "miss_fraction": 0.0267786609057346,
+      "mean_set_size_source_pixels": 5.234543021587373,
+      "mean_set_size_all_pixels": 5.2154388427734375,
+      "median_set_size_source_pixels": 5.0,
+      "empty_set_fraction_source_pixels": 0.0
+    },
+    "native_source": {
+      "label": "native, at 150",
+      "calibrated_on": "native150",
+      "evaluated_on": "native150",
+      "threshold": -2.703125,
+      "miss_fraction": 0.024602189369145693,
+      "mean_set_size_source_pixels": 2.0009511986715465,
+      "mean_set_size_all_pixels": 1.9764862060546875,
+      "median_set_size_source_pixels": 2.0,
+      "empty_set_fraction_source_pixels": 0.0
+    }
+  },
+  "sampled_pixel_numbers": {
+    "image": 897,
+    "file": "ADE_val_00000898.jpg",
+    "scene": "utility_room",
+    "role": "tune_eval",
+    "common_scene": false,
+    "source_pixel_fraction": 0.944091796875,
+    "sampled_miss": {
+      "native_source": 0.02456684768554435,
+      "native_reused": 0.28678562192914403,
+      "native_recal": 0.06077062322213602,
+      "anchored": 0.02560124127230411
+    },
+    "sampled_mean_size": {
+      "native_source": 2.0333591931730024,
+      "native_reused": 2.3806568399275925,
+      "native_recal": 4.199120765451254,
+      "anchored": 5.287820015515904
+    }
+  },
+  "dense_vs_store_max_abs_diff": {
+    "native845": {
+      "max_abs_logit_diff": 0.0078125,
+      "entries_differing": 9,
+      "entries": 3461120,
+      "membership_flips": {
+        "native_reused": 0,
+        "native_recal": 0
+      }
+    },
+    "anchored845": {
+      "max_abs_logit_diff": 0.0078125,
+      "entries_differing": 17,
+      "entries": 3461120,
+      "membership_flips": {
+        "anchored": 0
+      }
+    },
+    "native150": {
+      "max_abs_logit_diff": 0.0078125,
+      "entries_differing": 5,
+      "entries": 614400,
+      "membership_flips": {
+        "native_source": 0
+      }
+    }
+  },
+  "figure": "paper\\fig\\fig_qualitative.pdf",
+  "figure_size_in": [
+    3.25,
+    0.904
+  ],
+  "problem_figure": "paper\\fig\\fig_problem.pdf",
+  "problem_panels": [
+    "native_source",
+    "native_reused",
+    "native_recal"
+  ],
+  "problem_figure_size_in": [
+    3.25,
+    0.904
+  ],
+  "colour_scale": "set size 0..10+ (shared), orange = missed source pixel, faded = unlabelled pixel",
+  "hashes": {
+    "src/fig_qualitative.py": "3b776152c95e604f506605332f4329a39745d2e5c89d49e01585c0dd9fa83c80",
+    "src/catseg_probe_model.py": "42b18d5c7cd75025f59c03b79b52e1bb140158f7e012bc02b4d4f6e539f97c8b",
+    "src/exp_headroom_probe.py": "35b38b49fc1c84ab84d33594f5e5547931de68294fcb286e50c30e4ef26a84d7"
+  }
+}

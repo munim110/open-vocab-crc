@@ -1,0 +1,22 @@
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+& & \multicolumn{2}{c}{ADE20K $150\!\to\!845$} & \multicolumn{2}{c}{Pascal Context $59\!\to\!458$} \\
+\cmidrule(lr){3-4}\cmidrule(l){5-6}
+Prevalence bins & weights from & $\alpha=.10$ & $\alpha=.05$ & $\alpha=.10$ & $\alpha=.05$ \\
+\midrule
+unweighted (label-level CRC) & -- & 22.2 / 9.0 & 13.1 / 20.6 & 22.3 / 2.7 & 12.6 / 5.0 \\
+\midrule
+all names, 2 bins & predicted & 10.1 / 26.8 & 5.1 / 58.9 & 8.1 / 232.6 (41) & 5.9 / 234.2 (41) \\
+all names, 2 bins & true & 11.5 / 426.6 (56) & 7.4 / 428.8 (56) & 18.1 / 231.2 (14) & 10.5 / 232.8 (14) \\
+all names, 3 bins & predicted & 9.6 / 27.4 & 1.9 / 322.4 (38) & 4.2 / 309.3 (65) & 2.9 / 310.5 (65) \\
+all names, 3 bins & true & 4.3 / 569.5 (78) & 2.2 / 575.5 (78) & 17.5 / 307.5 (47) & 10.5 / 308.5 (47) \\
+all names, 5 bins & predicted & 10.1 / 25.6 & 4.4 / 62.5 & 4.8 / 278.9 (55) & 2.1 / 283.1 (55) \\
+all names, 5 bins & true & 4.5 / 511.9 (69) & 2.2 / 516.9 (69) & 7.8 / 368.3 (80) & 5.0 / 369.0 (80) \\
+source names, 2 bins & predicted & 16.1 / 14.5 & 9.2 / 32.7 & 16.8 / 3.5 & 7.5 / 9.2 \\
+source names, 2 bins & true & 20.3 / 10.1 & 12.7 / 21.0 & 19.5 / 3.0 & 8.5 / 7.9 \\
+source names, 3 bins & predicted & 13.5 / 18.8 & 7.4 / 42.7 & 13.3 / 4.3 & 1.8 / 55.5 \\
+source names, 3 bins & true & 19.2 / 11.0 & 11.0 / 25.2 & 15.9 / 3.6 & 1.1 / 85.3 \\
+source names, 5 bins & predicted & 11.6 / 22.9 & 6.1 / 51.6 & 10.4 / 5.5 & 0.8 / 379.2 (88) \\
+source names, 5 bins & true & 15.1 / 15.6 & 7.6 / 41.0 & 9.7 / 6.4 & 1.1 / 406.1 (96) \\
+\bottomrule
+\end{tabular}

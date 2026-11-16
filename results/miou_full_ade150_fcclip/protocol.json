@@ -1,0 +1,29 @@
+{
+  "model": "fcclip",
+  "size": "convnext_large",
+  "dataset": "ade150",
+  "classes": 150,
+  "images": 2000,
+  "arms": [
+    "native",
+    "anchored_133",
+    "anchored_bank683"
+  ],
+  "bank683": "meta/bank_coco_oi683_v1.json",
+  "bank_sizes": {
+    "anchored_133": 133,
+    "anchored_bank683": 701
+  },
+  "names": "CAT-Seg checkout datasets/ade150.json; comma-separated synonyms as FC-CLIP synonym lists (max over synonyms), 14 ViLD templates averaged.",
+  "inference": "Released FC-CLIP ConvNeXt-L (COCO panoptic weights), a847 evaluation config: shortest edge 800 (max 1333), 250 queries; masks resampled to the annotation grid, sigmoid, weighted by per-query class probabilities, summed over queries, arg-max.",
+  "native": "Released semantic inference: in-/out-of-vocabulary logits softmaxed over the deployed (= benchmark) vocabulary, geometric ensemble (alpha .4 training names, beta .8 others), softmax, times one minus the void probability.",
+  "anchored": "Every softmax over the deployed vocabulary replaced by a softmax over {label} + bank (the label's own bank entry removed), void from bank + void; bank = training vocabulary (133) or training vocabulary + 683-name bank (701).",
+  "metric": "Confusion over all annotated pixels; mIoU over classes with ground-truth pixels; pc459 keeps \"unknown\" as a class.",
+  "scope": "Development data (ADE validation, Pascal Context validation); nothing is fitted; no reserve access.",
+  "hashes": {
+    "src/exp_fcclip_miou.py": "441ecb4b036df027fc7d103062b702caa55a21e4757e2e9fbc84c45049be7b18",
+    "src/exp_fcclip_probe.py": "29e9950d51d3eb2e1e1c621e767015bdaf80ce3dd7ec23b9c2e0bac6211af376",
+    "src/exp_miou_full.py": "36498d027b6e982e2309d4a760c50852c40efce14a304934b6c37e7ce6c5af2c",
+    "third_party_probe/fcclip_cocopan_convnext_large.pth": "241c141e0fec7f3be7e06915daee60807502de3b7ae8b8cbef2560d6df346257"
+  }
+}

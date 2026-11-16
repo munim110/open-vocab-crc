@@ -1,0 +1,42 @@
+{
+  "dataset": "ade",
+  "tag": "fcclip_bank683",
+  "images": 2000,
+  "trials": 500,
+  "design": "exchangeable (random source vocabulary), anchored scores",
+  "alphas": {
+    "0.1": {
+      "pooled": {
+        "added_cal": 0.09550683519989252,
+        "added_heldout": 0.09499615029990673,
+        "above_added_cal": 0.404,
+        "above_added_heldout": 0.402
+      },
+      "images": {
+        "added_cal": 0.09493062455207109,
+        "added_heldout": 0.0949230164065957,
+        "above_added_cal": 0.408,
+        "above_added_heldout": 0.41
+      }
+    },
+    "0.05": {
+      "pooled": {
+        "added_cal": 0.04547866159491241,
+        "added_heldout": 0.04496530715748668,
+        "above_added_cal": 0.358,
+        "above_added_heldout": 0.36
+      },
+      "images": {
+        "added_cal": 0.044636661233380434,
+        "added_heldout": 0.04462717603519559,
+        "above_added_cal": 0.358,
+        "above_added_heldout": 0.35
+      }
+    }
+  },
+  "hashes": {
+    "src/exp_label_exchange_images.py": "17ec02361f16b66425d0f78fd3bf646bd65f62ddedb5980f4a263b51e1399a83",
+    "src/exp_label_exchange.py": "b8b31e68eb3747ce67bf944dda1d8d50c01d731043df4e3377498cf52e5985e1",
+    "cache/sclip/gt847.npy": "6e83d84f201d616160e9baf27f6a43f9fb20abf4c444482db960d2c3feb3ad7a"
+  }
+}

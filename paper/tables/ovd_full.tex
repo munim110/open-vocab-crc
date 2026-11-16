@@ -1,0 +1,26 @@
+\setlength{\tabcolsep}{3pt}\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+& & \multicolumn{3}{c}{$\alpha=.10$} & \multicolumn{3}{c}{$\alpha=.05$} \\ \cmidrule(lr){3-5}\cmidrule(l){6-8}
+Detector & arm & risk & size, one prompt & size, LVIS & risk & size, one prompt & size, LVIS \\
+\midrule
+Grounding DINO T & native, source & 9.9 & -- & -- & 4.9 & -- & -- \\
+ & native reused & 9.6, 9.6 & 1.7 & 94.7 & 4.6, 4.8 & 3.8 & 291.1 \\
+ & native recal. & 9.9, 9.9 & 1.6 & 88.3 & 4.9, 4.9 & 3.5 & 280.5 \\
+ & anchored, bank A & 9.9 & 1.7 & 34.2 & 4.9 & 4.0 & 121.2 \\
+ & anchored, bank B & 9.9 & 16.0 & 295.4 & 1.7 & 93.9 & 1158.5 \\
+\midrule
+MM-Grounding DINO T & native, source & 9.9 & -- & -- & 4.9 & -- & -- \\
+ & native reused & 9.3, 9.0 & 1.7 & 23.0 & 4.3, 4.5 & 4.1 & 63.8 \\
+ & native recal. & 9.9, 9.9 & 1.6 & 20.2 & 4.9, 4.9 & 3.4 & 55.8 \\
+ & anchored, bank A & 9.9 & 1.2 & 3.1 & 4.9 & 2.0 & 9.5 \\
+ & anchored, bank B & 9.9 & 8.5 & 84.1 & 4.9 & 42.6 & 474.1 \\
+\midrule
+Grounding DINO B & native, source & 9.9 & -- & -- & 4.9 & -- & -- \\
+ & native reused & 18.3, 9.8 & 0.9 & 3.7 & 9.9, 4.9 & 1.2 & 9.7 \\
+ & native recal. & 9.9, 9.9 & 1.2 & 3.7 & 4.9, 4.9 & 2.2 & 9.7 \\
+ & anchored, bank A & 9.9 & 1.0 & 3.6 & 4.9 & 1.4 & 12.2 \\
+ & anchored, bank B & 9.9 & 7.7 & 243.0 & 4.3 & 71.5 & 1026.7 \\
+\midrule
+OWLv2 B (control) & reused & 9.9 & -- & 8.3 & 4.9 & -- & 28.5 \\
+\bottomrule
+\end{tabular}

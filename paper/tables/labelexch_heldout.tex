@@ -1,0 +1,25 @@
+\begin{tabular}{@{}llrrrrrrrr@{}}
+\toprule
+& & \multicolumn{4}{c}{$\alpha=.10$} & \multicolumn{4}{c}{$\alpha=.05$} \\
+\cmidrule(lr){3-6}\cmidrule(l){7-10}
+& & \multicolumn{2}{c}{risk} & \multicolumn{2}{c}{draws $>\alpha$} & \multicolumn{2}{c}{risk} & \multicolumn{2}{c}{draws $>\alpha$} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}\cmidrule(l){9-10}
+Model & benchmark & cal. & held-out & cal. & held-out & cal. & held-out & cal. & held-out \\
+\midrule
+CAT-Seg ViT-B & ADE20K & 9.5 & 9.6 & 39 & 39 & 4.5 & 4.5 & 34 & 35 \\
+CAT-Seg ViT-B & Pascal Context & 7.5 & 7.5 & 25 & 26 & 2.6 & 2.6 & 14 & 15 \\
+CAT-Seg ViT-B & COCO-Stuff & 9.1 & 9.2 & 36 & 37 & 4.1 & 4.1 & 29 & 28 \\
+CAT-Seg ViT-L & ADE20K & 9.5 & 9.5 & 40 & 40 & 4.5 & 4.5 & 36 & 37 \\
+CAT-Seg ViT-L & Pascal Context & 7.6 & 7.5 & 23 & 25 & 2.8 & 2.7 & 16 & 16 \\
+CAT-Seg ViT-L & COCO-Stuff & 8.9 & 9.0 & 33 & 34 & 4.0 & 4.1 & 27 & 28 \\
+CAT-Seg + DeCLIP & ADE20K & 9.5 & 9.4 & 39 & 38 & 4.5 & 4.5 & 34 & 34 \\
+CAT-Seg + DeCLIP & Pascal Context & 7.5 & 7.5 & 25 & 25 & 2.8 & 2.8 & 19 & 19 \\
+CAT-Seg + DeCLIP & COCO-Stuff & 9.0 & 9.1 & 35 & 33 & 4.1 & 4.1 & 27 & 29 \\
+SED & ADE20K & 9.5 & 9.5 & 42 & 42 & 4.6 & 4.6 & 36 & 37 \\
+SED & Pascal Context & 7.5 & 7.5 & 25 & 27 & 2.8 & 2.8 & 17 & 19 \\
+SED & COCO-Stuff & 9.0 & 9.1 & 34 & 36 & 4.0 & 4.1 & 27 & 29 \\
+FC-CLIP & ADE20K & 9.6 & 9.5 & 40 & 40 & 4.5 & 4.5 & 36 & 36 \\
+FC-CLIP & Pascal Context & 7.5 & 7.5 & 23 & 22 & 2.5 & 2.6 & 12 & 13 \\
+FC-CLIP & COCO-Stuff & 9.0 & 9.0 & 32 & 33 & 4.0 & 4.0 & 26 & 28 \\
+\bottomrule
+\end{tabular}

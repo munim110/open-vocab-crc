@@ -1,0 +1,65 @@
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Configuration & loss & native reused risk & native recal.\ size & anchored risk & anchored size \\
+\midrule
+CAT-Seg ViT-B, 683-name bank, Pascal 59$\to$458 & pixel miss (headline) & 15.2 & 2.5 & 9.9 & 2.8 \\
+ & $\ind[\text{miss} > 25\%]$ & 17.4 & 3.2 & 10.0 & 3.4 \\
+ & $\ind[\text{miss} > 10\%]$ & 19.7 & 5.6 & 10.0 & 5.9 \\
+ & class-balanced & 15.7 & 3.6 & 9.9 & 3.9 \\
+ & worst class in image & 20.1 & 16.1 & 9.9 & 15.6 \\
+\midrule
+CAT-Seg ViT-L, 683-name bank, Pascal 59$\to$458 & pixel miss (headline) & 15.0 & 2.1 & 9.9 & 2.3 \\
+ & $\ind[\text{miss} > 25\%]$ & 17.2 & 2.5 & 9.9 & 2.7 \\
+ & $\ind[\text{miss} > 10\%]$ & 19.3 & 4.0 & 10.1 & 4.3 \\
+ & class-balanced & 15.5 & 2.6 & 9.9 & 2.8 \\
+ & worst class in image & 18.9 & 10.4 & 9.9 & 9.8 \\
+\midrule
+CAT-Seg + DeCLIP EVA-L, 683-name bank, Pascal 59$\to$458 & pixel miss (headline) & 14.7 & 2.1 & 9.9 & 2.4 \\
+ & $\ind[\text{miss} > 25\%]$ & 16.8 & 2.7 & 9.9 & 3.0 \\
+ & $\ind[\text{miss} > 10\%]$ & 17.9 & 4.4 & 10.0 & 4.7 \\
+ & class-balanced & 15.0 & 2.6 & 9.9 & 2.8 \\
+ & worst class in image & 18.3 & 9.2 & 9.9 & 9.0 \\
+\midrule
+SED ConvNeXt-L, 683-name bank, Pascal 59$\to$458 & pixel miss (headline) & 4.7 & 2.7 & 9.9 & 2.8 \\
+ & $\ind[\text{miss} > 25\%]$ & 3.9 & 3.3 & 10.1 & 3.5 \\
+ & $\ind[\text{miss} > 10\%]$ & 3.9 & 5.5 & 10.0 & 5.7 \\
+ & class-balanced & 5.0 & 3.9 & 9.9 & 4.0 \\
+ & worst class in image & 4.5 & 14.9 & 9.9 & 14.8 \\
+\midrule
+FC-CLIP ConvNeXt-L, 701-name bank, Pascal 59$\to$458 & pixel miss (headline) & 16.2 & 5.3 & 9.9 & 5.8 \\
+ & $\ind[\text{miss} > 25\%]$ & 18.3 & 7.2 & 9.9 & 8.2 \\
+ & $\ind[\text{miss} > 10\%]$ & 18.0 & 16.7 & 10.0 & 17.4 \\
+ & class-balanced & 16.5 & 9.2 & 9.9 & 10.3 \\
+ & worst class in image & 19.5 & 61.3 & 9.9 & 59.7 \\
+\midrule
+CAT-Seg ViT-B, 683-name bank, COCO 171$\to$1,283 & pixel miss (headline) & 13.0 & 3.1 & 9.9 & 3.8 \\
+ & $\ind[\text{miss} > 25\%]$ & 14.1 & 3.3 & 10.0 & 3.9 \\
+ & $\ind[\text{miss} > 10\%]$ & 15.0 & 7.1 & 10.0 & 8.0 \\
+ & class-balanced & 15.4 & 7.4 & 9.9 & 8.1 \\
+ & worst class in image & 21.9 & 54.2 & 10.0 & 45.5 \\
+\midrule
+CAT-Seg ViT-L, 683-name bank, COCO 171$\to$1,283 & pixel miss (headline) & 12.9 & 2.6 & 9.9 & 3.2 \\
+ & $\ind[\text{miss} > 25\%]$ & 13.9 & 2.9 & 10.0 & 3.4 \\
+ & $\ind[\text{miss} > 10\%]$ & 15.6 & 5.8 & 10.0 & 6.6 \\
+ & class-balanced & 15.3 & 5.7 & 9.9 & 5.9 \\
+ & worst class in image & 21.4 & 35.6 & 9.9 & 31.8 \\
+\midrule
+CAT-Seg + DeCLIP EVA-L, 683-name bank, COCO 171$\to$1,283 & pixel miss (headline) & 12.9 & 2.6 & 9.9 & 3.2 \\
+ & $\ind[\text{miss} > 25\%]$ & 13.9 & 2.9 & 10.0 & 3.5 \\
+ & $\ind[\text{miss} > 10\%]$ & 14.6 & 6.0 & 10.0 & 6.8 \\
+ & class-balanced & 14.8 & 5.2 & 9.9 & 5.7 \\
+ & worst class in image & 19.9 & 31.2 & 9.9 & 28.5 \\
+\midrule
+SED ConvNeXt-L, 683-name bank, COCO 171$\to$1,283 & pixel miss (headline) & 3.6 & 3.7 & 9.9 & 3.5 \\
+ & $\ind[\text{miss} > 25\%]$ & 2.8 & 3.9 & 10.0 & 3.7 \\
+ & $\ind[\text{miss} > 10\%]$ & 2.8 & 7.7 & 10.0 & 7.2 \\
+ & class-balanced & 4.3 & 8.2 & 9.9 & 7.5 \\
+ & worst class in image & 4.8 & 47.9 & 10.0 & 45.3 \\
+\midrule
+FC-CLIP ConvNeXt-L, 701-name bank, COCO 171$\to$1,283 & pixel miss (headline) & 17.1 & 26.5 & 9.9 & 26.8 \\
+ & $\ind[\text{miss} > 25\%]$ & 22.6 & 36.8 & 9.9 & 38.8 \\
+ & $\ind[\text{miss} > 10\%]$ & 24.4 & 120.7 & 9.9 & 112.0 \\
+ & class-balanced & 17.4 & 81.8 & 9.9 & 72.9 \\
+ & worst class in image & 23.0 & 518.4 & 9.8 & 463.9 \\
+\bottomrule
+\end{tabular}

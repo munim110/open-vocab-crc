@@ -1,0 +1,610 @@
+{
+  "dataset": "pascal",
+  "tag": "sed_bank683",
+  "images": 2000,
+  "excluded_images": 0,
+  "splits": 500,
+  "policies": [
+    "rand50",
+    "rand100",
+    "rand300",
+    "present",
+    "tagger50"
+  ],
+  "added_names_per_image": {
+    "rand50": {
+      "mean": 50.0,
+      "max": 50
+    },
+    "rand100": {
+      "mean": 100.0,
+      "max": 100
+    },
+    "rand300": {
+      "mean": 300.0,
+      "max": 300
+    },
+    "present": {
+      "mean": 1.118,
+      "max": 12
+    },
+    "tagger50": {
+      "mean": 50.0,
+      "max": 50
+    }
+  },
+  "alphas": {
+    "0.1": {
+      "rand50": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.09830254914719172,
+          "frac_splits_above_alpha": 0.428,
+          "mean_size": 1.8076597786126485
+        },
+        "native, frozen at 59": {
+          "mean_risk": 0.08218180162777433,
+          "frac_splits_above_alpha": 0.004,
+          "mean_size": 1.8051730782495838
+        },
+        "native, recalibrated at 458": {
+          "mean_risk": 0.15165303366766802,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.2305450698863554
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.09839356933536621,
+          "frac_splits_above_alpha": 0.418,
+          "mean_size": 1.6176469536303826
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.06292678371614106,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.101629214226252
+        },
+        "native, calibrated under rand100": {
+          "mean_risk": 0.10932008864671774,
+          "frac_splits_above_alpha": 0.856,
+          "mean_size": 1.5166484450455788
+        },
+        "native, calibrated under rand300": {
+          "mean_risk": 0.14238968414654954,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.2805086270815904
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.08158207796134995,
+          "frac_splits_above_alpha": 0.004,
+          "mean_size": 1.813131723598692
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.06572772679133676,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.05152040680855
+        }
+      },
+      "rand100": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.09830254914719172,
+          "frac_splits_above_alpha": 0.428,
+          "mean_size": 1.9522947501716765
+        },
+        "native, frozen at 59": {
+          "mean_risk": 0.07318609284987695,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.0838586464934488
+        },
+        "native, recalibrated at 458": {
+          "mean_risk": 0.13658838635179427,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.3693550643956787
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.09830343224027482,
+          "frac_splits_above_alpha": 0.4,
+          "mean_size": 1.7204864399050293
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.055202587071010695,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.4746087581879364
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.08863005438810834,
+          "frac_splits_above_alpha": 0.038,
+          "mean_size": 1.845545608473807
+        },
+        "native, calibrated under rand300": {
+          "mean_risk": 0.12809016748202812,
+          "frac_splits_above_alpha": 0.998,
+          "mean_size": 1.430676774109916
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.07260146931965394,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.0941513146120307
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.0577689864391317,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.407638151368945
+        }
+      },
+      "rand300": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.09830254914719172,
+          "frac_splits_above_alpha": 0.428,
+          "mean_size": 2.5239590502985427
+        },
+        "native, frozen at 59": {
+          "mean_risk": 0.05007737875089944,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.850401331931733
+        },
+        "native, recalibrated at 458": {
+          "mean_risk": 0.10575529420229487,
+          "frac_splits_above_alpha": 0.76,
+          "mean_size": 2.1766536367914466
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.09805811606379881,
+          "frac_splits_above_alpha": 0.396,
+          "mean_size": 2.3192907573839876
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.0373427934485655,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 4.751878669474514
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.0624741904986964,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.288053131172641
+        },
+        "native, calibrated under rand100": {
+          "mean_risk": 0.07123927349730348,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.991802434763424
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.0496685334205915,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.8744155804193436
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.039197014953763376,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 4.597806138294748
+        }
+      },
+      "present": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.09830254914719172,
+          "frac_splits_above_alpha": 0.428,
+          "mean_size": 1.7095494584241173
+        },
+        "native, frozen at 59": {
+          "mean_risk": 0.09903528182964005,
+          "frac_splits_above_alpha": 0.47,
+          "mean_size": 1.5494559900058311
+        },
+        "native, recalibrated at 458": {
+          "mean_risk": 0.1886381825525283,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.0561541704439628
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.09831033723303423,
+          "frac_splits_above_alpha": 0.424,
+          "mean_size": 1.5557752393874653
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.07691116741454514,
+          "frac_splits_above_alpha": 0.002,
+          "mean_size": 1.7822511835387822
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.11868325607937205,
+          "frac_splits_above_alpha": 0.986,
+          "mean_size": 1.395081533281087
+        },
+        "native, calibrated under rand100": {
+          "mean_risk": 0.13214253678506122,
+          "frac_splits_above_alpha": 0.998,
+          "mean_size": 1.3089495008461032
+        },
+        "native, calibrated under rand300": {
+          "mean_risk": 0.1755216065078842,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.1022489017751034
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.08010594406249402,
+          "frac_splits_above_alpha": 0.002,
+          "mean_size": 1.7429603061644097
+        }
+      },
+      "tagger50": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.09830254914719172,
+          "frac_splits_above_alpha": 0.428,
+          "mean_size": 2.803051264832699
+        },
+        "native, frozen at 59": {
+          "mean_risk": 0.11753618151335088,
+          "frac_splits_above_alpha": 0.994,
+          "mean_size": 2.070998687696925
+        },
+        "native, recalibrated at 458": {
+          "mean_risk": 0.1941180109747688,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.2653270508560273
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.09833717497770035,
+          "frac_splits_above_alpha": 0.42,
+          "mean_size": 2.443888942116645
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.09490984675184536,
+          "frac_splits_above_alpha": 0.23,
+          "mean_size": 2.52150514248182
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.13503323584504826,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.79341672700398
+        },
+        "native, calibrated under rand100": {
+          "mean_risk": 0.14697956415837043,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.6475615651687818
+        },
+        "native, calibrated under rand300": {
+          "mean_risk": 0.18402819455367972,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.3281601253343092
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.11686317440434124,
+          "frac_splits_above_alpha": 0.99,
+          "mean_size": 2.0828200081824555
+        }
+      },
+      "adversarial": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.09830254914719172,
+          "frac_splits_above_alpha": 0.428,
+          "mean_size": 2.803051264832699
+        },
+        "native, frozen at 59": {
+          "mean_risk": 0.12262795180531107,
+          "frac_splits_above_alpha": 0.998,
+          "mean_size": 1.9414178831075266
+        },
+        "native, recalibrated at 458": {
+          "mean_risk": 0.2106222569672168,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.1335858580769116
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.09835332468617322,
+          "frac_splits_above_alpha": 0.414,
+          "mean_size": 2.42160061498082
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.14206205296753513,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.641199341949185
+        },
+        "native, calibrated under rand100": {
+          "mean_risk": 0.1552479238490331,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.4967364568534534
+        },
+        "native, calibrated under rand300": {
+          "mean_risk": 0.19812029984972293,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.1944110779992794
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.12189152396791582,
+          "frac_splits_above_alpha": 0.998,
+          "mean_size": 1.9543410896045708
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.10196670056192306,
+          "frac_splits_above_alpha": 0.59,
+          "mean_size": 2.3369843417853455
+        }
+      }
+    },
+    "0.05": {
+      "rand50": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.04839478177367341,
+          "frac_splits_above_alpha": 0.348,
+          "mean_size": 2.633000764389286
+        },
+        "native, frozen at 59": {
+          "mean_risk": 0.03933927357526885,
+          "frac_splits_above_alpha": 0.01,
+          "mean_size": 2.7163971722251508
+        },
+        "native, recalibrated at 458": {
+          "mean_risk": 0.08565681242805265,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.7603630236529033
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.04860450332681697,
+          "frac_splits_above_alpha": 0.388,
+          "mean_size": 2.4314913883570277
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.028661917040971215,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.211152480554551
+        },
+        "native, calibrated under rand100": {
+          "mean_risk": 0.055952419874759796,
+          "frac_splits_above_alpha": 0.86,
+          "mean_size": 2.2474065188940084
+        },
+        "native, calibrated under rand300": {
+          "mean_risk": 0.07973703619011095,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.8381639957686262
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.038687773731766704,
+          "frac_splits_above_alpha": 0.006,
+          "mean_size": 2.739360975415352
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.029432570446626262,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.164324030596349
+        }
+      },
+      "rand100": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.04839478177367341,
+          "frac_splits_above_alpha": 0.348,
+          "mean_size": 2.9478244795965423
+        },
+        "native, frozen at 59": {
+          "mean_risk": 0.033328682505234325,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.308996513108055
+        },
+        "native, recalibrated at 458": {
+          "mean_risk": 0.0765460623464749,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.0263928687167057
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.04842813183699881,
+          "frac_splits_above_alpha": 0.382,
+          "mean_size": 2.670520954876065
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.024786949673449753,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.9927612026997856
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.04144586393675043,
+          "frac_splits_above_alpha": 0.04,
+          "mean_size": 2.9189312411875217
+        },
+        "native, calibrated under rand300": {
+          "mean_risk": 0.07079786196996304,
+          "frac_splits_above_alpha": 0.998,
+          "mean_size": 2.126838753660352
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.032802496037704035,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.3408249709087823
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.025433909177799488,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.92856825653753
+        }
+      },
+      "rand300": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.04839478177367341,
+          "frac_splits_above_alpha": 0.348,
+          "mean_size": 4.175261783598156
+        },
+        "native, frozen at 59": {
+          "mean_risk": 0.022408660076472138,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 6.677019659356963
+        },
+        "native, recalibrated at 458": {
+          "mean_risk": 0.05257756581248897,
+          "frac_splits_above_alpha": 0.662,
+          "mean_size": 3.71536531701439
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.048482157680355256,
+          "frac_splits_above_alpha": 0.412,
+          "mean_size": 3.9500195244574505
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.016482332628973893,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 8.236262484695965
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.0279159917086988,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 5.7813919844883
+        },
+        "native, calibrated under rand100": {
+          "mean_risk": 0.03262501581779044,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 5.205003695202529
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.022051197743246247,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 6.749509272447254
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.016928176352128104,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 8.08918855255581
+        }
+      },
+      "present": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.04839478177367341,
+          "frac_splits_above_alpha": 0.348,
+          "mean_size": 2.405085460191958
+        },
+        "native, frozen at 59": {
+          "mean_risk": 0.04928510389470813,
+          "frac_splits_above_alpha": 0.448,
+          "mean_size": 2.24546945502029
+        },
+        "native, recalibrated at 458": {
+          "mean_risk": 0.10323924625551269,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.513556962239329
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.048541024999910753,
+          "frac_splits_above_alpha": 0.4,
+          "mean_size": 2.262178739464111
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.03646126475764643,
+          "frac_splits_above_alpha": 0.004,
+          "mean_size": 2.5979645908128415
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.059977103216681045,
+          "frac_splits_above_alpha": 0.968,
+          "mean_size": 2.0349392406799343
+        },
+        "native, calibrated under rand100": {
+          "mean_risk": 0.06856813424201531,
+          "frac_splits_above_alpha": 0.998,
+          "mean_size": 1.895459293327023
+        },
+        "native, calibrated under rand300": {
+          "mean_risk": 0.09611173391135512,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.5755959666156303
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.037435425831945326,
+          "frac_splits_above_alpha": 0.004,
+          "mean_size": 2.5651650335085487
+        }
+      },
+      "tagger50": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.04839478177367341,
+          "frac_splits_above_alpha": 0.348,
+          "mean_size": 4.765344673970409
+        },
+        "native, frozen at 59": {
+          "mean_risk": 0.06267446715438764,
+          "frac_splits_above_alpha": 0.988,
+          "mean_size": 3.5055745456826344
+        },
+        "native, recalibrated at 458": {
+          "mean_risk": 0.12134504762662758,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.004612953820973
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.04845068015188521,
+          "frac_splits_above_alpha": 0.39,
+          "mean_size": 4.245977677404906
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.04727698137576752,
+          "frac_splits_above_alpha": 0.298,
+          "mean_size": 4.3241385888755515
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.07544494633202098,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 3.0440696580488718
+        },
+        "native, calibrated under rand100": {
+          "mean_risk": 0.0855772299753834,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.7507786460350507
+        },
+        "native, calibrated under rand300": {
+          "mean_risk": 0.11473932550085672,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.1202889672815717
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.06178865379525471,
+          "frac_splits_above_alpha": 0.982,
+          "mean_size": 3.543252433399795
+        }
+      },
+      "adversarial": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.04839478177367341,
+          "frac_splits_above_alpha": 0.348,
+          "mean_size": 4.765344673970409
+        },
+        "native, frozen at 59": {
+          "mean_risk": 0.06456998901780438,
+          "frac_splits_above_alpha": 0.99,
+          "mean_size": 3.5928858220669104
+        },
+        "native, recalibrated at 458": {
+          "mean_risk": 0.126836288752594,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.8685900573638545
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.0484445599212418,
+          "frac_splits_above_alpha": 0.376,
+          "mean_size": 4.720757309035053
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.07791925586794532,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 3.0339495877263123
+        },
+        "native, calibrated under rand100": {
+          "mean_risk": 0.08860618992133146,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.6811169057298914
+        },
+        "native, calibrated under rand300": {
+          "mean_risk": 0.11958542285696225,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 1.9951026674345516
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.063639745381596,
+          "frac_splits_above_alpha": 0.988,
+          "mean_size": 3.6425322562845395
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.04967312251574404,
+          "frac_splits_above_alpha": 0.478,
+          "mean_size": 4.611630350804773
+        }
+      }
+    }
+  },
+  "hashes": {
+    "src/exp_adaptive_vocab.py": "a56b039726ec34f4020a34f268a48565771a78d6a6e5f3ef107a2a2013f884bf",
+    "src/exp_adaptive_vocab_probe.py": "99bafbcd6c0f6ec75941851615dfc9dc6875fea623a5206bde0bf588d1727b39"
+  }
+}

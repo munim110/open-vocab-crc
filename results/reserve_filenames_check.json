@@ -1,0 +1,17 @@
+{
+  "C1_pass": true,
+  "C1_missing": [],
+  "requested": 2000,
+  "shards": {
+    "train-00000-of-00010.parquet": "20ab4443522379f08a0f6ae27f35374d98b6f4854f92067882c79188e5307671",
+    "train-00001-of-00010.parquet": "72110d0636d700e64a16f587deb7c900eab199a0a24ad3a17405644465c2f9c8",
+    "train-00002-of-00010.parquet": "ef3dbd70ab4d6ae6ce3d24f74a012203b9fe5062d0f09aed6c650bb3ad304f73",
+    "train-00003-of-00010.parquet": "a7bbfc479c48fe36bda67437949c5c3d478befaba94dccef5aa3eeb916666fe1",
+    "train-00004-of-00010.parquet": "bba48e38693f910877e5a02e14eb1b949923bbcafc4103aade9a120179df0a85",
+    "train-00005-of-00010.parquet": "2ad42ce28d8c1808c9d5ffe0a62e83a8d84f7d27101107b2b8b6ac70157b8c61",
+    "train-00006-of-00010.parquet": "64a6634a9f45b9ba964679f192f68b2499909eb30074e48ad2d1563d442c26b5",
+    "train-00007-of-00010.parquet": "2ae8306de3a08b3621b93f7080e93949a1b6fae7966d1f82aa717fb62074b454",
+    "train-00008-of-00010.parquet": "e3028ae600df8b8a2a5367c0d8e930fe4d4cffe3348c77e0eaf5a40d96ad9fe2",
+    "train-00009-of-00010.parquet": "fc4681c7c692fda8453fe7546514b126ef4938471f438fb4a90030e3d66c14e2"
+  }
+}

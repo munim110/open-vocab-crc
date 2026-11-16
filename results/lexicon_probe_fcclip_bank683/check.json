@@ -1,0 +1,40 @@
+{
+  "vocabulary": 17001,
+  "source": 150,
+  "msdeform_attn_cuda_kernel": false,
+  "images": [
+    {
+      "image": 219,
+      "lexicon_columns_in_logits_max_abs_diff": 5.245208740234375e-06,
+      "lexicon_columns_void_logit_max_abs_diff": 6.67572021484375e-06,
+      "lexicon_columns_out_logits_max_abs_diff": 1.71661376953125e-05,
+      "lexicon_columns_masks_max_abs_diff": 0.0,
+      "native150_max_abs_diff": 0.0078125,
+      "native150_mean_abs_diff": 1.0650218200680683e-06,
+      "native845_max_abs_diff": 0.0078125,
+      "native845_mean_abs_diff": 7.858065487198473e-07
+    },
+    {
+      "image": 1612,
+      "lexicon_columns_in_logits_max_abs_diff": 5.245208740234375e-06,
+      "lexicon_columns_void_logit_max_abs_diff": 5.7220458984375e-06,
+      "lexicon_columns_out_logits_max_abs_diff": 1.71661376953125e-05,
+      "lexicon_columns_masks_max_abs_diff": 0.0,
+      "native150_max_abs_diff": 0.0078125,
+      "native150_mean_abs_diff": 8.424003112850187e-07,
+      "native845_max_abs_diff": 0.0078125,
+      "native845_mean_abs_diff": 7.536608563896152e-07
+    },
+    {
+      "image": 1496,
+      "lexicon_columns_in_logits_max_abs_diff": 5.7220458984375e-06,
+      "lexicon_columns_void_logit_max_abs_diff": 6.67572021484375e-06,
+      "lexicon_columns_out_logits_max_abs_diff": 1.52587890625e-05,
+      "lexicon_columns_masks_max_abs_diff": 0.0,
+      "native150_max_abs_diff": 0.0078125,
+      "native150_mean_abs_diff": 1.7295187717536464e-06,
+      "native845_max_abs_diff": 0.0078125,
+      "native845_mean_abs_diff": 1.2497107491071802e-06
+    }
+  ]
+}

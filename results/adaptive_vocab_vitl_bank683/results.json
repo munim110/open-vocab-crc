@@ -1,0 +1,849 @@
+{
+  "tag": "vitl_bank683",
+  "images": 2000,
+  "excluded_images": 0,
+  "splits": 500,
+  "policies": [
+    "rand50",
+    "rand200",
+    "rand500",
+    "present",
+    "tagger50"
+  ],
+  "added_names_per_image": {
+    "rand50": {
+      "mean": 50.0,
+      "max": 50
+    },
+    "rand200": {
+      "mean": 200.0,
+      "max": 200
+    },
+    "rand500": {
+      "mean": 500.0,
+      "max": 500
+    },
+    "present": {
+      "mean": 1.606,
+      "max": 18
+    },
+    "tagger50": {
+      "mean": 50.0,
+      "max": 50
+    }
+  },
+  "alphas": {
+    "0.1": {
+      "rand50": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.09903958130831958,
+          "frac_splits_above_alpha": 0.434,
+          "mean_size": 2.388666120595083
+        },
+        "native, frozen at 150": {
+          "mean_risk": 0.10302078029895553,
+          "frac_splits_above_alpha": 0.676,
+          "mean_size": 1.9510894611947833
+        },
+        "native, recalibrated at 845": {
+          "mean_risk": 0.061864295007396944,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.9338197935135404
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.09899249446207276,
+          "frac_splits_above_alpha": 0.426,
+          "mean_size": 2.0118540999178514
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.06473867640173497,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.8267760146429555
+        },
+        "native, calibrated under rand200": {
+          "mean_risk": 0.0852656429280906,
+          "frac_splits_above_alpha": 0.012,
+          "mean_size": 2.267105719973536
+        },
+        "native, calibrated under rand500": {
+          "mean_risk": 0.06837954469508072,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.7048947801934826
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.09952710315574834,
+          "frac_splits_above_alpha": 0.456,
+          "mean_size": 2.003541061463288
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.0656259831529481,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.7957223289110513
+        },
+        "native, recalibrated at a 1,690-name lexicon": {
+          "mean_risk": 0.05205460175776967,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.3970928876495297
+        },
+        "native, recalibrated at a 3,380-name lexicon": {
+          "mean_risk": 0.044020277040132574,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.922174738185588
+        },
+        "native, recalibrated at a 6,760-name lexicon": {
+          "mean_risk": 0.03657585087658025,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 4.543173102386427
+        },
+        "native, recalibrated at a 17,001-name lexicon": {
+          "mean_risk": 0.022389026628005432,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 6.451149783085332
+        }
+      },
+      "rand200": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.09903958130831958,
+          "frac_splits_above_alpha": 0.434,
+          "mean_size": 2.834173680768058
+        },
+        "native, frozen at 150": {
+          "mean_risk": 0.11823505028431541,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.0302039079622607
+        },
+        "native, recalibrated at 845": {
+          "mean_risk": 0.07270244984231546,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.141844522241836
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.09905805517360955,
+          "frac_splits_above_alpha": 0.4,
+          "mean_size": 2.3801214740990146
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.07593531349629166,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.0189278364683876
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.11401401046196302,
+          "frac_splits_above_alpha": 0.98,
+          "mean_size": 2.0972066789114976
+        },
+        "native, calibrated under rand500": {
+          "mean_risk": 0.08002350326170272,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.8787585166618994
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.11457757113194833,
+          "frac_splits_above_alpha": 0.986,
+          "mean_size": 2.0880490567196133
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.07692702369088587,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.9832411450140044
+        },
+        "native, recalibrated at a 1,690-name lexicon": {
+          "mean_risk": 0.06150570724622317,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.6768553855378907
+        },
+        "native, recalibrated at a 3,380-name lexicon": {
+          "mean_risk": 0.052310843324607885,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 4.2911810598928115
+        },
+        "native, recalibrated at a 6,760-name lexicon": {
+          "mean_risk": 0.04438580796225039,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 5.021718991375937
+        },
+        "native, recalibrated at a 17,001-name lexicon": {
+          "mean_risk": 0.029333480269000737,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 7.2855032509562925
+        }
+      },
+      "rand500": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.09903958130831958,
+          "frac_splits_above_alpha": 0.434,
+          "mean_size": 3.692995122057847
+        },
+        "native, frozen at 150": {
+          "mean_risk": 0.1414413136354201,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.1099840274729043
+        },
+        "native, recalibrated at 845": {
+          "mean_risk": 0.0909155566307553,
+          "frac_splits_above_alpha": 0.094,
+          "mean_size": 3.352713402308531
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.09915845711938037,
+          "frac_splits_above_alpha": 0.43,
+          "mean_size": 3.0556283634923314
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.09461034546844314,
+          "frac_splits_above_alpha": 0.204,
+          "mean_size": 3.2131577362793116
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.13669207274411066,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.1844544808428457
+        },
+        "native, calibrated under rand200": {
+          "mean_risk": 0.11989166276838771,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.501072916357381
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.13732144608760627,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.1742584165884544
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.09572820842743222,
+          "frac_splits_above_alpha": 0.252,
+          "mean_size": 3.1729121767382984
+        },
+        "native, recalibrated at a 1,690-name lexicon": {
+          "mean_risk": 0.07763534231590127,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.9698367573339537
+        },
+        "native, recalibrated at a 3,380-name lexicon": {
+          "mean_risk": 0.06660826613920161,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 4.687325408844436
+        },
+        "native, recalibrated at a 6,760-name lexicon": {
+          "mean_risk": 0.056899824763855605,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 5.5507713702045836
+        },
+        "native, recalibrated at a 17,001-name lexicon": {
+          "mean_risk": 0.03930537708208976,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 8.253807194669703
+        }
+      },
+      "present": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.09903958130831958,
+          "frac_splits_above_alpha": 0.434,
+          "mean_size": 2.3202620499363102
+        },
+        "native, frozen at 150": {
+          "mean_risk": 0.10252274009799746,
+          "frac_splits_above_alpha": 0.65,
+          "mean_size": 1.9310359021763028
+        },
+        "native, recalibrated at 845": {
+          "mean_risk": 0.06178798240052409,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.8548597649059304
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.09906549749496116,
+          "frac_splits_above_alpha": 0.454,
+          "mean_size": 1.9813948632059404
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.06453189056589181,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.7554494284287103
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.0985383852431498,
+          "frac_splits_above_alpha": 0.398,
+          "mean_size": 1.9893537988209373
+        },
+        "native, calibrated under rand200": {
+          "mean_risk": 0.08464994485920689,
+          "frac_splits_above_alpha": 0.014,
+          "mean_size": 2.2314500669887503
+        },
+        "native, calibrated under rand500": {
+          "mean_risk": 0.06799200601643905,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.641749728182869
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.06537392982010239,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 2.7265330348799552
+        },
+        "native, recalibrated at a 1,690-name lexicon": {
+          "mean_risk": 0.05224050836277118,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.2806097693864285
+        },
+        "native, recalibrated at a 3,380-name lexicon": {
+          "mean_risk": 0.044184318692600144,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 3.757280290900252
+        },
+        "native, recalibrated at a 6,760-name lexicon": {
+          "mean_risk": 0.03685230281086858,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 4.314179415966115
+        },
+        "native, recalibrated at a 17,001-name lexicon": {
+          "mean_risk": 0.02272883669950407,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 6.007248230495725
+        }
+      },
+      "tagger50": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.09903958130831958,
+          "frac_splits_above_alpha": 0.434,
+          "mean_size": 4.169525219982492
+        },
+        "native, frozen at 150": {
+          "mean_risk": 0.14750688224583872,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.2219314710295635
+        },
+        "native, recalibrated at 845": {
+          "mean_risk": 0.09408831312221992,
+          "frac_splits_above_alpha": 0.188,
+          "mean_size": 3.685852871131434
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.09920008615495474,
+          "frac_splits_above_alpha": 0.448,
+          "mean_size": 3.4706879101003505
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.09800540099162842,
+          "frac_splits_above_alpha": 0.394,
+          "mean_size": 3.518871363991342
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.14246273078785232,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.307481149183819
+        },
+        "native, calibrated under rand200": {
+          "mean_risk": 0.12492588306078123,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.6736760181054904
+        },
+        "native, calibrated under rand500": {
+          "mean_risk": 0.1029077378256423,
+          "frac_splits_above_alpha": 0.656,
+          "mean_size": 3.3302257120562406
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.1431321983481153,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.2957595157448605
+        },
+        "native, recalibrated at a 1,690-name lexicon": {
+          "mean_risk": 0.08014846732608666,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 4.42620047668147
+        },
+        "native, recalibrated at a 3,380-name lexicon": {
+          "mean_risk": 0.06862816808882753,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 5.2820778204646395
+        },
+        "native, recalibrated at a 6,760-name lexicon": {
+          "mean_risk": 0.058357564137479286,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 6.288310734461888
+        },
+        "native, recalibrated at a 17,001-name lexicon": {
+          "mean_risk": 0.03992322256883792,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 9.227465539179583
+        }
+      },
+      "adversarial": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.09903958130831958,
+          "frac_splits_above_alpha": 0.434,
+          "mean_size": 4.173988493046714
+        },
+        "native, frozen at 150": {
+          "mean_risk": 0.14856230574964766,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.199410670637045
+        },
+        "native, recalibrated at 845": {
+          "mean_risk": 0.09531460031747278,
+          "frac_splits_above_alpha": 0.248,
+          "mean_size": 3.582739994464023
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.09920769564114448,
+          "frac_splits_above_alpha": 0.428,
+          "mean_size": 3.4270091586023885
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.14353400713507944,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.2810250433533295
+        },
+        "native, calibrated under rand200": {
+          "mean_risk": 0.125885342915855,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.6301407353864517
+        },
+        "native, calibrated under rand500": {
+          "mean_risk": 0.1040605964301266,
+          "frac_splits_above_alpha": 0.71,
+          "mean_size": 3.2508475832643158
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.14420235670111908,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 2.2698934978715837
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.1003939682222723,
+          "frac_splits_above_alpha": 0.496,
+          "mean_size": 3.382116256196977
+        },
+        "native, recalibrated at a 1,690-name lexicon": {
+          "mean_risk": 0.08140635044645333,
+          "frac_splits_above_alpha": 0.002,
+          "mean_size": 4.271252976600399
+        },
+        "native, recalibrated at a 3,380-name lexicon": {
+          "mean_risk": 0.06982929079017955,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 5.072639726403821
+        },
+        "native, recalibrated at a 6,760-name lexicon": {
+          "mean_risk": 0.05949088752798393,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 6.0292625682893055
+        },
+        "native, recalibrated at a 17,001-name lexicon": {
+          "mean_risk": 0.04116975871620071,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 8.923618199490818
+        }
+      }
+    },
+    "0.05": {
+      "rand50": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.04904814171280016,
+          "frac_splits_above_alpha": 0.432,
+          "mean_size": 4.00848656085744
+        },
+        "native, frozen at 150": {
+          "mean_risk": 0.05120905020510129,
+          "frac_splits_above_alpha": 0.572,
+          "mean_size": 3.447638391967323
+        },
+        "native, recalibrated at 845": {
+          "mean_risk": 0.02624587011715684,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 5.806006618559142
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.049097479103949626,
+          "frac_splits_above_alpha": 0.418,
+          "mean_size": 3.5764672483844424
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.0287886084613632,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 5.442045559455491
+        },
+        "native, calibrated under rand200": {
+          "mean_risk": 0.04110395292199679,
+          "frac_splits_above_alpha": 0.026,
+          "mean_size": 4.151488120541868
+        },
+        "native, calibrated under rand500": {
+          "mean_risk": 0.030495894327268864,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 5.217945076546998
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.04887626296071458,
+          "frac_splits_above_alpha": 0.402,
+          "mean_size": 3.5901399591600467
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.029721322839914646,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 5.3170611846814975
+        },
+        "native, recalibrated at a 1,690-name lexicon": {
+          "mean_risk": 0.02035618244833723,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 6.893213729555501
+        },
+        "native, recalibrated at a 3,380-name lexicon": {
+          "mean_risk": 0.015835642745564708,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 8.267129182646464
+        },
+        "native, recalibrated at a 6,760-name lexicon": {
+          "mean_risk": 0.011356947903329266,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 10.792182403632058
+        },
+        "native, recalibrated at a 17,001-name lexicon": {
+          "mean_risk": 0.0014953090570327713,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 45.41478711080633
+        }
+      },
+      "rand200": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.04904814171280016,
+          "frac_splits_above_alpha": 0.432,
+          "mean_size": 5.090684571723152
+        },
+        "native, frozen at 150": {
+          "mean_risk": 0.060511191004725434,
+          "frac_splits_above_alpha": 0.984,
+          "mean_size": 3.735892829828599
+        },
+        "native, recalibrated at 845": {
+          "mean_risk": 0.03336115237281786,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 6.5185954224837035
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.04913512557880835,
+          "frac_splits_above_alpha": 0.42,
+          "mean_size": 4.560273220706274
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.03596187379870429,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 6.086308255929931
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.058075275218788136,
+          "frac_splits_above_alpha": 0.93,
+          "mean_size": 3.886314026232194
+        },
+        "native, calibrated under rand500": {
+          "mean_risk": 0.037756462191230265,
+          "frac_splits_above_alpha": 0.004,
+          "mean_size": 5.820528596314779
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.057827579236450335,
+          "frac_splits_above_alpha": 0.932,
+          "mean_size": 3.9022850443571033
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.03693567825391284,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 5.938039136645259
+        },
+        "native, recalibrated at a 1,690-name lexicon": {
+          "mean_risk": 0.02701312757663203,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 7.811954187909363
+        },
+        "native, recalibrated at a 3,380-name lexicon": {
+          "mean_risk": 0.021528435665424426,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 9.455310752282713
+        },
+        "native, recalibrated at a 6,760-name lexicon": {
+          "mean_risk": 0.015723375911413085,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 12.491949894340815
+        },
+        "native, recalibrated at a 17,001-name lexicon": {
+          "mean_risk": 0.0027576848383823933,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 55.77824876573936
+        }
+      },
+      "rand500": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.04904814171280016,
+          "frac_splits_above_alpha": 0.432,
+          "mean_size": 7.216198003551157
+        },
+        "native, frozen at 150": {
+          "mean_risk": 0.07641806365421827,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 4.038474097106087
+        },
+        "native, recalibrated at 845": {
+          "mean_risk": 0.0439417688845964,
+          "frac_splits_above_alpha": 0.102,
+          "mean_size": 7.336783788186715
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.04922509696932846,
+          "frac_splits_above_alpha": 0.432,
+          "mean_size": 6.502963312170606
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.04708134000705705,
+          "frac_splits_above_alpha": 0.288,
+          "mean_size": 6.820422341148959
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.07348115188762347,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 4.213530969100371
+        },
+        "native, calibrated under rand200": {
+          "mean_risk": 0.06270698320894957,
+          "frac_splits_above_alpha": 0.994,
+          "mean_size": 5.004557538907278
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.07317654064904536,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 4.232114551196291
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.04825208407397098,
+          "frac_splits_above_alpha": 0.352,
+          "mean_size": 6.643330657250491
+        },
+        "native, recalibrated at a 1,690-name lexicon": {
+          "mean_risk": 0.036731855465751764,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 8.883473086162759
+        },
+        "native, recalibrated at a 3,380-name lexicon": {
+          "mean_risk": 0.03030727539746421,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 10.846668367077912
+        },
+        "native, recalibrated at a 6,760-name lexicon": {
+          "mean_risk": 0.0230821405845937,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 14.447355836468923
+        },
+        "native, recalibrated at a 17,001-name lexicon": {
+          "mean_risk": 0.0056082638185713015,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 61.7398375562883
+        }
+      },
+      "present": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.04904814171280016,
+          "frac_splits_above_alpha": 0.432,
+          "mean_size": 3.7851808365965707
+        },
+        "native, frozen at 150": {
+          "mean_risk": 0.051387046086586,
+          "frac_splits_above_alpha": 0.596,
+          "mean_size": 3.3267231944906897
+        },
+        "native, recalibrated at 845": {
+          "mean_risk": 0.026518537771651148,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 5.436883881409221
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.04903635411832802,
+          "frac_splits_above_alpha": 0.408,
+          "mean_size": 3.456639854618056
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.029056158323004195,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 5.11450775961045
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.04925682106837547,
+          "frac_splits_above_alpha": 0.43,
+          "mean_size": 3.4441728991398133
+        },
+        "native, calibrated under rand200": {
+          "mean_risk": 0.04132680575781324,
+          "frac_splits_above_alpha": 0.032,
+          "mean_size": 3.9632453148345377
+        },
+        "native, calibrated under rand500": {
+          "mean_risk": 0.030786020388822784,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 4.915666937009142
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.03000110932026896,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 5.003666254212498
+        },
+        "native, recalibrated at a 1,690-name lexicon": {
+          "mean_risk": 0.02069787846567563,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 6.397417525406103
+        },
+        "native, recalibrated at a 3,380-name lexicon": {
+          "mean_risk": 0.016189783923066296,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 7.60758974251883
+        },
+        "native, recalibrated at a 6,760-name lexicon": {
+          "mean_risk": 0.011553368408351472,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 9.81391902725558
+        },
+        "native, recalibrated at a 17,001-name lexicon": {
+          "mean_risk": 0.001400805165528677,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 38.02647739150524
+        }
+      },
+      "tagger50": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.04904814171280016,
+          "frac_splits_above_alpha": 0.432,
+          "mean_size": 7.858764702078941
+        },
+        "native, frozen at 150": {
+          "mean_risk": 0.07888018187346307,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 4.508556579362168
+        },
+        "native, recalibrated at 845": {
+          "mean_risk": 0.04476326427487803,
+          "frac_splits_above_alpha": 0.15,
+          "mean_size": 8.266560709849516
+        },
+        "native, matched to the policy": {
+          "mean_risk": 0.049207997699261444,
+          "frac_splits_above_alpha": 0.432,
+          "mean_size": 7.515239945633696
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.04800063239958837,
+          "frac_splits_above_alpha": 0.34,
+          "mean_size": 7.709080501512736
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.07581389846334831,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 4.718315933914771
+        },
+        "native, calibrated under rand200": {
+          "mean_risk": 0.06452378854363983,
+          "frac_splits_above_alpha": 0.998,
+          "mean_size": 5.654722338756439
+        },
+        "native, calibrated under rand500": {
+          "mean_risk": 0.05021623456603194,
+          "frac_splits_above_alpha": 0.498,
+          "mean_size": 7.360461792487004
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.07549476462722199,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 4.74055916440847
+        },
+        "native, recalibrated at a 1,690-name lexicon": {
+          "mean_risk": 0.03717703772330249,
+          "frac_splits_above_alpha": 0.004,
+          "mean_size": 9.865494420102662
+        },
+        "native, recalibrated at a 3,380-name lexicon": {
+          "mean_risk": 0.03029946076230849,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 11.773102245341885
+        },
+        "native, recalibrated at a 6,760-name lexicon": {
+          "mean_risk": 0.022578679737623942,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 15.027410839532346
+        },
+        "native, recalibrated at a 17,001-name lexicon": {
+          "mean_risk": 0.00429328252356036,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 50.254852730604895
+        }
+      },
+      "adversarial": {
+        "anchored, calibrated once": {
+          "mean_risk": 0.04904814171280016,
+          "frac_splits_above_alpha": 0.432,
+          "mean_size": 7.953060195643799
+        },
+        "native, frozen at 150": {
+          "mean_risk": 0.08011923765516467,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 4.348590082443437
+        },
+        "native, recalibrated at 845": {
+          "mean_risk": 0.046021711591746776,
+          "frac_splits_above_alpha": 0.238,
+          "mean_size": 7.963439772548167
+        },
+        "native, worst case over the policies": {
+          "mean_risk": 0.049234346658771716,
+          "frac_splits_above_alpha": 0.428,
+          "mean_size": 7.414417482356972
+        },
+        "native, calibrated under rand50": {
+          "mean_risk": 0.07702989703039201,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 4.544071965521038
+        },
+        "native, calibrated under rand200": {
+          "mean_risk": 0.0657003073257515,
+          "frac_splits_above_alpha": 0.998,
+          "mean_size": 5.426109836847383
+        },
+        "native, calibrated under rand500": {
+          "mean_risk": 0.05141270335510964,
+          "frac_splits_above_alpha": 0.58,
+          "mean_size": 7.069883126715036
+        },
+        "native, calibrated under present": {
+          "mean_risk": 0.07670795493444292,
+          "frac_splits_above_alpha": 1.0,
+          "mean_size": 4.564905717941198
+        },
+        "native, calibrated under tagger50": {
+          "mean_risk": 0.05042295397841034,
+          "frac_splits_above_alpha": 0.516,
+          "mean_size": 7.222627575599312
+        },
+        "native, recalibrated at a 1,690-name lexicon": {
+          "mean_risk": 0.03845414106381338,
+          "frac_splits_above_alpha": 0.01,
+          "mean_size": 9.57698036185972
+        },
+        "native, recalibrated at a 3,380-name lexicon": {
+          "mean_risk": 0.0316418158267262,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 11.567701187766092
+        },
+        "native, recalibrated at a 6,760-name lexicon": {
+          "mean_risk": 0.023964894648110118,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 15.12142376580595
+        },
+        "native, recalibrated at a 17,001-name lexicon": {
+          "mean_risk": 0.005698298339694431,
+          "frac_splits_above_alpha": 0.0,
+          "mean_size": 61.867844087876655
+        }
+      }
+    }
+  },
+  "hashes": {
+    "src/exp_adaptive_vocab.py": "f39cb469e723bdb3576da888927ffa65ca7c5548f84ce3bd6a791758ded932df",
+    "src/exp_adaptive_vocab_probe.py": "ec6b52ac348d5ad2cef2137727c0d789da6840934eca532eaac8558fae577acf"
+  }
+}

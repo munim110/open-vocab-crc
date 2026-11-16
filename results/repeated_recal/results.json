@@ -1,0 +1,473 @@
+{
+  "alpha": 0.1,
+  "delta": 0.1,
+  "splits": 500,
+  "ks": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    50,
+    100,
+    1000,
+    10000,
+    1000000
+  ],
+  "configs": {
+    "ade_vitl_bank683": {
+      "dataset": "ade",
+      "tag": "vitl_bank683",
+      "images": 2000,
+      "crc": {
+        "native_recal": {
+          "mean_size": 3.4739999771118164,
+          "mean_risk": 0.09907612076423455,
+          "frac_splits_above_alpha": 0.426
+        },
+        "anchored": {
+          "mean_size": 4.268299102783203,
+          "mean_risk": 0.09898705497057125,
+          "frac_splits_above_alpha": 0.42
+        }
+      },
+      "anchored_rcps": {
+        "mean_size": 5.108365058898926,
+        "mean_risk": 0.0818882345914718,
+        "frac_splits_above_alpha": 0.002
+      },
+      "native_rcps": {
+        "1": {
+          "mean_size": 4.319182872772217,
+          "mean_risk": 0.0819378506084535,
+          "frac_splits_above_alpha": 0.002
+        },
+        "2": {
+          "mean_size": 4.4437174797058105,
+          "mean_risk": 0.07994820361533815,
+          "frac_splits_above_alpha": 0.002
+        },
+        "5": {
+          "mean_size": 4.646337509155273,
+          "mean_risk": 0.07693739932483633,
+          "frac_splits_above_alpha": 0.0
+        },
+        "10": {
+          "mean_size": 4.8674702644348145,
+          "mean_risk": 0.07394434130124779,
+          "frac_splits_above_alpha": 0.0
+        },
+        "20": {
+          "mean_size": 5.025735378265381,
+          "mean_risk": 0.07195402631448053,
+          "frac_splits_above_alpha": 0.0
+        },
+        "50": {
+          "mean_size": 5.1932525634765625,
+          "mean_risk": 0.06996064083005868,
+          "frac_splits_above_alpha": 0.0
+        },
+        "100": {
+          "mean_size": 5.371433734893799,
+          "mean_risk": 0.06795460389139836,
+          "frac_splits_above_alpha": 0.0
+        },
+        "1000": {
+          "mean_size": 5.861766815185547,
+          "mean_risk": 0.06297048398119413,
+          "frac_splits_above_alpha": 0.0
+        },
+        "10000": {
+          "mean_size": 6.3144354820251465,
+          "mean_risk": 0.05897586193288021,
+          "frac_splits_above_alpha": 0.0
+        },
+        "1000000": {
+          "mean_size": 7.29757833480835,
+          "mean_risk": 0.05199291759611228,
+          "frac_splits_above_alpha": 0.0
+        }
+      },
+      "crossover_k": 50
+    },
+    "ade_sed_bank683": {
+      "dataset": "ade",
+      "tag": "sed_bank683",
+      "images": 2000,
+      "crc": {
+        "native_recal": {
+          "mean_size": 5.27522087097168,
+          "mean_risk": 0.0989007114424452,
+          "frac_splits_above_alpha": 0.434
+        },
+        "anchored": {
+          "mean_size": 6.045131683349609,
+          "mean_risk": 0.09879964565267453,
+          "frac_splits_above_alpha": 0.434
+        }
+      },
+      "anchored_rcps": {
+        "mean_size": 7.54933500289917,
+        "mean_risk": 0.08165109848542376,
+        "frac_splits_above_alpha": 0.004
+      },
+      "native_rcps": {
+        "1": {
+          "mean_size": 7.015967845916748,
+          "mean_risk": 0.08179447744749956,
+          "frac_splits_above_alpha": 0.004
+        },
+        "2": {
+          "mean_size": 7.297082901000977,
+          "mean_risk": 0.07980114585168414,
+          "frac_splits_above_alpha": 0.002
+        },
+        "5": {
+          "mean_size": 7.766516208648682,
+          "mean_risk": 0.07677214903455518,
+          "frac_splits_above_alpha": 0.0
+        },
+        "10": {
+          "mean_size": 8.290782928466797,
+          "mean_risk": 0.07376002176038034,
+          "frac_splits_above_alpha": 0.0
+        },
+        "20": {
+          "mean_size": 8.672323226928711,
+          "mean_risk": 0.07176875674163222,
+          "frac_splits_above_alpha": 0.0
+        },
+        "50": {
+          "mean_size": 9.089366912841797,
+          "mean_risk": 0.06975025876593405,
+          "frac_splits_above_alpha": 0.0
+        },
+        "100": {
+          "mean_size": 9.534728050231934,
+          "mean_risk": 0.06775363767651786,
+          "frac_splits_above_alpha": 0.0
+        },
+        "1000": {
+          "mean_size": 10.819013595581055,
+          "mean_risk": 0.0627582984663531,
+          "frac_splits_above_alpha": 0.0
+        },
+        "10000": {
+          "mean_size": 12.041221618652344,
+          "mean_risk": 0.05877308679989527,
+          "frac_splits_above_alpha": 0.0
+        },
+        "1000000": {
+          "mean_size": 14.733845710754395,
+          "mean_risk": 0.051825971391222546,
+          "frac_splits_above_alpha": 0.0
+        }
+      },
+      "crossover_k": 5
+    },
+    "ade_fcclip_bank683": {
+      "dataset": "ade",
+      "tag": "fcclip_bank683",
+      "images": 2000,
+      "crc": {
+        "native_recal": {
+          "mean_size": 8.184555053710938,
+          "mean_risk": 0.09870780811932844,
+          "frac_splits_above_alpha": 0.414
+        },
+        "anchored": {
+          "mean_size": 11.175073623657227,
+          "mean_risk": 0.09853801708094802,
+          "frac_splits_above_alpha": 0.384
+        }
+      },
+      "anchored_rcps": {
+        "mean_size": 14.724848747253418,
+        "mean_risk": 0.08151880464773655,
+        "frac_splits_above_alpha": 0.0
+      },
+      "native_rcps": {
+        "1": {
+          "mean_size": 10.797520637512207,
+          "mean_risk": 0.08174562676878747,
+          "frac_splits_above_alpha": 0.002
+        },
+        "2": {
+          "mean_size": 11.196812629699707,
+          "mean_risk": 0.07974424117494536,
+          "frac_splits_above_alpha": 0.0
+        },
+        "5": {
+          "mean_size": 11.855866432189941,
+          "mean_risk": 0.0767378652400204,
+          "frac_splits_above_alpha": 0.0
+        },
+        "10": {
+          "mean_size": 12.613107681274414,
+          "mean_risk": 0.07371959870232851,
+          "frac_splits_above_alpha": 0.0
+        },
+        "20": {
+          "mean_size": 13.16408920288086,
+          "mean_risk": 0.07172627184090373,
+          "frac_splits_above_alpha": 0.0
+        },
+        "50": {
+          "mean_size": 13.769729614257812,
+          "mean_risk": 0.06974963816922554,
+          "frac_splits_above_alpha": 0.0
+        },
+        "100": {
+          "mean_size": 14.45291805267334,
+          "mean_risk": 0.06774478686110078,
+          "frac_splits_above_alpha": 0.0
+        },
+        "1000": {
+          "mean_size": 16.443832397460938,
+          "mean_risk": 0.06276413219553269,
+          "frac_splits_above_alpha": 0.0
+        },
+        "10000": {
+          "mean_size": 18.419403076171875,
+          "mean_risk": 0.0587730758967427,
+          "frac_splits_above_alpha": 0.0
+        },
+        "1000000": {
+          "mean_size": 23.059980392456055,
+          "mean_risk": 0.05183972831091531,
+          "frac_splits_above_alpha": 0.0
+        }
+      },
+      "crossover_k": 1000
+    },
+    "pascal_vitl_bank683": {
+      "dataset": "pascal",
+      "tag": "vitl_bank683",
+      "images": 2000,
+      "crc": {
+        "native_recal": {
+          "mean_size": 2.0672855377197266,
+          "mean_risk": 0.0985797810768358,
+          "frac_splits_above_alpha": 0.432
+        },
+        "anchored": {
+          "mean_size": 2.336561918258667,
+          "mean_risk": 0.09824456010303564,
+          "frac_splits_above_alpha": 0.404
+        }
+      },
+      "anchored_rcps": {
+        "mean_size": 2.636530876159668,
+        "mean_risk": 0.08133163216873454,
+        "frac_splits_above_alpha": 0.004
+      },
+      "native_rcps": {
+        "1": {
+          "mean_size": 2.3784019947052,
+          "mean_risk": 0.08151922511844142,
+          "frac_splits_above_alpha": 0.002
+        },
+        "2": {
+          "mean_size": 2.4204537868499756,
+          "mean_risk": 0.07951311162107194,
+          "frac_splits_above_alpha": 0.002
+        },
+        "5": {
+          "mean_size": 2.485183000564575,
+          "mean_risk": 0.07653518863527208,
+          "frac_splits_above_alpha": 0.0
+        },
+        "10": {
+          "mean_size": 2.5535809993743896,
+          "mean_risk": 0.07353063677697885,
+          "frac_splits_above_alpha": 0.0
+        },
+        "20": {
+          "mean_size": 2.600942373275757,
+          "mean_risk": 0.0715461152601253,
+          "frac_splits_above_alpha": 0.0
+        },
+        "50": {
+          "mean_size": 2.6505415439605713,
+          "mean_risk": 0.06955627233185076,
+          "frac_splits_above_alpha": 0.0
+        },
+        "100": {
+          "mean_size": 2.7026400566101074,
+          "mean_risk": 0.06757230094515804,
+          "frac_splits_above_alpha": 0.0
+        },
+        "1000": {
+          "mean_size": 2.8455922603607178,
+          "mean_risk": 0.06261881021795089,
+          "frac_splits_above_alpha": 0.0
+        },
+        "10000": {
+          "mean_size": 2.9765543937683105,
+          "mean_risk": 0.05865062681447125,
+          "frac_splits_above_alpha": 0.0
+        },
+        "1000000": {
+          "mean_size": 3.243757963180542,
+          "mean_risk": 0.051755292260363774,
+          "frac_splits_above_alpha": 0.0
+        }
+      },
+      "crossover_k": 50
+    },
+    "pascal_sed_bank683": {
+      "dataset": "pascal",
+      "tag": "sed_bank683",
+      "images": 2000,
+      "crc": {
+        "native_recal": {
+          "mean_size": 2.675415515899658,
+          "mean_risk": 0.09833891456968782,
+          "frac_splits_above_alpha": 0.426
+        },
+        "anchored": {
+          "mean_size": 2.801764726638794,
+          "mean_risk": 0.09846698346699691,
+          "frac_splits_above_alpha": 0.412
+        }
+      },
+      "anchored_rcps": {
+        "mean_size": 3.2613120079040527,
+        "mean_risk": 0.08136819472416995,
+        "frac_splits_above_alpha": 0.0
+      },
+      "native_rcps": {
+        "1": {
+          "mean_size": 3.136782646179199,
+          "mean_risk": 0.08134573536016325,
+          "frac_splits_above_alpha": 0.006
+        },
+        "2": {
+          "mean_size": 3.1999711990356445,
+          "mean_risk": 0.07936223863296936,
+          "frac_splits_above_alpha": 0.0
+        },
+        "5": {
+          "mean_size": 3.2981255054473877,
+          "mean_risk": 0.07640161259277138,
+          "frac_splits_above_alpha": 0.0
+        },
+        "10": {
+          "mean_size": 3.40195894241333,
+          "mean_risk": 0.07341850007949714,
+          "frac_splits_above_alpha": 0.0
+        },
+        "20": {
+          "mean_size": 3.47375750541687,
+          "mean_risk": 0.07144114691855359,
+          "frac_splits_above_alpha": 0.0
+        },
+        "50": {
+          "mean_size": 3.548147439956665,
+          "mean_risk": 0.06946804516577505,
+          "frac_splits_above_alpha": 0.0
+        },
+        "100": {
+          "mean_size": 3.626833438873291,
+          "mean_risk": 0.0674713283625937,
+          "frac_splits_above_alpha": 0.0
+        },
+        "1000": {
+          "mean_size": 3.8405706882476807,
+          "mean_risk": 0.06247626832843021,
+          "frac_splits_above_alpha": 0.0
+        },
+        "10000": {
+          "mean_size": 4.03350830078125,
+          "mean_risk": 0.058500032743004346,
+          "frac_splits_above_alpha": 0.0
+        },
+        "1000000": {
+          "mean_size": 4.433130741119385,
+          "mean_risk": 0.05151371641663522,
+          "frac_splits_above_alpha": 0.0
+        }
+      },
+      "crossover_k": 5
+    },
+    "coco_sed_bank683": {
+      "dataset": "coco",
+      "tag": "sed_bank683",
+      "images": 2000,
+      "crc": {
+        "native_recal": {
+          "mean_size": 3.743248701095581,
+          "mean_risk": 0.09894544908735362,
+          "frac_splits_above_alpha": 0.426
+        },
+        "anchored": {
+          "mean_size": 3.547482967376709,
+          "mean_risk": 0.09891763569062832,
+          "frac_splits_above_alpha": 0.426
+        }
+      },
+      "anchored_rcps": {
+        "mean_size": 4.120541095733643,
+        "mean_risk": 0.08185173607417198,
+        "frac_splits_above_alpha": 0.002
+      },
+      "native_rcps": {
+        "1": {
+          "mean_size": 4.317378997802734,
+          "mean_risk": 0.08186927910132506,
+          "frac_splits_above_alpha": 0.0
+        },
+        "2": {
+          "mean_size": 4.399531841278076,
+          "mean_risk": 0.07988026064864874,
+          "frac_splits_above_alpha": 0.0
+        },
+        "5": {
+          "mean_size": 4.532696723937988,
+          "mean_risk": 0.07687231650975909,
+          "frac_splits_above_alpha": 0.0
+        },
+        "10": {
+          "mean_size": 4.676501750946045,
+          "mean_risk": 0.07387916332007619,
+          "frac_splits_above_alpha": 0.0
+        },
+        "20": {
+          "mean_size": 4.778522491455078,
+          "mean_risk": 0.07188615907765065,
+          "frac_splits_above_alpha": 0.0
+        },
+        "50": {
+          "mean_size": 4.884601593017578,
+          "mean_risk": 0.06991119089122506,
+          "frac_splits_above_alpha": 0.0
+        },
+        "100": {
+          "mean_size": 4.998672008514404,
+          "mean_risk": 0.06788874639781699,
+          "frac_splits_above_alpha": 0.0
+        },
+        "1000": {
+          "mean_size": 5.305445194244385,
+          "mean_risk": 0.06293206651228382,
+          "frac_splits_above_alpha": 0.0
+        },
+        "10000": {
+          "mean_size": 5.587226867675781,
+          "mean_risk": 0.058946140147305044,
+          "frac_splits_above_alpha": 0.0
+        },
+        "1000000": {
+          "mean_size": 6.17319917678833,
+          "mean_risk": 0.05198369009817637,
+          "frac_splits_above_alpha": 0.0
+        }
+      },
+      "crossover_k": 1
+    }
+  },
+  "hashes": {
+    "src/exp_repeated_recal.py": "e2c03adc9f906e55201577a576adc657d8e26699dfdc170eb7b5740e744d5c43",
+    "src/exp_headroom_splits.py": "abc0245ae42b12d0c2949f64562f9f52a9175c1c646df80f44b64d8199252b78"
+  }
+}

@@ -1,0 +1,21 @@
+\setlength{\tabcolsep}{3pt}\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+& \multicolumn{1}{c}{anchored} & \multicolumn{5}{c}{native} \\ \cmidrule(lr){2-2}\cmidrule(l){3-7}
+& \multicolumn{1}{c}{once} & \multicolumn{1}{c}{reused} & \multicolumn{1}{c}{recal.} & \multicolumn{1}{c}{random} & \multicolumn{1}{c}{recal.} & \multicolumn{1}{c}{rules} \\
+\emph{calibration needs} & \multicolumn{1}{c}{$\Vsrc$} & \multicolumn{1}{c}{$\Vsrc$} & \multicolumn{1}{c}{all} & \multicolumn{1}{c}{all} & \multicolumn{1}{c}{17k} & \multicolumn{1}{c}{all rules} \\
+\midrule
+\multicolumn{7}{@{}l}{\emph{ADE20K, $150\to845$}} \\
+CAT-Seg ViT-L & 9.9/4.2 & 14.9/2.2 & 9.5/3.6 & 10.4/3.3 & 4.1/8.9 & 9.9/3.4 \\
+SED & 9.9/5.9 & 12.8/3.4 & 18.8/2.0 & 18.4/2.1 & 25.4/1.4 & 9.9/5.0 \\
+FC-CLIP & 9.9/9.7 & 14.1/4.8 & 10.3/7.4 & 10.8/6.9 & 5.6/17.4 & 9.9/7.7 \\
+\midrule
+\multicolumn{7}{@{}l}{\emph{Pascal Context, $59\to458$}} \\
+CAT-Seg ViT-L & 9.8/2.3 & 15.2/1.5 & 10.0/2.0 & 10.9/1.9 & -- & 9.8/2.1 \\
+SED & 9.8/2.8 & 12.3/1.9 & 21.1/1.1 & 19.8/1.2 & -- & 9.8/2.4 \\
+\midrule
+\multicolumn{7}{@{}l}{\emph{ADE20K, names from a language model}} \\
+CAT-Seg ViT-L & 9.9/4.6 & 20.6/2.7 & 12.6/4.1 & -- & -- & 9.9/4.8 \\
+SED & 9.9/5.7 & 20.5/3.4 & 30.3/2.3 & -- & 41.2/1.5 & 9.9/6.4 \\
+FC-CLIP & 9.9/8.0 & 21.5/4.4 & 15.6/5.9 & -- & 7.8/11.0 & 9.9/8.8 \\
+\bottomrule
+\end{tabular}

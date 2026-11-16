@@ -1,0 +1,147 @@
+{
+  "images": [
+    {
+      "image": 297,
+      "file": "ADE_val_00000298.jpg",
+      "panels": {
+        "native_reused": {
+          "miss_fraction": 0.1326184652443586,
+          "mean_set_size_source_pixels": 3.1667347577637117
+        },
+        "native_recal": {
+          "miss_fraction": 0.039583919182057906,
+          "mean_set_size_source_pixels": 4.986831004971535
+        },
+        "anchored": {
+          "miss_fraction": 0.04491624795063484,
+          "mean_set_size_source_pixels": 6.825656725366498
+        }
+      }
+    },
+    {
+      "image": 492,
+      "file": "ADE_val_00000493.jpg",
+      "panels": {
+        "native_reused": {
+          "miss_fraction": 0.25797234672279684,
+          "mean_set_size_source_pixels": 2.8895039916624463
+        },
+        "native_recal": {
+          "miss_fraction": 0.16619777684747955,
+          "mean_set_size_source_pixels": 4.62927160576954
+        },
+        "anchored": {
+          "miss_fraction": 0.20290584829047945,
+          "mean_set_size_source_pixels": 5.738789825139715
+        }
+      }
+    },
+    {
+      "image": 667,
+      "file": "ADE_val_00000668.jpg",
+      "panels": {
+        "native_reused": {
+          "miss_fraction": 0.6417213253624416,
+          "mean_set_size_source_pixels": 3.698647046010117
+        },
+        "native_recal": {
+          "miss_fraction": 0.5745758404530823,
+          "mean_set_size_source_pixels": 6.751331171188615
+        },
+        "anchored": {
+          "miss_fraction": 0.6098700292857662,
+          "mean_set_size_source_pixels": 6.466968802187961
+        }
+      }
+    },
+    {
+      "image": 900,
+      "file": "ADE_val_00000901.jpg",
+      "panels": {
+        "native_reused": {
+          "miss_fraction": 0.4034263923276132,
+          "mean_set_size_source_pixels": 2.381769543811719
+        },
+        "native_recal": {
+          "miss_fraction": 0.3971655425595492,
+          "mean_set_size_source_pixels": 3.712427786789607
+        },
+        "anchored": {
+          "miss_fraction": 0.4004382594837645,
+          "mean_set_size_source_pixels": 2.9000920155193186
+        }
+      }
+    },
+    {
+      "image": 1201,
+      "file": "ADE_val_00001202.jpg",
+      "panels": {
+        "native_reused": {
+          "miss_fraction": 0.08188129068167412,
+          "mean_set_size_source_pixels": 3.1958595525595634
+        },
+        "native_recal": {
+          "miss_fraction": 0.026252724995748232,
+          "mean_set_size_source_pixels": 4.563397702500039
+        },
+        "anchored": {
+          "miss_fraction": 0.020037415544458016,
+          "mean_set_size_source_pixels": 4.078727253049676
+        }
+      }
+    },
+    {
+      "image": 1383,
+      "file": "ADE_val_00001384.jpg",
+      "panels": {
+        "native_reused": {
+          "miss_fraction": 0.0406387994289319,
+          "mean_set_size_source_pixels": 2.123078455460009
+        },
+        "native_recal": {
+          "miss_fraction": 0.0034363690693582126,
+          "mean_set_size_source_pixels": 3.2092366944453667
+        },
+        "anchored": {
+          "miss_fraction": 0.04938742986154919,
+          "mean_set_size_source_pixels": 2.976277432849696
+        }
+      }
+    }
+  ],
+  "n": 6,
+  "seed": 20261019,
+  "pool_size": 305,
+  "selection": "random draw without replacement (numpy default_rng(seed)) from the pool of selection.json (evaluation half of the median split, probe evaluation roles)",
+  "split": 113,
+  "thresholds": {
+    "native150": -2.703125,
+    "native845": -3.765625,
+    "anchored845": -2.390625
+  },
+  "mean_over_images": {
+    "native_reused": {
+      "miss_fraction": 0.25970976996130274,
+      "mean_set_size_source_pixels": 2.909265557877928
+    },
+    "native_recal": {
+      "miss_fraction": 0.20120202885121255,
+      "mean_set_size_source_pixels": 4.642082660944117
+    },
+    "anchored": {
+      "miss_fraction": 0.221259205069442,
+      "mean_set_size_source_pixels": 4.831085342352145
+    }
+  },
+  "figure": "paper\\fig\\fig_qualitative_panel.pdf",
+  "figure_size_in": [
+    6.875,
+    8.311
+  ],
+  "colour_scale": "set size 0..10+ (shared with the paper figure), orange = missed source pixel, faded = unlabelled pixel",
+  "hashes": {
+    "src/fig_qualitative.py": "3815b77eb9513a5c2ee85cbfe76fcb8b40857e54975fddc53f9c5bda797e8c4f",
+    "src/catseg_probe_model.py": "081dd5409c0590dbed6bd3062e622ca6fa8c2ed045282979583d481ed53e4692",
+    "src/exp_headroom_probe.py": "75304c63a4d512cbf1eedf388c4adceb2ea9148dcde4e6cf06d24eebdc20961f"
+  }
+}

@@ -1,0 +1,12 @@
+# Versions are the ones the reported results were produced with, on
+# CUDA 12.x / Python 3.10.12 / one NVIDIA GH200.
+torch==2.7.0
+torchvision==0.22.0
+numpy==1.26.4
+scipy==1.15.3
+matplotlib==3.5.1
+Pillow==9.0.1
+pyarrow==15.0.2
+ftfy==6.3.1
+regex
+tqdm==4.70.0

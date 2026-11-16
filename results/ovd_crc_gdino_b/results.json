@@ -1,0 +1,283 @@
+{
+  "model": "gdino_b",
+  "images": 1989,
+  "source_boxes": 14855,
+  "trials": 500,
+  "one_prompt_labels": 100,
+  "labels": 1204,
+  "image_level": {
+    "0.1": {
+      "native, source": {
+        "risk": 0.09866059997036122,
+        "above": 0.364,
+        "size": {
+          "source": 1.0088095523615948
+        }
+      },
+      "native reused, one prompt": {
+        "risk": 0.18326643149410426,
+        "above": 1.0,
+        "size": {
+          "one prompt": 0.9016989113240629
+        }
+      },
+      "native reused, LVIS": {
+        "risk": 0.09804744609563366,
+        "above": 0.34,
+        "size": {
+          "LVIS": 3.688690132148746
+        }
+      },
+      "native recal., one prompt": {
+        "risk": 0.09883627769266486,
+        "above": 0.422,
+        "size": {
+          "one prompt": 1.1847888835378853
+        }
+      },
+      "native recal., LVIS": {
+        "risk": 0.09862437194652478,
+        "above": 0.364,
+        "size": {
+          "LVIS": 3.6659907103579026
+        }
+      },
+      "anchored A": {
+        "risk": 0.09866059997036122,
+        "above": 0.364,
+        "size": {
+          "source": 1.0088095523615948,
+          "one prompt": 1.0281885408401203,
+          "LVIS": 3.6265906486976225
+        }
+      },
+      "anchored B": {
+        "risk": 0.0990888611813586,
+        "above": 0.45,
+        "size": {
+          "source": 4.052267740239751,
+          "one prompt": 7.7447292862757875,
+          "LVIS": 243.0223171836476
+        }
+      }
+    },
+    "0.05": {
+      "native, source": {
+        "risk": 0.0488992360187254,
+        "above": 0.386,
+        "size": {
+          "source": 1.1961953739221651
+        }
+      },
+      "native reused, one prompt": {
+        "risk": 0.0987105271687034,
+        "above": 1.0,
+        "size": {
+          "one prompt": 1.1871897806807121
+        }
+      },
+      "native reused, LVIS": {
+        "risk": 0.04894123661030373,
+        "above": 0.41,
+        "size": {
+          "LVIS": 9.684854150458719
+        }
+      },
+      "native recal., one prompt": {
+        "risk": 0.048874789453446185,
+        "above": 0.426,
+        "size": {
+          "one prompt": 2.1763831603887676
+        }
+      },
+      "native recal., LVIS": {
+        "risk": 0.0489032964070375,
+        "above": 0.382,
+        "size": {
+          "LVIS": 9.683469861468916
+        }
+      },
+      "anchored A": {
+        "risk": 0.0488992360187254,
+        "above": 0.386,
+        "size": {
+          "source": 1.1961953739221651,
+          "one prompt": 1.3975604423909485,
+          "LVIS": 12.206801948240178
+        }
+      },
+      "anchored B": {
+        "risk": 0.04335965546217106,
+        "above": 0.42,
+        "size": {
+          "source": 54.57484838322214,
+          "one prompt": 71.47499397995945,
+          "LVIS": 1026.6974075865546
+        }
+      }
+    }
+  },
+  "label_level": {
+    "anch_a": {
+      "exchangeable": {
+        "0.1": {
+          "pooled": {
+            "added_cal": 0.029553752698130833,
+            "added_heldout": 0.029557434945513925,
+            "above_cal": 0.214,
+            "above_heldout": 0.218,
+            "source_cal_at_t": 0.01549079231585954,
+            "delta_at_t": 0.014062960382271294
+          },
+          "images": {
+            "added_cal": 0.04272417656834154,
+            "added_heldout": 0.04230062375519489,
+            "above_cal": 0.26,
+            "above_heldout": 0.234,
+            "source_cal_at_t": 0.0248308890951339,
+            "delta_at_t": 0.017893287473207644
+          }
+        },
+        "0.05": {
+          "pooled": {
+            "added_cal": 0.0002504661821773495,
+            "added_heldout": 0.0002598453331008235,
+            "above_cal": 0.002,
+            "above_heldout": 0.002,
+            "source_cal_at_t": 3.911514209074794e-05,
+            "delta_at_t": 0.00021135104008660158
+          },
+          "images": {
+            "added_cal": 0.0006085304657196688,
+            "added_heldout": 0.0006275244544649406,
+            "above_cal": 0.006,
+            "above_heldout": 0.006,
+            "source_cal_at_t": 0.00011577430592438395,
+            "delta_at_t": 0.0004927561597952849
+          }
+        }
+      },
+      "benchmark split": {
+        "0.1": {
+          "pooled": {
+            "added_cal": 0.6450293638240855,
+            "added_heldout": 0.645568880148314,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.08795031757035322,
+            "delta_at_t": 0.5570790462537323
+          },
+          "images": {
+            "added_cal": 0.6608454257182788,
+            "added_heldout": 0.6612920594255687,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.08793144410543427,
+            "delta_at_t": 0.5729139816128445
+          }
+        },
+        "0.05": {
+          "pooled": {
+            "added_cal": 0.400663426810178,
+            "added_heldout": 0.4010972284249613,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.03701871237439128,
+            "delta_at_t": 0.3636447144357867
+          },
+          "images": {
+            "added_cal": 0.4166000320406388,
+            "added_heldout": 0.41783811862829795,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.03703369396680963,
+            "delta_at_t": 0.37956633807382917
+          }
+        }
+      }
+    },
+    "native_lvis": {
+      "exchangeable": {
+        "0.1": {
+          "pooled": {
+            "added_cal": 0.06642301895712843,
+            "added_heldout": 0.06658519898725593,
+            "above_cal": 0.252,
+            "above_heldout": 0.25,
+            "source_cal_at_t": 0.04570896502520075,
+            "delta_at_t": 0.020714053931927684
+          },
+          "images": {
+            "added_cal": 0.07516556675008977,
+            "added_heldout": 0.0751146266931099,
+            "above_cal": 0.258,
+            "above_heldout": 0.25,
+            "source_cal_at_t": 0.05637677822440059,
+            "delta_at_t": 0.01878878852568918
+          }
+        },
+        "0.05": {
+          "pooled": {
+            "added_cal": 0.002135745837159937,
+            "added_heldout": 0.0021751313089428065,
+            "above_cal": 0.028,
+            "above_heldout": 0.028,
+            "source_cal_at_t": 0.0005361420028168405,
+            "delta_at_t": 0.0015996038343430966
+          },
+          "images": {
+            "added_cal": 0.0046430836467652205,
+            "added_heldout": 0.0047487718428081156,
+            "above_cal": 0.068,
+            "above_heldout": 0.068,
+            "source_cal_at_t": 0.0013438408375844148,
+            "delta_at_t": 0.0032992428091808057
+          }
+        }
+      },
+      "benchmark split": {
+        "0.1": {
+          "pooled": {
+            "added_cal": 0.6263568674356498,
+            "added_heldout": 0.6253087831754162,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.08788112011604785,
+            "delta_at_t": 0.5384757473196019
+          },
+          "images": {
+            "added_cal": 0.6371478851102339,
+            "added_heldout": 0.6356135599056989,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.08772140226717694,
+            "delta_at_t": 0.549426482843057
+          }
+        },
+        "0.05": {
+          "pooled": {
+            "added_cal": 0.43349985179602457,
+            "added_heldout": 0.4326176366156526,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.03703833333141249,
+            "delta_at_t": 0.3964615184646121
+          },
+          "images": {
+            "added_cal": 0.43241846297638104,
+            "added_heldout": 0.4315302099874492,
+            "above_cal": 1.0,
+            "above_heldout": 1.0,
+            "source_cal_at_t": 0.03709073709186803,
+            "delta_at_t": 0.395327725884513
+          }
+        }
+      }
+    }
+  },
+  "hashes": {
+    "src/exp_ovd_crc.py": "46d3b7b4e95ddbb5bfc4bb7229867ef1af8a8c2fe7521af7d49ddf66c137868f",
+    "src/exp_ovd_probe.py": "294bfd2a0925d0abd9fbb6df9012118a623279179e7c8525af76f24651ea5728",
+    "cache/ovd_probe_gdino_b/gt.npz": "f6bc1480c26d83e9f457281425ff7f5b99728efff7fd196303d61e809c3ccc5e"
+  }
+}

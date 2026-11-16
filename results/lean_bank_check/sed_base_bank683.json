@@ -1,0 +1,19 @@
+{
+  "model": "sed",
+  "size": "base",
+  "bank": "meta/bank_coco_oi683_v1.json",
+  "bank_size": 683,
+  "images": 20,
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "sums_bitwise_equal": true,
+  "sums_max_abs_diff": 0.0,
+  "anchored_logits_max_abs_diff": 0.0,
+  "bank_pass_seconds_per_image": {
+    "full": 0.8192431950068567,
+    "lean": 0.33866500000003724
+  },
+  "bank_pass_peak_memory_gb": {
+    "full": 7.049899578094482,
+    "lean": 5.185779094696045
+  }
+}

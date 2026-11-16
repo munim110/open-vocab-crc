@@ -1,0 +1,19 @@
+{
+  "model": "catseg",
+  "size": "base",
+  "bank": "coco171",
+  "bank_size": 171,
+  "images": 20,
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "sums_bitwise_equal": true,
+  "sums_max_abs_diff": 0.0,
+  "anchored_logits_max_abs_diff": 0.0,
+  "bank_pass_seconds_per_image": {
+    "full": 0.8527234350040089,
+    "lean": 0.3029918299900601
+  },
+  "bank_pass_peak_memory_gb": {
+    "full": 6.06686544418335,
+    "lean": 6.148467540740967
+  }
+}

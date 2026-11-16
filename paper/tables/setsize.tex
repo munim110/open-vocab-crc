@@ -1,0 +1,32 @@
+\begin{tabular}{@{}llrrrrrrrr@{}}
+\toprule
+& & & \multicolumn{5}{c}{pixels with $|C|$ (\%)} & \multicolumn{2}{c}{labels per pixel} \\
+\cmidrule(lr){4-8}\cmidrule(l){9-10}
+Configuration & threshold & names & $=0$ & $=1$ & $\le 3$ & $\le 10$ & $>10$ & median & mean \\
+\midrule
+ADE20K, CAT-Seg ViT-L & native at source & 150 & 0.2 & 46.6 & 90.5 & 100.0 & 0.0 & 2 & 1.91 \\
+ & native, reused & 845 & 0.3 & 38.0 & 85.5 & 100.0 & 0.0 & 2 & 2.16 \\
+ & native, recalibrated & 845 & 0.0 & 22.1 & 58.0 & 99.4 & 0.6 & 3 & 3.47 \\
+ & anchored & 845 & 0.3 & 23.5 & 51.8 & 94.5 & 5.5 & 3 & 4.27 \\
+\addlinespace
+ADE20K, SED & native at source & 150 & 0.1 & 38.9 & 83.3 & 100.0 & 0.0 & 2 & 2.22 \\
+ & native, reused & 845 & 0.0 & 5.9 & 15.2 & 67.0 & 33.0 & 8 & 8.80 \\
+ & native, recalibrated & 845 & 0.0 & 10.5 & 29.8 & 95.2 & 4.8 & 5 & 5.28 \\
+ & anchored & 845 & 0.1 & 19.4 & 39.7 & 82.9 & 17.1 & 5 & 6.05 \\
+\addlinespace
+Pascal Context, CAT-Seg ViT-L & native at source & 59 & 0.2 & 70.7 & 99.2 & 100.0 & 0.0 & 1 & 1.37 \\
+ & native, reused & 458 & 0.5 & 63.6 & 97.8 & 100.0 & 0.0 & 1 & 1.49 \\
+ & native, recalibrated & 458 & 0.0 & 47.4 & 85.1 & 100.0 & 0.0 & 2 & 2.07 \\
+ & anchored & 458 & 0.4 & 44.6 & 79.3 & 99.8 & 0.2 & 2 & 2.34 \\
+\addlinespace
+Pascal Context, SED & native at source & 59 & 0.1 & 62.7 & 97.2 & 100.0 & 0.0 & 1 & 1.53 \\
+ & native, reused & 458 & 0.0 & 7.5 & 36.0 & 95.8 & 4.2 & 4 & 4.80 \\
+ & native, recalibrated & 458 & 0.2 & 17.6 & 77.2 & 100.0 & 0.0 & 3 & 2.68 \\
+ & anchored & 458 & 0.8 & 27.0 & 72.2 & 99.6 & 0.4 & 2 & 2.80 \\
+\addlinespace
+COCO-Stuff, SED & native at source & 171 & 0.1 & 41.2 & 89.6 & 100.0 & 0.0 & 2 & 2.01 \\
+ & native, reused & 1,283 & 0.0 & 1.1 & 14.8 & 72.7 & 27.3 & 8 & 8.21 \\
+ & native, recalibrated & 1,283 & 0.3 & 7.2 & 49.4 & 100.0 & 0.0 & 4 & 3.74 \\
+ & anchored & 1,283 & 0.2 & 17.9 & 61.5 & 98.2 & 1.8 & 3 & 3.55 \\
+\bottomrule
+\end{tabular}

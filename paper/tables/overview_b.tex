@@ -1,0 +1,15 @@
+\setlength{\tabcolsep}{4pt}\begin{tabular}{@{}lrrrrrrrrrrrr@{}}
+\toprule
+& \multicolumn{4}{c}{ADE20K $150\!\to\!845$} & \multicolumn{4}{c}{Pascal Context $59\!\to\!458$} & \multicolumn{4}{c}{COCO-Stuff $171\!\to\!1{,}283$} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}\cmidrule(l){10-13}
+& \multicolumn{2}{c}{risk (\%)} & \multicolumn{2}{c}{set size} & \multicolumn{2}{c}{risk (\%)} & \multicolumn{2}{c}{set size} & \multicolumn{2}{c}{risk (\%)} & \multicolumn{2}{c}{set size} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}\cmidrule(l){12-13}
+Model & reused & ours & recal. & ours & reused & ours & recal. & ours & reused & ours & recal. & ours \\
+\midrule
+CAT-Seg ViT-B & 8.1 & 4.9 & 13.29 & 14.25 & 8.4 & 4.9 & 4.66 & 4.95 & 6.9 & 4.9 & 5.96 & 7.12 \\
+CAT-Seg ViT-L & 8.4 & 4.9 & 7.81 & 8.63 & 8.5 & 4.9 & 3.38 & 3.66 & 6.9 & 4.9 & 4.89 & 5.75 \\
+CAT-Seg + DeCLIP & 7.9 & 4.9 & 7.64 & 8.74 & 8.4 & 4.9 & 3.58 & 3.85 & 6.8 & 4.9 & 4.84 & 5.67 \\
+SED & 3.8 & 4.9 & 16.19 & 15.62 & 2.1 & 4.9 & 4.63 & 4.77 & 1.6 & 4.9 & 6.47 & 6.17 \\
+FC-CLIP & 6.8 & 4.9 & 25.65 & 31.19 & 8.6 & 4.9 & 12.77 & 13.99 & 9.8 & 4.9 & 82.70 & 77.21 \\
+\bottomrule
+\end{tabular}

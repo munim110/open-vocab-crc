@@ -1,0 +1,16 @@
+{
+  "image_ids": [
+    219,
+    1612,
+    1496
+  ],
+  "bank": "meta/bank_coco_oi683_v1.json",
+  "note": "Peak GPU memory per arm for FC-CLIP, native against anchored, as the vocabulary grows (FC-CLIP counterpart of exp_memory.py).",
+  "hashes": {
+    "src/exp_memory_fcclip.py": "6d2caedf41f452b2d0db7b35bb5d397d752ab93ee6c60babd58f4a4035f40c2f",
+    "src/exp_fcclip_probe.py": "629d8c6f8942d5bf3c96bcff6f8f9c74a7395a9477f93c470ec52b3fcd19083e",
+    "meta/natural_vocab_v1.json": "7c0fae275a79055dc5ac71741aaa1318a5b137b263c340acdba1abc8fb43b313",
+    "meta/bank_coco_oi683_v1.json": "19b1cb55f7be68a60582bc9f1e4b8c69d756955af8e986667ff10e470d04a705",
+    "third_party_probe\\fcclip_cocopan_convnext_large.pth": "241c141e0fec7f3be7e06915daee60807502de3b7ae8b8cbef2560d6df346257"
+  }
+}

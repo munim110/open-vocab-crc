@@ -1,0 +1,31 @@
+{
+  "model": "owlv2",
+  "labels": 1204,
+  "source_labels": 80,
+  "stores": {
+    "owl": {
+      "source": {
+        "boxes": 14855,
+        "labels": 80,
+        "localised": 0.958734432850892,
+        "top1": 0.626455738808482,
+        "top5": 0.8546617300572198,
+        "top1_given_localised": 0.653419463558489,
+        "class_mean_top1": 0.6764160589839177
+      },
+      "added": {
+        "boxes": 12952,
+        "labels": 561,
+        "localised": 0.8926034589252625,
+        "top1": 0.5535052501544163,
+        "top5": 0.8040457072266831,
+        "top1_given_localised": 0.6201020672952167,
+        "class_mean_top1": 0.49467813050324216
+      }
+    }
+  },
+  "hashes": {
+    "src/exp_ovd_accuracy.py": "e5722382c60a022a318cca11d5e22c29f18270e3da40f15180eb3876c7afa09e",
+    "cache\\ovd_probe_owlv2\\gt.npz": "f6bc1480c26d83e9f457281425ff7f5b99728efff7fd196303d61e809c3ccc5e"
+  }
+}

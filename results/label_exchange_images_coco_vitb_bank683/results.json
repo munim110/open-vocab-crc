@@ -1,0 +1,42 @@
+{
+  "dataset": "coco",
+  "tag": "vitb_bank683",
+  "images": 2000,
+  "trials": 500,
+  "design": "exchangeable (random source vocabulary), anchored scores",
+  "alphas": {
+    "0.1": {
+      "pooled": {
+        "added_cal": 0.09086165119707584,
+        "added_heldout": 0.09172527096047997,
+        "above_added_cal": 0.36,
+        "above_added_heldout": 0.368
+      },
+      "images": {
+        "added_cal": 0.09036755296215415,
+        "added_heldout": 0.09089302681386471,
+        "above_added_cal": 0.346,
+        "above_added_heldout": 0.346
+      }
+    },
+    "0.05": {
+      "pooled": {
+        "added_cal": 0.0409111720235087,
+        "added_heldout": 0.041443463122472164,
+        "above_added_cal": 0.286,
+        "above_added_heldout": 0.284
+      },
+      "images": {
+        "added_cal": 0.04047338479850441,
+        "added_heldout": 0.040665757250972094,
+        "above_added_cal": 0.248,
+        "above_added_heldout": 0.268
+      }
+    }
+  },
+  "hashes": {
+    "src/exp_label_exchange_images.py": "17ec02361f16b66425d0f78fd3bf646bd65f62ddedb5980f4a263b51e1399a83",
+    "src/exp_label_exchange.py": "b8b31e68eb3747ce67bf944dda1d8d50c01d731043df4e3377498cf52e5985e1",
+    "cache/coco_pixels/gtlvis.npy": "ea497f393e195e077f709c03bc6ab38bc145be542e5f9e90abc978db7025ef73"
+  }
+}

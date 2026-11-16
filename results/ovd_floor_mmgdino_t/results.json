@@ -1,0 +1,39 @@
+{
+  "model": "mmgdino_t",
+  "labels_present": 641,
+  "stores": {
+    "anch_a": {
+      "unlocalised_source": 0.024907438572871088,
+      "unlocalised_added": 0.2994132180358246,
+      "trivial_threshold": {
+        "exchangeable, 0.1, pooled": 0.866,
+        "exchangeable, 0.1, images": 0.742,
+        "exchangeable, 0.05, pooled": 1.0,
+        "exchangeable, 0.05, images": 0.998,
+        "benchmark split, 0.1, pooled": 0.0,
+        "benchmark split, 0.1, images": 0.0,
+        "benchmark split, 0.05, pooled": 0.0,
+        "benchmark split, 0.05, images": 0.0
+      }
+    },
+    "native_lvis": {
+      "unlocalised_source": 0.02308986873106698,
+      "unlocalised_added": 0.11619827053736875,
+      "trivial_threshold": {
+        "exchangeable, 0.1, pooled": 0.108,
+        "exchangeable, 0.1, images": 0.05,
+        "exchangeable, 0.05, pooled": 0.904,
+        "exchangeable, 0.05, images": 0.774,
+        "benchmark split, 0.1, pooled": 0.0,
+        "benchmark split, 0.1, images": 0.0,
+        "benchmark split, 0.05, pooled": 0.0,
+        "benchmark split, 0.05, images": 0.0
+      }
+    }
+  },
+  "hashes": {
+    "src/exp_ovd_floor.py": "e215d1dfd59f268d24b7b89accd8f60cc34cef7edd70b3ac13b8cebc677bebe0",
+    "src/exp_ovd_crc.py": "46d3b7b4e95ddbb5bfc4bb7229867ef1af8a8c2fe7521af7d49ddf66c137868f",
+    "cache/ovd_probe_mmgdino_t/gt.npz": "f6bc1480c26d83e9f457281425ff7f5b99728efff7fd196303d61e809c3ccc5e"
+  }
+}

@@ -1,0 +1,57 @@
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+& & \multicolumn{2}{c}{native} & \multicolumn{3}{c}{anchored} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-7}
+Configuration & construction & reused risk & recal.\ size & reused risk & reused size & recal.\ size \\
+\midrule
+CAT-Seg ViT-B, 683-name bank, Pascal 59$\to$458 & per-label threshold (ours) & 15.2 & 2.52 & 9.9 & 2.81 & 2.81 \\
+ & softmax cutoff & 15.2 & 2.71 & 15.0 & 1.78 & 2.85 \\
+ & APS & 12.7 & 3.71 & 10.4 & 3.84 & 4.14 \\
+ & RAPS & 13.1 & 3.03 & 11.1 & 3.03 & 3.41 \\
+\midrule
+CAT-Seg ViT-L, 683-name bank, Pascal 59$\to$458 & per-label threshold (ours) & 15.0 & 2.07 & 9.9 & 2.33 & 2.33 \\
+ & softmax cutoff & 14.8 & 2.18 & 14.9 & 1.58 & 2.28 \\
+ & APS & 13.0 & 2.67 & 11.4 & 2.52 & 3.05 \\
+ & RAPS & 13.2 & 2.38 & 11.8 & 2.24 & 2.64 \\
+\midrule
+CAT-Seg + DeCLIP EVA-L, 683-name bank, Pascal 59$\to$458 & per-label threshold (ours) & 14.7 & 2.09 & 9.9 & 2.41 & 2.41 \\
+ & softmax cutoff & 14.8 & 2.20 & 14.5 & 1.62 & 2.36 \\
+ & APS & 13.2 & 2.73 & 11.3 & 2.63 & 3.20 \\
+ & RAPS & 13.4 & 2.37 & 11.7 & 2.27 & 2.69 \\
+\midrule
+SED ConvNeXt-L, 683-name bank, Pascal 59$\to$458 & per-label threshold (ours) & 4.7 & 2.67 & 9.9 & 2.79 & 2.79 \\
+ & softmax cutoff & 16.5 & 2.88 & 14.0 & 1.88 & 2.77 \\
+ & APS & 14.7 & 3.91 & 11.4 & 3.19 & 3.94 \\
+ & RAPS & 14.9 & 3.01 & 11.9 & 2.57 & 3.06 \\
+\midrule
+FC-CLIP ConvNeXt-L, 701-name bank, Pascal 59$\to$458 & per-label threshold (ours) & 16.2 & 5.31 & 9.9 & 5.77 & 5.77 \\
+ & softmax cutoff & 18.6 & 5.76 & 17.4 & 2.06 & 4.57 \\
+ & APS & 9.4 & 15.10 & 6.9 & 17.68 & 10.62 \\
+ & RAPS & 11.1 & 8.41 & 9.0 & 7.55 & 6.80 \\
+\midrule
+CAT-Seg ViT-B, 683-name bank, COCO 171$\to$1,283 & per-label threshold (ours) & 13.0 & 3.09 & 9.9 & 3.83 & 3.83 \\
+ & softmax cutoff & 12.6 & 3.35 & 12.7 & 2.69 & 3.48 \\
+ & APS & 10.6 & 4.97 & 8.7 & 6.99 & 5.85 \\
+ & RAPS & 11.2 & 3.85 & 9.6 & 4.53 & 4.39 \\
+\midrule
+CAT-Seg ViT-L, 683-name bank, COCO 171$\to$1,283 & per-label threshold (ours) & 12.9 & 2.65 & 9.9 & 3.21 & 3.21 \\
+ & softmax cutoff & 12.4 & 2.88 & 12.2 & 2.46 & 3.01 \\
+ & APS & 11.3 & 3.78 & 9.4 & 4.87 & 4.52 \\
+ & RAPS & 11.6 & 3.21 & 10.0 & 3.62 & 3.64 \\
+\midrule
+CAT-Seg + DeCLIP EVA-L, 683-name bank, COCO 171$\to$1,283 & per-label threshold (ours) & 12.9 & 2.63 & 9.9 & 3.19 & 3.19 \\
+ & softmax cutoff & 12.8 & 2.79 & 12.5 & 2.40 & 2.96 \\
+ & APS & 11.2 & 3.81 & 9.6 & 4.79 & 4.56 \\
+ & RAPS & 11.6 & 3.16 & 10.2 & 3.52 & 3.58 \\
+\midrule
+SED ConvNeXt-L, 683-name bank, COCO 171$\to$1,283 & per-label threshold (ours) & 3.6 & 3.74 & 9.9 & 3.55 & 3.55 \\
+ & softmax cutoff & 10.5 & 3.39 & 12.5 & 2.67 & 3.30 \\
+ & APS & 8.1 & 4.41 & 10.0 & 4.54 & 4.53 \\
+ & RAPS & 8.9 & 3.70 & 10.6 & 3.52 & 3.70 \\
+\midrule
+FC-CLIP ConvNeXt-L, 701-name bank, COCO 171$\to$1,283 & per-label threshold (ours) & 17.1 & 26.53 & 9.9 & 26.85 & 26.85 \\
+ & softmax cutoff & 18.0 & 32.08 & 15.5 & 9.47 & 25.73 \\
+ & APS & 9.8 & 74.90 & 6.0 & 92.28 & 49.83 \\
+ & RAPS & 14.7 & 27.27 & 12.2 & 17.67 & 25.40 \\
+\bottomrule
+\end{tabular}

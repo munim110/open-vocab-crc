@@ -1,0 +1,8 @@
+{
+  "ADE_val_00000001.jpg": {
+    "reimplementation_max_abs": 8.58306884765625e-06,
+    "anchored_alone_vs_batch": 9.5367431640625e-07,
+    "logit_scale": 12.281535148620605,
+    "device": "cpu"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "0": {
+    "native150_max_abs_logit": 0.0,
+    "native150_mean": 0.0,
+    "native845_max_abs_logit": 0.0,
+    "native845_mean": 0.0
+  },
+  "1": {
+    "native150_max_abs_logit": 0.0,
+    "native150_mean": 0.0,
+    "native845_max_abs_logit": 0.0,
+    "native845_mean": 0.0
+  },
+  "2": {
+    "native150_max_abs_logit": 0.0,
+    "native150_mean": 0.0,
+    "native845_max_abs_logit": 0.0,
+    "native845_mean": 0.0
+  }
+}

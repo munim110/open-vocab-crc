@@ -1,0 +1,617 @@
+{
+  "dataset": "pascal",
+  "tag": "sed_bank683",
+  "images": 2000,
+  "pairs": 12770,
+  "trials": 500,
+  "ms": [
+    10,
+    20,
+    30,
+    50,
+    75,
+    100,
+    150,
+    200
+  ],
+  "reference": "results\\label_exchange_pascal_sed_bank683_schemes\\results.json",
+  "arms": {
+    "a0.1, check: random S of T": {
+      "added_cal": 0.0753195283273235,
+      "added_heldout": 0.07479440766270272,
+      "source_image": 0.014346083562115381,
+      "size": 17.477892150163196,
+      "floor": 0.0,
+      "m_present": 28.82,
+      "above_added_cal": 0.254,
+      "above_added_heldout": 0.266,
+      "above_source_image": 0.0,
+      "added_cal_q025_q975": [
+        0.01588067635893822,
+        0.15956654883921145
+      ]
+    },
+    "a0.1, check: dataset split": {
+      "added_cal": 0.262212793558836,
+      "added_heldout": 0.26220732334256175,
+      "source_image": 0.07672195999324322,
+      "size": 3.546913910629969,
+      "floor": 0.0,
+      "m_present": 59.0,
+      "above_added_cal": 1.0,
+      "above_added_heldout": 1.0,
+      "above_source_image": 0.002,
+      "added_cal_q025_q975": [
+        0.22854960858821868,
+        0.3007348202168941
+      ]
+    },
+    "a0.1, source classes (benchmark split), per-label": {
+      "added_cal": 0.262212793558836,
+      "added_heldout": 0.26220732334256175,
+      "source_image": 0.09873150800168515,
+      "size": 3.316849479458776,
+      "floor": 0.0,
+      "m_present": 59.0,
+      "above_added_cal": 1.0,
+      "above_added_heldout": 1.0,
+      "above_source_image": 0.432,
+      "added_cal_q025_q975": [
+        0.22854960858821868,
+        0.3007348202168941
+      ]
+    },
+    "a0.1, anchored, m=10": {
+      "added_cal": 3.3735428005456923e-06,
+      "added_heldout": 4.723386373370886e-06,
+      "source_image": 0.09873150800168515,
+      "size": 400.3596808236362,
+      "floor": 0.998,
+      "m_present": 4.176,
+      "above_added_cal": 0.0,
+      "above_added_heldout": 0.0,
+      "above_source_image": 0.432,
+      "added_cal_q025_q975": [
+        0.0,
+        0.0
+      ]
+    },
+    "a0.1, native at grown vocabulary, m=10": {
+      "added_cal": 8.701886050403118e-06,
+      "added_heldout": 1.1771942488849163e-05,
+      "source_image": 0.09883292481303214,
+      "size": 400.118046043992,
+      "floor": 0.998,
+      "m_present": 4.176,
+      "above_added_cal": 0.0,
+      "above_added_heldout": 0.0,
+      "above_source_image": 0.436,
+      "added_cal_q025_q975": [
+        0.0,
+        0.0
+      ]
+    },
+    "a0.1, anchored, m=20": {
+      "added_cal": 0.014884851413282036,
+      "added_heldout": 0.014382759342836266,
+      "source_image": 0.09873150800168515,
+      "size": 262.77344488582384,
+      "floor": 0.538,
+      "m_present": 8.28,
+      "above_added_cal": 0.016,
+      "above_added_heldout": 0.016,
+      "above_source_image": 0.432,
+      "added_cal_q025_q975": [
+        0.0,
+        0.09153159335255623
+      ]
+    },
+    "a0.1, native at grown vocabulary, m=20": {
+      "added_cal": 0.014860445095285287,
+      "added_heldout": 0.014505870873253229,
+      "source_image": 0.09883292481303214,
+      "size": 264.35144064579913,
+      "floor": 0.538,
+      "m_present": 8.28,
+      "above_added_cal": 0.018,
+      "above_added_heldout": 0.014,
+      "above_source_image": 0.436,
+      "added_cal_q025_q975": [
+        0.0,
+        0.09074757918715474
+      ]
+    },
+    "a0.1, anchored, m=30": {
+      "added_cal": 0.044904157097431036,
+      "added_heldout": 0.043492845452789426,
+      "source_image": 0.09873150800168515,
+      "size": 85.7004762629785,
+      "floor": 0.066,
+      "m_present": 12.368,
+      "above_added_cal": 0.114,
+      "above_added_heldout": 0.096,
+      "above_source_image": 0.432,
+      "added_cal_q025_q975": [
+        0.0,
+        0.1443868953734636
+      ]
+    },
+    "a0.1, native at grown vocabulary, m=30": {
+      "added_cal": 0.04511964439521125,
+      "added_heldout": 0.04381407732540993,
+      "source_image": 0.09883292481303214,
+      "size": 87.93670883690001,
+      "floor": 0.066,
+      "m_present": 12.368,
+      "above_added_cal": 0.114,
+      "above_added_heldout": 0.108,
+      "above_source_image": 0.436,
+      "added_cal_q025_q975": [
+        0.0,
+        0.15074590966105458
+      ]
+    },
+    "a0.1, anchored, m=50": {
+      "added_cal": 0.06629239449536545,
+      "added_heldout": 0.06501170351493056,
+      "source_image": 0.09873150800168515,
+      "size": 27.880493559443853,
+      "floor": 0.0,
+      "m_present": 20.742,
+      "above_added_cal": 0.204,
+      "above_added_heldout": 0.22,
+      "above_source_image": 0.432,
+      "added_cal_q025_q975": [
+        0.003442555933725089,
+        0.163157744333148
+      ]
+    },
+    "a0.1, native at grown vocabulary, m=50": {
+      "added_cal": 0.06743099065436399,
+      "added_heldout": 0.06627940575736284,
+      "source_image": 0.09883292481303214,
+      "size": 30.735471672454526,
+      "floor": 0.0,
+      "m_present": 20.742,
+      "above_added_cal": 0.224,
+      "above_added_heldout": 0.202,
+      "above_source_image": 0.436,
+      "added_cal_q025_q975": [
+        0.0025339157087728385,
+        0.17068770490586754
+      ]
+    },
+    "a0.1, anchored, m=75": {
+      "added_cal": 0.07894012905540876,
+      "added_heldout": 0.07767407010216267,
+      "source_image": 0.09873150800168515,
+      "size": 16.236368958467498,
+      "floor": 0.0,
+      "m_present": 31.224,
+      "above_added_cal": 0.258,
+      "above_added_heldout": 0.266,
+      "above_source_image": 0.432,
+      "added_cal_q025_q975": [
+        0.015901811327785256,
+        0.16747426539659496
+      ]
+    },
+    "a0.1, native at grown vocabulary, m=75": {
+      "added_cal": 0.0797463989162352,
+      "added_heldout": 0.07828677649947349,
+      "source_image": 0.09883292481303214,
+      "size": 18.43651788123429,
+      "floor": 0.0,
+      "m_present": 31.224,
+      "above_added_cal": 0.278,
+      "above_added_heldout": 0.266,
+      "above_source_image": 0.436,
+      "added_cal_q025_q975": [
+        0.020540233841165902,
+        0.16867894306778905
+      ]
+    },
+    "a0.1, anchored, m=100": {
+      "added_cal": 0.08460293917823583,
+      "added_heldout": 0.08350934104342013,
+      "source_image": 0.09873150800168515,
+      "size": 14.101688025712166,
+      "floor": 0.0,
+      "m_present": 41.69,
+      "above_added_cal": 0.318,
+      "above_added_heldout": 0.31,
+      "above_source_image": 0.432,
+      "added_cal_q025_q975": [
+        0.02516831522807479,
+        0.16261003017425535
+      ]
+    },
+    "a0.1, native at grown vocabulary, m=100": {
+      "added_cal": 0.08588517150934785,
+      "added_heldout": 0.08464985221810639,
+      "source_image": 0.09883292481303214,
+      "size": 15.738834593911449,
+      "floor": 0.0,
+      "m_present": 41.69,
+      "above_added_cal": 0.324,
+      "above_added_heldout": 0.3,
+      "above_source_image": 0.436,
+      "added_cal_q025_q975": [
+        0.024726267112419008,
+        0.1700889520347118
+      ]
+    },
+    "a0.1, anchored, m=150": {
+      "added_cal": 0.09022501678578555,
+      "added_heldout": 0.08973400384373963,
+      "source_image": 0.09873150800168515,
+      "size": 11.952511195731027,
+      "floor": 0.0,
+      "m_present": 62.38,
+      "above_added_cal": 0.39,
+      "above_added_heldout": 0.352,
+      "above_source_image": 0.432,
+      "added_cal_q025_q975": [
+        0.032396132592111826,
+        0.15968108959496016
+      ]
+    },
+    "a0.1, native at grown vocabulary, m=150": {
+      "added_cal": 0.09090918720699846,
+      "added_heldout": 0.09075165826827288,
+      "source_image": 0.09883292481303214,
+      "size": 13.631021877668038,
+      "floor": 0.0,
+      "m_present": 62.38,
+      "above_added_cal": 0.38,
+      "above_added_heldout": 0.352,
+      "above_source_image": 0.436,
+      "added_cal_q025_q975": [
+        0.031446944642812016,
+        0.15821810513734816
+      ]
+    },
+    "a0.1, anchored, m=200": {
+      "added_cal": 0.09358985964953899,
+      "added_heldout": 0.09285500625148416,
+      "source_image": 0.09873150800168515,
+      "size": 11.104124482144307,
+      "floor": 0.0,
+      "m_present": 83.022,
+      "above_added_cal": 0.436,
+      "above_added_heldout": 0.38,
+      "above_source_image": 0.432,
+      "added_cal_q025_q975": [
+        0.03099358160980046,
+        0.1633845057338476
+      ]
+    },
+    "a0.1, native at grown vocabulary, m=200": {
+      "added_cal": 0.09442655592784285,
+      "added_heldout": 0.09389111997000874,
+      "source_image": 0.09883292481303214,
+      "size": 12.78691405656587,
+      "floor": 0.0,
+      "m_present": 83.022,
+      "above_added_cal": 0.442,
+      "above_added_heldout": 0.384,
+      "above_source_image": 0.436,
+      "added_cal_q025_q975": [
+        0.030141331022605303,
+        0.16622895672917365
+      ]
+    },
+    "a0.05, check: random S of T": {
+      "added_cal": 0.02821108231859398,
+      "added_heldout": 0.0279778740631682,
+      "source_image": 0.0024548574631051,
+      "size": 80.37355654908887,
+      "floor": 0.006,
+      "m_present": 28.82,
+      "above_added_cal": 0.17,
+      "above_added_heldout": 0.19,
+      "above_source_image": 0.0,
+      "added_cal_q025_q975": [
+        0.00026007105843746104,
+        0.08388830423355102
+      ]
+    },
+    "a0.05, check: dataset split": {
+      "added_cal": 0.15460383127629757,
+      "added_heldout": 0.1542873712927103,
+      "source_image": 0.03195067567750812,
+      "size": 6.706129042430283,
+      "floor": 0.0,
+      "m_present": 59.0,
+      "above_added_cal": 1.0,
+      "above_added_heldout": 1.0,
+      "above_source_image": 0.0,
+      "added_cal_q025_q975": [
+        0.1278032187372446,
+        0.18194860219955444
+      ]
+    },
+    "a0.05, source classes (benchmark split), per-label": {
+      "added_cal": 0.15460383127629757,
+      "added_heldout": 0.1542873712927103,
+      "source_image": 0.048925746612250805,
+      "size": 6.1923508177104365,
+      "floor": 0.0,
+      "m_present": 59.0,
+      "above_added_cal": 1.0,
+      "above_added_heldout": 1.0,
+      "above_source_image": 0.404,
+      "added_cal_q025_q975": [
+        0.1278032187372446,
+        0.18194860219955444
+      ]
+    },
+    "a0.05, anchored, m=10": {
+      "added_cal": 0.0,
+      "added_heldout": 0.0,
+      "source_image": 0.048925746612250805,
+      "size": 401.3383364300365,
+      "floor": 1.0,
+      "m_present": 4.176,
+      "above_added_cal": 0.0,
+      "above_added_heldout": 0.0,
+      "above_source_image": 0.404,
+      "added_cal_q025_q975": [
+        0.0,
+        0.0
+      ]
+    },
+    "a0.05, native at grown vocabulary, m=10": {
+      "added_cal": 0.0,
+      "added_heldout": 0.0,
+      "source_image": 0.049029981292784214,
+      "size": 401.2773267879082,
+      "floor": 1.0,
+      "m_present": 4.176,
+      "above_added_cal": 0.0,
+      "above_added_heldout": 0.0,
+      "above_source_image": 0.414,
+      "added_cal_q025_q975": [
+        0.0,
+        0.0
+      ]
+    },
+    "a0.05, anchored, m=20": {
+      "added_cal": 0.0,
+      "added_heldout": 0.0,
+      "source_image": 0.048925746612250805,
+      "size": 401.3383364300365,
+      "floor": 1.0,
+      "m_present": 8.28,
+      "above_added_cal": 0.0,
+      "above_added_heldout": 0.0,
+      "above_source_image": 0.404,
+      "added_cal_q025_q975": [
+        0.0,
+        0.0
+      ]
+    },
+    "a0.05, native at grown vocabulary, m=20": {
+      "added_cal": 0.0,
+      "added_heldout": 0.0,
+      "source_image": 0.049029981292784214,
+      "size": 401.2773267879082,
+      "floor": 1.0,
+      "m_present": 8.28,
+      "above_added_cal": 0.0,
+      "above_added_heldout": 0.0,
+      "above_source_image": 0.414,
+      "added_cal_q025_q975": [
+        0.0,
+        0.0
+      ]
+    },
+    "a0.05, anchored, m=30": {
+      "added_cal": 0.00010139014385640621,
+      "added_heldout": 7.036769157275558e-05,
+      "source_image": 0.048925746612250805,
+      "size": 400.2507939375477,
+      "floor": 0.996,
+      "m_present": 12.368,
+      "above_added_cal": 0.0,
+      "above_added_heldout": 0.0,
+      "above_source_image": 0.404,
+      "added_cal_q025_q975": [
+        0.0,
+        0.0
+      ]
+    },
+    "a0.05, native at grown vocabulary, m=30": {
+      "added_cal": 0.0001045918008312583,
+      "added_heldout": 6.221270737660234e-05,
+      "source_image": 0.049029981292784214,
+      "size": 400.21511818189896,
+      "floor": 0.996,
+      "m_present": 12.368,
+      "above_added_cal": 0.0,
+      "above_added_heldout": 0.0,
+      "above_source_image": 0.414,
+      "added_cal_q025_q975": [
+        0.0,
+        0.0
+      ]
+    },
+    "a0.05, anchored, m=50": {
+      "added_cal": 0.01447489138488936,
+      "added_heldout": 0.014417284064486922,
+      "source_image": 0.048925746612250805,
+      "size": 193.52944267286554,
+      "floor": 0.254,
+      "m_present": 20.742,
+      "above_added_cal": 0.062,
+      "above_added_heldout": 0.06,
+      "above_source_image": 0.404,
+      "added_cal_q025_q975": [
+        0.0,
+        0.06413611080497503
+      ]
+    },
+    "a0.05, native at grown vocabulary, m=50": {
+      "added_cal": 0.01392362550741609,
+      "added_heldout": 0.013908994493783439,
+      "source_image": 0.049029981292784214,
+      "size": 197.61658802203203,
+      "floor": 0.254,
+      "m_present": 20.742,
+      "above_added_cal": 0.058,
+      "above_added_heldout": 0.048,
+      "above_source_image": 0.414,
+      "added_cal_q025_q975": [
+        0.0,
+        0.05951864207163445
+      ]
+    },
+    "a0.05, anchored, m=75": {
+      "added_cal": 0.029011218548042506,
+      "added_heldout": 0.028344616056169798,
+      "source_image": 0.048925746612250805,
+      "size": 72.9267771620942,
+      "floor": 0.0,
+      "m_present": 31.224,
+      "above_added_cal": 0.188,
+      "above_added_heldout": 0.19,
+      "above_source_image": 0.404,
+      "added_cal_q025_q975": [
+        0.00047672695363871754,
+        0.09466245155781501
+      ]
+    },
+    "a0.05, native at grown vocabulary, m=75": {
+      "added_cal": 0.02888181078763728,
+      "added_heldout": 0.028137833000551383,
+      "source_image": 0.049029981292784214,
+      "size": 79.21625705412504,
+      "floor": 0.0,
+      "m_present": 31.224,
+      "above_added_cal": 0.188,
+      "above_added_heldout": 0.182,
+      "above_source_image": 0.414,
+      "added_cal_q025_q975": [
+        0.00024381822222494526,
+        0.09384202994406221
+      ]
+    },
+    "a0.05, anchored, m=100": {
+      "added_cal": 0.03432240560305945,
+      "added_heldout": 0.03385990639688748,
+      "source_image": 0.048925746612250805,
+      "size": 52.798900147025805,
+      "floor": 0.0,
+      "m_present": 41.69,
+      "above_added_cal": 0.258,
+      "above_added_heldout": 0.24,
+      "above_source_image": 0.404,
+      "added_cal_q025_q975": [
+        0.0006418898221454584,
+        0.09662009663879868
+      ]
+    },
+    "a0.05, native at grown vocabulary, m=100": {
+      "added_cal": 0.03402641858067364,
+      "added_heldout": 0.03319098061584805,
+      "source_image": 0.049029981292784214,
+      "size": 58.15793694761087,
+      "floor": 0.0,
+      "m_present": 41.69,
+      "above_added_cal": 0.254,
+      "above_added_heldout": 0.224,
+      "above_source_image": 0.414,
+      "added_cal_q025_q975": [
+        0.000638105469988659,
+        0.09285801742225885
+      ]
+    },
+    "a0.05, anchored, m=150": {
+      "added_cal": 0.039369702728872656,
+      "added_heldout": 0.038887844850250985,
+      "source_image": 0.048925746612250805,
+      "size": 36.30764503720294,
+      "floor": 0.0,
+      "m_present": 62.38,
+      "above_added_cal": 0.312,
+      "above_added_heldout": 0.3,
+      "above_source_image": 0.404,
+      "added_cal_q025_q975": [
+        0.002698071987833828,
+        0.09643675945699212
+      ]
+    },
+    "a0.05, native at grown vocabulary, m=150": {
+      "added_cal": 0.039624384120106694,
+      "added_heldout": 0.03894230967061594,
+      "source_image": 0.049029981292784214,
+      "size": 39.77625546287107,
+      "floor": 0.0,
+      "m_present": 62.38,
+      "above_added_cal": 0.308,
+      "above_added_heldout": 0.286,
+      "above_source_image": 0.414,
+      "added_cal_q025_q975": [
+        0.0030538726190570743,
+        0.09320747647434467
+      ]
+    },
+    "a0.05, anchored, m=200": {
+      "added_cal": 0.04264771534243482,
+      "added_heldout": 0.04189469156527775,
+      "source_image": 0.048925746612250805,
+      "size": 31.410663059079685,
+      "floor": 0.0,
+      "m_present": 83.022,
+      "above_added_cal": 0.336,
+      "above_added_heldout": 0.31,
+      "above_source_image": 0.404,
+      "added_cal_q025_q975": [
+        0.0032290100352838635,
+        0.10615496467798943
+      ]
+    },
+    "a0.05, native at grown vocabulary, m=200": {
+      "added_cal": 0.04298090836580377,
+      "added_heldout": 0.042211681215150745,
+      "source_image": 0.049029981292784214,
+      "size": 34.59964276451615,
+      "floor": 0.0,
+      "m_present": 83.022,
+      "above_added_cal": 0.35,
+      "above_added_heldout": 0.318,
+      "above_source_image": 0.414,
+      "added_cal_q025_q975": [
+        0.004157383006531745,
+        0.09961989354342218
+      ]
+    }
+  },
+  "checks": {
+    "a0.1, exchangeable": {
+      "added_cal": 3.832578658602426e-08,
+      "added_heldout": 2.5846064094503518e-08,
+      "size": 6.368399120049162e-06
+    },
+    "a0.05, exchangeable": {
+      "added_cal": 8.374452593190584e-09,
+      "added_heldout": 3.5315752058839855e-09,
+      "size": 1.4101011828415722e-05
+    },
+    "a0.1, dataset split": {
+      "added_cal": 1.900792121867223e-06,
+      "added_heldout": 6.352961063327278e-07,
+      "size": 1.3792488759989396e-06
+    },
+    "a0.05, dataset split": {
+      "added_cal": 1.3627111911107548e-07,
+      "added_heldout": 1.2516975511633888e-09,
+      "size": 2.4005933987325534e-06
+    }
+  },
+  "hashes": {
+    "src/exp_label_sample.py": "a488892b3b1d921c7aefe73433413bad084fda1aa9587034b21a5d1d358c60d0",
+    "src/exp_label_exchange.py": "b8b31e68eb3747ce67bf944dda1d8d50c01d731043df4e3377498cf52e5985e1",
+    "cache/pascal_sclip/gt459.npy": "df73aa8d23e02ef7a07e0c0e31daed47d96a1ce0079a442efaa8d422cf0aed07"
+  }
+}

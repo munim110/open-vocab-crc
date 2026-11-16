@@ -1,0 +1,19 @@
+\setlength{\tabcolsep}{4pt}\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+& \multicolumn{4}{c}{CAT-Seg ViT-L} & \multicolumn{4}{c}{SED} \\ \cmidrule(lr){2-5}\cmidrule(l){6-9}
+Added names & held-out & risk & $\alpha+\Delta(\hat t_\ell)$ & $\alpha+\max\Delta$ & held-out & risk & $\alpha+\Delta(\hat t_\ell)$ & $\alpha+\max\Delta$ \\
+\midrule
+fifth 1 (easiest) & 0.0 & 1.7 & 2.3 & 10.0 & 0.0 & 1.3 & 1.8 & 10.0 \\
+fifth 2 & 0.0 & 6.1 & 6.7 & 13.5 & 0.0 & 6.3 & 6.9 & 12.9 \\
+fifth 3 & 0.3 & 4.4 & 5.0 & 10.7 & 0.2 & 5.2 & 5.7 & 11.4 \\
+fifth 4 & 3.3 & 6.2 & 6.8 & 12.7 & 3.3 & 6.1 & 6.7 & 15.1 \\
+fifth 5 (hardest) & 39.6 & 24.9 & 25.4 & 36.1 & 41.9 & 25.6 & 26.2 & 38.5 \\
+\midrule all remaining & 8.6 & 8.7 & 9.2 & 10.3 & 9.0 & 8.9 & 9.4 & 10.6 \\
+\midrule
+\multicolumn{9}{@{}l}{\emph{$(1-\varepsilon)$ uniform draw $+\ \varepsilon$ hardest fifth: risk, and the bound $\alpha+\varepsilon$}} \\
+$\varepsilon=0.05$ &  & 10.2 & 15 &  &  & 10.3 & 15 &  \\
+$\varepsilon=0.1$ &  & 11.0 & 20 &  &  & 11.1 & 20 &  \\
+$\varepsilon=0.25$ &  & 13.3 & 35 &  &  & 13.5 & 35 &  \\
+$\varepsilon=0.5$ &  & 17.2 & 60 &  &  & 17.5 & 60 &  \\
+\bottomrule
+\end{tabular}

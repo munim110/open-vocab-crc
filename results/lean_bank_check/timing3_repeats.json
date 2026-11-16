@@ -1,0 +1,86 @@
+{
+  "note": "Repeat runs of the timing3 configurations on the RTX 5070 Ti. timing3_vitl_bank683 (first run) and timing3_sed_fast8 (first run) shared the GPU with another job and are discarded; timing3_vitl_bank683_rep2 (clean, timed back to back with the lean run) is kept as timing3_vitl_bank683. The second full run (rep3) and the second lean run (lean_rep2) agree with the kept runs to within 0.2% in anchored time.",
+  "discarded": [
+    "timing3_vitl_bank683 (first run)",
+    "timing3_sed_fast8 (first run)"
+  ],
+  "runs": {
+    "timing3_vitl_bank683": {
+      "mean_seconds_per_image": {
+        "clip_features": 0.3209074590005912,
+        "native_150_plus_845": 1.7780777030059836,
+        "anchored_reference_plus_845": 5.9011328909959415,
+        "native_150": 0.7811637780052842,
+        "native_845": 0.9969139250006992
+      },
+      "peak_memory_gb": 9.407523155212402,
+      "gpu": "NVIDIA GeForce RTX 5070 Ti"
+    },
+    "timing3_vitl_bank683_rep2": {
+      "mean_seconds_per_image": {
+        "clip_features": 0.2316673389985226,
+        "native_150_plus_845": 1.2316969000000972,
+        "anchored_reference_plus_845": 3.977706867000088,
+        "native_150": 0.4777863760024775,
+        "native_845": 0.7539105239976197
+      },
+      "peak_memory_gb": 9.407523155212402,
+      "gpu": "NVIDIA GeForce RTX 5070 Ti"
+    },
+    "timing3_vitl_bank683_rep3": {
+      "mean_seconds_per_image": {
+        "clip_features": 0.22467131400189827,
+        "native_150_plus_845": 1.3113391989958472,
+        "anchored_reference_plus_845": 3.9765786200016735,
+        "native_150": 0.5345364169985988,
+        "native_845": 0.7768027819972485
+      },
+      "peak_memory_gb": 9.407523155212402,
+      "gpu": "NVIDIA GeForce RTX 5070 Ti"
+    },
+    "timing3_vitl_bank683_lean": {
+      "mean_seconds_per_image": {
+        "clip_features": 0.2312798129953444,
+        "native_150_plus_845": 1.2365586970018922,
+        "anchored_reference_plus_845": 3.378879559998168,
+        "native_150": 0.4814748360024532,
+        "native_845": 0.7550838609994389
+      },
+      "peak_memory_gb": 9.290966033935547,
+      "gpu": "NVIDIA GeForce RTX 5070 Ti"
+    },
+    "timing3_vitl_bank683_lean_rep2": {
+      "mean_seconds_per_image": {
+        "clip_features": 0.23715734499972313,
+        "native_150_plus_845": 1.277058952995576,
+        "anchored_reference_plus_845": 3.3730265500041425,
+        "native_150": 0.5231498129974352,
+        "native_845": 0.7539091399981408
+      },
+      "peak_memory_gb": 9.290966033935547,
+      "gpu": "NVIDIA GeForce RTX 5070 Ti"
+    },
+    "timing3_sed_fast8": {
+      "mean_seconds_per_image": {
+        "clip_features": 0.2205770920019131,
+        "native_150_plus_845": 0.22763536300102716,
+        "anchored_reference_plus_845": 0.848629064995912,
+        "native_150": 0.10747709300019778,
+        "native_845": 0.12015827000082936
+      },
+      "peak_memory_gb": 5.475174427032471,
+      "gpu": "NVIDIA GeForce RTX 5070 Ti"
+    },
+    "timing3_sed_fast8_rep2": {
+      "mean_seconds_per_image": {
+        "clip_features": 0.10467120799701661,
+        "native_150_plus_845": 0.2114039860048797,
+        "anchored_reference_plus_845": 0.743751600998221,
+        "native_150": 0.10821893799991812,
+        "native_845": 0.10318504800496157
+      },
+      "peak_memory_gb": 5.475174427032471,
+      "gpu": "NVIDIA GeForce RTX 5070 Ti"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Configuration & anchored & native, recalibrated & native at anchored size & native, reused \\
+\midrule
+CAT-Seg ViT-B, COCO-171 bank & 36.0 / 7.8 & 49.9 / 5.1 & 40.8 / 7.8 & 63.2 / 2.8 \\
+CAT-Seg ViT-B, 683-name bank & 40.3 / 6.2 & 49.9 / 5.1 & 45.4 / 6.2 & 63.2 / 2.8 \\
+CAT-Seg ViT-L, COCO-171 bank & 27.6 / 5.4 & 42.0 / 3.6 & 31.7 / 5.4 & 55.4 / 2.2 \\
+CAT-Seg ViT-L, 683-name bank & 32.4 / 4.5 & 42.0 / 3.6 & 36.1 / 4.5 & 55.4 / 2.2 \\
+CAT-Seg + DeCLIP EVA-L, 683-name bank & 27.1 / 4.6 & 36.9 / 3.5 & 30.0 / 4.6 & 49.6 / 2.2 \\
+SED ConvNeXt-L, COCO-171 bank & 30.8 / 7.4 & 42.5 / 5.3 & 35.7 / 7.4 & 31.9 / 8.9 \\
+SED ConvNeXt-L, fast mode (top-8 rejection) & 30.8 / 7.4 & 46.2 / 5.3 & 41.1 / 7.4 & 52.8 / 3.6 \\
+SED ConvNeXt-L, 683-name bank & 36.2 / 6.3 & 42.5 / 5.3 & 39.0 / 6.3 & 31.9 / 8.9 \\
+FC-CLIP ConvNeXt-L, 133-name bank & 31.0 / 14.1 & 34.5 / 8.2 & 26.8 / 14.1 & 43.0 / 5.2 \\
+FC-CLIP ConvNeXt-L, 701-name bank & 28.6 / 11.5 & 34.5 / 8.2 & 29.4 / 11.5 & 43.0 / 5.2 \\
+FC-CLIP ConvNeXt-L, 1,366-name bank & 29.2 / 11.2 & 34.5 / 8.2 & 29.9 / 11.2 & 43.0 / 5.2 \\
+FC-CLIP ConvNeXt-L, 2,731-name bank & 29.2 / 11.0 & 34.5 / 8.2 & 30.1 / 11.0 & 43.0 / 5.2 \\
+ViT-B, aggregator fine-tuned 10k & 37.7 / 7.4 & 46.6 / 5.4 & 39.4 / 7.4 & 49.7 / 4.7 \\
+ViT-B, fine-tuned with distractors & 44.9 / 6.5 & 46.5 / 5.6 & 43.3 / 6.5 & 53.5 / 4.1 \\
+\bottomrule
+\end{tabular}

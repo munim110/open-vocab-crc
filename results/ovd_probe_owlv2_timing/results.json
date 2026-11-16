@@ -1,0 +1,8 @@
+{
+  "images": 100,
+  "seconds_per_image": {
+    "owl": 0.0859313592815306
+  },
+  "gpu": "NVIDIA GH200 480GB",
+  "peak_memory_gb": 1.3570237159729004
+}

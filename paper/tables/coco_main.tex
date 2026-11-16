@@ -1,0 +1,13 @@
+\begin{tabular}{@{}llrrrrrrrrr@{}}
+\toprule
+& & \multicolumn{2}{c}{native, reused} & \multicolumn{3}{c}{native, recalibrated} & \multicolumn{4}{c}{anchored (ours)} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-7}\cmidrule(lr){8-11}
+Model & bank & risk & splits $>\alpha$ & risk & splits $>\alpha$ & size & risk & splits $>\alpha$ & size & overhead \\
+\midrule
+CAT-Seg ViT-B & 683-name bank, COCO 171$\to$1,283 & 12.9 & 100\% & 9.9 & 38\% & 3.11 & 9.9 & 41\% & 2.33$\to$3.84 & +0.73 \\
+CAT-Seg ViT-L & 683-name bank, COCO 171$\to$1,283 & 12.8 & 100\% & 9.8 & 40\% & 2.66 & 9.8 & 40\% & 2.06$\to$3.22 & +0.56 \\
+CAT-Seg + DeCLIP EVA-L & 683-name bank, COCO 171$\to$1,283 & 12.9 & 100\% & 9.9 & 41\% & 2.64 & 9.9 & 42\% & 1.94$\to$3.19 & +0.55 \\
+SED ConvNeXt-L & 683-name bank, COCO 171$\to$1,283 & 3.6 & 0\% & 9.9 & 43\% & 3.74 & 9.9 & 43\% & 2.19$\to$3.55 & -0.20 \\
+FC-CLIP ConvNeXt-L & 701-name bank, COCO 171$\to$1,283 & 17.1 & 100\% & 9.9 & 44\% & 26.50 & 9.9 & 43\% & 5.86$\to$26.82 & +0.32 \\
+\bottomrule
+\end{tabular}

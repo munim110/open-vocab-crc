@@ -1,0 +1,590 @@
+{
+  "note": "source/added split of the stored full-resolution confusion matrices; arg-max over the whole benchmark vocabulary",
+  "datasets": {
+    "ade847": {
+      "source_classes": 150,
+      "added_classes": 697,
+      "lanes": {
+        "vitb": {
+          "native": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.6481386206236056,
+              "class_mean_accuracy": 0.40065854283047,
+              "miou": 0.27515915987084155,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.25651303591580793,
+              "class_mean_accuracy": 0.1917780371477534,
+              "miou": 0.0886949980380829,
+              "pixel_share": 0.0690049558289881
+            }
+          },
+          "anchored_coco171": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.6137061522318781,
+              "class_mean_accuracy": 0.39869020011230266,
+              "miou": 0.26136748741746363,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.27334816794391253,
+              "class_mean_accuracy": 0.21149500328334198,
+              "miou": 0.08431199192005076,
+              "pixel_share": 0.0690049558289881
+            }
+          },
+          "anchored_bank683": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.633954160141959,
+              "class_mean_accuracy": 0.38805181041409187,
+              "miou": 0.2673559647681378,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.2589861688811436,
+              "class_mean_accuracy": 0.1871473599187442,
+              "miou": 0.08701189132122608,
+              "pixel_share": 0.0690049558289881
+            }
+          }
+        },
+        "vitl": {
+          "native": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.6658746555913525,
+              "class_mean_accuracy": 0.440740047719795,
+              "miou": 0.30807685256441486,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.3294256169674399,
+              "class_mean_accuracy": 0.25829318166133675,
+              "miou": 0.12727157568979064,
+              "pixel_share": 0.0690049558289881
+            }
+          },
+          "anchored_coco171": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.6279376403621272,
+              "class_mean_accuracy": 0.45041042555554783,
+              "miou": 0.29631150660547073,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.3522465207054604,
+              "class_mean_accuracy": 0.29652894642526934,
+              "miou": 0.12305224259506549,
+              "pixel_share": 0.0690049558289881
+            }
+          },
+          "anchored_bank683": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.6527940847830394,
+              "class_mean_accuracy": 0.4303965980709094,
+              "miou": 0.29989800612343676,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.3161193994606769,
+              "class_mean_accuracy": 0.24851804567987126,
+              "miou": 0.1199511697302418,
+              "pixel_share": 0.0690049558289881
+            }
+          }
+        },
+        "declip": {
+          "native": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.6862371686189926,
+              "class_mean_accuracy": 0.5046652811209685,
+              "miou": 0.3503852266125189,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.3558152338794395,
+              "class_mean_accuracy": 0.2790643753249167,
+              "miou": 0.14171645396107457,
+              "pixel_share": 0.0690049558289881
+            }
+          },
+          "anchored_coco171": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.6524564378148391,
+              "class_mean_accuracy": 0.5080711517721493,
+              "miou": 0.33696545525656174,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.3731746935284824,
+              "class_mean_accuracy": 0.30189881478354924,
+              "miou": 0.13228996589863223,
+              "pixel_share": 0.0690049558289881
+            }
+          },
+          "anchored_bank683": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.6771255012726684,
+              "class_mean_accuracy": 0.48871851665748767,
+              "miou": 0.3394690534203293,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.3414146742101319,
+              "class_mean_accuracy": 0.266771597727391,
+              "miou": 0.13179977436510076,
+              "pixel_share": 0.0690049558289881
+            }
+          }
+        },
+        "sed": {
+          "native": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.639625689639529,
+              "class_mean_accuracy": 0.39173579435370587,
+              "miou": 0.2753609440415599,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.31382279375127337,
+              "class_mean_accuracy": 0.24823793289914217,
+              "miou": 0.10673048444654139,
+              "pixel_share": 0.0690049558289881
+            }
+          },
+          "anchored_coco171": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.6089788261011265,
+              "class_mean_accuracy": 0.40801492784003307,
+              "miou": 0.2704251307365298,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.3485243804039769,
+              "class_mean_accuracy": 0.2874935739140739,
+              "miou": 0.10753383404598699,
+              "pixel_share": 0.0690049558289881
+            }
+          },
+          "anchored_bank683": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.6286767815159121,
+              "class_mean_accuracy": 0.39196145771881985,
+              "miou": 0.27164985373716494,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.32480755403791906,
+              "class_mean_accuracy": 0.25974800691045213,
+              "miou": 0.10760805577647493,
+              "pixel_share": 0.0690049558289881
+            }
+          }
+        },
+        "fcclip": {
+          "native": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.5269447600665684,
+              "class_mean_accuracy": 0.42788986232901655,
+              "miou": 0.2835773815119877,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.37455882906687044,
+              "class_mean_accuracy": 0.2900257135199975,
+              "miou": 0.10340955117375793,
+              "pixel_share": 0.0690049558289881
+            }
+          },
+          "anchored_133": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.6639538742652431,
+              "class_mean_accuracy": 0.3415183482609039,
+              "miou": 0.20879540035787347,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.11605220677338644,
+              "class_mean_accuracy": 0.08310524699089701,
+              "miou": 0.03986053809924861,
+              "pixel_share": 0.0690049558289881
+            }
+          },
+          "anchored_bank683": {
+            "source": {
+              "classes": 150,
+              "classes_present": 150,
+              "pixel_accuracy": 0.6170520803522569,
+              "class_mean_accuracy": 0.37945616770503365,
+              "miou": 0.24459620237148716,
+              "pixel_share": 0.9309950441710119
+            },
+            "added": {
+              "classes": 697,
+              "classes_present": 697,
+              "pixel_accuracy": 0.23175051354001194,
+              "class_mean_accuracy": 0.17018075063814303,
+              "miou": 0.07711838549788451,
+              "pixel_share": 0.0690049558289881
+            }
+          }
+        }
+      }
+    },
+    "pc459": {
+      "source_classes": 59,
+      "added_classes": 399,
+      "lanes": {
+        "vitb": {
+          "native": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.7373725137192801,
+              "class_mean_accuracy": 0.6583175385954503,
+              "miou": 0.5025190602719787,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.3544564796470662,
+              "class_mean_accuracy": 0.28955466743893754,
+              "miou": 0.12608132424998797,
+              "pixel_share": 0.050293393680942676
+            }
+          },
+          "anchored_coco171": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.7169993800188349,
+              "class_mean_accuracy": 0.6489459524440483,
+              "miou": 0.48559503087790007,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.37731295608956994,
+              "class_mean_accuracy": 0.33829080345801366,
+              "miou": 0.12184599660277064,
+              "pixel_share": 0.050293393680942676
+            }
+          },
+          "anchored_bank683": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.730718642794401,
+              "class_mean_accuracy": 0.653969555288089,
+              "miou": 0.4968035868283148,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.3641337140260651,
+              "class_mean_accuracy": 0.2926983340254235,
+              "miou": 0.12389248495611233,
+              "pixel_share": 0.050293393680942676
+            }
+          }
+        },
+        "vitl": {
+          "native": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.7634866344318183,
+              "class_mean_accuracy": 0.7127630139704485,
+              "miou": 0.557999291042807,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.40182374436229945,
+              "class_mean_accuracy": 0.3730450411970949,
+              "miou": 0.17170561591320596,
+              "pixel_share": 0.050293393680942676
+            }
+          },
+          "anchored_coco171": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.7451862673428461,
+              "class_mean_accuracy": 0.7069369807958399,
+              "miou": 0.544163618960167,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.4223420222548155,
+              "class_mean_accuracy": 0.4273638265670321,
+              "miou": 0.1668781416345581,
+              "pixel_share": 0.050293393680942676
+            }
+          },
+          "anchored_bank683": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.755694512460543,
+              "class_mean_accuracy": 0.7049575785190962,
+              "miou": 0.5479719540815027,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.40444776288885037,
+              "class_mean_accuracy": 0.3754029969781352,
+              "miou": 0.16693267196255795,
+              "pixel_share": 0.050293393680942676
+            }
+          }
+        },
+        "declip": {
+          "native": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.763379230985087,
+              "class_mean_accuracy": 0.7233562619196816,
+              "miou": 0.562611435089691,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.43502288083721286,
+              "class_mean_accuracy": 0.43054181005516073,
+              "miou": 0.19610655252135156,
+              "pixel_share": 0.050293393680942676
+            }
+          },
+          "anchored_coco171": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.7454311557527753,
+              "class_mean_accuracy": 0.7191107098281213,
+              "miou": 0.5476630843871939,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.45291067447593,
+              "class_mean_accuracy": 0.4749941348637113,
+              "miou": 0.1899333206315176,
+              "pixel_share": 0.050293393680942676
+            }
+          },
+          "anchored_bank683": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.7561181211708492,
+              "class_mean_accuracy": 0.7168533120123985,
+              "miou": 0.5539157968655503,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.4445768309959911,
+              "class_mean_accuracy": 0.43066446833802263,
+              "miou": 0.19029375576893118,
+              "pixel_share": 0.050293393680942676
+            }
+          }
+        },
+        "sed": {
+          "native": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.7431673469683169,
+              "class_mean_accuracy": 0.690538554307005,
+              "miou": 0.5343904961596008,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.36962331239076296,
+              "class_mean_accuracy": 0.33823206928589133,
+              "miou": 0.15869605723918184,
+              "pixel_share": 0.050293393680942676
+            }
+          },
+          "anchored_coco171": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.7324646952582163,
+              "class_mean_accuracy": 0.694286240623859,
+              "miou": 0.5275064071253386,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.38302966040258885,
+              "class_mean_accuracy": 0.3893764538683112,
+              "miou": 0.1578565982214177,
+              "pixel_share": 0.050293393680942676
+            }
+          },
+          "anchored_bank683": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.7399597474745849,
+              "class_mean_accuracy": 0.6888749676030788,
+              "miou": 0.5289684863368564,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.3692703751175478,
+              "class_mean_accuracy": 0.3400958459303736,
+              "miou": 0.1550472142423218,
+              "pixel_share": 0.050293393680942676
+            }
+          }
+        },
+        "fcclip": {
+          "native": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.651599124852046,
+              "class_mean_accuracy": 0.6210041076422601,
+              "miou": 0.4820037434804305,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.35497811362211606,
+              "class_mean_accuracy": 0.36652265208405416,
+              "miou": 0.10060387483698399,
+              "pixel_share": 0.050293393680942676
+            }
+          },
+          "anchored_133": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.7358299411507866,
+              "class_mean_accuracy": 0.6930515964996125,
+              "miou": 0.5202752015284376,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.26632265224218793,
+              "class_mean_accuracy": 0.18887037687080033,
+              "miou": 0.07526118086230839,
+              "pixel_share": 0.050293393680942676
+            }
+          },
+          "anchored_bank683": {
+            "source": {
+              "classes": 59,
+              "classes_present": 59,
+              "pixel_accuracy": 0.6976153462145531,
+              "class_mean_accuracy": 0.6693477096661921,
+              "miou": 0.5077476335662677,
+              "pixel_share": 0.9167450820258617
+            },
+            "added": {
+              "classes": 399,
+              "classes_present": 285,
+              "pixel_accuracy": 0.31403486459460933,
+              "class_mean_accuracy": 0.3150699269046411,
+              "miou": 0.0980669009914066,
+              "pixel_share": 0.050293393680942676
+            }
+          }
+        }
+      }
+    }
+  },
+  "hashes": {
+    "src/exp_seg_added_accuracy.py": "4b2f561a15cc32874f5a91f95085def2631dffa2a3a4153efd858a246e7b0426",
+    "results\\miou_full_ade847_vitb\\confusion.npz": "9a216cac21b0614aebc10c1ee67de84d056d02accedbce100550a5702666ebfd",
+    "results\\miou_full_ade847_vitl\\confusion.npz": "b5ca6cdabfd04ab41542c2599040f1cff0027499a6c2c4d00c2a961fe227a69c",
+    "results\\miou_full_ade847_declip\\confusion.npz": "c210dd946613ac7dbe62d3a8e2bd86903873de1c6281a9f7994c648daf4b651a",
+    "results\\miou_full_ade847_sed\\confusion.npz": "be8e803429392b487d998add66bf462678386a31227c4a035018c1256e6cf74e",
+    "results\\miou_full_ade847_fcclip\\confusion.npz": "0dab05c3e3cf0cc6ad1967885a590c1cfd49da952d7c2298c8eac3f5a6295070",
+    "results\\miou_full_pc459_vitb\\confusion.npz": "740ebb2b5b20d4bc5e57fdaf02d0816c845400182eb2149fdd6b0dc43cd19d65",
+    "results\\miou_full_pc459_vitl\\confusion.npz": "d2c6f15273c843dd1fbe3dab14ad019efc35b76fb219bd8c758dcc01adff36fa",
+    "results\\miou_full_pc459_declip\\confusion.npz": "fec08d124d002f1a72de8171357e8a6325535cce130a6af18c034834a892d70c",
+    "results\\miou_full_pc459_sed\\confusion.npz": "7e51d4ce6142130e04864748dfec0b20f6c8bed4a718f8114099533b3cac3995",
+    "results\\miou_full_pc459_fcclip\\confusion.npz": "81fd7e2ec3e68b4299682c832cc077f576dd96f2726681ac5d3a33d681708f9c"
+  }
+}

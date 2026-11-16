@@ -1,0 +1,11 @@
+\setlength{\tabcolsep}{3pt}\begin{tabular}{@{}llrrrrrrrrr@{}}
+\toprule
+& & \multicolumn{2}{c}{size at $150$} & reused & \multicolumn{3}{c}{reused at $\alpha^\prime$} & recal. & anchored & top-1 \\ \cmidrule(lr){3-4}\cmidrule(lr){6-8}
+Model & $\alpha$ & native & anch. & risk & $\alpha^\prime$ & risk & size & size & size & outside \\
+\midrule
+CAT-Seg ViT-L & $0.10$ & 1.91 & 2.25 & 15.2 & 6.00 & 9.9 & 3.48 & 3.47 & 4.27 & 0.34 \\
+ & $0.05$ & 3.28 & 3.66 & 8.4 & 2.50 & 4.8 & 7.95 & 7.81 & 8.63 & 0.01 \\
+SED & $0.10$ & 2.22 & 2.76 & 7.1 & 15.25 & 10.0 & 5.20 & 5.27 & 6.04 & 0.20 \\
+ & $0.05$ & 4.70 & 5.30 & 3.8 & 6.50 & 4.8 & 16.41 & 16.14 & 15.58 & 0.00 \\
+\bottomrule
+\end{tabular}

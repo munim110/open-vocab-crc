@@ -1,0 +1,14 @@
+\begin{tabular}{@{}llrrrrrrrrr@{}}
+\toprule
+& & \multicolumn{2}{c}{native, reused} & \multicolumn{3}{c}{native, recalibrated} & \multicolumn{4}{c}{anchored (ours)} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-7}\cmidrule(lr){8-11}
+Model & bank & risk & splits $>\alpha$ & risk & splits $>\alpha$ & size & risk & splits $>\alpha$ & size & overhead \\
+\midrule
+CAT-Seg ViT-B & COCO-171 bank, Pascal 59$\to$458 & 15.2 & 100\% & 9.9 & 46\% & 2.52 & 9.8 & 42\% & 1.78$\to$3.35 & +0.83 \\
+CAT-Seg ViT-B & 683-name bank, Pascal 59$\to$458 & 15.2 & 100\% & 9.9 & 46\% & 2.52 & 9.8 & 42\% & 1.67$\to$2.82 & +0.30 \\
+CAT-Seg ViT-L & 683-name bank, Pascal 59$\to$458 & 15.0 & 100\% & 9.9 & 43\% & 2.07 & 9.8 & 40\% & 1.51$\to$2.34 & +0.27 \\
+CAT-Seg + DeCLIP EVA-L & 683-name bank, Pascal 59$\to$458 & 14.7 & 100\% & 9.8 & 39\% & 2.09 & 9.8 & 40\% & 1.51$\to$2.42 & +0.33 \\
+SED ConvNeXt-L & 683-name bank, Pascal 59$\to$458 & 4.6 & 0\% & 9.8 & 43\% & 2.68 & 9.8 & 41\% & 1.67$\to$2.80 & +0.13 \\
+FC-CLIP ConvNeXt-L & 701-name bank, Pascal 59$\to$458 & 16.2 & 100\% & 9.9 & 40\% & 5.30 & 9.9 & 41\% & 2.01$\to$5.80 & +0.50 \\
+\bottomrule
+\end{tabular}

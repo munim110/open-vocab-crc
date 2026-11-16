@@ -1,0 +1,14 @@
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+& \multicolumn{3}{c}{class-averaged risk} \\
+\cmidrule(l){2-4}
+Configuration & native reused & native recal. & anchored \\
+\midrule
+CAT-Seg ViT-B, COCO-171 bank, Pascal 59$\to$458 & 19.4 & 12.2 & 9.5 \\
+CAT-Seg ViT-B, 683-name bank, Pascal 59$\to$458 & 19.4 & 12.2 & 11.0 \\
+CAT-Seg ViT-L, 683-name bank, Pascal 59$\to$458 & 17.4 & 11.1 & 9.8 \\
+CAT-Seg + DeCLIP EVA-L, 683-name bank, Pascal 59$\to$458 & 16.0 & 10.5 & 9.2 \\
+SED ConvNeXt-L, 683-name bank, Pascal 59$\to$458 & 5.7 & 12.1 & 10.9 \\
+FC-CLIP ConvNeXt-L, 701-name bank, Pascal 59$\to$458 & 15.9 & 9.3 & 10.4 \\
+\bottomrule
+\end{tabular}

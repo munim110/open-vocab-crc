@@ -1,0 +1,25 @@
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+& & \multicolumn{4}{c}{random source vocabulary} & \multicolumn{2}{c}{benchmark\rq{}s own, $\alpha=.10$} \\
+\cmidrule(lr){3-6}\cmidrule(l){7-8}
+& & \multicolumn{2}{c}{$\alpha=.10$} & \multicolumn{2}{c}{$\alpha=.05$} & & \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+Model & benchmark & anchored & native recal. & anchored & native recal. & anchored & $\Delta(\hat t)$ \\
+\midrule
+CAT-Seg ViT-B & ADE20K & 9.5 / 46.4 & 9.6 / 59.5 & 4.5 / 102.6 & 3.4 / 430.1 & 22.6 & 13.2 \\
+CAT-Seg ViT-B & Pascal Context & 7.5 / 23.9 & 7.6 / 32.1 & 2.6 / 98.4 & 2.5 / 160.7 & 27.4 & 19.0 \\
+CAT-Seg ViT-B & COCO-Stuff & 9.1 / 21.7 & 9.1 / 26.6 & 4.1 / 58.8 & 4.0 / 177.3 & 22.5 & 13.1 \\
+CAT-Seg ViT-L & ADE20K & 9.5 / 27.6 & 9.5 / 34.2 & 4.5 / 76.4 & 4.0 / 260.1 & 22.2 & 12.8 \\
+CAT-Seg ViT-L & Pascal Context & 7.6 / 11.5 & 7.6 / 14.9 & 2.8 / 68.4 & 2.7 / 92.8 & 22.3 & 13.9 \\
+CAT-Seg ViT-L & COCO-Stuff & 8.9 / 11.9 & 9.0 / 13.6 & 4.0 / 30.2 & 4.0 / 42.1 & 17.6 & 8.2 \\
+CAT-Seg + DeCLIP & ADE20K & 9.5 / 19.0 & 9.4 / 22.2 & 4.5 / 52.3 & 4.2 / 194.3 & 20.7 & 11.3 \\
+CAT-Seg + DeCLIP & Pascal Context & 7.5 / 10.4 & 7.6 / 17.6 & 2.8 / 62.4 & 2.8 / 132.0 & 18.1 & 9.6 \\
+CAT-Seg + DeCLIP & COCO-Stuff & 9.0 / 9.5 & 9.1 / 10.1 & 4.1 / 22.5 & 4.1 / 46.8 & 14.6 & 5.2 \\
+SED & ADE20K & 9.5 / 45.1 & 9.5 / 51.4 & 4.6 / 118.5 & 4.6 / 139.8 & 22.2 & 12.8 \\
+SED & Pascal Context & 7.5 / 17.5 & 7.6 / 20.1 & 2.8 / 80.4 & 2.8 / 86.9 & 26.2 & 17.8 \\
+SED & COCO-Stuff & 9.0 / 21.2 & 9.1 / 23.9 & 4.0 / 60.1 & 4.1 / 66.6 & 24.3 & 14.9 \\
+FC-CLIP & ADE20K & 9.6 / 61.0 & 9.6 / 65.6 & 4.5 / 142.2 & 4.6 / 152.4 & 16.4 & 7.0 \\
+FC-CLIP & Pascal Context & 7.5 / 43.4 & 7.5 / 49.7 & 2.5 / 132.3 & 2.5 / 158.7 & 22.9 & 14.5 \\
+FC-CLIP & COCO-Stuff & 9.0 / 82.9 & 9.1 / 66.1 & 4.0 / 227.6 & 4.1 / 186.4 & 16.6 & 7.2 \\
+\bottomrule
+\end{tabular}

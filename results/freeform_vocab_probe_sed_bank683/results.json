@@ -1,0 +1,14 @@
+{
+  "images": 2000,
+  "seconds_per_image": {
+    "features": 0.10146286599986706,
+    "native": 0.12823892670007261,
+    "anchored_bank_plus_added": 0.3494327532999196
+  },
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "peak_memory_gb": 6.011661052703857,
+  "added_names_per_image": {
+    "mean": 16.0685,
+    "max": 29
+  }
+}

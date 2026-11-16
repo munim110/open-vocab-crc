@@ -1,0 +1,174 @@
+{
+ "images": 500,
+ "excluded": 0,
+ "size": "large",
+ "banks": {
+  "candidate_only": 0,
+  "coco20": 20,
+  "coco85": 85,
+  "coco171": 171,
+  "coco_oi255": 255,
+  "coco_oi342": 342,
+  "coco_oi683": 683,
+  "coco_oi1366": 1366,
+  "coco_oi2731": 2731,
+  "coco_oi5462": 5462,
+  "oi683": 683
+ },
+ "alphas": {
+  "0.1": {
+   "rows": {
+    "native_grown": {
+     "bank_size": 0,
+     "risk": 0.09661522301161746,
+     "size_source": 2.03092622756958,
+     "size_grown": 2.3311767578125
+    },
+    "candidate_only": {
+     "bank_size": 0,
+     "risk": 0.09624025144507835,
+     "size_source": 32.58010482788086,
+     "size_grown": 139.24656677246094
+    },
+    "coco20": {
+     "bank_size": 20,
+     "risk": 0.09571924531597739,
+     "size_source": 7.9285383224487305,
+     "size_grown": 28.047643661499023
+    },
+    "coco85": {
+     "bank_size": 85,
+     "risk": 0.095596373397944,
+     "size_source": 2.9212067127227783,
+     "size_grown": 4.8140339851379395
+    },
+    "coco171": {
+     "bank_size": 171,
+     "risk": 0.09609013639910566,
+     "size_source": 2.1369330883026123,
+     "size_grown": 2.8610455989837646
+    },
+    "coco_oi255": {
+     "bank_size": 255,
+     "risk": 0.09600039833896112,
+     "size_source": 2.1043643951416016,
+     "size_grown": 2.708165168762207
+    },
+    "coco_oi342": {
+     "bank_size": 342,
+     "risk": 0.09637196663140284,
+     "size_source": 2.047384738922119,
+     "size_grown": 2.5991573333740234
+    },
+    "coco_oi683": {
+     "bank_size": 683,
+     "risk": 0.09638126918319263,
+     "size_source": 2.119237184524536,
+     "size_grown": 2.812828779220581
+    },
+    "coco_oi1366": {
+     "bank_size": 1366,
+     "risk": 0.09650216860208605,
+     "size_source": 2.2959465980529785,
+     "size_grown": 3.1913187503814697
+    },
+    "coco_oi2731": {
+     "bank_size": 2731,
+     "risk": 0.0963694132260792,
+     "size_source": 2.4544248580932617,
+     "size_grown": 3.3945772647857666
+    },
+    "coco_oi5462": {
+     "bank_size": 5462,
+     "risk": 0.09643642283863521,
+     "size_source": 2.5642635822296143,
+     "size_grown": 3.5744621753692627
+    },
+    "oi683": {
+     "bank_size": 683,
+     "risk": 0.0962171470206779,
+     "size_source": 2.727475643157959,
+     "size_grown": 3.947507619857788
+    }
+   },
+   "smallest_grown_set": "coco_oi342"
+  },
+  "0.05": {
+   "rows": {
+    "native_grown": {
+     "bank_size": 0,
+     "risk": 0.04600836369608098,
+     "size_source": 3.1804587841033936,
+     "size_grown": 4.356114864349365
+    },
+    "candidate_only": {
+     "bank_size": 0,
+     "risk": 0.04623217281423469,
+     "size_source": 41.34995651245117,
+     "size_grown": 176.06349182128906
+    },
+    "coco20": {
+     "bank_size": 20,
+     "risk": 0.045806903823762665,
+     "size_source": 9.885254859924316,
+     "size_grown": 35.882911682128906
+    },
+    "coco85": {
+     "bank_size": 85,
+     "risk": 0.04571471007681688,
+     "size_source": 3.966221332550049,
+     "size_grown": 7.478452205657959
+    },
+    "coco171": {
+     "bank_size": 171,
+     "risk": 0.04569258165081079,
+     "size_source": 3.0505282878875732,
+     "size_grown": 4.850830554962158
+    },
+    "coco_oi255": {
+     "bank_size": 255,
+     "risk": 0.0457504784581409,
+     "size_source": 3.0650675296783447,
+     "size_grown": 4.701069355010986
+    },
+    "coco_oi342": {
+     "bank_size": 342,
+     "risk": 0.045875998027347896,
+     "size_source": 3.0830025672912598,
+     "size_grown": 4.665643692016602
+    },
+    "coco_oi683": {
+     "bank_size": 683,
+     "risk": 0.04608383094795304,
+     "size_source": 3.2786977291107178,
+     "size_grown": 5.006265163421631
+    },
+    "coco_oi1366": {
+     "bank_size": 1366,
+     "risk": 0.04635405769937462,
+     "size_source": 3.4558138847351074,
+     "size_grown": 5.410984039306641
+    },
+    "coco_oi2731": {
+     "bank_size": 2731,
+     "risk": 0.046211371700111865,
+     "size_source": 3.6351490020751953,
+     "size_grown": 5.645333290100098
+    },
+    "coco_oi5462": {
+     "bank_size": 5462,
+     "risk": 0.0462291302211234,
+     "size_source": 3.7808423042297363,
+     "size_grown": 5.896327972412109
+    },
+    "oi683": {
+     "bank_size": 683,
+     "risk": 0.04627375292507569,
+     "size_source": 4.022804260253906,
+     "size_grown": 6.475164413452148
+    }
+   },
+   "smallest_grown_set": "coco_oi342"
+  }
+ }
+}

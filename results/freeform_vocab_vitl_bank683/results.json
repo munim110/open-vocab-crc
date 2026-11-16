@@ -1,0 +1,70 @@
+{
+  "tag": "vitl_bank683",
+  "model": "catseg",
+  "images": 2000,
+  "excluded_images": 0,
+  "splits": 500,
+  "added_names_per_image": {
+    "mean": 16.0685,
+    "max": 29
+  },
+  "unique_added_names": 5797,
+  "alphas": {
+    "0.1": {
+      "anchored, calibrated once": {
+        "mean_risk": 0.09903954912414431,
+        "frac_splits_above_alpha": 0.434,
+        "mean_size": 4.588345024284375,
+        "mean_added_in_set": 2.3401070788669793
+      },
+      "native, reused at 150": {
+        "mean_risk": 0.20633816215734385,
+        "frac_splits_above_alpha": 1.0,
+        "mean_size": 2.6606608776987213,
+        "mean_added_in_set": 1.256414107061848
+      },
+      "native, recalibrated at 845": {
+        "mean_risk": 0.12644762215503622,
+        "frac_splits_above_alpha": 1.0,
+        "mean_size": 4.059115937526254,
+        "mean_added_in_set": 2.00144527091018
+      },
+      "native, matched to the names": {
+        "mean_risk": 0.09916903773848054,
+        "frac_splits_above_alpha": 0.45,
+        "mean_size": 4.788693444818751,
+        "mean_added_in_set": 2.3506786546583918
+      }
+    },
+    "0.05": {
+      "anchored, calibrated once": {
+        "mean_risk": 0.04904815445755395,
+        "frac_splits_above_alpha": 0.432,
+        "mean_size": 7.028850126012694,
+        "mean_added_in_set": 3.370984079269053
+      },
+      "native, reused at 150": {
+        "mean_risk": 0.10191841933089253,
+        "frac_splits_above_alpha": 1.0,
+        "mean_size": 4.707418712815233,
+        "mean_added_in_set": 2.3124683143730453
+      },
+      "native, recalibrated at 845": {
+        "mean_risk": 0.05129547489048146,
+        "frac_splits_above_alpha": 0.554,
+        "mean_size": 7.29473225891422,
+        "mean_added_in_set": 3.402523680091611
+      },
+      "native, matched to the names": {
+        "mean_risk": 0.04921685020713194,
+        "frac_splits_above_alpha": 0.42,
+        "mean_size": 7.484311971077325,
+        "mean_added_in_set": 3.4751123265792314
+      }
+    }
+  },
+  "hashes": {
+    "src/exp_freeform_vocab.py": "8360dd95d2801d348bf7fef12f1ed79f6ef0b7cd43acbf6b7e4d40f31928a873",
+    "results/freeform_names_ade/names.json": "d032b7ccebe941d2e46bfd30eea3b776dcc9b84656d2d128ecc54bdce304a065"
+  }
+}

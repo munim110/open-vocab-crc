@@ -1,0 +1,2753 @@
+{
+ "policy": "pascal-natural-v1",
+ "rows": [
+  {
+   "role": "source",
+   "name": "aeroplane",
+   "prompt": "airplane",
+   "fine_id": 1
+  },
+  {
+   "role": "source",
+   "name": "bicycle",
+   "prompt": "bicycle",
+   "fine_id": 22
+  },
+  {
+   "role": "source",
+   "name": "bird",
+   "prompt": "bird",
+   "fine_id": 24
+  },
+  {
+   "role": "source",
+   "name": "boat",
+   "prompt": "boat",
+   "fine_id": 30
+  },
+  {
+   "role": "source",
+   "name": "bottle",
+   "prompt": "bottle",
+   "fine_id": 33
+  },
+  {
+   "role": "source",
+   "name": "bus",
+   "prompt": "bus",
+   "fine_id": 44
+  },
+  {
+   "role": "source",
+   "name": "car",
+   "prompt": "car",
+   "fine_id": 58
+  },
+  {
+   "role": "source",
+   "name": "cat",
+   "prompt": "cat",
+   "fine_id": 64
+  },
+  {
+   "role": "source",
+   "name": "chair",
+   "prompt": "chair",
+   "fine_id": 71
+  },
+  {
+   "role": "source",
+   "name": "cow",
+   "prompt": "cow",
+   "fine_id": 97
+  },
+  {
+   "role": "source",
+   "name": "table",
+   "prompt": "table",
+   "fine_id": 396
+  },
+  {
+   "role": "source",
+   "name": "dog",
+   "prompt": "dog",
+   "fine_id": 112
+  },
+  {
+   "role": "source",
+   "name": "horse",
+   "prompt": "horse",
+   "fine_id": 206
+  },
+  {
+   "role": "source",
+   "name": "motorbike",
+   "prompt": "motorcycle",
+   "fine_id": 257
+  },
+  {
+   "role": "source",
+   "name": "person",
+   "prompt": "person",
+   "fine_id": 283
+  },
+  {
+   "role": "source",
+   "name": "pottedplant",
+   "prompt": "potted plant",
+   "fine_id": 307
+  },
+  {
+   "role": "source",
+   "name": "sheep",
+   "prompt": "sheep",
+   "fine_id": 346
+  },
+  {
+   "role": "source",
+   "name": "sofa",
+   "prompt": "sofa",
+   "fine_id": 367
+  },
+  {
+   "role": "source",
+   "name": "train",
+   "prompt": "train",
+   "fine_id": 415
+  },
+  {
+   "role": "source",
+   "name": "tvmonitor",
+   "prompt": "tv monitor",
+   "fine_id": 426
+  },
+  {
+   "role": "source",
+   "name": "bag",
+   "prompt": "bag",
+   "fine_id": 8
+  },
+  {
+   "role": "source",
+   "name": "bed",
+   "prompt": "bed",
+   "fine_id": 17
+  },
+  {
+   "role": "source",
+   "name": "bench",
+   "prompt": "bench",
+   "fine_id": 21
+  },
+  {
+   "role": "source",
+   "name": "book",
+   "prompt": "book",
+   "fine_id": 32
+  },
+  {
+   "role": "source",
+   "name": "building",
+   "prompt": "building",
+   "fine_id": 43
+  },
+  {
+   "role": "source",
+   "name": "cabinet",
+   "prompt": "cabinet",
+   "fine_id": 45
+  },
+  {
+   "role": "source",
+   "name": "ceiling",
+   "prompt": "ceiling",
+   "fine_id": 67
+  },
+  {
+   "role": "source",
+   "name": "cloth",
+   "prompt": "cloth",
+   "fine_id": 79
+  },
+  {
+   "role": "source",
+   "name": "computer",
+   "prompt": "computer",
+   "fine_id": 84
+  },
+  {
+   "role": "source",
+   "name": "cup",
+   "prompt": "cup",
+   "fine_id": 103
+  },
+  {
+   "role": "source",
+   "name": "door",
+   "prompt": "door",
+   "fine_id": 114
+  },
+  {
+   "role": "source",
+   "name": "fence",
+   "prompt": "fence",
+   "fine_id": 143
+  },
+  {
+   "role": "source",
+   "name": "floor",
+   "prompt": "floor",
+   "fine_id": 157
+  },
+  {
+   "role": "source",
+   "name": "flower",
+   "prompt": "flower",
+   "fine_id": 158
+  },
+  {
+   "role": "source",
+   "name": "food",
+   "prompt": "food",
+   "fine_id": 161
+  },
+  {
+   "role": "source",
+   "name": "grass",
+   "prompt": "grass",
+   "fine_id": 186
+  },
+  {
+   "role": "source",
+   "name": "ground",
+   "prompt": "ground",
+   "fine_id": 188
+  },
+  {
+   "role": "source",
+   "name": "keyboard",
+   "prompt": "keyboard",
+   "fine_id": 219
+  },
+  {
+   "role": "source",
+   "name": "light",
+   "prompt": "light",
+   "fine_id": 231
+  },
+  {
+   "role": "source",
+   "name": "mountain",
+   "prompt": "mountain",
+   "fine_id": 258
+  },
+  {
+   "role": "source",
+   "name": "mouse",
+   "prompt": "mouse",
+   "fine_id": 259
+  },
+  {
+   "role": "source",
+   "name": "curtain",
+   "prompt": "curtain",
+   "fine_id": 104
+  },
+  {
+   "role": "source",
+   "name": "platform",
+   "prompt": "platform",
+   "fine_id": 295
+  },
+  {
+   "role": "source",
+   "name": "sign",
+   "prompt": "sign",
+   "fine_id": 354
+  },
+  {
+   "role": "source",
+   "name": "plate",
+   "prompt": "plate",
+   "fine_id": 294
+  },
+  {
+   "role": "source",
+   "name": "road",
+   "prompt": "road",
+   "fine_id": 323
+  },
+  {
+   "role": "source",
+   "name": "rock",
+   "prompt": "rock",
+   "fine_id": 325
+  },
+  {
+   "role": "source",
+   "name": "shelves",
+   "prompt": "shelves",
+   "fine_id": 348
+  },
+  {
+   "role": "source",
+   "name": "sidewalk",
+   "prompt": "sidewalk",
+   "fine_id": 353
+  },
+  {
+   "role": "source",
+   "name": "sky",
+   "prompt": "sky",
+   "fine_id": 359
+  },
+  {
+   "role": "source",
+   "name": "snow",
+   "prompt": "snow",
+   "fine_id": 365
+  },
+  {
+   "role": "source",
+   "name": "bedclothes",
+   "prompt": "bedding",
+   "fine_id": 18
+  },
+  {
+   "role": "source",
+   "name": "track",
+   "prompt": "track",
+   "fine_id": 414
+  },
+  {
+   "role": "source",
+   "name": "tree",
+   "prompt": "tree",
+   "fine_id": 419
+  },
+  {
+   "role": "source",
+   "name": "truck",
+   "prompt": "truck",
+   "fine_id": 423
+  },
+  {
+   "role": "source",
+   "name": "wall",
+   "prompt": "wall",
+   "fine_id": 439
+  },
+  {
+   "role": "source",
+   "name": "water",
+   "prompt": "water",
+   "fine_id": 444
+  },
+  {
+   "role": "source",
+   "name": "window",
+   "prompt": "window",
+   "fine_id": 453
+  },
+  {
+   "role": "source",
+   "name": "wood",
+   "prompt": "wood",
+   "fine_id": 457
+  },
+  {
+   "role": "added",
+   "name": "accordion",
+   "prompt": "accordion",
+   "fine_id": 0
+  },
+  {
+   "role": "added",
+   "name": "air conditioner",
+   "prompt": "air conditioner",
+   "fine_id": 2
+  },
+  {
+   "role": "added",
+   "name": "antenna",
+   "prompt": "antenna",
+   "fine_id": 3
+  },
+  {
+   "role": "added",
+   "name": "artillery",
+   "prompt": "artillery",
+   "fine_id": 4
+  },
+  {
+   "role": "added",
+   "name": "ashtray",
+   "prompt": "ashtray",
+   "fine_id": 5
+  },
+  {
+   "role": "added",
+   "name": "atrium",
+   "prompt": "atrium",
+   "fine_id": 6
+  },
+  {
+   "role": "added",
+   "name": "baby carriage",
+   "prompt": "baby carriage",
+   "fine_id": 7
+  },
+  {
+   "role": "added",
+   "name": "ball",
+   "prompt": "ball",
+   "fine_id": 9
+  },
+  {
+   "role": "added",
+   "name": "balloon",
+   "prompt": "balloon",
+   "fine_id": 10
+  },
+  {
+   "role": "added",
+   "name": "bamboo weaving",
+   "prompt": "bamboo weaving",
+   "fine_id": 11
+  },
+  {
+   "role": "added",
+   "name": "barrel",
+   "prompt": "barrel",
+   "fine_id": 12
+  },
+  {
+   "role": "added",
+   "name": "baseball bat",
+   "prompt": "baseball bat",
+   "fine_id": 13
+  },
+  {
+   "role": "added",
+   "name": "basket",
+   "prompt": "basket",
+   "fine_id": 14
+  },
+  {
+   "role": "added",
+   "name": "basketball backboard",
+   "prompt": "basketball backboard",
+   "fine_id": 15
+  },
+  {
+   "role": "added",
+   "name": "bathtub",
+   "prompt": "bathtub",
+   "fine_id": 16
+  },
+  {
+   "role": "added",
+   "name": "beer",
+   "prompt": "beer",
+   "fine_id": 19
+  },
+  {
+   "role": "added",
+   "name": "bell",
+   "prompt": "bell",
+   "fine_id": 20
+  },
+  {
+   "role": "added",
+   "name": "binoculars",
+   "prompt": "binoculars",
+   "fine_id": 23
+  },
+  {
+   "role": "added",
+   "name": "bird cage",
+   "prompt": "bird cage",
+   "fine_id": 25
+  },
+  {
+   "role": "added",
+   "name": "bird feeder",
+   "prompt": "bird feeder",
+   "fine_id": 26
+  },
+  {
+   "role": "added",
+   "name": "bird nest",
+   "prompt": "bird nest",
+   "fine_id": 27
+  },
+  {
+   "role": "added",
+   "name": "blackboard",
+   "prompt": "blackboard",
+   "fine_id": 28
+  },
+  {
+   "role": "added",
+   "name": "board",
+   "prompt": "board",
+   "fine_id": 29
+  },
+  {
+   "role": "added",
+   "name": "bone",
+   "prompt": "bone",
+   "fine_id": 31
+  },
+  {
+   "role": "added",
+   "name": "bottle opener",
+   "prompt": "bottle opener",
+   "fine_id": 34
+  },
+  {
+   "role": "added",
+   "name": "bowl",
+   "prompt": "bowl",
+   "fine_id": 35
+  },
+  {
+   "role": "added",
+   "name": "box",
+   "prompt": "box",
+   "fine_id": 36
+  },
+  {
+   "role": "added",
+   "name": "bracelet",
+   "prompt": "bracelet",
+   "fine_id": 37
+  },
+  {
+   "role": "added",
+   "name": "brick",
+   "prompt": "brick",
+   "fine_id": 38
+  },
+  {
+   "role": "added",
+   "name": "bridge",
+   "prompt": "bridge",
+   "fine_id": 39
+  },
+  {
+   "role": "added",
+   "name": "broom",
+   "prompt": "broom",
+   "fine_id": 40
+  },
+  {
+   "role": "added",
+   "name": "brush",
+   "prompt": "brush",
+   "fine_id": 41
+  },
+  {
+   "role": "added",
+   "name": "bucket",
+   "prompt": "bucket",
+   "fine_id": 42
+  },
+  {
+   "role": "added",
+   "name": "cabinet door",
+   "prompt": "cabinet door",
+   "fine_id": 46
+  },
+  {
+   "role": "added",
+   "name": "cage",
+   "prompt": "cage",
+   "fine_id": 47
+  },
+  {
+   "role": "added",
+   "name": "cake",
+   "prompt": "cake",
+   "fine_id": 48
+  },
+  {
+   "role": "added",
+   "name": "calculator",
+   "prompt": "calculator",
+   "fine_id": 49
+  },
+  {
+   "role": "added",
+   "name": "calendar",
+   "prompt": "calendar",
+   "fine_id": 50
+  },
+  {
+   "role": "added",
+   "name": "camel",
+   "prompt": "camel",
+   "fine_id": 51
+  },
+  {
+   "role": "added",
+   "name": "camera",
+   "prompt": "camera",
+   "fine_id": 52
+  },
+  {
+   "role": "added",
+   "name": "camera lens",
+   "prompt": "camera lens",
+   "fine_id": 53
+  },
+  {
+   "role": "added",
+   "name": "can",
+   "prompt": "can",
+   "fine_id": 54
+  },
+  {
+   "role": "added",
+   "name": "candle",
+   "prompt": "candle",
+   "fine_id": 55
+  },
+  {
+   "role": "added",
+   "name": "candle holder",
+   "prompt": "candle holder",
+   "fine_id": 56
+  },
+  {
+   "role": "added",
+   "name": "cap",
+   "prompt": "cap",
+   "fine_id": 57
+  },
+  {
+   "role": "added",
+   "name": "card",
+   "prompt": "card",
+   "fine_id": 59
+  },
+  {
+   "role": "added",
+   "name": "cart",
+   "prompt": "cart",
+   "fine_id": 60
+  },
+  {
+   "role": "added",
+   "name": "case",
+   "prompt": "case",
+   "fine_id": 61
+  },
+  {
+   "role": "added",
+   "name": "casette recorder",
+   "prompt": "casette recorder",
+   "fine_id": 62
+  },
+  {
+   "role": "added",
+   "name": "cash register",
+   "prompt": "cash register",
+   "fine_id": 63
+  },
+  {
+   "role": "added",
+   "name": "cd",
+   "prompt": "cd",
+   "fine_id": 65
+  },
+  {
+   "role": "added",
+   "name": "cd player",
+   "prompt": "cd player",
+   "fine_id": 66
+  },
+  {
+   "role": "added",
+   "name": "cell phone",
+   "prompt": "cell phone",
+   "fine_id": 68
+  },
+  {
+   "role": "added",
+   "name": "cello",
+   "prompt": "cello",
+   "fine_id": 69
+  },
+  {
+   "role": "added",
+   "name": "chain",
+   "prompt": "chain",
+   "fine_id": 70
+  },
+  {
+   "role": "added",
+   "name": "chessboard",
+   "prompt": "chessboard",
+   "fine_id": 72
+  },
+  {
+   "role": "added",
+   "name": "chicken",
+   "prompt": "chicken",
+   "fine_id": 73
+  },
+  {
+   "role": "added",
+   "name": "chopstick",
+   "prompt": "chopstick",
+   "fine_id": 74
+  },
+  {
+   "role": "added",
+   "name": "clip",
+   "prompt": "clip",
+   "fine_id": 75
+  },
+  {
+   "role": "added",
+   "name": "clippers",
+   "prompt": "clippers",
+   "fine_id": 76
+  },
+  {
+   "role": "added",
+   "name": "clock",
+   "prompt": "clock",
+   "fine_id": 77
+  },
+  {
+   "role": "added",
+   "name": "closet",
+   "prompt": "closet",
+   "fine_id": 78
+  },
+  {
+   "role": "added",
+   "name": "clothes tree",
+   "prompt": "clothes tree",
+   "fine_id": 80
+  },
+  {
+   "role": "added",
+   "name": "coffee",
+   "prompt": "coffee",
+   "fine_id": 81
+  },
+  {
+   "role": "added",
+   "name": "coffee machine",
+   "prompt": "coffee machine",
+   "fine_id": 82
+  },
+  {
+   "role": "added",
+   "name": "comb",
+   "prompt": "comb",
+   "fine_id": 83
+  },
+  {
+   "role": "added",
+   "name": "concrete",
+   "prompt": "concrete",
+   "fine_id": 85
+  },
+  {
+   "role": "added",
+   "name": "cone",
+   "prompt": "cone",
+   "fine_id": 86
+  },
+  {
+   "role": "added",
+   "name": "container",
+   "prompt": "container",
+   "fine_id": 87
+  },
+  {
+   "role": "added",
+   "name": "control booth",
+   "prompt": "control booth",
+   "fine_id": 88
+  },
+  {
+   "role": "added",
+   "name": "controller",
+   "prompt": "controller",
+   "fine_id": 89
+  },
+  {
+   "role": "added",
+   "name": "cooker",
+   "prompt": "cooker",
+   "fine_id": 90
+  },
+  {
+   "role": "added",
+   "name": "copying machine",
+   "prompt": "copying machine",
+   "fine_id": 91
+  },
+  {
+   "role": "added",
+   "name": "coral",
+   "prompt": "coral",
+   "fine_id": 92
+  },
+  {
+   "role": "added",
+   "name": "cork",
+   "prompt": "cork",
+   "fine_id": 93
+  },
+  {
+   "role": "added",
+   "name": "corkscrew",
+   "prompt": "corkscrew",
+   "fine_id": 94
+  },
+  {
+   "role": "added",
+   "name": "counter",
+   "prompt": "counter",
+   "fine_id": 95
+  },
+  {
+   "role": "added",
+   "name": "court",
+   "prompt": "court",
+   "fine_id": 96
+  },
+  {
+   "role": "added",
+   "name": "crabstick",
+   "prompt": "crab stick",
+   "fine_id": 98
+  },
+  {
+   "role": "added",
+   "name": "crane",
+   "prompt": "crane",
+   "fine_id": 99
+  },
+  {
+   "role": "added",
+   "name": "crate",
+   "prompt": "crate",
+   "fine_id": 100
+  },
+  {
+   "role": "added",
+   "name": "cross",
+   "prompt": "cross",
+   "fine_id": 101
+  },
+  {
+   "role": "added",
+   "name": "crutch",
+   "prompt": "crutch",
+   "fine_id": 102
+  },
+  {
+   "role": "added",
+   "name": "cushion",
+   "prompt": "cushion",
+   "fine_id": 105
+  },
+  {
+   "role": "added",
+   "name": "cutting board",
+   "prompt": "cutting board",
+   "fine_id": 106
+  },
+  {
+   "role": "added",
+   "name": "dais",
+   "prompt": "dais",
+   "fine_id": 107
+  },
+  {
+   "role": "added",
+   "name": "disc",
+   "prompt": "disc",
+   "fine_id": 108
+  },
+  {
+   "role": "added",
+   "name": "disc case",
+   "prompt": "disc case",
+   "fine_id": 109
+  },
+  {
+   "role": "added",
+   "name": "dishwasher",
+   "prompt": "dishwasher",
+   "fine_id": 110
+  },
+  {
+   "role": "added",
+   "name": "dock",
+   "prompt": "dock",
+   "fine_id": 111
+  },
+  {
+   "role": "added",
+   "name": "dolphin",
+   "prompt": "dolphin",
+   "fine_id": 113
+  },
+  {
+   "role": "added",
+   "name": "drainer",
+   "prompt": "drainer",
+   "fine_id": 115
+  },
+  {
+   "role": "added",
+   "name": "dray",
+   "prompt": "dray",
+   "fine_id": 116
+  },
+  {
+   "role": "added",
+   "name": "drink dispenser",
+   "prompt": "drink dispenser",
+   "fine_id": 117
+  },
+  {
+   "role": "added",
+   "name": "drinking machine",
+   "prompt": "drinking machine",
+   "fine_id": 118
+  },
+  {
+   "role": "added",
+   "name": "drop",
+   "prompt": "drop",
+   "fine_id": 119
+  },
+  {
+   "role": "added",
+   "name": "drug",
+   "prompt": "drug",
+   "fine_id": 120
+  },
+  {
+   "role": "added",
+   "name": "drum",
+   "prompt": "drum",
+   "fine_id": 121
+  },
+  {
+   "role": "added",
+   "name": "drum kit",
+   "prompt": "drum kit",
+   "fine_id": 122
+  },
+  {
+   "role": "added",
+   "name": "duck",
+   "prompt": "duck",
+   "fine_id": 123
+  },
+  {
+   "role": "added",
+   "name": "dumbbell",
+   "prompt": "dumbbell",
+   "fine_id": 124
+  },
+  {
+   "role": "added",
+   "name": "earphone",
+   "prompt": "earphone",
+   "fine_id": 125
+  },
+  {
+   "role": "added",
+   "name": "earrings",
+   "prompt": "earrings",
+   "fine_id": 126
+  },
+  {
+   "role": "added",
+   "name": "egg",
+   "prompt": "egg",
+   "fine_id": 127
+  },
+  {
+   "role": "added",
+   "name": "electric fan",
+   "prompt": "electric fan",
+   "fine_id": 128
+  },
+  {
+   "role": "added",
+   "name": "electric iron",
+   "prompt": "electric iron",
+   "fine_id": 129
+  },
+  {
+   "role": "added",
+   "name": "electric pot",
+   "prompt": "electric pot",
+   "fine_id": 130
+  },
+  {
+   "role": "added",
+   "name": "electric saw",
+   "prompt": "electric saw",
+   "fine_id": 131
+  },
+  {
+   "role": "added",
+   "name": "electronic keyboard",
+   "prompt": "electronic keyboard",
+   "fine_id": 132
+  },
+  {
+   "role": "added",
+   "name": "engine",
+   "prompt": "engine",
+   "fine_id": 133
+  },
+  {
+   "role": "added",
+   "name": "envelope",
+   "prompt": "envelope",
+   "fine_id": 134
+  },
+  {
+   "role": "added",
+   "name": "equipment",
+   "prompt": "equipment",
+   "fine_id": 135
+  },
+  {
+   "role": "added",
+   "name": "escalator",
+   "prompt": "escalator",
+   "fine_id": 136
+  },
+  {
+   "role": "added",
+   "name": "exhibition booth",
+   "prompt": "exhibition booth",
+   "fine_id": 137
+  },
+  {
+   "role": "added",
+   "name": "extinguisher",
+   "prompt": "extinguisher",
+   "fine_id": 138
+  },
+  {
+   "role": "added",
+   "name": "eyeglass",
+   "prompt": "eyeglass",
+   "fine_id": 139
+  },
+  {
+   "role": "added",
+   "name": "fan",
+   "prompt": "fan",
+   "fine_id": 140
+  },
+  {
+   "role": "added",
+   "name": "faucet",
+   "prompt": "faucet",
+   "fine_id": 141
+  },
+  {
+   "role": "added",
+   "name": "fax machine",
+   "prompt": "fax machine",
+   "fine_id": 142
+  },
+  {
+   "role": "added",
+   "name": "ferris wheel",
+   "prompt": "ferris wheel",
+   "fine_id": 144
+  },
+  {
+   "role": "added",
+   "name": "fire extinguisher",
+   "prompt": "fire extinguisher",
+   "fine_id": 145
+  },
+  {
+   "role": "added",
+   "name": "fire hydrant",
+   "prompt": "fire hydrant",
+   "fine_id": 146
+  },
+  {
+   "role": "added",
+   "name": "fire place",
+   "prompt": "fire place",
+   "fine_id": 147
+  },
+  {
+   "role": "added",
+   "name": "fish",
+   "prompt": "fish",
+   "fine_id": 148
+  },
+  {
+   "role": "added",
+   "name": "fish tank",
+   "prompt": "fish tank",
+   "fine_id": 149
+  },
+  {
+   "role": "added",
+   "name": "fishbowl",
+   "prompt": "fishbowl",
+   "fine_id": 150
+  },
+  {
+   "role": "added",
+   "name": "fishing net",
+   "prompt": "fishing net",
+   "fine_id": 151
+  },
+  {
+   "role": "added",
+   "name": "fishing pole",
+   "prompt": "fishing pole",
+   "fine_id": 152
+  },
+  {
+   "role": "added",
+   "name": "flag",
+   "prompt": "flag",
+   "fine_id": 153
+  },
+  {
+   "role": "added",
+   "name": "flagstaff",
+   "prompt": "flagpole",
+   "fine_id": 154
+  },
+  {
+   "role": "added",
+   "name": "flame",
+   "prompt": "flame",
+   "fine_id": 155
+  },
+  {
+   "role": "added",
+   "name": "flashlight",
+   "prompt": "flashlight",
+   "fine_id": 156
+  },
+  {
+   "role": "added",
+   "name": "fly",
+   "prompt": "fly",
+   "fine_id": 159
+  },
+  {
+   "role": "added",
+   "name": "foam",
+   "prompt": "foam",
+   "fine_id": 160
+  },
+  {
+   "role": "added",
+   "name": "footbridge",
+   "prompt": "footbridge",
+   "fine_id": 162
+  },
+  {
+   "role": "added",
+   "name": "forceps",
+   "prompt": "forceps",
+   "fine_id": 163
+  },
+  {
+   "role": "added",
+   "name": "fork",
+   "prompt": "fork",
+   "fine_id": 164
+  },
+  {
+   "role": "added",
+   "name": "forklift",
+   "prompt": "forklift",
+   "fine_id": 165
+  },
+  {
+   "role": "added",
+   "name": "fountain",
+   "prompt": "fountain",
+   "fine_id": 166
+  },
+  {
+   "role": "added",
+   "name": "fox",
+   "prompt": "fox",
+   "fine_id": 167
+  },
+  {
+   "role": "added",
+   "name": "frame",
+   "prompt": "frame",
+   "fine_id": 168
+  },
+  {
+   "role": "added",
+   "name": "fridge",
+   "prompt": "fridge",
+   "fine_id": 169
+  },
+  {
+   "role": "added",
+   "name": "frog",
+   "prompt": "frog",
+   "fine_id": 170
+  },
+  {
+   "role": "added",
+   "name": "fruit",
+   "prompt": "fruit",
+   "fine_id": 171
+  },
+  {
+   "role": "added",
+   "name": "funnel",
+   "prompt": "funnel",
+   "fine_id": 172
+  },
+  {
+   "role": "added",
+   "name": "furnace",
+   "prompt": "furnace",
+   "fine_id": 173
+  },
+  {
+   "role": "added",
+   "name": "game controller",
+   "prompt": "game controller",
+   "fine_id": 174
+  },
+  {
+   "role": "added",
+   "name": "game machine",
+   "prompt": "game machine",
+   "fine_id": 175
+  },
+  {
+   "role": "added",
+   "name": "gas cylinder",
+   "prompt": "gas cylinder",
+   "fine_id": 176
+  },
+  {
+   "role": "added",
+   "name": "gas hood",
+   "prompt": "gas hood",
+   "fine_id": 177
+  },
+  {
+   "role": "added",
+   "name": "gas stove",
+   "prompt": "gas stove",
+   "fine_id": 178
+  },
+  {
+   "role": "added",
+   "name": "gift box",
+   "prompt": "gift box",
+   "fine_id": 179
+  },
+  {
+   "role": "added",
+   "name": "glass",
+   "prompt": "glass",
+   "fine_id": 180
+  },
+  {
+   "role": "added",
+   "name": "glass marble",
+   "prompt": "glass marble",
+   "fine_id": 181
+  },
+  {
+   "role": "added",
+   "name": "globe",
+   "prompt": "globe",
+   "fine_id": 182
+  },
+  {
+   "role": "added",
+   "name": "glove",
+   "prompt": "glove",
+   "fine_id": 183
+  },
+  {
+   "role": "added",
+   "name": "goal",
+   "prompt": "goal",
+   "fine_id": 184
+  },
+  {
+   "role": "added",
+   "name": "grandstand",
+   "prompt": "grandstand",
+   "fine_id": 185
+  },
+  {
+   "role": "added",
+   "name": "gravestone",
+   "prompt": "gravestone",
+   "fine_id": 187
+  },
+  {
+   "role": "added",
+   "name": "guardrail",
+   "prompt": "guardrail",
+   "fine_id": 189
+  },
+  {
+   "role": "added",
+   "name": "guitar",
+   "prompt": "guitar",
+   "fine_id": 190
+  },
+  {
+   "role": "added",
+   "name": "gun",
+   "prompt": "gun",
+   "fine_id": 191
+  },
+  {
+   "role": "added",
+   "name": "hammer",
+   "prompt": "hammer",
+   "fine_id": 192
+  },
+  {
+   "role": "added",
+   "name": "hand cart",
+   "prompt": "hand cart",
+   "fine_id": 193
+  },
+  {
+   "role": "added",
+   "name": "handle",
+   "prompt": "handle",
+   "fine_id": 194
+  },
+  {
+   "role": "added",
+   "name": "handrail",
+   "prompt": "handrail",
+   "fine_id": 195
+  },
+  {
+   "role": "added",
+   "name": "hanger",
+   "prompt": "hanger",
+   "fine_id": 196
+  },
+  {
+   "role": "added",
+   "name": "hard disk drive",
+   "prompt": "hard disk drive",
+   "fine_id": 197
+  },
+  {
+   "role": "added",
+   "name": "hat",
+   "prompt": "hat",
+   "fine_id": 198
+  },
+  {
+   "role": "added",
+   "name": "hay",
+   "prompt": "hay",
+   "fine_id": 199
+  },
+  {
+   "role": "added",
+   "name": "headphone",
+   "prompt": "headphone",
+   "fine_id": 200
+  },
+  {
+   "role": "added",
+   "name": "heater",
+   "prompt": "heater",
+   "fine_id": 201
+  },
+  {
+   "role": "added",
+   "name": "helicopter",
+   "prompt": "helicopter",
+   "fine_id": 202
+  },
+  {
+   "role": "added",
+   "name": "helmet",
+   "prompt": "helmet",
+   "fine_id": 203
+  },
+  {
+   "role": "added",
+   "name": "holder",
+   "prompt": "holder",
+   "fine_id": 204
+  },
+  {
+   "role": "added",
+   "name": "hook",
+   "prompt": "hook",
+   "fine_id": 205
+  },
+  {
+   "role": "added",
+   "name": "horse-drawn carriage",
+   "prompt": "horse-drawn carriage",
+   "fine_id": 207
+  },
+  {
+   "role": "added",
+   "name": "hot-air balloon",
+   "prompt": "hot-air balloon",
+   "fine_id": 208
+  },
+  {
+   "role": "added",
+   "name": "hydrovalve",
+   "prompt": "water valve",
+   "fine_id": 209
+  },
+  {
+   "role": "added",
+   "name": "ice",
+   "prompt": "ice",
+   "fine_id": 210
+  },
+  {
+   "role": "added",
+   "name": "inflator pump",
+   "prompt": "inflator pump",
+   "fine_id": 211
+  },
+  {
+   "role": "added",
+   "name": "ipod",
+   "prompt": "ipod",
+   "fine_id": 212
+  },
+  {
+   "role": "added",
+   "name": "iron",
+   "prompt": "iron",
+   "fine_id": 213
+  },
+  {
+   "role": "added",
+   "name": "ironing board",
+   "prompt": "ironing board",
+   "fine_id": 214
+  },
+  {
+   "role": "added",
+   "name": "jar",
+   "prompt": "jar",
+   "fine_id": 215
+  },
+  {
+   "role": "added",
+   "name": "kart",
+   "prompt": "kart",
+   "fine_id": 216
+  },
+  {
+   "role": "added",
+   "name": "kettle",
+   "prompt": "kettle",
+   "fine_id": 217
+  },
+  {
+   "role": "added",
+   "name": "key",
+   "prompt": "key",
+   "fine_id": 218
+  },
+  {
+   "role": "added",
+   "name": "kitchen range",
+   "prompt": "kitchen range",
+   "fine_id": 220
+  },
+  {
+   "role": "added",
+   "name": "kite",
+   "prompt": "kite",
+   "fine_id": 221
+  },
+  {
+   "role": "added",
+   "name": "knife",
+   "prompt": "knife",
+   "fine_id": 222
+  },
+  {
+   "role": "added",
+   "name": "knife block",
+   "prompt": "knife block",
+   "fine_id": 223
+  },
+  {
+   "role": "added",
+   "name": "ladder",
+   "prompt": "ladder",
+   "fine_id": 224
+  },
+  {
+   "role": "added",
+   "name": "ladder truck",
+   "prompt": "ladder truck",
+   "fine_id": 225
+  },
+  {
+   "role": "added",
+   "name": "ladle",
+   "prompt": "ladle",
+   "fine_id": 226
+  },
+  {
+   "role": "added",
+   "name": "laptop",
+   "prompt": "laptop",
+   "fine_id": 227
+  },
+  {
+   "role": "added",
+   "name": "leaves",
+   "prompt": "leaves",
+   "fine_id": 228
+  },
+  {
+   "role": "added",
+   "name": "lid",
+   "prompt": "lid",
+   "fine_id": 229
+  },
+  {
+   "role": "added",
+   "name": "life buoy",
+   "prompt": "life buoy",
+   "fine_id": 230
+  },
+  {
+   "role": "added",
+   "name": "light bulb",
+   "prompt": "light bulb",
+   "fine_id": 232
+  },
+  {
+   "role": "added",
+   "name": "lighter",
+   "prompt": "lighter",
+   "fine_id": 233
+  },
+  {
+   "role": "added",
+   "name": "line",
+   "prompt": "line",
+   "fine_id": 234
+  },
+  {
+   "role": "added",
+   "name": "lion",
+   "prompt": "lion",
+   "fine_id": 235
+  },
+  {
+   "role": "added",
+   "name": "lobster",
+   "prompt": "lobster",
+   "fine_id": 236
+  },
+  {
+   "role": "added",
+   "name": "lock",
+   "prompt": "lock",
+   "fine_id": 237
+  },
+  {
+   "role": "added",
+   "name": "machine",
+   "prompt": "machine",
+   "fine_id": 238
+  },
+  {
+   "role": "added",
+   "name": "mailbox",
+   "prompt": "mailbox",
+   "fine_id": 239
+  },
+  {
+   "role": "added",
+   "name": "mannequin",
+   "prompt": "mannequin",
+   "fine_id": 240
+  },
+  {
+   "role": "added",
+   "name": "map",
+   "prompt": "map",
+   "fine_id": 241
+  },
+  {
+   "role": "added",
+   "name": "mask",
+   "prompt": "mask",
+   "fine_id": 242
+  },
+  {
+   "role": "added",
+   "name": "mat",
+   "prompt": "mat",
+   "fine_id": 243
+  },
+  {
+   "role": "added",
+   "name": "match book",
+   "prompt": "match book",
+   "fine_id": 244
+  },
+  {
+   "role": "added",
+   "name": "mattress",
+   "prompt": "mattress",
+   "fine_id": 245
+  },
+  {
+   "role": "added",
+   "name": "menu",
+   "prompt": "menu",
+   "fine_id": 246
+  },
+  {
+   "role": "added",
+   "name": "metal",
+   "prompt": "metal",
+   "fine_id": 247
+  },
+  {
+   "role": "added",
+   "name": "meter box",
+   "prompt": "meter box",
+   "fine_id": 248
+  },
+  {
+   "role": "added",
+   "name": "microphone",
+   "prompt": "microphone",
+   "fine_id": 249
+  },
+  {
+   "role": "added",
+   "name": "microwave",
+   "prompt": "microwave",
+   "fine_id": 250
+  },
+  {
+   "role": "added",
+   "name": "mirror",
+   "prompt": "mirror",
+   "fine_id": 251
+  },
+  {
+   "role": "added",
+   "name": "missile",
+   "prompt": "missile",
+   "fine_id": 252
+  },
+  {
+   "role": "added",
+   "name": "model",
+   "prompt": "model",
+   "fine_id": 253
+  },
+  {
+   "role": "added",
+   "name": "money",
+   "prompt": "money",
+   "fine_id": 254
+  },
+  {
+   "role": "added",
+   "name": "monkey",
+   "prompt": "monkey",
+   "fine_id": 255
+  },
+  {
+   "role": "added",
+   "name": "mop",
+   "prompt": "mop",
+   "fine_id": 256
+  },
+  {
+   "role": "added",
+   "name": "mouse pad",
+   "prompt": "mouse pad",
+   "fine_id": 260
+  },
+  {
+   "role": "added",
+   "name": "musical instrument",
+   "prompt": "musical instrument",
+   "fine_id": 261
+  },
+  {
+   "role": "added",
+   "name": "napkin",
+   "prompt": "napkin",
+   "fine_id": 262
+  },
+  {
+   "role": "added",
+   "name": "net",
+   "prompt": "net",
+   "fine_id": 263
+  },
+  {
+   "role": "added",
+   "name": "newspaper",
+   "prompt": "newspaper",
+   "fine_id": 264
+  },
+  {
+   "role": "added",
+   "name": "oar",
+   "prompt": "oar",
+   "fine_id": 265
+  },
+  {
+   "role": "added",
+   "name": "ornament",
+   "prompt": "ornament",
+   "fine_id": 266
+  },
+  {
+   "role": "added",
+   "name": "outlet",
+   "prompt": "outlet",
+   "fine_id": 267
+  },
+  {
+   "role": "added",
+   "name": "oven",
+   "prompt": "oven",
+   "fine_id": 268
+  },
+  {
+   "role": "added",
+   "name": "oxygen bottle",
+   "prompt": "oxygen bottle",
+   "fine_id": 269
+  },
+  {
+   "role": "added",
+   "name": "pack",
+   "prompt": "pack",
+   "fine_id": 270
+  },
+  {
+   "role": "added",
+   "name": "pan",
+   "prompt": "pan",
+   "fine_id": 271
+  },
+  {
+   "role": "added",
+   "name": "paper",
+   "prompt": "paper",
+   "fine_id": 272
+  },
+  {
+   "role": "added",
+   "name": "paper box",
+   "prompt": "paper box",
+   "fine_id": 273
+  },
+  {
+   "role": "added",
+   "name": "paper cutter",
+   "prompt": "paper cutter",
+   "fine_id": 274
+  },
+  {
+   "role": "added",
+   "name": "parachute",
+   "prompt": "parachute",
+   "fine_id": 275
+  },
+  {
+   "role": "added",
+   "name": "parasol",
+   "prompt": "parasol",
+   "fine_id": 276
+  },
+  {
+   "role": "added",
+   "name": "parterre",
+   "prompt": "parterre",
+   "fine_id": 277
+  },
+  {
+   "role": "added",
+   "name": "patio",
+   "prompt": "patio",
+   "fine_id": 278
+  },
+  {
+   "role": "added",
+   "name": "pelage",
+   "prompt": "pelage",
+   "fine_id": 279
+  },
+  {
+   "role": "added",
+   "name": "pen",
+   "prompt": "pen",
+   "fine_id": 280
+  },
+  {
+   "role": "added",
+   "name": "pen container",
+   "prompt": "pen container",
+   "fine_id": 281
+  },
+  {
+   "role": "added",
+   "name": "pencil",
+   "prompt": "pencil",
+   "fine_id": 282
+  },
+  {
+   "role": "added",
+   "name": "photo",
+   "prompt": "photo",
+   "fine_id": 284
+  },
+  {
+   "role": "added",
+   "name": "piano",
+   "prompt": "piano",
+   "fine_id": 285
+  },
+  {
+   "role": "added",
+   "name": "picture",
+   "prompt": "picture",
+   "fine_id": 286
+  },
+  {
+   "role": "added",
+   "name": "pig",
+   "prompt": "pig",
+   "fine_id": 287
+  },
+  {
+   "role": "added",
+   "name": "pillar",
+   "prompt": "pillar",
+   "fine_id": 288
+  },
+  {
+   "role": "added",
+   "name": "pillow",
+   "prompt": "pillow",
+   "fine_id": 289
+  },
+  {
+   "role": "added",
+   "name": "pipe",
+   "prompt": "pipe",
+   "fine_id": 290
+  },
+  {
+   "role": "added",
+   "name": "pitcher",
+   "prompt": "pitcher",
+   "fine_id": 291
+  },
+  {
+   "role": "added",
+   "name": "plant",
+   "prompt": "plant",
+   "fine_id": 292
+  },
+  {
+   "role": "added",
+   "name": "plastic",
+   "prompt": "plastic",
+   "fine_id": 293
+  },
+  {
+   "role": "added",
+   "name": "player",
+   "prompt": "player",
+   "fine_id": 296
+  },
+  {
+   "role": "added",
+   "name": "playground",
+   "prompt": "playground",
+   "fine_id": 297
+  },
+  {
+   "role": "added",
+   "name": "pliers",
+   "prompt": "pliers",
+   "fine_id": 298
+  },
+  {
+   "role": "added",
+   "name": "plume",
+   "prompt": "plume",
+   "fine_id": 299
+  },
+  {
+   "role": "added",
+   "name": "poker",
+   "prompt": "poker",
+   "fine_id": 300
+  },
+  {
+   "role": "added",
+   "name": "poker chip",
+   "prompt": "poker chip",
+   "fine_id": 301
+  },
+  {
+   "role": "added",
+   "name": "pole",
+   "prompt": "pole",
+   "fine_id": 302
+  },
+  {
+   "role": "added",
+   "name": "pool table",
+   "prompt": "pool table",
+   "fine_id": 303
+  },
+  {
+   "role": "added",
+   "name": "postcard",
+   "prompt": "postcard",
+   "fine_id": 304
+  },
+  {
+   "role": "added",
+   "name": "poster",
+   "prompt": "poster",
+   "fine_id": 305
+  },
+  {
+   "role": "added",
+   "name": "pot",
+   "prompt": "pot",
+   "fine_id": 306
+  },
+  {
+   "role": "added",
+   "name": "printer",
+   "prompt": "printer",
+   "fine_id": 308
+  },
+  {
+   "role": "added",
+   "name": "projector",
+   "prompt": "projector",
+   "fine_id": 309
+  },
+  {
+   "role": "added",
+   "name": "pumpkin",
+   "prompt": "pumpkin",
+   "fine_id": 310
+  },
+  {
+   "role": "added",
+   "name": "rabbit",
+   "prompt": "rabbit",
+   "fine_id": 311
+  },
+  {
+   "role": "added",
+   "name": "racket",
+   "prompt": "racket",
+   "fine_id": 312
+  },
+  {
+   "role": "added",
+   "name": "radiator",
+   "prompt": "radiator",
+   "fine_id": 313
+  },
+  {
+   "role": "added",
+   "name": "radio",
+   "prompt": "radio",
+   "fine_id": 314
+  },
+  {
+   "role": "added",
+   "name": "rail",
+   "prompt": "rail",
+   "fine_id": 315
+  },
+  {
+   "role": "added",
+   "name": "rake",
+   "prompt": "rake",
+   "fine_id": 316
+  },
+  {
+   "role": "added",
+   "name": "ramp",
+   "prompt": "ramp",
+   "fine_id": 317
+  },
+  {
+   "role": "added",
+   "name": "range hood",
+   "prompt": "range hood",
+   "fine_id": 318
+  },
+  {
+   "role": "added",
+   "name": "receiver",
+   "prompt": "receiver",
+   "fine_id": 319
+  },
+  {
+   "role": "added",
+   "name": "recorder",
+   "prompt": "recorder",
+   "fine_id": 320
+  },
+  {
+   "role": "added",
+   "name": "recreational machines",
+   "prompt": "recreational machines",
+   "fine_id": 321
+  },
+  {
+   "role": "added",
+   "name": "remote control",
+   "prompt": "remote control",
+   "fine_id": 322
+  },
+  {
+   "role": "added",
+   "name": "robot",
+   "prompt": "robot",
+   "fine_id": 324
+  },
+  {
+   "role": "added",
+   "name": "rocket",
+   "prompt": "rocket",
+   "fine_id": 326
+  },
+  {
+   "role": "added",
+   "name": "rocking horse",
+   "prompt": "rocking horse",
+   "fine_id": 327
+  },
+  {
+   "role": "added",
+   "name": "rope",
+   "prompt": "rope",
+   "fine_id": 328
+  },
+  {
+   "role": "added",
+   "name": "rug",
+   "prompt": "rug",
+   "fine_id": 329
+  },
+  {
+   "role": "added",
+   "name": "ruler",
+   "prompt": "ruler",
+   "fine_id": 330
+  },
+  {
+   "role": "added",
+   "name": "runway",
+   "prompt": "runway",
+   "fine_id": 331
+  },
+  {
+   "role": "added",
+   "name": "saddle",
+   "prompt": "saddle",
+   "fine_id": 332
+  },
+  {
+   "role": "added",
+   "name": "sand",
+   "prompt": "sand",
+   "fine_id": 333
+  },
+  {
+   "role": "added",
+   "name": "saw",
+   "prompt": "saw",
+   "fine_id": 334
+  },
+  {
+   "role": "added",
+   "name": "scale",
+   "prompt": "scale",
+   "fine_id": 335
+  },
+  {
+   "role": "added",
+   "name": "scanner",
+   "prompt": "scanner",
+   "fine_id": 336
+  },
+  {
+   "role": "added",
+   "name": "scissors",
+   "prompt": "scissors",
+   "fine_id": 337
+  },
+  {
+   "role": "added",
+   "name": "scoop",
+   "prompt": "scoop",
+   "fine_id": 338
+  },
+  {
+   "role": "added",
+   "name": "screen",
+   "prompt": "screen",
+   "fine_id": 339
+  },
+  {
+   "role": "added",
+   "name": "screwdriver",
+   "prompt": "screwdriver",
+   "fine_id": 340
+  },
+  {
+   "role": "added",
+   "name": "sculpture",
+   "prompt": "sculpture",
+   "fine_id": 341
+  },
+  {
+   "role": "added",
+   "name": "scythe",
+   "prompt": "scythe",
+   "fine_id": 342
+  },
+  {
+   "role": "added",
+   "name": "sewer",
+   "prompt": "sewer",
+   "fine_id": 343
+  },
+  {
+   "role": "added",
+   "name": "sewing machine",
+   "prompt": "sewing machine",
+   "fine_id": 344
+  },
+  {
+   "role": "added",
+   "name": "shed",
+   "prompt": "shed",
+   "fine_id": 345
+  },
+  {
+   "role": "added",
+   "name": "shell",
+   "prompt": "shell",
+   "fine_id": 347
+  },
+  {
+   "role": "added",
+   "name": "shoe",
+   "prompt": "shoe",
+   "fine_id": 349
+  },
+  {
+   "role": "added",
+   "name": "shopping cart",
+   "prompt": "shopping cart",
+   "fine_id": 350
+  },
+  {
+   "role": "added",
+   "name": "shovel",
+   "prompt": "shovel",
+   "fine_id": 351
+  },
+  {
+   "role": "added",
+   "name": "sidecar",
+   "prompt": "sidecar",
+   "fine_id": 352
+  },
+  {
+   "role": "added",
+   "name": "signal light",
+   "prompt": "signal light",
+   "fine_id": 355
+  },
+  {
+   "role": "added",
+   "name": "sink",
+   "prompt": "sink",
+   "fine_id": 356
+  },
+  {
+   "role": "added",
+   "name": "skateboard",
+   "prompt": "skateboard",
+   "fine_id": 357
+  },
+  {
+   "role": "added",
+   "name": "ski",
+   "prompt": "ski",
+   "fine_id": 358
+  },
+  {
+   "role": "added",
+   "name": "sled",
+   "prompt": "sled",
+   "fine_id": 360
+  },
+  {
+   "role": "added",
+   "name": "slippers",
+   "prompt": "slippers",
+   "fine_id": 361
+  },
+  {
+   "role": "added",
+   "name": "smoke",
+   "prompt": "smoke",
+   "fine_id": 362
+  },
+  {
+   "role": "added",
+   "name": "snail",
+   "prompt": "snail",
+   "fine_id": 363
+  },
+  {
+   "role": "added",
+   "name": "snake",
+   "prompt": "snake",
+   "fine_id": 364
+  },
+  {
+   "role": "added",
+   "name": "snowmobiles",
+   "prompt": "snowmobile",
+   "fine_id": 366
+  },
+  {
+   "role": "added",
+   "name": "spanner",
+   "prompt": "spanner",
+   "fine_id": 368
+  },
+  {
+   "role": "added",
+   "name": "spatula",
+   "prompt": "spatula",
+   "fine_id": 369
+  },
+  {
+   "role": "added",
+   "name": "speaker",
+   "prompt": "speaker",
+   "fine_id": 370
+  },
+  {
+   "role": "added",
+   "name": "speed bump",
+   "prompt": "speed bump",
+   "fine_id": 371
+  },
+  {
+   "role": "added",
+   "name": "spice container",
+   "prompt": "spice container",
+   "fine_id": 372
+  },
+  {
+   "role": "added",
+   "name": "spoon",
+   "prompt": "spoon",
+   "fine_id": 373
+  },
+  {
+   "role": "added",
+   "name": "sprayer",
+   "prompt": "sprayer",
+   "fine_id": 374
+  },
+  {
+   "role": "added",
+   "name": "squirrel",
+   "prompt": "squirrel",
+   "fine_id": 375
+  },
+  {
+   "role": "added",
+   "name": "stage",
+   "prompt": "stage",
+   "fine_id": 376
+  },
+  {
+   "role": "added",
+   "name": "stair",
+   "prompt": "stair",
+   "fine_id": 377
+  },
+  {
+   "role": "added",
+   "name": "stapler",
+   "prompt": "stapler",
+   "fine_id": 378
+  },
+  {
+   "role": "added",
+   "name": "stick",
+   "prompt": "stick",
+   "fine_id": 379
+  },
+  {
+   "role": "added",
+   "name": "sticky note",
+   "prompt": "sticky note",
+   "fine_id": 380
+  },
+  {
+   "role": "added",
+   "name": "stone",
+   "prompt": "stone",
+   "fine_id": 381
+  },
+  {
+   "role": "added",
+   "name": "stool",
+   "prompt": "stool",
+   "fine_id": 382
+  },
+  {
+   "role": "added",
+   "name": "stove",
+   "prompt": "stove",
+   "fine_id": 383
+  },
+  {
+   "role": "added",
+   "name": "straw",
+   "prompt": "straw",
+   "fine_id": 384
+  },
+  {
+   "role": "added",
+   "name": "stretcher",
+   "prompt": "stretcher",
+   "fine_id": 385
+  },
+  {
+   "role": "added",
+   "name": "sun",
+   "prompt": "sun",
+   "fine_id": 386
+  },
+  {
+   "role": "added",
+   "name": "sunglass",
+   "prompt": "sunglass",
+   "fine_id": 387
+  },
+  {
+   "role": "added",
+   "name": "sunshade",
+   "prompt": "sunshade",
+   "fine_id": 388
+  },
+  {
+   "role": "added",
+   "name": "surveillance camera",
+   "prompt": "surveillance camera",
+   "fine_id": 389
+  },
+  {
+   "role": "added",
+   "name": "swan",
+   "prompt": "swan",
+   "fine_id": 390
+  },
+  {
+   "role": "added",
+   "name": "sweeper",
+   "prompt": "sweeper",
+   "fine_id": 391
+  },
+  {
+   "role": "added",
+   "name": "swim ring",
+   "prompt": "swim ring",
+   "fine_id": 392
+  },
+  {
+   "role": "added",
+   "name": "swimming pool",
+   "prompt": "swimming pool",
+   "fine_id": 393
+  },
+  {
+   "role": "added",
+   "name": "swing",
+   "prompt": "swing",
+   "fine_id": 394
+  },
+  {
+   "role": "added",
+   "name": "switch",
+   "prompt": "switch",
+   "fine_id": 395
+  },
+  {
+   "role": "added",
+   "name": "tableware",
+   "prompt": "tableware",
+   "fine_id": 397
+  },
+  {
+   "role": "added",
+   "name": "tank",
+   "prompt": "tank",
+   "fine_id": 398
+  },
+  {
+   "role": "added",
+   "name": "tap",
+   "prompt": "tap",
+   "fine_id": 399
+  },
+  {
+   "role": "added",
+   "name": "tape",
+   "prompt": "tape",
+   "fine_id": 400
+  },
+  {
+   "role": "added",
+   "name": "tarp",
+   "prompt": "tarp",
+   "fine_id": 401
+  },
+  {
+   "role": "added",
+   "name": "telephone",
+   "prompt": "telephone",
+   "fine_id": 402
+  },
+  {
+   "role": "added",
+   "name": "telephone booth",
+   "prompt": "telephone booth",
+   "fine_id": 403
+  },
+  {
+   "role": "added",
+   "name": "tent",
+   "prompt": "tent",
+   "fine_id": 404
+  },
+  {
+   "role": "added",
+   "name": "tire",
+   "prompt": "tire",
+   "fine_id": 405
+  },
+  {
+   "role": "added",
+   "name": "toaster",
+   "prompt": "toaster",
+   "fine_id": 406
+  },
+  {
+   "role": "added",
+   "name": "toilet",
+   "prompt": "toilet",
+   "fine_id": 407
+  },
+  {
+   "role": "added",
+   "name": "tong",
+   "prompt": "tong",
+   "fine_id": 408
+  },
+  {
+   "role": "added",
+   "name": "tool",
+   "prompt": "tool",
+   "fine_id": 409
+  },
+  {
+   "role": "added",
+   "name": "toothbrush",
+   "prompt": "toothbrush",
+   "fine_id": 410
+  },
+  {
+   "role": "added",
+   "name": "towel",
+   "prompt": "towel",
+   "fine_id": 411
+  },
+  {
+   "role": "added",
+   "name": "toy",
+   "prompt": "toy",
+   "fine_id": 412
+  },
+  {
+   "role": "added",
+   "name": "toy car",
+   "prompt": "toy car",
+   "fine_id": 413
+  },
+  {
+   "role": "added",
+   "name": "trampoline",
+   "prompt": "trampoline",
+   "fine_id": 416
+  },
+  {
+   "role": "added",
+   "name": "trash bin",
+   "prompt": "trash bin",
+   "fine_id": 417
+  },
+  {
+   "role": "added",
+   "name": "tray",
+   "prompt": "tray",
+   "fine_id": 418
+  },
+  {
+   "role": "added",
+   "name": "tricycle",
+   "prompt": "tricycle",
+   "fine_id": 420
+  },
+  {
+   "role": "added",
+   "name": "tripod",
+   "prompt": "tripod",
+   "fine_id": 421
+  },
+  {
+   "role": "added",
+   "name": "trophy",
+   "prompt": "trophy",
+   "fine_id": 422
+  },
+  {
+   "role": "added",
+   "name": "tube",
+   "prompt": "tube",
+   "fine_id": 424
+  },
+  {
+   "role": "added",
+   "name": "turtle",
+   "prompt": "turtle",
+   "fine_id": 425
+  },
+  {
+   "role": "added",
+   "name": "tweezers",
+   "prompt": "tweezers",
+   "fine_id": 427
+  },
+  {
+   "role": "added",
+   "name": "typewriter",
+   "prompt": "typewriter",
+   "fine_id": 428
+  },
+  {
+   "role": "added",
+   "name": "umbrella",
+   "prompt": "umbrella",
+   "fine_id": 429
+  },
+  {
+   "role": "added",
+   "name": "vacuum cleaner",
+   "prompt": "vacuum cleaner",
+   "fine_id": 431
+  },
+  {
+   "role": "added",
+   "name": "vending machine",
+   "prompt": "vending machine",
+   "fine_id": 432
+  },
+  {
+   "role": "added",
+   "name": "video camera",
+   "prompt": "video camera",
+   "fine_id": 433
+  },
+  {
+   "role": "added",
+   "name": "video game console",
+   "prompt": "video game console",
+   "fine_id": 434
+  },
+  {
+   "role": "added",
+   "name": "video player",
+   "prompt": "video player",
+   "fine_id": 435
+  },
+  {
+   "role": "added",
+   "name": "video tape",
+   "prompt": "video tape",
+   "fine_id": 436
+  },
+  {
+   "role": "added",
+   "name": "violin",
+   "prompt": "violin",
+   "fine_id": 437
+  },
+  {
+   "role": "added",
+   "name": "wakeboard",
+   "prompt": "wakeboard",
+   "fine_id": 438
+  },
+  {
+   "role": "added",
+   "name": "wallet",
+   "prompt": "wallet",
+   "fine_id": 440
+  },
+  {
+   "role": "added",
+   "name": "wardrobe",
+   "prompt": "wardrobe",
+   "fine_id": 441
+  },
+  {
+   "role": "added",
+   "name": "washing machine",
+   "prompt": "washing machine",
+   "fine_id": 442
+  },
+  {
+   "role": "added",
+   "name": "watch",
+   "prompt": "watch",
+   "fine_id": 443
+  },
+  {
+   "role": "added",
+   "name": "water dispenser",
+   "prompt": "water dispenser",
+   "fine_id": 445
+  },
+  {
+   "role": "added",
+   "name": "water pipe",
+   "prompt": "water pipe",
+   "fine_id": 446
+  },
+  {
+   "role": "added",
+   "name": "water skate board",
+   "prompt": "water skate board",
+   "fine_id": 447
+  },
+  {
+   "role": "added",
+   "name": "watermelon",
+   "prompt": "watermelon",
+   "fine_id": 448
+  },
+  {
+   "role": "added",
+   "name": "whale",
+   "prompt": "whale",
+   "fine_id": 449
+  },
+  {
+   "role": "added",
+   "name": "wharf",
+   "prompt": "wharf",
+   "fine_id": 450
+  },
+  {
+   "role": "added",
+   "name": "wheel",
+   "prompt": "wheel",
+   "fine_id": 451
+  },
+  {
+   "role": "added",
+   "name": "wheelchair",
+   "prompt": "wheelchair",
+   "fine_id": 452
+  },
+  {
+   "role": "added",
+   "name": "window blinds",
+   "prompt": "window blinds",
+   "fine_id": 454
+  },
+  {
+   "role": "added",
+   "name": "wineglass",
+   "prompt": "wine glass",
+   "fine_id": 455
+  },
+  {
+   "role": "added",
+   "name": "wire",
+   "prompt": "wire",
+   "fine_id": 456
+  },
+  {
+   "role": "added",
+   "name": "wool",
+   "prompt": "wool",
+   "fine_id": 458
+  }
+ ]
+}

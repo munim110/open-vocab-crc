@@ -1,0 +1,17 @@
+{
+  "image_ids": [
+    219,
+    1612,
+    1496
+  ],
+  "bank": "meta/bank_coco_oi683_v1.json",
+  "lexicon": "845 evaluated names, then Open Images names (distractors_openimages_v1, seed-1 permutation), as exp_lexicon_probe.py",
+  "note": "Peak GPU memory per arm, native against anchored, as the vocabulary grows (CAT-Seg ViT-B/ViT-L, SED).",
+  "hashes": {
+    "src/exp_memory.py": "15257076ede9925530a213d0c2e469bb810da043a8827e039b4b6180a434b625",
+    "src/catseg_probe_model.py": "42b18d5c7cd75025f59c03b79b52e1bb140158f7e012bc02b4d4f6e539f97c8b",
+    "meta/natural_vocab_v1.json": "7c0fae275a79055dc5ac71741aaa1318a5b137b263c340acdba1abc8fb43b313",
+    "meta/bank_coco_oi683_v1.json": "19b1cb55f7be68a60582bc9f1e4b8c69d756955af8e986667ff10e470d04a705",
+    "third_party_probe\\model_base.pth": "a201a50f94f4c04196e3083773832b736c2b8b81d27ea2c59cc13af3aff05760"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "219": {
+    "native150_max_abs_logit": 0.0078125,
+    "native150_mean": 1.0397931191619136e-06,
+    "anchored_source_max_abs_logit": 0.0078125,
+    "anchored_source_mean": 6.103515488575795e-07
+  },
+  "1612": {
+    "native150_max_abs_logit": 0.0078125,
+    "native150_mean": 8.022668680496281e-07,
+    "anchored_source_max_abs_logit": 0.0078125,
+    "anchored_source_mean": 3.4491222322685644e-07
+  },
+  "1496": {
+    "native150_max_abs_logit": 0.0078125,
+    "native150_mean": 1.0578140745565179e-06,
+    "anchored_source_max_abs_logit": 0.0078125,
+    "anchored_source_mean": 5.563224476645701e-07
+  }
+}

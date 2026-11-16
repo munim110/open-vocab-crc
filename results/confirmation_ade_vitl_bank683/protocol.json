@@ -1,0 +1,43 @@
+{
+  "tag": "vitl_bank683",
+  "model": "catseg",
+  "size": "large",
+  "bank": "meta/bank_coco_oi683_v1.json",
+  "bank_size": 683,
+  "images": 2000,
+  "npix": 4096,
+  "seconds_per_image": {
+    "features": 0.147,
+    "native_150_plus_845": 0.938,
+    "anchored_reference_plus_845": 2.77
+  },
+  "peak_gb": 9.42,
+  "ranking": {
+    "native": [
+      1.9538112642314274,
+      0.9797054807500123,
+      4.024656931878323,
+      0.9462124422543362
+    ],
+    "anchored": [
+      1.9984929277123156,
+      0.9786280678283121,
+      4.10696614146731,
+      0.9394899707929649
+    ],
+    "columns": [
+      "source_rank",
+      "source_top10",
+      "expanded_rank",
+      "expanded_top10"
+    ]
+  },
+  "hashes": {
+    "src/exp_confirm_reserve.py": "44281402b9af998242321ada86f9a13281649ce69f95453ba2a0e9a4c24b1056",
+    "src/catseg_probe_model.py": "d42d6552740f7a3061867b188d0c25c0274b4795afa57c29de89dc580cdfdb2b",
+    "src/sed_probe_model.py": "10f8d17fc90a3832eca86dec1850853dac6119a650cc57a1aabb0b14045b1e32",
+    "meta/natural_vocab_v1.json": "7c0fae275a79055dc5ac71741aaa1318a5b137b263c340acdba1abc8fb43b313",
+    "meta/ade_confirmation_reserve_v1.json": "5897961e562963d1425b27974707207eff8ce04cc36a6f94c004d9154dda31f4",
+    "meta/bank_coco_oi683_v1.json": "19b1cb55f7be68a60582bc9f1e4b8c69d756955af8e986667ff10e470d04a705"
+  }
+}

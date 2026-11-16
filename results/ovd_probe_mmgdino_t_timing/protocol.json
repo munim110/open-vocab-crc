@@ -1,0 +1,26 @@
+{
+  "model": "mmgdino_t",
+  "repo": "openmmlab-community/mm_grounding_dino_tiny_o365v1_goldg_v3det",
+  "images": 100,
+  "arms": {
+    "native_src": 80,
+    "native_one": 100,
+    "native_lvis": 1204,
+    "anch_a": 1204,
+    "anch_b": 1204
+  },
+  "labels": 1204,
+  "source_labels": 80,
+  "chunk": 40,
+  "boxes": 1485,
+  "source_boxes": 711,
+  "doc": "docs/OVD_DETECTION_BENCHMARK.md",
+  "scope": "Development data (COCO val2017). No fitting; no reserve access.",
+  "hashes": {
+    "src/exp_ovd_probe.py": "0c9e517f66ed016f9efef65a020575a62370793df128aa268c76059c941af8a5",
+    "src/ovd_vocab.py": "0f91699bfa7068a80efe47cdb12107b697e77e76ae70bad9c45ac853e065698c",
+    "meta/ovd_coco_lvis_vocab_v1.json": "826ece5a900978e370657bf10d441a542d579055939a6487f0343f0cb958edcd",
+    "meta/bank_ovd_a_v1.json": "f881fa0767442acb3362fd0a6abb308ffb23383c5e02573c84c76cc98c0e519e",
+    "meta/bank_ovd_b_v1.json": "e43f9bd3b88d98d46450ea5ffe57dc55276e70f8495182012865b2ba51a0a33f"
+  }
+}

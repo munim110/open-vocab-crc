@@ -1,0 +1,21 @@
+\begin{tabular}{@{}lcrrrr@{}}
+\toprule
+& & \multicolumn{2}{c}{anchored} & \multicolumn{2}{c}{native, label-level} \\
+\cmidrule(lr){3-4}\cmidrule(l){5-6}
+& & \multicolumn{1}{c}{image-level} & \multicolumn{1}{c}{label-level (ours)} & \multicolumn{1}{c}{recal.\ at grown} & \multicolumn{1}{c}{reused from source} \\
+Source vocabulary & $\alpha$ & \multicolumn{4}{c}{added-label risk (\%) / set size} \\
+\midrule
+\multicolumn{6}{@{}l}{\emph{random draw}} \\
+ADE20K $150\!\to\!845$ & .10 & 23.7 / 6.8 & 9.1 / 28.9 & 9.2 / 35.8 & 20.8 / 9.7 \\
+ADE20K $150\!\to\!845$ & .05 & 14.3 / 15.0 & 4.5 / 74.5 & 4.3 / 228.1 & 11.8 / 24.3 \\
+Pascal Context $59\!\to\!458$ & .10 & 16.7 / 3.7 & 7.6 / 11.5 & 7.6 / 14.9 & -- \\
+Pascal Context $59\!\to\!458$ & .05 & 9.8 / 7.1 & 2.8 / 68.4 & 2.7 / 92.8 & -- \\
+COCO $171\!\to\!1{,}283$ & .10 & 17.7 / 5.7 & 8.9 / 11.9 & 9.0 / 13.6 & -- \\
+COCO $171\!\to\!1{,}283$ & .05 & 10.3 / 10.4 & 4.0 / 30.2 & 4.0 / 42.1 & -- \\
+\midrule
+\multicolumn{6}{@{}l}{\emph{benchmark's own}} \\
+ADE20K $150\!\to\!845$ & .10 & 34.2 / 4.5 & 22.2 / 9.0 & 22.6 / 10.1 & 33.8 / 5.1 \\
+Pascal Context $59\!\to\!458$ & .10 & 24.7 / 2.5 & 22.3 / 2.7 & 26.5 / 2.6 & 39.9 / 1.6 \\
+COCO $171\!\to\!1{,}283$ & .10 & 32.1 / 3.3 & 17.6 / 6.3 & 21.2 / 5.6 & 29.2 / 3.9 \\
+\bottomrule
+\end{tabular}

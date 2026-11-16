@@ -1,0 +1,34 @@
+{
+  "vocabulary": 845,
+  "source": 150,
+  "chunk": 128,
+  "images": [
+    {
+      "image": 219,
+      "logits_max_abs_diff": 0.0,
+      "logits_max_abs": 15.757901191711426,
+      "stored_max_abs_diff": 0.0078125,
+      "stored_bitwise_equal": false,
+      "seconds_streamed": 6.318400600001041,
+      "seconds_native": 0.6337606000015512
+    },
+    {
+      "image": 1612,
+      "logits_max_abs_diff": 0.0,
+      "logits_max_abs": 15.498056411743164,
+      "stored_max_abs_diff": 0.0078125,
+      "stored_bitwise_equal": false,
+      "seconds_streamed": 0.7188549999991665,
+      "seconds_native": 0.6293165999959456
+    },
+    {
+      "image": 1496,
+      "logits_max_abs_diff": 0.0,
+      "logits_max_abs": 15.197247505187988,
+      "stored_max_abs_diff": 0.0078125,
+      "stored_bitwise_equal": false,
+      "seconds_streamed": 0.7185342000011588,
+      "seconds_native": 0.6292816999994102
+    }
+  ]
+}

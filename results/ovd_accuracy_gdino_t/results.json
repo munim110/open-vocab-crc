@@ -1,0 +1,71 @@
+{
+  "model": "gdino_t",
+  "labels": 1204,
+  "source_labels": 80,
+  "stores": {
+    "native_lvis": {
+      "source": {
+        "boxes": 14855,
+        "labels": 80,
+        "localised": 0.9752271962302255,
+        "top1": 0.6973409626388422,
+        "top5": 0.801346348030966,
+        "top1_given_localised": 0.715054876786084,
+        "class_mean_top1": 0.613280578351352
+      },
+      "added": {
+        "boxes": 12952,
+        "labels": 561,
+        "localised": 0.8299876466954911,
+        "top1": 0.23756948733786287,
+        "top5": 0.4641754169240272,
+        "top1_given_localised": 0.2862325581395349,
+        "class_mean_top1": 0.15530590587308393
+      }
+    },
+    "anch_a": {
+      "source": {
+        "boxes": 14855,
+        "labels": 80,
+        "localised": 0.9751598788286772,
+        "top1": 0.7971726691349714,
+        "top5": 0.870414002019522,
+        "top1_given_localised": 0.8174789451884579,
+        "class_mean_top1": 0.737917994332105
+      },
+      "added": {
+        "boxes": 12952,
+        "labels": 561,
+        "localised": 0.7642835083384806,
+        "top1": 0.15549722050648548,
+        "top5": 0.3612569487337863,
+        "top1_given_localised": 0.2034548944337812,
+        "class_mean_top1": 0.09102358244339119
+      }
+    },
+    "anch_b": {
+      "source": {
+        "boxes": 14855,
+        "labels": 80,
+        "localised": 0.8916189835072367,
+        "top1": 0.4850891955570515,
+        "top5": 0.6052507573207674,
+        "top1_given_localised": 0.5440543601359004,
+        "class_mean_top1": 0.35613208254777906
+      },
+      "added": {
+        "boxes": 12952,
+        "labels": 561,
+        "localised": 0.6758801729462631,
+        "top1": 0.13326127239036442,
+        "top5": 0.28312229771463865,
+        "top1_given_localised": 0.19716700936714646,
+        "class_mean_top1": 0.10561560108896581
+      }
+    }
+  },
+  "hashes": {
+    "src/exp_ovd_accuracy.py": "e5722382c60a022a318cca11d5e22c29f18270e3da40f15180eb3876c7afa09e",
+    "cache\\ovd_probe_gdino_t\\gt.npz": "f6bc1480c26d83e9f457281425ff7f5b99728efff7fd196303d61e809c3ccc5e"
+  }
+}

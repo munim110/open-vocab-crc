@@ -1,0 +1,42 @@
+\setlength{\tabcolsep}{4pt}\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+& & \multicolumn{4}{c}{$\alpha=.10$} & \multicolumn{2}{c}{$\alpha=.05$} \\ \cmidrule(lr){3-6}\cmidrule(l){7-8}
+Calibration labels & $m'$ & risk & draws $>\alpha$ & size & native & risk & size \\
+\midrule
+\multicolumn{8}{@{}l}{\emph{CAT-Seg ViT-L, ADE20K}} \\
+benchmark source classes & 149 & 22.2 & 100 & 7.6 & -- & 13.1 & 17.5 \\
+random source vocabulary & 113 & 9.5 & 40 & 27.6 & -- & 4.5 & 76.4 \\
+$m=10$ random added names & 7 & 0.3 & 0 & 627.7 & 666.8 & 0.0 & 698.7 \\
+$m=20$ random added names & 14 & 5.8 & 17 & 102.1 & 335.6 & 0.0 & 695.2 \\
+$m=30$ random added names & 21 & 7.0 & 22 & 60.3 & 232.3 & 1.9 & 297.7 \\
+$m=50$ random added names & 35 & 8.3 & 29 & 42.3 & 134.4 & 3.2 & 142.9 \\
+$m=75$ random added names & 52 & 8.8 & 34 & 33.9 & 79.0 & 3.9 & 102.1 \\
+$m=100$ random added names & 70 & 9.3 & 38 & 29.5 & 43.4 & 4.2 & 85.3 \\
+$m=150$ random added names & 105 & 9.4 & 41 & 27.6 & 34.7 & 4.4 & 77.3 \\
+$m=200$ random added names & 140 & 9.6 & 42 & 26.2 & 32.2 & 4.6 & 71.7 \\
+\midrule
+\multicolumn{8}{@{}l}{\emph{CAT-Seg ViT-L, Pascal Context}} \\
+benchmark source classes & 59 & 22.3 & 100 & 2.6 & -- & 12.6 & 4.7 \\
+random source vocabulary & 29 & 7.6 & 23 & 11.5 & -- & 2.8 & 68.4 \\
+$m=10$ random added names & 4 & 0.0 & 0 & 399.7 & 399.7 & 0.0 & 401.0 \\
+$m=20$ random added names & 8 & 1.6 & 2 & 251.2 & 261.0 & 0.0 & 401.0 \\
+$m=30$ random added names & 12 & 4.4 & 8 & 74.8 & 91.4 & 0.0 & 399.5 \\
+$m=50$ random added names & 21 & 6.8 & 24 & 20.0 & 25.1 & 1.5 & 179.7 \\
+$m=75$ random added names & 31 & 7.8 & 28 & 11.4 & 14.7 & 2.8 & 67.2 \\
+$m=100$ random added names & 42 & 8.5 & 32 & 8.9 & 11.5 & 3.3 & 43.7 \\
+$m=150$ random added names & 62 & 8.9 & 37 & 7.3 & 9.6 & 3.8 & 27.3 \\
+$m=200$ random added names & 83 & 9.2 & 37 & 6.7 & 8.7 & 4.1 & 23.1 \\
+\midrule
+\multicolumn{8}{@{}l}{\emph{CAT-Seg ViT-L, COCO-Stuff}} \\
+benchmark source classes & 170 & 17.6 & 100 & 4.9 & -- & 8.9 & 10.3 \\
+random source vocabulary & 72 & 8.9 & 33 & 11.9 & -- & 4.0 & 30.2 \\
+$m=10$ random added names & 3 & 0.0 & 0 & 1114.1 & 1114.1 & 0.0 & 1115.3 \\
+$m=20$ random added names & 7 & 0.6 & 1 & 946.9 & 970.7 & 0.0 & 1115.3 \\
+$m=30$ random added names & 10 & 3.0 & 7 & 387.8 & 493.4 & 0.0 & 1115.3 \\
+$m=50$ random added names & 17 & 6.0 & 17 & 39.9 & 124.7 & 0.5 & 825.5 \\
+$m=75$ random added names & 25 & 7.4 & 23 & 18.8 & 47.4 & 2.4 & 147.2 \\
+$m=100$ random added names & 33 & 7.9 & 26 & 13.7 & 20.2 & 3.0 & 59.3 \\
+$m=150$ random added names & 49 & 8.7 & 32 & 10.7 & 13.0 & 3.7 & 35.8 \\
+$m=200$ random added names & 66 & 9.0 & 35 & 9.9 & 11.6 & 4.0 & 28.6 \\
+\bottomrule
+\end{tabular}

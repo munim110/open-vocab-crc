@@ -1,0 +1,12 @@
+{
+  "images": 100,
+  "seconds_per_image": {
+    "native_src": 0.11694508144166321,
+    "native_one": 0.11564349652151577,
+    "native_lvis": 3.314723809240968,
+    "anch_a": 0.5237465219717705,
+    "anch_b": 0.5374197666870896
+  },
+  "gpu": "NVIDIA GH200 480GB",
+  "peak_memory_gb": 9.545662879943848
+}

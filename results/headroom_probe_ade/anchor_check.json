@@ -1,0 +1,16 @@
+{
+  "ADE_val_00000001.jpg": {
+    "reimplementation_max_abs": 1.430511474609375e-05,
+    "anchored_alone_vs_batch": 1.239776611328125e-05,
+    "anchored_permutation": 1.049041748046875e-05,
+    "native_vocabulary_shift": 1.309183120727539,
+    "logit_scale": 12.697663307189941
+  },
+  "ADE_val_00000002.jpg": {
+    "reimplementation_max_abs": 1.430511474609375e-05,
+    "anchored_alone_vs_batch": 1.430511474609375e-05,
+    "anchored_permutation": 1.33514404296875e-05,
+    "native_vocabulary_shift": 1.0786280632019043,
+    "logit_scale": 12.065990447998047
+  }
+}

@@ -1,0 +1,23 @@
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+& & \multicolumn{3}{c}{$\alpha=.10$} & \multicolumn{3}{c}{$\alpha=.05$} \\
+\cmidrule(lr){3-5}\cmidrule(l){6-8}
+Model & benchmark & cal. & held-out & draws $>\alpha$ & cal. & held-out & draws $>\alpha$ \\
+\midrule
+CAT-Seg ViT-B & ADE20K & 9.5 & 9.6 & 40 & 4.4 & 4.4 & 34 \\
+CAT-Seg ViT-B & Pascal Context & 7.3 & 7.3 & 24 & 2.4 & 2.4 & 10 \\
+CAT-Seg ViT-B & COCO-Stuff & 9.0 & 9.1 & 35 & 4.0 & 4.1 & 27 \\
+CAT-Seg ViT-L & ADE20K & 9.4 & 9.5 & 39 & 4.5 & 4.5 & 35 \\
+CAT-Seg ViT-L & Pascal Context & 7.5 & 7.4 & 23 & 2.5 & 2.5 & 9 \\
+CAT-Seg ViT-L & COCO-Stuff & 8.9 & 8.9 & 34 & 3.9 & 4.0 & 27 \\
+CAT-Seg + DeCLIP & ADE20K & 9.5 & 9.4 & 40 & 4.4 & 4.4 & 31 \\
+CAT-Seg + DeCLIP & Pascal Context & 7.4 & 7.4 & 24 & 2.6 & 2.6 & 13 \\
+CAT-Seg + DeCLIP & COCO-Stuff & 9.0 & 9.0 & 32 & 4.0 & 4.1 & 26 \\
+SED & ADE20K & 9.5 & 9.5 & 40 & 4.5 & 4.5 & 37 \\
+SED & Pascal Context & 7.5 & 7.5 & 25 & 2.6 & 2.6 & 12 \\
+SED & COCO-Stuff & 9.0 & 9.0 & 35 & 4.0 & 4.0 & 27 \\
+FC-CLIP & ADE20K & 9.5 & 9.5 & 41 & 4.5 & 4.5 & 35 \\
+FC-CLIP & Pascal Context & 7.4 & 7.5 & 24 & 2.4 & 2.4 & 11 \\
+FC-CLIP & COCO-Stuff & 9.0 & 9.0 & 31 & 4.0 & 3.9 & 25 \\
+\bottomrule
+\end{tabular}

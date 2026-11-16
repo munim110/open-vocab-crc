@@ -1,0 +1,13 @@
+{
+  "images": 2000,
+  "seconds_per_image": {
+    "forward": 3.0781862329500362,
+    "1690": 0.0019435583498707274,
+    "3380": 0.0022847746001862105,
+    "6760": 0.003287698350060964,
+    "17001": 0.0064803844500347626
+  },
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "peak_memory_gb": 3.0795722007751465,
+  "msdeform_attn": "PyTorch reference path (ms_deform_attn_core_pytorch; no CUDA toolkit on this machine)"
+}

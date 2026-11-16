@@ -1,0 +1,13 @@
+# Files left out of this repository for size (> 5 MB); sha256, bytes, path.
+# Nothing in the analyses reads them: a supplementary figure and per-image curves written by gpu-level runs.
+289740d0df68351d03625cf110cf50bfa3e49472d58f109fe6325aae0a5ff8bb  5338231  paper/fig/fig_qualitative_panel.pdf
+668ac4893af7fbafbc742ca16cbb6be8f6749dc7276885e2cee7103c16d51b32  40498053  results/anchor_bank_ade/curves.npz
+15488c5f83e9d656587dc40460fbb65111f3f0582da796aaba46f380bf5ae7fc  48905045  results/anchor_bank_huge_ade/curves.npz
+c5f9e1a9093437d1f51bad667da7e63536e357b34205b9bd260663389bbef7fa  50598076  results/anchor_bank_large_ade/curves.npz
+740c25ed4434241347f127043b40a8f8b4e64c2e085fa37850b4f74cdcdc07c5  22738507  results/audit_controls_ade/curves.npz
+f8d5d5f9a0fff97913a8967b8828fb82b50e57debb348c796c3ecee911f54334  80946775  results/bank_seeds_ade_sed/curves.npz
+bcc050ffdf044b57c5bcc792772c7038373219e961262593b9ab60bb6ec23ae5  77693000  results/bank_seeds_ade_vitl/curves.npz
+fa097977fd6bb160a7749a557e8b93314e2fb509caa7160beb2458fb92bb6df6  69823442  results/bank_select_coco/curves.npz
+c392e7cc68ba83fc481a77e2118aadd5b36a8a2d5ec0e2d4c2bd44426c905245  71795156  results/bank_select_coco_vitl/curves.npz
+808625876c4fa6b86d25a6efaffbc34f1e71ec59e96081bc2e99faf2a96be3b5  51483230  results/bank_unrelated_coco/curves.npz
+0168b8e0b15fc5d24de92bcdab6547475914018acf45667b26f3a9036a591b01  8264506  results/clipseg_baseline_ade/curves.npz

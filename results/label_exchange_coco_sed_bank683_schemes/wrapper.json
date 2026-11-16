@@ -1,0 +1,18 @@
+{
+  "wrapper": "src/coco_frozen_analyses.py",
+  "wrapper_sha256": "18f6b763ef11da04b2f01564a68f5ee5d363bd681f46f71a529b6c122191db1a",
+  "frozen": "src/exp_label_exchange.py",
+  "frozen_sha256": "b8b31e68eb3747ce67bf944dda1d8d50c01d731043df4e3377498cf52e5985e1",
+  "substitution": [
+    "headroom_probe_pascal",
+    "headroom_probe_{a.dataset}"
+  ],
+  "argv": [
+    "--dataset",
+    "coco",
+    "--tag",
+    "sed_bank683",
+    "--suffix",
+    "_schemes"
+  ]
+}

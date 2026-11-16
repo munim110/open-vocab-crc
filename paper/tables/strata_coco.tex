@@ -1,0 +1,13 @@
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+& \multicolumn{3}{c}{class-averaged risk} \\
+\cmidrule(l){2-4}
+Configuration & native reused & native recal. & anchored \\
+\midrule
+CAT-Seg ViT-B, 683-name bank, COCO 171$\to$1,283 & 24.9 & 20.2 & 19.0 \\
+CAT-Seg ViT-L, 683-name bank, COCO 171$\to$1,283 & 23.2 & 18.9 & 18.0 \\
+CAT-Seg + DeCLIP EVA-L, 683-name bank, COCO 171$\to$1,283 & 22.3 & 17.7 & 17.1 \\
+SED ConvNeXt-L, 683-name bank, COCO 171$\to$1,283 & 8.6 & 18.8 & 18.6 \\
+FC-CLIP ConvNeXt-L, 701-name bank, COCO 171$\to$1,283 & 16.0 & 9.4 & 10.0 \\
+\bottomrule
+\end{tabular}

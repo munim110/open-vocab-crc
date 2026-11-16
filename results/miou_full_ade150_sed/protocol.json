@@ -1,0 +1,25 @@
+{
+  "model": "sed",
+  "size": "large",
+  "dataset": "ade150",
+  "classes": 150,
+  "images": 2000,
+  "arms": [
+    "native",
+    "anchored_coco171",
+    "anchored_bank683"
+  ],
+  "bank683": "meta/bank_coco_oi683_v1.json",
+  "names": "CAT-Seg checkout datasets/ade150.json; synonyms embedded separately and averaged (released class_embeddings).",
+  "inference": "Released SED whole image at 768x768, sigmoid, bilinear to the annotation grid, arg-max.",
+  "native": "Deployed vocabulary = benchmark vocabulary (released behaviour; per-crop top-256 truncation for CAT-Seg above 256 labels).",
+  "anchored": "Reference-anchored forward (candidates attend to the bank plus themselves only), same class names; bank = COCO-171 or the 683-name bank.",
+  "metric": "Confusion over all annotated pixels; mIoU over classes with ground-truth pixels (detectron2 SemSegEvaluator convention); pc459 keeps \"unknown\" as a class as in the released preparation.",
+  "scope": "Development data (ADE validation, Pascal Context validation); nothing is fitted; no reserve access.",
+  "hashes": {
+    "src/exp_miou_full.py": "36498d027b6e982e2309d4a760c50852c40efce14a304934b6c37e7ce6c5af2c",
+    "src/catseg_probe_model.py": "d42d6552740f7a3061867b188d0c25c0274b4795afa57c29de89dc580cdfdb2b",
+    "src/sed_probe_model.py": "10f8d17fc90a3832eca86dec1850853dac6119a650cc57a1aabb0b14045b1e32",
+    "third_party_probe/sed_model_large.pth": "25c2a29837d141459a324883280a9bd0f7e3804cda9c8c1c398f9a25bb32ee0f"
+  }
+}

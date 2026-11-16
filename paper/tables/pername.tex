@@ -1,0 +1,21 @@
+\begin{tabular}{@{}lllrrrrrrrrr@{}}
+\toprule
+& & & & \multicolumn{2}{c}{image-level} & \multicolumn{2}{c}{per-name} & \multicolumn{3}{c}{lower of both} & native, reused \\
+\cmidrule(lr){5-6}\cmidrule(lr){7-8}\cmidrule(lr){9-11}\cmidrule(l){12-12}
+$\alpha$ & Benchmark & Model & calibrated & over $\alpha$ & size & over $\alpha$ & size & image risk & over $\alpha$ & size & over $\alpha$ \\
+\midrule
+\multirow{6}{*}{$10\%$} & ADE20K & CAT-Seg ViT-L & 160 of 836 & 154 & 4.47 & 0 & 10.94 & 4.8 & 0 & 13.30 & 89 of 131 \\
+ & ADE20K & SED & 160 of 836 & 145 & 6.29 & 0 & 14.61 & 4.1 & 0 & 18.46 & 0 of 131 \\
+ & ADE20K & FC-CLIP & 160 of 836 & 135 & 11.56 & 0 & 25.29 & 4.7 & 0 & 33.12 & 65 of 131 \\
+ & Pascal Context & CAT-Seg ViT-L & 87 of 270 & 59 & 2.45 & 0 & 3.58 & 4.9 & 0 & 4.48 & 41 of 59 \\
+ & Pascal Context & SED & 87 of 270 & 70 & 2.86 & 0 & 5.52 & 4.3 & 0 & 6.71 & 0 of 59 \\
+ & COCO-Stuff & SED & 198 of 660 & 176 & 3.61 & 0 & 11.68 & 3.4 & 0 & 13.04 & 0 of 161 \\
+\midrule
+\multirow{6}{*}{$5\%$} & ADE20K & CAT-Seg ViT-L & 96 of 836 & 82 & 8.95 & 0 & 9.04 & 2.5 & 0 & 15.26 & 65 of 104 \\
+ & ADE20K & SED & 96 of 836 & 76 & 15.96 & 0 & 13.12 & 1.9 & 0 & 25.67 & 0 of 104 \\
+ & ADE20K & FC-CLIP & 96 of 836 & 67 & 31.37 & 0 & 21.06 & 1.9 & 0 & 46.70 & 37 of 104 \\
+ & Pascal Context & CAT-Seg ViT-L & 61 of 270 & 41 & 3.86 & 0 & 4.12 & 2.1 & 0 & 6.04 & 35 of 54 \\
+ & Pascal Context & SED & 61 of 270 & 44 & 4.90 & 0 & 6.88 & 1.9 & 0 & 9.55 & 0 of 54 \\
+ & COCO-Stuff & SED & 129 of 660 & 125 & 6.25 & 0 & 12.03 & 2.2 & 0 & 15.20 & 0 of 147 \\
+\bottomrule
+\end{tabular}

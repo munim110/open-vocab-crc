@@ -1,0 +1,39 @@
+{
+  "model": "gdino_t",
+  "labels_present": 641,
+  "stores": {
+    "anch_a": {
+      "unlocalised_source": 0.024840121171322786,
+      "unlocalised_added": 0.23571649166151945,
+      "trivial_threshold": {
+        "exchangeable, 0.1, pooled": 0.71,
+        "exchangeable, 0.1, images": 0.568,
+        "exchangeable, 0.05, pooled": 0.998,
+        "exchangeable, 0.05, images": 0.992,
+        "benchmark split, 0.1, pooled": 0.0,
+        "benchmark split, 0.1, images": 0.0,
+        "benchmark split, 0.05, pooled": 0.0,
+        "benchmark split, 0.05, images": 0.0
+      }
+    },
+    "native_lvis": {
+      "unlocalised_source": 0.024772803769774487,
+      "unlocalised_added": 0.17001235330450895,
+      "trivial_threshold": {
+        "exchangeable, 0.1, pooled": 0.372,
+        "exchangeable, 0.1, images": 0.174,
+        "exchangeable, 0.05, pooled": 0.988,
+        "exchangeable, 0.05, images": 0.914,
+        "benchmark split, 0.1, pooled": 0.0,
+        "benchmark split, 0.1, images": 0.0,
+        "benchmark split, 0.05, pooled": 0.0,
+        "benchmark split, 0.05, images": 0.0
+      }
+    }
+  },
+  "hashes": {
+    "src/exp_ovd_floor.py": "e215d1dfd59f268d24b7b89accd8f60cc34cef7edd70b3ac13b8cebc677bebe0",
+    "src/exp_ovd_crc.py": "46d3b7b4e95ddbb5bfc4bb7229867ef1af8a8c2fe7521af7d49ddf66c137868f",
+    "cache/ovd_probe_gdino_t/gt.npz": "f6bc1480c26d83e9f457281425ff7f5b99728efff7fd196303d61e809c3ccc5e"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-30",
+  "what": "FC-CLIP stores (cache/headroom_probe_fcclip_bank683, _rest) regenerated locally after the GH200 stores were lost; the GH200 records in results/ were kept, these are the local reruns compared with them",
+  "local": {
+    "gpu": "NVIDIA GeForce RTX 5070 Ti",
+    "environment": "scripts/setup_fcclip_nokernel.sh (.venv-fcclip, env/requirements-fcclip-local.txt)",
+    "msdeform_attn": "PyTorch reference path (ms_deform_attn_core_pytorch), no compiled kernel",
+    "detectron2_commit": "a2f4a8771ab77e8411c26b27f24f9489a28a2453",
+    "fcclip_commit": "2b0bbe213070d44da9182530fa2e826fef03f974"
+  },
+  "runs": {
+    "headroom_probe_ade_fcclip_bank683": {
+      "images": 400,
+      "per_image_metrics_max_abs_diff": 0.035687546793099045,
+      "images_with_identical_metrics": 326,
+      "confusion_identical": false,
+      "confusion_max_abs_diff": 22,
+      "image_averaged_rows_max_abs_diff": {
+        "fcclip_native": 0.00011369916928494206,
+        "fcclip_anchored": 0.00012343731889785658
+      },
+      "sampled_pixel_miou_abs_diff": {
+        "fcclip_native": 6.754235664652164e-07,
+        "fcclip_anchored": 7.033395854616487e-08
+      },
+      "pixel_accuracy_abs_diff": {
+        "fcclip_native": 1.542960377443059e-05,
+        "fcclip_anchored": 6.708523380138942e-07
+      },
+      "gh200_seconds_per_image": {
+        "backbone_masks_and_logits": 0.5111828578198402,
+        "native_150_plus_845": 0.0025896171120621146,
+        "anchored_845": 0.017106254577847722
+      },
+      "local_seconds_per_image": {
+        "backbone_masks_and_logits": 0.5431967612496009,
+        "native_150_plus_845": 0.004289089500380214,
+        "anchored_845": 0.04420704625004873,
+        "native_150": 0.0013420040002893074,
+        "native_845": 0.002947085500090907
+      },
+      "local_results": {
+        "rows": [
+          {
+            "arm": "fcclip_native",
+            "group": "all",
+            "mean": [
+              3.187912432859081,
+              9.680962279659965,
+              0.6667989342099123,
+              0.9485266780953008,
+              0.5292143950283597,
+              0.8951246215946703,
+              0.9637791869749281
+            ]
+          },
+          {
+            "arm": "fcclip_anchored",
+            "group": "all",
+            "mean": [
+              3.281353045220308,
+              10.30365564304627,
+              0.6844847026051387,
+              0.9477570444963491,
+              0.5975722383278836,
+              0.8806371591041912,
+              0.9584101067050935
+            ]
+          }
+        ],
+        "sampled_pixel_miou": {
+          "fcclip_native": 0.3117002123568388,
+          "fcclip_anchored": 0.26484849220122036
+        },
+        "pixel_accuracy": {
+          "fcclip_native": 0.6727515209899634,
+          "fcclip_anchored": 0.6901125086456095
+        },
+        "peak_memory_gb": 4.8859381675720215
+      }
+    },
+    "headroom_probe_ade_fcclip_bank683_rest": {
+      "images": 1600,
+      "per_image_metrics_max_abs_diff": 0.1716554673182653,
+      "images_with_identical_metrics": 1341,
+      "confusion_identical": false,
+      "confusion_max_abs_diff": 3,
+      "image_averaged_rows_max_abs_diff": {
+        "fcclip_native": 6.681089257654094e-05,
+        "fcclip_anchored": 0.00016584826924415097
+      },
+      "sampled_pixel_miou_abs_diff": {
+        "fcclip_native": 2.78735429293242e-07,
+        "fcclip_anchored": 8.886923907880373e-08
+      },
+      "pixel_accuracy_abs_diff": {
+        "fcclip_native": 6.65223796270098e-07,
+        "fcclip_anchored": 1.663059490675245e-06
+      },
+      "gh200_seconds_per_image": {
+        "backbone_masks_and_logits": 0.5063821826768344,
+        "native_150_plus_845": 0.0024121833538083594,
+        "anchored_845": 0.01637171290931292
+      },
+      "local_seconds_per_image": {
+        "backbone_masks_and_logits": 0.524948537562368,
+        "native_150_plus_845": 0.00393606800017551,
+        "anchored_845": 0.04418411124988779,
+        "native_150": 0.0009853523125002539,
+        "native_845": 0.002950715687675256
+      },
+      "local_results": {
+        "rows": [
+          {
+            "arm": "fcclip_native",
+            "group": "all",
+            "mean": [
+              3.139355595106462,
+              9.573033621652982,
+              0.661154372070905,
+              0.9517035772041608,
+              0.5212529164084829,
+              0.9014325333860276,
+              0.9638063514095343
+            ]
+          },
+          {
+            "arm": "fcclip_anchored",
+            "group": "all",
+            "mean": [
+              3.2227826029685263,
+              9.947520341795816,
+              0.684089871675157,
+              0.9509987832301295,
+              0.6120455040271994,
+              0.8953785025871251,
+              0.9617847808737064
+            ]
+          }
+        ],
+        "sampled_pixel_miou": {
+          "fcclip_native": 0.31526871769998877,
+          "fcclip_anchored": 0.2663009897098904
+        },
+        "pixel_accuracy": {
+          "fcclip_native": 0.6633428759686906,
+          "fcclip_anchored": 0.6866538145429231
+        },
+        "peak_memory_gb": 4.796297073364258
+      }
+    }
+  }
+}

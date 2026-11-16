@@ -1,0 +1,44 @@
+{
+  "images": 1000,
+  "markers": 15000,
+  "alpha": 0.1,
+  "splits": 500,
+  "arms": {
+    "claude": {
+      "reused": {
+        "mean_risk": 0.0,
+        "share_above_alpha": 0.0,
+        "mean_size": 845.0
+      },
+      "recalibrated": {
+        "mean_risk": 0.0,
+        "share_above_alpha": 0.0,
+        "mean_size": 845.0
+      }
+    },
+    "catseg_native": {
+      "reused": {
+        "mean_risk": 0.15585386666666665,
+        "share_above_alpha": 1.0,
+        "mean_size": 2.2706578666666664
+      },
+      "recalibrated": {
+        "mean_risk": 0.09849946666666665,
+        "share_above_alpha": 0.426,
+        "mean_size": 3.6903616
+      }
+    },
+    "catseg_anchored": {
+      "reused": {
+        "mean_risk": 0.09844346666666666,
+        "share_above_alpha": 0.412,
+        "mean_size": 4.555259466666667
+      },
+      "recalibrated": {
+        "mean_risk": 0.09844346666666666,
+        "share_above_alpha": 0.412,
+        "mean_size": 4.555259466666667
+      }
+    }
+  }
+}

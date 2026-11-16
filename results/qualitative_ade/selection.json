@@ -1,0 +1,197 @@
+{
+  "info": {
+    "design": "cal1000 (1,000 calibration / 1,000 evaluation images), alpha 0.1, 500 splits, rng 20261003",
+    "split": 113,
+    "split_rule": "split minimising the summed distance (grid steps) of its three thresholds from their medians across splits",
+    "deviation_grid_steps": 0.0,
+    "median_thresholds": {
+      "native150": -2.703125,
+      "native845": -3.765625,
+      "anchored845": -2.390625
+    },
+    "thresholds": {
+      "native150": -2.703125,
+      "native845": -3.765625,
+      "anchored845": -2.390625
+    },
+    "threshold_range_over_splits": {
+      "native150": [
+        -2.90625,
+        -2.453125
+      ],
+      "native845": [
+        -3.984375,
+        -3.484375
+      ],
+      "anchored845": [
+        -2.5625,
+        -2.234375
+      ]
+    },
+    "calibration_risk_bound": {
+      "native150": 0.09963848335863355,
+      "native845": 0.09986003108436002,
+      "anchored845": 0.09985566611453023
+    },
+    "evaluation_risk_this_split": {
+      "native_source": 0.09960556401663567,
+      "native_reused": 0.1497143825533629,
+      "native_recal": 0.0984439088212208,
+      "anchored": 0.09930214682832468
+    },
+    "mean_risk_check": {
+      "native_source": {
+        "recomputed": 0.09906056861451809,
+        "stored": 0.09905918103590622
+      },
+      "native_reused": {
+        "recomputed": 0.1522641931617127,
+        "stored": 0.1522624376430505
+      },
+      "native_recal": {
+        "recomputed": 0.09907612076423455,
+        "stored": 0.0990761390919523
+      },
+      "anchored": {
+        "recomputed": 0.09898705497057125,
+        "stored": 0.09898708467296208
+      }
+    }
+  },
+  "pool": {
+    "evaluation_half_of_split": 1000,
+    "also_in_probe_evaluation_roles": 305,
+    "meeting_criterion": 6,
+    "common_scene_meeting_criterion": 1,
+    "criterion": "sampled miss: reused >= 20%, recalibrated and anchored <= 12%; >= 50% of sampled pixels source-labelled; ranked by reused minus the larger of the other two",
+    "mean_sampled_miss_over_pool": {
+      "native_source": 0.09815845874739106,
+      "native_reused": 0.15585045600386915,
+      "native_recal": 0.09824833332971045,
+      "anchored": 0.0970907968187789
+    },
+    "reused_worse_than_both_others": 0.8819672131147541
+  },
+  "top": [
+    {
+      "image": 65,
+      "file": "ADE_val_00000066.jpg",
+      "scene": "bank_outdoor",
+      "role": "evaluation",
+      "common_scene": false,
+      "source_pixel_fraction": 0.968017578125,
+      "sampled_miss": {
+        "native_source": 0.442875157629256,
+        "native_reused": 0.47238335435056744,
+        "native_recal": 0.04312736443883985,
+        "anchored": 0.0012610340479192938
+      },
+      "sampled_mean_size": {
+        "native_source": 1.2582597730138714,
+        "native_reused": 1.223455233291299,
+        "native_recal": 1.7510718789407314,
+        "anchored": 2.3319041614123583
+      }
+    },
+    {
+      "image": 227,
+      "file": "ADE_val_00000228.jpg",
+      "scene": "carport_outdoor",
+      "role": "tune_eval",
+      "common_scene": false,
+      "source_pixel_fraction": 0.875,
+      "sampled_miss": {
+        "native_source": 0.04157366071428571,
+        "native_reused": 0.34877232142857145,
+        "native_recal": 0.07170758928571429,
+        "anchored": 0.022879464285714284
+      },
+      "sampled_mean_size": {
+        "native_source": 2.344029017857143,
+        "native_reused": 2.9595424107142856,
+        "native_recal": 4.690848214285714,
+        "anchored": 6.009486607142857
+      }
+    },
+    {
+      "image": 897,
+      "file": "ADE_val_00000898.jpg",
+      "scene": "utility_room",
+      "role": "tune_eval",
+      "common_scene": false,
+      "source_pixel_fraction": 0.944091796875,
+      "sampled_miss": {
+        "native_source": 0.02456684768554435,
+        "native_reused": 0.28678562192914403,
+        "native_recal": 0.06077062322213602,
+        "anchored": 0.02560124127230411
+      },
+      "sampled_mean_size": {
+        "native_source": 2.0333591931730024,
+        "native_reused": 2.3806568399275925,
+        "native_recal": 4.199120765451254,
+        "anchored": 5.287820015515904
+      }
+    },
+    {
+      "image": 1768,
+      "file": "ADE_val_00001769.jpg",
+      "scene": "massage_room",
+      "role": "evaluation",
+      "common_scene": false,
+      "source_pixel_fraction": 0.986083984375,
+      "sampled_miss": {
+        "native_source": 0.0824461500371379,
+        "native_reused": 0.2993315177024016,
+        "native_recal": 0.07551374102500619,
+        "anchored": 0.07130477841049765
+      },
+      "sampled_mean_size": {
+        "native_source": 2.576875464223818,
+        "native_reused": 3.1037385491458283,
+        "native_recal": 5.854914582817529,
+        "anchored": 7.75934637286457
+      }
+    },
+    {
+      "image": 575,
+      "file": "ADE_val_00000576.jpg",
+      "scene": "misc",
+      "role": "evaluation",
+      "common_scene": false,
+      "source_pixel_fraction": 0.945068359375,
+      "sampled_miss": {
+        "native_source": 0.020924825626453113,
+        "native_reused": 0.2503229139757169,
+        "native_recal": 0.08447429604753294,
+        "anchored": 0.021441487987600105
+      },
+      "sampled_mean_size": {
+        "native_source": 2.5073624386463447,
+        "native_reused": 2.850426246447946,
+        "native_recal": 5.285455954533712,
+        "anchored": 9.308705760785326
+      }
+    },
+    {
+      "image": 525,
+      "file": "ADE_val_00000526.jpg",
+      "scene": "living_room",
+      "role": "evaluation",
+      "common_scene": true,
+      "source_pixel_fraction": 0.9892578125,
+      "sampled_miss": {
+        "native_source": 0.20014807502467918,
+        "native_reused": 0.2707305034550839,
+        "native_recal": 0.10735439289239881,
+        "anchored": 0.06836130306021718
+      },
+      "sampled_mean_size": {
+        "native_source": 2.4059723593287266,
+        "native_reused": 2.891411648568608,
+        "native_recal": 4.8188548864758145,
+        "anchored": 6.422754195459032
+      }
+    }
+  ]
+}

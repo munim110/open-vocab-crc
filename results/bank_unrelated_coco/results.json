@@ -1,0 +1,136 @@
+{
+ "images": 500,
+ "excluded": 0,
+ "size": "base",
+ "banks": {
+  "coco171": 171,
+  "coco_oi683": 683,
+  "oi683": 683,
+  "abstract683": 683,
+  "pseudo683": 683,
+  "coco_abstract683": 683,
+  "coco_pseudo683": 683
+ },
+ "alphas": {
+  "0.1": {
+   "rows": {
+    "native_grown": {
+     "bank_size": 0,
+     "risk": 0.09700009941897665,
+     "above": 0.42,
+     "size_source": 2.3523716926574707,
+     "size_grown": 2.8654816150665283
+    },
+    "coco171": {
+     "bank_size": 171,
+     "risk": 0.09667824547825585,
+     "above": 0.365,
+     "size_source": 2.2809057235717773,
+     "size_grown": 3.1539385318756104
+    },
+    "coco_oi683": {
+     "bank_size": 683,
+     "risk": 0.09672490497634977,
+     "above": 0.39,
+     "size_source": 2.4392282962799072,
+     "size_grown": 3.3227322101593018
+    },
+    "oi683": {
+     "bank_size": 683,
+     "risk": 0.09652923406947625,
+     "above": 0.365,
+     "size_source": 3.12288761138916,
+     "size_grown": 4.58114767074585
+    },
+    "abstract683": {
+     "bank_size": 683,
+     "risk": 0.09718533980147086,
+     "above": 0.38,
+     "size_source": 2.9192376136779785,
+     "size_grown": 4.561671257019043
+    },
+    "pseudo683": {
+     "bank_size": 683,
+     "risk": 0.09652738616397522,
+     "above": 0.38,
+     "size_source": 3.0819320678710938,
+     "size_grown": 5.058065891265869
+    },
+    "coco_abstract683": {
+     "bank_size": 683,
+     "risk": 0.09702709204263066,
+     "above": 0.425,
+     "size_source": 2.639671564102173,
+     "size_grown": 3.9192137718200684
+    },
+    "coco_pseudo683": {
+     "bank_size": 683,
+     "risk": 0.09660174385756086,
+     "above": 0.375,
+     "size_source": 2.599992275238037,
+     "size_grown": 4.013535976409912
+    }
+   }
+  },
+  "0.05": {
+   "rows": {
+    "native_grown": {
+     "bank_size": 0,
+     "risk": 0.04648644792450051,
+     "above": 0.345,
+     "size_source": 3.781852960586548,
+     "size_grown": 5.47683048248291
+    },
+    "coco171": {
+     "bank_size": 171,
+     "risk": 0.04620834847822065,
+     "above": 0.33,
+     "size_source": 3.5563275814056396,
+     "size_grown": 6.080813407897949
+    },
+    "coco_oi683": {
+     "bank_size": 683,
+     "risk": 0.046101211553731695,
+     "above": 0.34,
+     "size_source": 3.830087184906006,
+     "size_grown": 5.981828212738037
+    },
+    "oi683": {
+     "bank_size": 683,
+     "risk": 0.046404083037506504,
+     "above": 0.295,
+     "size_source": 4.744617462158203,
+     "size_grown": 7.832927227020264
+    },
+    "abstract683": {
+     "bank_size": 683,
+     "risk": 0.04666266470990893,
+     "above": 0.365,
+     "size_source": 4.589930534362793,
+     "size_grown": 8.069387435913086
+    },
+    "pseudo683": {
+     "bank_size": 683,
+     "risk": 0.046797697541391264,
+     "above": 0.35,
+     "size_source": 4.755539894104004,
+     "size_grown": 8.56273365020752
+    },
+    "coco_abstract683": {
+     "bank_size": 683,
+     "risk": 0.046672782301881266,
+     "above": 0.36,
+     "size_source": 4.161933422088623,
+     "size_grown": 7.048601150512695
+    },
+    "coco_pseudo683": {
+     "bank_size": 683,
+     "risk": 0.046687500624946775,
+     "above": 0.36,
+     "size_source": 4.105628490447998,
+     "size_grown": 7.077906608581543
+    }
+   }
+  }
+ }
+}
